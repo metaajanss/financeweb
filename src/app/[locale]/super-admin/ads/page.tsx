@@ -1,12 +1,15 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Megaphone, Save, Loader2, Code, FileText } from 'lucide-react';
+import { Megaphone, Save, Loader2, Code, FileText, LayoutTemplate } from 'lucide-react';
 import { toast } from 'sonner';
 
 export default function AdsAdminPage() {
     const [isSaving, setIsSaving] = useState(false);
     const [adsCode, setAdsCode] = useState('');
+    const [topAdCode, setTopAdCode] = useState('');
+    const [midAdCode, setMidAdCode] = useState('');
+    const [bottomAdCode, setBottomAdCode] = useState('');
     const [adsTxt, setAdsTxt] = useState('');
 
     useEffect(() => {
@@ -15,6 +18,9 @@ export default function AdsAdminPage() {
             .then(data => {
                 if (data) {
                     setAdsCode(data.adsCode || '');
+                    setTopAdCode(data.topAdCode || '');
+                    setMidAdCode(data.midAdCode || '');
+                    setBottomAdCode(data.bottomAdCode || '');
                     setAdsTxt(data.adsTxt || '');
                 }
             })
@@ -27,7 +33,7 @@ export default function AdsAdminPage() {
             const res = await fetch('/api/ads', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ adsCode, adsTxt })
+                body: JSON.stringify({ adsCode, topAdCode, midAdCode, bottomAdCode, adsTxt })
             });
             if (res.ok) {
                 toast.success('Reklam ayarları başarıyla kaydedildi.');
@@ -54,7 +60,7 @@ export default function AdsAdminPage() {
                         Reklam <span className="text-primary">Yönetimi</span>
                     </h1>
                     <p className="text-slate-400 text-sm max-w-xl">
-                        Google Adsense kodlarınızı ve ads.txt içeriğini buradan yönetin.
+                        Google Adsense kodlarınızı, reklam alanlarını (Üst, Orta, Alt) ve ads.txt içeriğini buradan yönetin.
                     </p>
                 </div>
 
@@ -76,9 +82,9 @@ export default function AdsAdminPage() {
                             <Code size={24} />
                         </div>
                         <div>
-                            <h2 className="text-xl font-black tracking-tight">Google Adsense Kodu</h2>
+                            <h2 className="text-xl font-black tracking-tight">Genel Adsense Kodu (Auto Ads)</h2>
                             <p className="text-sm text-slate-500">
-                                Sitenizin &lt;head&gt; etiketleri arasına eklenecek reklam kodunu buraya yapıştırın.
+                                Sitenizin &lt;head&gt; etiketleri arasına eklenecek genel reklam kodunu buraya yapıştırın.
                             </p>
                         </div>
                     </div>
@@ -86,8 +92,52 @@ export default function AdsAdminPage() {
                         value={adsCode}
                         onChange={(e) => setAdsCode(e.target.value)}
                         placeholder="Örn: <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXX' crossorigin='anonymous'></script>"
-                        className="w-full h-48 p-4 bg-zinc-50 dark:bg-zinc-900/50 border-2 border-zinc-100 dark:border-white/5 rounded-2xl text-sm font-mono outline-none focus:border-primary/50 transition-all resize-none"
+                        className="w-full h-32 p-4 bg-zinc-50 dark:bg-zinc-900/50 border-2 border-zinc-100 dark:border-white/5 rounded-2xl text-sm font-mono outline-none focus:border-primary/50 transition-all resize-none"
                     />
+                </div>
+
+                {/* Specific Ad Slots */}
+                <div className="p-6 rounded-3xl border border-border bg-card/50 backdrop-blur-xl">
+                    <div className="flex items-center gap-4 mb-6">
+                        <div className="p-3 rounded-2xl bg-blue-500/10 text-blue-500 border border-blue-500/20">
+                            <LayoutTemplate size={24} />
+                        </div>
+                        <div>
+                            <h2 className="text-xl font-black tracking-tight">Özel Reklam Alanları (Manuel &lt;ins&gt; Kodları)</h2>
+                            <p className="text-sm text-slate-500">
+                                Ana sayfada bulunan 3 farklı reklam bölgesine özel kod ekleyebilirsiniz.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div>
+                            <h3 className="font-bold mb-2 text-sm">Üst Reklam (Top)</h3>
+                            <textarea
+                                value={topAdCode}
+                                onChange={(e) => setTopAdCode(e.target.value)}
+                                placeholder="<ins class='adsbygoogle' ...></ins>"
+                                className="w-full h-40 p-4 bg-zinc-50 dark:bg-zinc-900/50 border-2 border-zinc-100 dark:border-white/5 rounded-2xl text-sm font-mono outline-none focus:border-blue-500/50 transition-all resize-none"
+                            />
+                        </div>
+                        <div>
+                            <h3 className="font-bold mb-2 text-sm">Orta Reklam (Mid)</h3>
+                            <textarea
+                                value={midAdCode}
+                                onChange={(e) => setMidAdCode(e.target.value)}
+                                placeholder="<ins class='adsbygoogle' ...></ins>"
+                                className="w-full h-40 p-4 bg-zinc-50 dark:bg-zinc-900/50 border-2 border-zinc-100 dark:border-white/5 rounded-2xl text-sm font-mono outline-none focus:border-blue-500/50 transition-all resize-none"
+                            />
+                        </div>
+                        <div>
+                            <h3 className="font-bold mb-2 text-sm">Alt Reklam (Bottom)</h3>
+                            <textarea
+                                value={bottomAdCode}
+                                onChange={(e) => setBottomAdCode(e.target.value)}
+                                placeholder="<ins class='adsbygoogle' ...></ins>"
+                                className="w-full h-40 p-4 bg-zinc-50 dark:bg-zinc-900/50 border-2 border-zinc-100 dark:border-white/5 rounded-2xl text-sm font-mono outline-none focus:border-blue-500/50 transition-all resize-none"
+                            />
+                        </div>
+                    </div>
                 </div>
 
                 {/* Ads.txt Content */}
