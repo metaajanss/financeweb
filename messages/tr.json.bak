@@ -1,0 +1,2482 @@
+{
+  "TestTranslations": "Dinamik Çeviri Testi Başarılı!",
+  "SEO": {
+    "defaultTitle": "Jumpix | Yapay Zeka Destekli Pazarlama Otomasyonu",
+    "defaultDescription": "Yeni nesil pazarlama otomasyonu ve yapay zeka destekli erişim platformu. Daha iyi adaylar bulun, niyeti puanlayın ve satış akışınızı otomatikleştirin.",
+    "titleTemplate": "%s | Jumpix",
+    "pages": {
+      "about": {
+        "title": "Hakkımızda",
+        "description": "Jumpix'in misyonu, hikayesi ve değerleri hakkında bilgi edinin - pazarlama otomasyonunun geleceği."
+      },
+      "pricing": {
+        "title": "Fiyatlandırma Paketleri",
+        "description": "Modern satış ekipleri için uygun fiyatlı planlar. Temel özelliklerle başlayın ve Jumpix ile ölçeklenin."
+      },
+      "contact": {
+        "title": "Bize Ulaşın",
+        "description": "Sorularınız mı var? Ekibimiz, satış akışınızı yapay zeka ile optimize etmenize yardımcı olmak için burada."
+      },
+      "aiJumpix": {
+        "title": "AI Jumpix Asistanı",
+        "description": "Panel verilerinizle konuşun ve Gemini 1.5 Pro kullanarak anlık içgörüler alın."
+      }
+    }
+  },
+  "Blog": {
+    "title": "Bilgi Akışı",
+    "subtitle": "Jumpix Dünyası",
+    "description": "Yapay zeka otomasyonu, randevu planlama ve B2B SaaS büyümesinin geleceğine dair incelemeler.",
+    "featured": "Öne Çıkan İçerik",
+    "readingTime": "{minutes} Dakika Okuma",
+    "recentTitle": "Son İncelemeler",
+    "noPosts": "Daha fazla içerik yakında burada olacak. Takipte kalın.",
+    "ctaTitle": "Büyümenizi Yapay Zeka ile Ölçeklendirin.",
+    "ctaDescription": "Yapay zeka satış otomasyonu üzerine 5.000'den fazla kurucuya katılarak haftalık rehberler alın.",
+    "ctaButton": "Ölçeklendirmeye Başla",
+    "backLink": "İçeriklere Dön",
+    "shareTitle": "İçeriği Paylaş",
+    "didYouFindValuable": "Bu içeriği değerli buldunuz mu?",
+    "valuableDescription": "Bu incelemeyi ağınızla paylaşın veya Jumpix ile kendi otomasyon yolculuğunuza başlayın.",
+    "tryFree": "Jumpix'i Ücretsiz Deneyin",
+    "copyLink": "Makale Bağlantısını Kopyala",
+    "authorDefault": "Jumpix Editör Ofisi",
+    "authorTag": "Uzman Yazar"
+  },
+  "Navigation": {
+    "features": "Özellikler",
+    "workflow": "Süreç",
+    "showcase": "Demo",
+    "pricing": "Fiyatlandırma",
+    "faq": "SSS",
+    "login": "Giriş Yap",
+    "getStarted": "Ücretsiz Denemeyi Başlat",
+    "dashboard": "Genel Bakış",
+    "pipeline": "Satış Hunisi",
+    "conversations": "Canlı Konuşmalar",
+    "b2bDatabase": "B2B Veritabanı",
+    "leads": "Lead Havuzu",
+    "calendar": "Takvim",
+    "aiTraining": "AI Eğitimi",
+    "activityLog": "Aktivite Kaydı",
+    "sequences": "Akıllı Akışlar",
+    "widgetManagement": "Widget Yönetimi",
+    "whatsappWidget": "WhatsApp Widget'ı",
+    "webChatbot": "Web Sohbet Botu",
+    "generalSettings": "Genel Ayarlar",
+    "businessProfile": "İşletme Profili",
+    "systemIntegrations": "Sistem Entegrasyonları",
+    "privacyGdpr": "Gizlilik & KVKK",
+    "billingSubscription": "Ödeme & Abonelik",
+    "teamRouting": "Ekip ve Yönlendirme",
+    "setupWizard": "Kurulum Sihirbazı",
+    "myTickets": "Destek Taleplerim",
+    "helpCenter": "Yardım Merkezi",
+    "aiJumpix": "AI Jumpix",
+    "operations": "Operasyonlar",
+    "support": "Destek",
+    "mapsScraper": "Maps Scraper"
+  },
+  "JumpixAssistant": {
+    "title": "AI Jumpix",
+    "subtitle": "Akıllı Dashboard Asistanı",
+    "newChat": "Yeni Sohbet",
+    "history": "Geçmiş",
+    "placeholder": "Bir şeyler sor...",
+    "welcomeTitle": "Nasıl yardımcı olabilirim?",
+    "welcomeDesc": "Lead verilerin, randevuların veya platform kullanımı hakkında her şeyi sorabilirsin. Gemini 1.5 Pro tüm dashboard verilerine sahip!",
+    "analyzing": "AI Jumpix analiz ediyor...",
+    "poweredBy": "Google Gemini 1.5 Pro tarafından desteklenmektedir",
+    "suggestions": {
+      "leads": "En son gelen 5 lead'i listele",
+      "meetings": "Gelecek haftaki toplantılarım neler?",
+      "integration": "Lead Ads entegrasyonu nasıl yapılır?",
+      "analysis": "Dönüşüm oranlarımı analiz et"
+    }
+  },
+  "HomePage": {
+    "seoTitle": "Jumpix - Nihai Yapay Zeka Destekli Pazarlama Otomasyonu",
+    "seoDescription": "Jumpix ile satış akışınızı kolaylaştırın. Özellikler arasında aday puanlama, zenginleştirme ve otomatik erişim yer alır.",
+    "title": "Jumpix'ye Hoş Geldiniz",
+    "description": "Ürünlerinizi yönetmek için en iyi yer.",
+    "features": {
+      "heading": "Neden Jumpix?",
+      "subheading": "Manuel çaba harcamadan rezervasyon iş akışınızı ölçeklendirmek için eksiksiz bir araç paketi.",
+      "items": {
+        "instantResponse": {
+          "title": "Anında Yanıt",
+          "desc": "WhatsApp veya E-posta yoluyla potansiyel müşterilerle 10 saniyenin altında etkileşim kurun."
+        },
+        "smartQualification": {
+          "title": "Akıllı Kalifikasyon",
+          "desc": "Yapay zeka, kalifiye olmayan adayları takviminize ulaşmadan önce filtreler."
+        },
+        "availability": {
+          "title": "7/24 Kullanılabilirlik",
+          "desc": "Siz uyurken bile hiçbir rezervasyon fırsatını kaçırmayın."
+        }
+      }
+    }
+  },
+  "Integrations": {
+    "title": "Sistem Entegrasyonları",
+    "description": "İş akışınızı otomatikleştirmek için favori araçlarınızı bağlayın.",
+    "activeChannels": "Aktif Kanallar",
+    "activeChannelsSub": "Omnichannel veri ekosisteminizi yönetin",
+    "crmEcosystem": "CRM Veri Ekosistemi",
+    "crmEcosystemSub": "Prospektlerinizi yerel CRM entegrasyonları ile senkronize edin",
+    "statusConnected": "Bağlı",
+    "statusDisconnected": "Bağlı Değil",
+    "actionActivate": "Etkinleştir",
+    "actionRefactor": "Düzenle",
+    "modalTitle": "Konfigürasyon",
+    "modalConnect": "Bağlan",
+    "modalUpdate": "Güncelle",
+    "automationWebhooks": "Webhooks & Otomasyon",
+    "automationWebhooksSub": "Veri akışınızı özel webhooks ile genişletin",
+    "platformFeatures": "Platform Özellikleri",
+    "platformFeaturesSub": "Jumpix panelindeki ek özellikleri yönetin.",
+    "twilio": {
+      "phoneLabel": "WhatsApp Telefon Numarası",
+      "phonePlaceholder": "+905XXXXXXXXX",
+      "phoneDesc": "WhatsApp için kullanmak istediğiniz numarayı girin. SMS alabilen geçerli bir numara olmalıdır.",
+      "nameLabel": "WhatsApp Görünen Adı",
+      "namePlaceholder": "İşletme Adınız",
+      "nameDesc": "Bu, müşterilerin WhatsApp'ta göreceği addır. Resmi işletme adınızla eşleşmelidir.",
+      "codeSent": "Doğrulama Kodu Gönderildi",
+      "codeSentDesc": "WhatsApp/SMS yoluyla <number/> numarasına 6 haneli bir kod gönderdik.",
+      "otpLabel": "6 Haneli Kod",
+      "otpPlaceholder": "123456",
+      "resendSms": "SMS Tekrar Gönder",
+      "voiceCall": "Sesli Arama",
+      "changeNumber": "Numarayı Değiştir",
+      "verifiedTitle": "Numara Doğrulandı",
+      "verifiedDesc": "{number} kullanıma hazır.",
+      "webhookStatus": "Gelen Mesaj Webhook Durumu",
+      "webhookActive": "Aktif",
+      "webhookInfo": "Gelen mesajlar otomatik olarak işlenir. Jumpix'in yönetilen servislerini kullanıyorsanız ek bir kuruluma gerek yoktur.",
+      "checklistTitle": "Başlamadan Önce Kontrol Edin",
+      "checklistItem1": "Numara şu an WhatsApp'ta kayıtlı olmamalı — kayıtlıysa önce WhatsApp → Ayarlar → Hesap → Hesabı Sil yapın",
+      "checklistItem2": "SMS veya sesli arama alabilmesi gerekiyor (OTP doğrulaması için)",
+      "checklistItem3": "Sanal (VoIP) numaralar Meta tarafından reddedilebilir, fiziksel SIM tercih edin",
+      "checklistItem4": "Kurulumdan sonra bu numara normal WhatsApp uygulamasıyla kullanılamaz",
+      "noteTitle": "Not:",
+      "noteDesc": "Numaranız kurumsal WhatsApp Business API'mize kaydedilecektir. Numara zaten bir WhatsApp mobil uygulamasında aktifse, önce o mobil hesabı silmelisiniz."
+    }
+  },
+  "Legal": {
+    "cookiePolicy": {
+      "title": "Çerez Politikası",
+      "lastUpdated": "Son Güncelleme: Şubat 2026",
+      "section1Title": "1. Çerezler Nedir?",
+      "section1Content": "Çerezler, ziyaret ettiğiniz web siteleri tarafından bilgisayarınıza veya mobil cihazınıza yerleştirilen küçük metin dosyalarıdır. Web sitelerinin çalışması veya daha verimli çalışması, ayrıca site sahiplerine bilgi sağlamak amacıyla yaygın olarak kullanılırlar.",
+      "section2Title": "2. Çerezleri Nasıl Kullanıyoruz?",
+      "section2Content": "Aşağıdaki nedenlerle çerezleri kullanıyoruz:",
+      "essentialTitle": "Zorunlu Çerezler:",
+      "essentialContent": "Bunlar, web sitesinin çalışması için gereklidir ve sistemlerimizde kapatılamazlar.",
+      "performanceTitle": "Performans Çerezleri:",
+      "performanceContent": "Bunlar, sitemizin performansını ölçmek ve iyileştirmek için ziyaretleri ve trafik kaynaklarını saymamıza olanak tanır.",
+      "functionalTitle": "İşlevsel Çerezler:",
+      "functionalContent": "Bunlar, web sitesinin gelişmiş işlevsellik ve kişiselleştirme sağlamasına olanak tanır.",
+      "section3Title": "3. Çerezleri Devre Dışı Bırakma",
+      "section3Content": "Tarayıcı ayarlarınızı değiştirerek çerezleri engelleyebilirsiniz. Ancak bu durumun sitemizin işlevselliğini etkileyebileceğini unutmayın."
+    },
+    "privacyPolicy": {
+      "title": "Gizlilik Politikası",
+      "lastUpdated": "Son Güncelleme: 10 Mart 2026",
+      "section1Title": "1. GİRİŞ",
+      "section1Content": "Jumpix (\"biz\", \"bize\" veya \"bizim\"), jumpix.app adresinde bulunan pazarlama otomasyon platformunu işletmektedir. Bu Gizlilik Politikası, kullanıcılarımızdan ve onların son müşterilerinden topladığımız bilgileri nasıl topladığımızı, kullandığımızı ve paylaştığımızı açıklar.",
+      "section2Title": "2. TOPLADIĞIMIZ BİLGİLER",
+      "section2Content": "Aşağıdaki bilgi türlerini topluyoruz:\n- Kişisel Hesap Bilgileri: Jumpix'e kaydolduğunuzda adınızı, e-posta adresinizi (Zoho aracılığıyla) ve kimlik doğrulama ayrıntılarını (Supabase aracılığıyla işlenir) toplarız.\n- Ödeme Bilgileri: Tüm ödemeler çevrimiçi bayimiz Paddle.com (Merchant of Record) tarafından işlenir. Tam kredi kartı veya banka bilgilerinizi sunucularımızda saklamayız.\n- Pazarlama Verileri: E-posta listeleri, kişi adları ve kampanya içeriği gibi otomasyon için yüklediğiniz bilgileri saklarız.\n- Kullanım Verileri: Hizmetimizi iyileştirmek için IP adreslerini, tarayıcı türlerini ve kullanım kalıplarını toplayabiliriz.",
+      "section3Title": "3. BİLGİLERİNİZİ NASIL KULLANIYORUZ",
+      "section3Content": "Bilgilerinizi şu amaçlarla kullanırız:\n- Jumpix'in pazarlama otomasyon özelliklerini sağlamak, işletmek ve sürdürmek.\n- İşlemlerinizi Paddle aracılığıyla işlemek.\n- Sistem bildirimleri (Resend aracılığıyla) ve müşteri destek e-postaları (Zoho aracılığıyla) göndermek.\n- Dolandırıcılığı önlemek ve Anti-Spam politikalarına uyumu sağlamak.",
+      "section4Title": "4. ÜÇÜNCÜ TARAF HİZMETLERİ",
+      "section4Content": "Hizmetlerimizi yerine getirmek için verileri yalnızca güvenilir üçüncü taraf sağlayıcılarla paylaşıyoruz: Paddle.com (Ödeme işleme), Supabase (Veritabanı ve kullanıcı doğrulama), Resend (E-posta gönderimi) ve Zoho (Kurumsal e-posta iletişimi).",
+      "section5Title": "5. VERİ MÜLKİYETİ VE GDPR / KVKK",
+      "section5Content": "Jumpix'e yüklediğiniz tüm müşteri verileri (örneğin e-posta listeleriniz) için Veri Sorumlusu sizsiniz. Biz Veri İşleyen olarak hareket ederiz. Verilerini Jumpix aracılığıyla işlemek için müşterilerinizden gerekli tüm rızaları aldığınızı beyan edersiniz. AB (GDPR) veya Türkiye'deki (KVKK) kullanıcılar, kişisel verilerine erişme, bunları düzeltme veya silme hakkına sahiptir.",
+      "section6Title": "6. VERİ GÜVENLİĞİ",
+      "section6Content": "Verilerinizi korumak için SSL şifreleme ve Supabase tarafından sağlanan güvenli veritabanı protokolleri dahil olmak üzere endüstri standardı güvenlik önlemleri kullanıyoruz. Ancak, internet üzerinden hiçbir iletim yöntemi %100 güvenli değildir.",
+      "section7Title": "7. ÇEREZLER",
+      "section7Content": "Kullanıcı oturumlarını yönetmek ve web sitemizle nasıl etkileşim kurduğunuzu anlamak için çerezleri kullanıyoruz.",
+      "section8Title": "8. BU POLİTİKADAKİ DEĞİŞİKLİKLER",
+      "section8Content": "Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Yeni Gizlilik Politikasını bu sayfada yayınlayarak ve \"Son Güncelleme\" tarihini güncelleyerek sizi herhangi bir değişiklikten haberdar edeceğiz.",
+      "section9Title": "9. BİZE ULAŞIN",
+      "section9Content": "Bu Gizlilik Politikası ile ilgili sorularınız için lütfen hello@jumpix.app adresinden veya jumpix.app üzerinden bizimle iletişime geçin."
+    },
+    "refundPolicy": {
+      "title": "İade Politikası",
+      "lastUpdated": "Son Güncelleme: 10 Mart 2026",
+      "section1Title": "1. GİRİŞ",
+      "section1Content": "Jumpix'i (jumpix.app) seçtiğiniz için teşekkür ederiz. Amacımız, pazarlama otomasyon araçlarımızın iş ihtiyaçlarınızı karşılamasını sağlamaktır. Ödemelerimiz çevrimiçi bayimiz Paddle.com (Merchant of Record) tarafından yapıldığı için iadeler bu şartlara ve Paddle'ın genel koşullarına tabidir.",
+      "section2Title": "2. ABONELİK İPTALLERİ",
+      "section2Content": "Jumpix aboneliğinizi istediğiniz zaman hesap paneliniz üzerinden iptal edebilirsiniz. İptal üzerine hesabınız mevcut fatura döneminin sonuna kadar aktif kalacaktır ve sonraki dönem için ücretlendirilmezsiniz.",
+      "section3Title": "3. İADE UYGUNLUĞU",
+      "section3Content": "Aylık Abonelikler: Fatura dönemi başladıktan sonra aylık abonelikler için genellikle iade sunmuyoruz. Ancak, Hizmeti kullanmanızı engelleyen teknik sorunlar yaşarsanız, lütfen işlemden sonraki 14 gün içinde bizimle iletişime geçin.\nYıllık Abonelikler: Kullanılan dönem için standart aylık ücret düşülerek, satın alımdan sonraki 30 gün içinde talep edilmesi durumunda yıllık planlar için iadeler vaka bazında değerlendirilebilir.",
+      "section4Title": "4. İSTİSNALAR (İADE YAPILMAYAN DURUMLAR)",
+      "section4Content": "Aşağıdaki durumlarda iade yapılmayacaktır:\n- Hizmet Şartlarımızın ihlali (örneğin SPAM gönderimi, yasa dışı içerik) nedeniyle askıya alınan veya feshedilen hesaplar.\n- Fatura dönemi boyunca otomasyon özelliklerini önemli ölçüde kullanan (örneğin yüksek hacimli e-posta gönderen) kullanıcılar.\n- Jumpix ile entegre olan üçüncü taraf hizmetlerinden kaynaklanan sorunlar.",
+      "section5Title": "5. İADE TALEBİ NASIL YAPILIR",
+      "section5Content": "İade talebinde bulunmak için lütfen işlem ayrıntılarınız ve talebinizin nedeni ile birlikte hello@jumpix.app adresine e-posta gönderin. Alternatif olarak, yetkili bayimiz olduğu için doğrudan Paddle Destek ile iletişime geçebilirsiniz.",
+      "section6Title": "6. İADELERİN İŞLENMESİ",
+      "section6Content": "Onaylanan iadeler orijinal ödeme yöntemi kullanılarak Paddle üzerinden işlenecektir. Bankanıza bağlı olarak, iadenin ekstrenizde görünmesi 5-10 iş günü sürebilir.",
+      "section7Title": "7. BİZE ULAŞIN",
+      "section7Content": "İade Politikamız ile ilgili herhangi bir sorunuz için lütfen hello@jumpix.app adresinden veya jumpix.app üzerinden bizimle iletişime geçin."
+    },
+    "termsOfService": {
+      "title": "Hizmet Şartları",
+      "lastUpdated": "Son Güncelleme: 10 Mart 2026",
+      "section1Title": "1. ŞARTLARIN KABULÜ",
+      "section1Content": "jumpix.app üzerinden işletilen bir pazarlama otomasyon platformu olan Jumpix'e (\"Hizmet\") erişerek veya Hizmeti kullanarak, bu Hizmet Şartlarına (\"Şartlar\") bağlı kalmayı kabul etmiş sayılırsınız. Bu şartları kabul etmiyorsanız, lütfen Hizmeti kullanmayın.",
+      "section2Title": "2. HİZMET TANIMI",
+      "section2Content": "Jumpix; e-posta kampanyaları, potansiyel müşteri yönetimi ve otomasyon iş akışları dahil ancak bunlarla sınırlı olmamak üzere pazarlama otomasyon araçları sunar. Hizmetin herhangi bir özelliğini istediğimiz zaman değiştirme veya durdurma hakkımızı saklı tutarız.",
+      "section3Title": "3. KAYITLI SATICI OLARAK PADDLE",
+      "section3Content": "Sipariş sürecimiz çevrimiçi bayimiz Paddle.com tarafından yürütülmektedir. Paddle.com, tüm siparişlerimiz için Kayıtlı Satıcıdır (Merchant of Record). Paddle, ödemelerle ilgili tüm müşteri hizmetleri sorularını ve iadeleri yönetir. Jumpix'e abone olarak Paddle’ın Şartlar ve Koşullarını da kabul etmiş sayılırsınız.",
+      "section4Title": "4. KULLANICI HESAPLARI VE GÜVENLİK",
+      "section4Content": "Jumpix'i kullanmak için bir hesap oluşturmalısınız. Kimlik bilgilerinizin gizliliğini korumaktan ve hesabınız altında gerçekleşen tüm faaliyetlerden siz sorumlusunuz. Herhangi bir yetkisiz kullanımı derhal bize bildirmelisiniz.",
+      "section5Title": "5. KABUL EDİLEBİLİR KULLANIM VE ANTİ-SPAM POLİTİKASI",
+      "section5Content": "Jumpix, Hizmetin istenmeyen e-postalar (SPAM) göndermek için kullanılmasını kesinlikle yasaklar. Pazarlama iletişimlerini yalnızca açık rıza (Opt-in) vermiş alıcılara gönderebilirsiniz. CAN-SPAM Yasası, GDPR ve KVKK dahil ancak bunlarla sınırlı olmamak üzere tüm ilgili yasalara uymalısınız. Yüksek geri dönüş oranına veya spam şikayetine sahip hesapları askıya alma hakkımızı saklı tutarız.",
+      "section6Title": "6. ÖDEMELER VE ABONELİKLER",
+      "section6Content": "Abonelikler, yinelenen bir döngüde (aylık veya yıllık) peşin olarak faturalandırılır. Aboneliğinizi istediğiniz zaman paneliniz üzerinden iptal edebilirsiniz. Erişim, mevcut fatura döneminin sonuna kadar devam edecektir. İade talepleri, İade Politikamız doğrultusunda ve Paddle desteği aracılığıyla işleme alınır.",
+      "section7Title": "7. VERİ MÜLKİYETİ VE GİZLİLİK",
+      "section7Content": "Jumpix'e yüklediğiniz veriler (örneğin e-posta listeleri) üzerindeki tüm haklarınız size aittir. Kişisel verilerinizin ve müşterilerinizin verilerinin kullanımı Gizlilik Politikamıza tabidir.",
+      "section8Title": "8. SORUMLULUĞUN SINIRLANDIRILMASI",
+      "section8Content": "Jumpix \"olduğu gibi\" sunulmaktadır. Yasaların izin verdiği azami ölçüde Jumpix, Hizmetin kullanımından veya kullanılamamasından kaynaklanan dolaylı, arızi veya sonuçsal zararlardan sorumlu tutulamaz.",
+      "section9Title": "9. FESİH",
+      "section9Content": "Bu Şartları ihlal etmeniz durumunda, önceden bildirimde bulunmaksızın Hizmete erişiminizi derhal sonlandırma veya askıya alma hakkımızı saklı tutarız.",
+      "section10Title": "10. BİZE ULAŞIN",
+      "section10Content": "Bu Şartlar hakkında herhangi bir sorunuz varsa, lütfen hello@jumpix.app adresinden veya jumpix.app üzerinden bizimle iletişime geçin."
+    }
+  },
+  "CookieConsent": {
+    "message": "Size daha iyi bir deneyim sunmak için çerezleri kullanıyoruz.",
+    "accept": "Kabul Et",
+    "decline": "Reddet",
+    "learnMore": "Daha Fazla Bilgi"
+  },
+  "Landing": {
+    "Hero": {
+      "badgeText": "Daha hızlı pipeline akışı için üretildi",
+      "badgeLink": "Gelir ekipleri için",
+      "title": "Lead Bulun, Skorlayın ve Erişin. Tek Bir AI Platformu.",
+      "description": "Jumpix, modern satış ekiplerine potansiyel müşteri keşfi, talep kalifikasyonu ve signaldan sequence'e geçişi tek ve sade bir sistemde sunar.",
+      "messageLabel": "Operatör görünümü",
+      "messageText": "Londra'daki B2B SaaS şirketlerinde VP Marketing kişilerini bul, verileri zenginleştir ve yüksek niyetli leadleri yeni bir sequence'e aktar.",
+      "primaryCta": "Ücretsiz Denemeyi Başlat",
+      "chips": [
+        "Hedef hesapları bulun",
+        "İletişim verilerini zenginleştirin",
+        "Niyeti skorlayın",
+        "Sequence başlatın"
+      ],
+      "trustItems": [
+        {
+          "value": "Akıllı Lead Keşfi",
+          "label": "Manuel prospecting'i geride bırakın; AI destekli hedef listeleri saniyeler içinde oluşturun."
+        },
+        {
+          "value": "Niyet Skorlama",
+          "label": "Satın alma sinyallerini analiz edin ve en sıcak fırsatları anında önceliklendirin."
+        },
+        {
+          "value": "Kesintisiz Aktarım",
+          "label": "Nitelikli leadleri saniyeler içinde outreach akışlarına ve CRM'e otomatik taşıyın."
+        }
+      ],
+      "spotlight": {
+        "signalTitle": "Satış hunisi görünürlüğü",
+        "signalText": "Keşif, puanlama ve sekans aktarımı tek bir premium akış içinde.",
+        "commandLabel": "AI komutu",
+        "liveLabel": "Canlı eşleşme",
+        "scoreLabel": "Niyet puanı",
+        "scoreText": "Öncelik sırasına taşındı",
+        "ribbonLabel": "Aktif iş akışı",
+        "readyTitle": "Sekans hazır",
+        "readyText": "Doğrulanmış potansiyel müşteriler tek tıkla aktarılabilir.",
+        "dashboardAlt": "Jumpix çalışma alanı önizlemesi"
+      }
+    },
+    "IntegrationsShowcase": {
+      "badge": "BAĞLI EKOSİSTEM",
+      "title": "Mevcut Araçlarınızla Tam Uyumlu Çalışın",
+      "description": "Jumpix, ekibinizin halihazırda kullandığı HubSpot, Salesforce, Slack ve diğer tüm platformlarla saniyeler içinde bağlanır. Veri akışınızı kesintiye uğratmadan otomatize edin.",
+      "cta": "Tüm Entegrasyonları Keşfedin"
+    },
+    "Features": {
+      "badge": "GELİR OPERASYONLARI",
+      "title": "Lead Akışını Tek Bir Platformda Birleştirin",
+      "description": "Düzensiz lead kaynaklarını, manuel kalifikasyon süreçlerini ve kopuk takip akışlarını tek bir 'Revenue Workflow' içinde yönetin.",
+      "items": {
+        "scoring": {
+          "title": "AI Kalifikasyon ve Skorlama",
+          "description": "Her lead eşit değildir. AI ile niyet skorlaması yapın ve temsilcilerinizin vaktini en sıcak fırsatlara odaklamasını sağlayın."
+        },
+        "enrichment": {
+          "title": "Akıllı Lead Yapılandırma",
+          "description": "Ham verileri zenginleştirin ve normalize edin. Temsilciye eksik kayıt değil, üzerinde çalışabileceği hazır bir 'record' teslim edin."
+        },
+        "autopilot": {
+          "title": "Omnichannel Takip Akışları",
+          "description": "Gmail ve WhatsApp üzerinden kişiselleştirilmiş 'sequence' akışlarını başlatın. Takip bir kişinin hafızasına değil, sisteme kalsın."
+        },
+        "widget": {
+          "title": "WhatsApp ve Web Widget",
+          "description": "Ziyaretçilerinizi anında lead'e dönüştürün ve WhatsApp üzerinden otomatik görüşme başlatarak hızı yakalayın."
+        },
+        "visibility": {
+          "title": "Pipeline ve Funnel Analizi",
+          "description": "Her kaynağın ve her temsilcinin performansını anlık izleyin. Dönüşüm oranlarını ve darboğazları tek tıkla tespit edin."
+        },
+        "stack": {
+          "title": "Stratejik Stack Bağlantısı",
+          "description": "HubSpot, Salesforce ve Google Sheets ile tam uyum. Operasyonunuzu büyütürken veri hijyeninizi her ölçekte koruyun."
+        }
+      }
+    },
+    "HowItWorks": {
+      "title": "Nasıl Çalışır?",
+      "subtitle": "Aylar değil, dakikalar içinde değer üretmeye başlayın.",
+      "steps": {
+        "step1": {
+          "title": "Verilerinizi Bağlayın",
+          "description": "Tek tıkla entegrasyonlarımız sayesinde mevcut veri kaynaklarınızı saniyeler içinde platforma aktarın."
+        },
+        "step2": {
+          "title": "Kuralları Belirleyin",
+          "description": "Esnek araçlarımızla kendi iş akışınızı kod yazmadan, sezgisel olarak yapılandırın."
+        },
+        "step3": {
+          "title": "Optimize Edin",
+          "description": "Anında canlıya alın. Canlı metriklerle süreçlerinizi sürekli olarak iyileştirin."
+        }
+      }
+    },
+    "Pricing": {
+      "title": "Outbound sürecinizle birlikte ölçeklenen fiyatlandırma",
+      "subtitle": "Modeli sade tutun. Önce temel ihtiyaçlarla başlayın, ekip büyüdükçe hacmi ve kontrolü artırın.",
+      "footnote": "Aylık faturalandırma. Yıllık indirimler, onboarding yardımı ve migrasyon desteği talep üzerine sunulur.",
+      "recommended": "ÖNERİLEN",
+      "plans": [
+        {
+          "name": "Ücretsiz",
+          "price": "0",
+          "period": "/ay",
+          "description": "Jumpix dünyasını keşfetmek için ideal başlangıç.",
+          "features": [
+            "Tüm Entegrasyonlar Dahil",
+            "AI Niyet Skorlaması",
+            "Birleşik Gelen Kutusu (Temel)",
+            "1 Aktif Sequence (Email/WA)",
+            "E-posta Desteği"
+          ],
+          "ctaLabel": "Ücretsiz Başlat",
+          "ctaHref": "/login?view=signup&plan=free",
+          "featured": false,
+          "isCustom": false
+        },
+        {
+          "name": "Starter",
+          "price": "19",
+          "period": "/ay",
+          "description": "Outbound stratejisini valide eden küçük ekipler.",
+          "features": [
+            "Tüm Entegrasyonlar Dahil",
+            "Canlı Pipeline Görünümü",
+            "CRM, Takvim & Sheets Senkronu",
+            "Haftalık Performans Raporları"
+          ],
+          "ctaLabel": "Hemen Başla",
+          "ctaHref": "/login?view=signup&plan=starter",
+          "featured": false,
+          "isCustom": false
+        },
+        {
+          "name": "Growth",
+          "price": "39",
+          "period": "/ay",
+          "description": "Büyüyen ve hacim arayan satış ekipleri.",
+          "features": [
+            "Yapay Zeka Destekli WhatsApp ve Web Widget",
+            "Web Sitesi AI Chatbot",
+            "Kaynak & ROI Analizleri",
+            "E-posta & Slack Desteği"
+          ],
+          "ctaLabel": "Growth'a Geç",
+          "ctaHref": "/login?view=signup&plan=growth",
+          "featured": false,
+          "isCustom": false
+        },
+        {
+          "name": "Pro",
+          "price": "69",
+          "period": "/ay",
+          "description": "Tam otomasyon arayan modern ekipler.",
+          "features": [
+            "AI Ajan Eğitimi (Bilgi Tabanı)",
+            "AI Otopilot İş Akışları",
+            "Gelişmiş Lead Skorlama",
+            "Öncelikli Destek"
+          ],
+          "ctaLabel": "Pro'ya Geç",
+          "ctaHref": "/login?view=signup&plan=pro",
+          "featured": true,
+          "isCustom": false
+        },
+        {
+          "name": "Business",
+          "price": "99",
+          "period": "/ay",
+          "description": "Yüksek hacimli ve tam kontrollü operasyonlar.",
+          "features": [
+            "Özel AI Ajan Kuralları",
+            "7/24 Özel Başarı Ekibi",
+            "SSO / SAML Güvenliği",
+            "Sınırsız Takım Üyeleri"
+          ],
+          "ctaLabel": "Business'a Geç",
+          "ctaHref": "/login?view=signup&plan=business",
+          "featured": false,
+          "isCustom": false
+        }
+      ],
+      "Comparison": {
+        "title": "Paket Özellikleri Karşılaştırması",
+        "columnNames": [
+          "Özellik",
+          "Ücretsiz",
+          "Starter",
+          "Growth",
+          "Pro",
+          "Business"
+        ],
+        "categories": [
+          {
+            "name": "Zeka & CRM",
+            "features": [
+              {
+                "name": "AI Niyet Skorlaması",
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true
+              },
+              {
+                "name": "AI Ajan Eğitimi (Bilgi Tabanı)",
+                "free": false,
+                "starter": false,
+                "growth": false,
+                "pro": true,
+                "business": true
+              },
+              {
+                "name": "Gelişmiş Lead Skorlama",
+                "free": false,
+                "starter": false,
+                "growth": false,
+                "pro": true,
+                "business": true
+              }
+            ]
+          },
+          {
+            "name": "İletişim & Kanallar",
+            "features": [
+              {
+                "name": "Yapay Zeka Destekli WhatsApp ve Web Widget",
+                "free": false,
+                "starter": false,
+                "growth": true,
+                "pro": true,
+                "business": true
+              },
+              {
+                "name": "Birleşik Inbox (Merkezi)",
+                "free": "Temel",
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true
+              },
+              {
+                "name": "Çok Kanallı Sequence",
+                "free": "1 Aktif",
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true
+              },
+              {
+                "name": "AI Autopilot Akışları",
+                "free": false,
+                "starter": false,
+                "growth": true,
+                "pro": true,
+                "business": true
+              }
+            ]
+          },
+          {
+            "name": "Analitik & Görünürlük",
+            "features": [
+              {
+                "name": "Canlı Pipeline Görünümü",
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true
+              },
+              {
+                "name": "Kaynak & ROI Analizi",
+                "free": false,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true
+              }
+            ]
+          },
+          {
+            "name": "Entegrasyonlar",
+            "features": [
+              {
+                "name": "Gmail, WhatsApp, Meta ve Google Ads",
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true
+              },
+              {
+                "name": "Tüm Entegrasyonlar (CRM, Takvim, Slack, Webhooks)",
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true
+              }
+            ]
+          },
+          {
+            "name": "Ekipler & Destek",
+            "features": [
+              {
+                "name": "Kullanıcı Sayısı",
+                "free": "1",
+                "starter": "3",
+                "growth": "10",
+                "pro": "Sınırsız",
+                "business": "Sınırsız"
+              },
+              {
+                "name": "Destek Seviyesi",
+                "free": "E-posta",
+                "starter": "E-posta",
+                "growth": "E-posta + Slack",
+                "pro": "Öncelikli",
+                "business": "7/24 Özel"
+              }
+            ]
+          }
+        ]
+      },
+      "eyebrow": "Fiyatlandırma"
+    },
+    "FAQ": {
+      "title": "Sorular, net cevaplar",
+      "subtitle": "SSS",
+      "description": "İş akışlarını bağlamadan, ekibi davet etmeden veya faturalandırmayı taşımadan önce bilmeniz gereken her şey burada.",
+      "supportLabel": "Destekle görüşün",
+      "supportHref": "/contact",
+      "questions": [
+        {
+          "q": "Jumpix tam olarak nedir ve CRM'den farkı ne?",
+          "a": "CRM bir kayıt sistemidir; Jumpix ise bir icra (execution) katmanıdır. Farklı kanallardan (Google Ads, WhatsApp, Formlar) gelen leadleri tek merkezde toplar, AI ile puanlar ve Gmail/WhatsApp üzerinden otomatik takip akışlarını yönetir. CRM'inizdeki veriyi kirletmeden operasyonu Jumpix üzerinde yürütüp, nitelikli leadleri CRM'e aktarırsınız."
+        },
+        {
+          "q": "Lead discovery veya global veritabanı özelliği var mı?",
+          "a": "Jumpix şu an ağırlıklı olarak inbound lead operasyonlarına odaklanmaktadır. Google Ads, Meta ve Web formlarınızdan gelen leadleri yakalayıp işleme konusunda benzersizdir. B2B veritabanı özelliğimiz ise yol haritamızda olup, yakında kullanıma sunulacaktır."
+        },
+        {
+          "q": "AI nasıl çalışıyor? Ekibime gerçekten zaman kazandırır mı?",
+          "a": "AI, yalnızca yanıt yazan bir bot değildir. Marka sesiniz ve bilgi tabanınızla eğitilir; gelen mesajın niyetini anlar, uygunsa takviminizden randevu oluşturur ve en sıcak leadleri en öne çıkarır. Bu seviyede bir otomasyon, manuel eleme ve takip süresini %80'e kadar azaltabilir."
+        },
+        {
+          "q": "WhatsApp ve Gmail entegrasyonu güvenli mi?",
+          "a": "Evet. Jumpix, WhatsApp Business API ve Google OAuth protokollerini kullanır. Verileriniz uçtan uca şifrelenir ve yalnızca yetkilendirdiğiniz akışlar için kullanılır. Veri güvenliği platformun temel önceliğidir."
+        },
+        {
+          "q": "Hangi CRM'lerle ve araçlarla çalışıyorsunuz?",
+          "a": "HubSpot, Salesforce, Pipedrive, Zoho ve Close gibi popüler CRM'lerin yanı sıra Slack, Discord ve Google Sheets ile yerel entegrasyonlarımız mevcuttur. Ayrıca webhook desteğiyle mevcut stack'inize dakikalar içinde bağlanabiliriz."
+        },
+        {
+          "q": "Gerçekten \"tek bir akış\" ile her şeyi yönetebilir miyim?",
+          "a": "Kesinlikle. \"Capture -> Score -> Sequence -> Meeting -> Sync\" döngüsünü Jumpix içinde tek bir Revenue Workflow olarak kurgularsınız. Lead yakalandığı andan pipeline'da göründüğü ana kadar olan tüm \"boşlukları\" kapatırız."
+        }
+      ]
+    },
+    "CTA": {
+      "badge": "GELECEĞİN SATIŞ ALTYAPISI",
+      "title_start": "Satış Süreçlerinizi",
+      "title_end": "Bugün Dönüştürün.",
+      "description1": "Verilerinizle konuşun, işlerinizi otomatize edin ve ekibinizin potansiyelini serbest bırakın.",
+      "description2": "Jumpix ile her etkileşim bir fırsata dönüşür.",
+      "getStarted": "Ücretsiz Başlayın",
+      "requestDemo": "Demo İste",
+      "trustBadge": "Şirket & Global Güven"
+    },
+    "Testimonials": {
+      "title": "Her Yerde İşletmelerin Gözdesi",
+      "subtitle": "Sadece bizim sözümüze güvenmeyin, bizimle büyüyen ve operasyonlarını hızlandıran yüzlerce mutlu ekibe katılın."
+    },
+    "SalesWorkflow": {
+      "badge": "Satış Süreci",
+      "title_start": "Tüm Satış Yolculuğu İçin",
+      "title_end": "Tek Yapay Zeka Platformu",
+      "tabs": {
+        "intake": {
+          "title": "Leadleri Topla",
+          "subtitle": "Tüm kaynaklardan tek merkezde",
+          "description": "Google Ads, Meta, WhatsApp ve web formlarından gelen leadleri tek bir yapılandırılmış katmanda birleştirin.",
+          "steps": {
+            "step1": "Kanalları Bağla",
+            "step2": "Veriyi Normalize Et",
+            "step3": "Kaynak Bağlamını Koru",
+            "step4": "Merkezi Kuyruğa Aktar"
+          }
+        },
+        "qualify": {
+          "title": "Zenginleştir ve Skorla",
+          "subtitle": "AI ile öncelik ve veri derinliği",
+          "description": "Eksik verileri zenginleştirin ve yapay zeka ile en yüksek niyetli leadleri anında tespit edin.",
+          "steps": {
+            "step1": "Veri Zenginleştirme",
+            "step2": "AI Kalifikasyonu",
+            "step3": "Niyet Skorlama",
+            "step4": "Kuyruk Önceliklendirme"
+          }
+        },
+        "followup": {
+          "title": "Otomatik Takip",
+          "subtitle": "Gmail ve WhatsApp akışları",
+          "description": "Lead yakalandığı anda Gmail veya WhatsApp üzerinden kişiselleştirilmiş takip (sequence) akışlarını başlatın.",
+          "steps": {
+            "step1": "Adayı Akışa Al",
+            "step2": "Otomatik Mesaj Gönder",
+            "step3": "Yanıtları Takip Et",
+            "step4": "AI Yanıt Taslakları"
+          }
+        },
+        "convert": {
+          "title": "Dönüştür ve Aktar",
+          "subtitle": "Toplantı ve CRM senkronu",
+          "description": "İlgiyi somut toplantılara dönüştürün ve tüm süreci otomatik olarak CRM veya Sheets'e aktarın.",
+          "steps": {
+            "step1": "Toplantı Ayarla",
+            "step2": "CRM Senkronizasyonu",
+            "step3": "Pipeline Görünürlüğü",
+            "step4": "ROI Analizi"
+          }
+        }
+      },
+      "googleButton": "Google ile Bağlan",
+      "progress": "İlerleme",
+      "dummyData": {
+        "intake": [
+          {
+            "name": "Oğuzhan Kaya",
+            "source": "Google Ads",
+            "time": "2dk önce",
+            "status": "Alındı"
+          },
+          {
+            "name": "Dilara Mert",
+            "source": "WhatsApp",
+            "time": "5dk önce",
+            "status": "Alındı"
+          },
+          {
+            "name": "Sertan Ünal",
+            "source": "Facebook",
+            "time": "12dk önce",
+            "status": "Alındı"
+          },
+          {
+            "name": "Ayşe Karaca",
+            "source": "Web Formu",
+            "time": "18dk önce",
+            "status": "Alındı"
+          },
+          {
+            "name": "Burak Ateş",
+            "source": "Sheets",
+            "time": "25dk önce",
+            "status": "Alındı"
+          }
+        ],
+        "qualify": [
+          {
+            "name": "Oğuzhan Kaya",
+            "score": 98,
+            "status": "Yüksek Niyet"
+          },
+          {
+            "name": "Dilara Mert",
+            "score": 85,
+            "status": "Nitelikli"
+          },
+          {
+            "name": "Sertan Ünal",
+            "score": 92,
+            "status": "Öncelikli"
+          },
+          {
+            "name": "Ayşe Karaca",
+            "score": 45,
+            "status": "Düşük Niyet"
+          },
+          {
+            "name": "Burak Ateş",
+            "score": 89,
+            "status": "Nitelikli"
+          }
+        ],
+        "followup": [
+          {
+            "name": "Oğuzhan Kaya",
+            "step": "Yanıt Bekleniyor",
+            "seq": "Adım 2/4"
+          },
+          {
+            "name": "Dilara Mert",
+            "step": "E-posta Gönderildi",
+            "seq": "Adım 1/4"
+          },
+          {
+            "name": "Sertan Ünal",
+            "step": "Yanıt Alındı",
+            "seq": "Taslak Hazırlanıyor"
+          },
+          {
+            "name": "Ayşe Karaca",
+            "step": "WhatsApp Gönderildi",
+            "seq": "Adım 1/2"
+          },
+          {
+            "name": "Burak Ateş",
+            "step": "Yanıt Yok",
+            "seq": "Tekrar Deneniyor"
+          }
+        ],
+        "convert": [
+          {
+            "name": "Oğuzhan Kaya",
+            "deal": "₹350k Anlaşma",
+            "status": "Başarılı"
+          },
+          {
+            "name": "Dilara Mert",
+            "deal": "Demo Ayarlandı",
+            "status": "Başarılı"
+          },
+          {
+            "name": "Sertan Ünal",
+            "deal": "CRM Aktarıldı",
+            "status": "Başarılı"
+          },
+          {
+            "name": "Ayşe Karaca",
+            "deal": "Arşivlendi",
+            "status": "Başarılı"
+          },
+          {
+            "name": "Burak Ateş",
+            "deal": "Demo Ayarlandı",
+            "status": "Başarılı"
+          }
+        ]
+      }
+    },
+    "FeaturesSecondary": {
+      "badge": "İŞ AKIŞI OTOMASYONU",
+      "title_line1": "İş akışlarınızı",
+      "title_line2": "bir ağaç yapısıyla kurgulayın.",
+      "button": "Kendi Akışını Kur",
+      "tabs": {
+        "intake": {
+          "label": "Giriş Kanalları",
+          "title": "Tüm Talepleri Tek Noktada Toplayın",
+          "description": "WhatsApp, Meta Ads, Google Ads ve web formları. Lead kaynağı ne olursa olsun, akışa dahil edin."
+        },
+        "logic": {
+          "label": "Zeka ve Karar",
+          "title": "AI ile Akıllı Yönlendirme",
+          "description": "Gelen lead'in niyetini ölçün, skorlayın ve doğru ekibe veya sequence'a otomatik yönlendirin."
+        },
+        "outreach": {
+          "label": "Otomatik Takip",
+          "title": "Kişiselleştirilmiş İletişim Akışları",
+          "description": "Gmail ve WhatsApp üzerinden çok kanallı takip akışları ile yanıt oranlarınızı artırın."
+        },
+        "sync": {
+          "label": "Veri Aktarımı",
+          "title": "CRM ve Araçlarınızla Tam Uyum",
+          "description": "Onaylanan toplantıları ve kalifiye lead'leri otomatik olarak CRM sisteminize aktarın."
+        }
+      },
+      "visualization": {
+        "leadIntake": "Aday Girişi",
+        "aiReasoning": "Yapay Zeka Kararı",
+        "rejected": "REDDEDİLDİ",
+        "emailSequencer": "E-posta Akışı",
+        "crmSync": "CRM Senk.",
+        "meeting": "Toplantı",
+        "activeFlow": "AKTİF AKIŞ",
+        "aiEnabled": "YAPAY ZEKA DESTEKLİ"
+      }
+    },
+    "Footer": {
+      "description": "Modern SaaS ölçeklendirmesi için hepsi bir arada platform. Güvenle otomatikleştirin, optimize edin ve büyüyün.",
+      "sections": {
+        "product": {
+          "title": "Ürün",
+          "links": {
+            "features": "Özellikler",
+            "workflow": "Süreç",
+            "demo": "Demo",
+            "pricing": "Fiyatlandırma",
+            "faq": "SSS"
+          }
+        },
+        "company": {
+          "title": "Şirket",
+          "links": {
+            "about": "Hakkımızda",
+            "blog": "Blog",
+            "careers": "Kariyer",
+            "contact": "İletişim"
+          }
+        },
+        "legal": {
+          "title": "Yasal",
+          "links": {
+            "privacy": "Gizlilik Politikası",
+            "terms": "Kullanım Şartları",
+            "refund": "İade Politikası",
+            "cookie": "Çerez Politikası"
+          }
+        }
+      },
+      "rights": "© {year} Jumpix Inc. Tüm hakları saklıdır.",
+      "status": "Sistem Durumu",
+      "support": "Destek"
+    },
+    "InteractiveShowcase": {
+      "badge": "İnteraktif Ürün Turu",
+      "title_start": "Tüm Satış Yolculuğu İçin",
+      "title_end": "Tek Yapay Zeka Platformu",
+      "description": "Panelimizi gerçek verilerle simüle ettik. Soldaki menü noktalarını kullanarak özellikleri keşfedebilir, ana ekran üzerinden etkileşime geçebilirsiniz.",
+      "hotspots": {
+        "search": {
+          "title": "Lead Bulucu",
+          "description": "Milyonlarca profesyonel veriyi gelişmiş filtrelerle süzün ve listenize ekleyin."
+        },
+        "flowagent": {
+          "title": "Flow Agent",
+          "description": "Yapay zeka asistanınızla satış huninizi otopilota alın, niyet bazlı sinyallerle en sıcak leadleri yakalayın."
+        },
+        "inbox": {
+          "title": "Birleşik Gelen Kutusu",
+          "description": "Tüm kanallardan gelen yanıtları tek bir merkezde toplayın, AI yardımıyla saniyeler içinde yanıtlayın."
+        },
+        "analytics": {
+          "title": "Detaylı Raporlama",
+          "description": "Dönüşüm oranlarını ve kanal bazlı kampanya başarısını anlık analiz ederek yatırım getirinizi ölçün."
+        }
+      },
+      "sidebar": {
+        "mainMenu": "Ana Menü",
+        "system": "Sistem",
+        "dashboard": "Panel",
+        "search": "Lead Bulucu",
+        "sequences": "Flow Agent",
+        "inbox": "Gelen Kutusu",
+        "lists": "Listelerim",
+        "analytics": "Raporlar",
+        "integrations": "Entegrasyonlar",
+        "billing": "Ödeme",
+        "settings": "Ayarlar"
+      },
+      "header": {
+        "platform": "Platform",
+        "shortcut": "Kısayol (⌘K)"
+      },
+      "views": {
+        "dashboard": {
+          "greeting": "Günaydın, Emirhan",
+          "subtitle": "İşte bugün odaklanmanız gereken veriler.",
+          "newCampaign": "Yeni Kampanya",
+          "activeLeads": "Aktif Leadler",
+          "openRate": "E-posta Açma",
+          "replyRate": "Yanıt Oranı",
+          "booking": "Randevular",
+          "campaignPerformance": "Kampanya Performansı",
+          "trendingChannels": "Trend Kanallar",
+          "last7Days": "Son 7 Gün",
+          "last30Days": "Son 30 Gün",
+          "email": "E-posta",
+          "linkedin": "LinkedIn",
+          "whatsapp": "WhatsApp",
+          "viewAll": "Tümünü Gör"
+        },
+        "search": {
+          "title": "Lead Veritabanı",
+          "subtitle": "400M+ profesyonel taranabilir veri.",
+          "filters": "Filtreler",
+          "query": "Sorgula",
+          "cols": [
+            "Ad Soyad",
+            "Şirket & Sektör",
+            "Lokasyon",
+            "Durum"
+          ],
+          "statusVerified": "Doğrulandı",
+          "statusPending": "Beklemede",
+          "industry": "Teknoloji / SaaS",
+          "details": "Detay",
+          "showing": "1,248 kişiden 1-5 arası gösteriliyor",
+          "prev": "Önceki",
+          "next": "Sonraki"
+        },
+        "sequences": {
+          "title": "Kurumsal Erişim 1. Çeyrek",
+          "subtitle": "LinkedIn + Email Hibrit Model",
+          "statusActive": "Aktif",
+          "edit": "Düzenle",
+          "stepDay1": "Gün 1",
+          "stepDay4": "Gün 4",
+          "initialConnection": "İlk İletişim",
+          "wait3Days": "3 Gün Bekle (Yanıt Yoksa)",
+          "linkedinVisit": "Profil Ziyareti & İstek",
+          "emailBody": "Konu: {{company}} için iş birliği önerisi",
+          "linkedinBody": "Not: LinkedIn otomasyonu aktiftir.",
+          "addStep": "+ Adım Ekle"
+        },
+        "analytics": {
+          "totalRevenue": "Toplam Gelir Etkisi (ROI)",
+          "multiplier": "12.4x Çarpan",
+          "vsPrevMonth": "Önceki aya göre +24%",
+          "inboxRate": "Inbox Oranı",
+          "inboxDesc": "E-postalarınızın %92si ana klasöre ulaştı.",
+          "replyAnalysis": "Gelen Yanıt Analizi",
+          "positive": "Olumlu",
+          "neutral": "Nötr",
+          "channels": [
+            "E-posta Kampanyaları",
+            "LinkedIn Mesajlar",
+            "Direkt Erişim (Outbound)"
+          ]
+        }
+      },
+      "tooltip": {
+        "clickToView": "Görüntülemek İçin Tıkla"
+      },
+      "quickAccess": "Hızlı Erişim"
+    },
+    "Mockups": {
+      "hero": {
+        "workspace": "jumpix-calisma-alani",
+        "newLeads": "Yeni Leadler",
+        "qualifying": "Kalifikasyon",
+        "qualified": "Nitelikli",
+        "scoringSignal": "Skor Sinyali: Yuksek Niyet",
+        "organic": "Organik"
+      },
+      "enrichment": {
+        "incoming": "Gelen Webhook",
+        "vpSales": "Satis Baskani - Acme Corp",
+        "companySize": "Sirket Olcegi: 50-200",
+        "industry": "Sektor: SaaS"
+      },
+      "workflow": {
+        "leadCreated": "Lead Olusturuldu",
+        "aiQual": "AI Kalifikasyon",
+        "autoEmail": "Oto E-posta"
+      },
+      "analytics": {
+        "funnel": "Donusum Hunisi",
+        "formFills": "Form Gonderimi",
+        "qualified": "Nitelikli",
+        "meetings": "Toplantilar",
+        "velocity": "Pipeline Hizi",
+        "days": "gun",
+        "winRate": "Kazanma Orani"
+      }
+    }
+  },
+  "Dashboard": {
+    "title": "Komuta Merkezi",
+    "description": "Gerçek zamanlı zeka merkezi. Yapay zeka ajanları tarama yapıyor ve optimize edildi.",
+    "metrics": {
+      "totalRevenue": "Toplam Gelir",
+      "newCustomers": "Yeni Müşteriler",
+      "activeAccounts": "Aktif Hesaplar",
+      "growthRate": "Büyüme Oranı"
+    },
+    "charts": {
+      "performanceIndex": "Performans İndeksi",
+      "neuralFeed": "Sinirsel Akış"
+    },
+    "subtitle": "Tekrar hoş geldiniz. İşte bugünün özeti.",
+    "sections": {
+      "recentLeads": "Son Leadler",
+      "recentActivity": "Son Aktiviteler"
+    },
+    "activity": {
+      "eventLabel": "Olay"
+    },
+    "loading": {
+      "table": "Tablo yükleniyor...",
+      "chart": "Grafik yükleniyor..."
+    }
+  },
+  "Auth": {
+    "login": {
+      "title": "Tekrar Hoş Geldiniz",
+      "subtitle": "30 günlük ücretsiz deneme sürümünüzle başlayın",
+      "emailPlaceholder": "E-posta adresinizi girin",
+      "passwordPlaceholder": "Şifrenizi girin",
+      "rememberMe": "Beni Hatırla",
+      "forgotPassword": "Şifremi Unuttum",
+      "submit": "Jumpix'e Giriş Yap",
+      "noAccount": "Henüz hesabınız yok mu?",
+      "signUp": "Kaydol",
+      "securityVerification": "Güvenlik Doğrulaması"
+    },
+    "signup": {
+      "title": "Hesap Oluşturun",
+      "subtitle": "Daha iyi satış yapan binlerce işletmeye katılın",
+      "namePlaceholder": "Adınızı girin",
+      "submit": "Hesap Oluştur",
+      "alreadyHaveAccount": "Zaten hesabınız var mı?",
+      "login": "Giriş Yap"
+    },
+    "forgotPassword": {
+      "title": "Şifreyi Sıfırla",
+      "subtitle": "Şifrenizi sıfırlamak için e-posta adresinizi girin",
+      "question": "Şifrenizi hatırlıyor musunuz?",
+      "submit": "Sıfırlama Bağlantısı Gönder",
+      "backToLogin": "Girişe Dön"
+    },
+    "social": {
+      "google": "Google ile devam et"
+    },
+    "messages": {
+      "checkEmail": "Onay bağlantısı için e-postanızı kontrol edin.",
+      "linkSent": "Şifre sıfırlama bağlantısı gönderildi! E-postanızı kontrol edin.",
+      "error": "Bir hata oluştu.",
+      "captchaRequired": "Lütfen robot olmadığınızı doğrulayın."
+    },
+    "divider": "Veya",
+    "hero": {
+      "title": "Jumpix Dünyasına Hoş Geldiniz",
+      "subtitle": "Satış süreçlerinizi tek bir platformdan yönetin, AI ile verimliliğinizi artırın.",
+      "mockup": {
+        "triggerTitle": "Yeni Lead Eklendi",
+        "triggerSubtitle": "ICP ile eşleşen adaylar tetiklenir",
+        "intentTitle": "Niyet Skorunu Kontrol Et",
+        "intentStatus": "Yüksek",
+        "sequenceTitle": "Sequence Başlat: Q1 Outreach",
+        "sequenceVariant": "Varyant B",
+        "sequenceStatus": "Çalışıyor..."
+      }
+    },
+    "resetPassword": {
+      "titleReset": "Şifreyi Sıfırla",
+      "titleInvite": "Hesabınızı Tamamlayın",
+      "subtitleReset": "Erişimi yeniden kazanmak için aşağıya yeni şifrenizi girin.",
+      "subtitleInvite": "Devam etmek için lütfen yeni şifrenizi belirleyin.",
+      "labelNewPassword": "Yeni Şifre",
+      "labelConfirmPassword": "Yeni Şifreyi Onayla",
+      "submit": "Şifreyi Güncelle",
+      "successTitle": "Şifre başarıyla güncellendi!",
+      "successRedirect": "Giriş sayfasına yönlendiriliyorsunuz...",
+      "backToLogin": "Giriş Sayfasına Dön",
+      "errorMinLength": "Şifre en az 6 karakter olmalıdır",
+      "errorMismatch": "Şifreler eşleşmiyor",
+      "errorNoSession": "Oturum bulunamadı. Lütfen bağlantıya tekrar tıklayın veya sayfayı yenileyin."
+    }
+  },
+  "Contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Yapay zeka çözümlerimiz hakkında sorularınız mı var? İşinizi büyütmenize yardımcı olmak için buradayız.",
+    "infoTitle": "İletişim Bilgileri",
+    "emailLabel": "E-posta",
+    "phoneLabel": "Telefon",
+    "visitLabel": "Adres",
+    "chatTitle": "Canlı Destek",
+    "chatDesc": "Acil yardıma mı ihtiyacınız var? Destek ekibimiz 7/24 hizmetinizdedir.",
+    "startChat": "Sohbeti Başlat",
+    "formTitle": "Bize Mesaj Gönderin",
+    "name": "İsim",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "placeholderName": "John Doe",
+    "placeholderEmail": "john@example.com",
+    "placeholderMessage": "Size nasıl yardımcı olabiliriz?",
+    "submit": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesaj başarıyla gönderildi!",
+    "securityVerification": "Güvenlik Doğrulaması"
+  },
+  "Sequences": {
+    "loading": "Yükleniyor...",
+    "active": "Aktif",
+    "passive": "Pasif",
+    "draft": "Taslak",
+    "published": "Yayınlandı",
+    "title": "Sekans Merkezi",
+    "reporting": "Performans Analizi",
+    "all": "Sekanslar",
+    "queue": "Kuyruk",
+    "common": {
+      "status": "Durum"
+    },
+    "settings": "Ayarlar",
+    "newSequence": "Yeni Sekans",
+    "searchPlaceholder": "Sekans ara...",
+    "filterAll": "Tümü",
+    "filterActive": "Aktif",
+    "filterDraft": "Taslak",
+    "filterInactive": "Pasif",
+    "table": {
+      "name": "Sekans Adı",
+      "steps": "Adımlar",
+      "status": "Durum",
+      "performance": "Performans",
+      "action": "Aksiyon",
+      "noSteps": "Adım Yok",
+      "loading": "Yükleniyor..."
+    },
+    "actions": {
+      "edit": "Düzenle",
+      "pause": "Durdur",
+      "start": "Başlat",
+      "paused": "Sekans başarıyla durduruldu",
+      "started": "Sekans başarıyla başlatıldı",
+      "delete": "Sil",
+      "saveDraft": "Taslağı Kaydet",
+      "publish": "Yayınla",
+      "cancel": "İptal",
+      "deleteConfirm": "Bu sekansı silmek istediğinize emin misiniz?",
+      "deleteSuccess": "Sekans başarıyla silindi.",
+      "queueSuccess": "İşlem başarıyla tamamlandı",
+      "deleteWarning": "Bu işlem geri alınamaz. Kayıtlı tüm lead'ler bu sequence'dan çıkarılacaktır."
+    },
+    "noResults": "Sonuç bulunamadı",
+    "noResultsDesc": "Arama kriterlerinize uygun sekans bulunamadı.",
+    "stats": {
+      "active": "Aktif",
+      "sent": "Gönderilen",
+      "opened": "Açılış",
+      "revenue": "Gelir",
+      "waiting": "Bekleyen",
+      "unitMessages": "MESAJ",
+      "unitPcs": "ADET",
+      "unitCurrency": "TL"
+    },
+    "reportingTitle": "Kampanya Performansı",
+    "reportingDesc": "Son 30 günlük gönderim ve etkileşim trendi",
+    "queueTitle": "Aktif İşlem Kuyruğu",
+    "queueDesc": "Gönderilmeyi bekleyen ve işlemde olan sekans adımları",
+    "settingsTitle": "Sekans Yapılandırması",
+    "settingsDesc": "Hesap bazlı gönderim limitleri ve global kurallar",
+    "settingsForm": {
+      "limits": "Gönderim Limitleri",
+      "dailyLimitsDesc": "Kanal bazlı gönderim kapasitenizi yapılandırın",
+      "dailyEmail": "Günlük E-posta Limiti",
+      "dailyWhatsapp": "Aylık WhatsApp Limiti",
+      "limitsMaxEmail": "Maks: {max} / gün ({plan} planı)",
+      "limitsMaxWhatsapp": "Maks: {max} / ay ({plan} planı)",
+      "blackoutWindow": "Kısıtlama Zaman Dilimi Görselleştirmesi",
+      "safety": "Gönderim Güvenliği",
+      "limitsSafetyNote": "Düşük limitler, gönderici profilinizi korumanıza ve spam filtrelerinden kaçınmanıza yardımcı olur. Yeni hesapları yavaşça ısıtmanızı (warm-up) öneririz.",
+      "unsubControl": "Abonelik Kontrolü",
+      "unsubDesc": "Global Uyumluluk Motoru",
+      "privacyNote": "Tüm sekanslarda iletişimi durdurmak isteyen adayları otomatik olarak hariç bırakmak için bu ayarı etkinleştirin.",
+      "blackout": "Kısıtlı Saatler",
+      "schedulingDesc": "Gelişmiş Zaman Zekası",
+      "startHour": "Kısıtlama Başlangıcı",
+      "endHour": "Kısıtlama Bitişi",
+      "activeDeliveryWindow": "Dinamik Gönderim Zaman Çizelgesi",
+      "action": "Zamanlama Çakışma Çözümü",
+      "actionDesc": "Zamanlanmış bir adım kısıtlı bir saate denk geldiğinde sistemin nasıl tepki vereceğini seçin.",
+      "actionDelay": "Hassas Geciktirme",
+      "actionSkip": "Akıllı Atlama",
+      "save": "Değişiklikleri Uygula",
+      "saving": "Kaydediliyor...",
+      "timezone": "Varsayılan Saat Dilimi",
+      "timezoneDesc": "Kısıtlı saat penceresi hesaplamaları için kullanılır"
+    },
+    "queueTabs": {
+      "queue": "Kuyruk",
+      "sent": "Gönderildi",
+      "failed": "Hatalılar"
+    },
+    "queueTable": {
+      "lead": "Lead / Müşteri",
+      "seqStep": "Sekans / Adım",
+      "sequence": "Sekans",
+      "channel": "Kanal",
+      "step": "Adım",
+      "dueAt": "Planlanan Zaman",
+      "sentAt": "Gönderilme Zamanı",
+      "status": "Durum",
+      "action": "İşlem",
+      "pending": "Bekliyor",
+      "failed": "Hatalı ({{retry}} tekrar)",
+      "empty": "Kuyrukta öğe yok.",
+      "emptySent": "Son 30 günde gönderilmiş mesaj yok.",
+      "emptyFailed": "Hatalı kayıt yok.",
+      "retries": "Tekrarlar",
+      "lastError": "Son Hata",
+      "showing": "Gösterilen",
+      "of": "toplam",
+      "loading": "Yükleniyor..."
+    },
+    "builder": {
+      "toastSave": "Ayarlar başarıyla kaydedildi",
+      "actions": {
+        "saveDraft": "Taslağı Kaydet",
+        "publish": "Yayınla"
+      },
+      "published": "Yayınlandı",
+      "loading": "Flow Builder Yükleniyor...",
+      "defaultName": "Yeni Akıllı Sekans",
+      "drafting": "Taslak Ediliyor",
+      "palette": "Adım Paleti",
+      "email": "E-posta",
+      "emailDesc": "Otomatik mesaj gönder",
+      "whatsapp": "WhatsApp",
+      "whatsappDesc": "WhatsApp mesajı",
+      "condition": "Koşul",
+      "conditionDesc": "Bekle ve dallan",
+      "task": "Manuel Görev",
+      "taskDesc": "Ekip üyesine görev ata",
+      "trigger": "Tetikleyici",
+      "triggerLabel": "Tetikleyici Tipi",
+      "triggerNoResponse": "Yanıt Alınamazsa",
+      "triggerCreated": "Yeni Lead Oluşturulduğunda",
+      "triggerMeeting": "Toplantı Alındığında",
+      "triggerInstant": "Instant Start (Anında Başlat)",
+      "triggerNow": "Şimdi Başlat",
+      "triggerCustom": "Özel Tetikleyici (API/Webhook)",
+      "triggerHubspot": "HubSpot'tan Geldiğinde",
+      "triggerSalesforce": "Salesforce'dan Geldiğinde",
+      "triggerPipedrive": "Pipedrive'dan Geldiğinde",
+      "triggerZoho": "Zoho'dan Geldiğinde",
+      "targetLabel": "Hedef",
+      "targetAll": "Tüm Havuz",
+      "aiIcebreaker": "Yapay Zeka Destekli Buzkıran",
+      "aiAutopilot": "Yapay Zeka Destekli Otopilot",
+      "templateLabel": "Mesaj Şablonu",
+      "templatePlaceholder": "Mesajınızı buraya yazın...",
+      "btnIcebreaker": "Buzkıran",
+      "btnOptimize": "Optimize Et",
+      "delayLabel": "Gecikme (Saat)",
+      "branchYes": "EVET",
+      "branchNo": "HAYIR",
+      "controlLabel": "Kontrol",
+      "controlReplied": "Yanıt Geldi mi?",
+      "controlOpened": "E-posta Açıldı mı?",
+      "selectionPlaceholder": "Seçim Yapın",
+      "selectionDesc": "Bileşen üzerinde bir adıma tıklayarak ayarlarını düzenleyebilirsiniz.",
+      "toastSuccess": "Sekans başarıyla yayınlandı!",
+      "toastDraft": "Taslak başarıyla kaydedildi!",
+      "toastAiSuccess": "AI içeriği başarıyla oluşturuldu",
+      "toastAiError": "AI içeriği oluşturulamadı",
+      "toastError": "Bir hata oluştu",
+      "toastEmptyTemplate": "Kaydetmeden önce tüm adımlar için mesaj şablonunu doldurun.",
+      "toastConditionWarning": "Not: Koşul düğümleri yalnızca görseldir, mevcut sürümde işlenmez.",
+      "subjectLabel": "E-posta Konusu",
+      "subjectPlaceholder": "E-posta konu satırını girin...",
+      "abTestLabel": "A-B Testi",
+      "abTestDesc": "Bu mesajın iki farklı versiyonunu test edin",
+      "variantALabel": "Varyant A",
+      "variantBLabel": "Varyant B",
+      "subjectBLabel": "Konu (Varyant B)",
+      "templateBLabel": "Mesaj (Varyant B)",
+      "variantSwitch": "Aktif Varyant",
+      "variantSwitchA": "Varyant A'yı Göster",
+      "variantSwitchB": "Varyant B'yi Göster"
+    },
+    "templates": "Şablonlar",
+    "templatesTitle": "Sequence Şablonları",
+    "templatesDescription": "Hızlı başlamak için hazır sequence şablonlarından birini seçin.",
+    "steps": "Adım",
+    "useTemplate": "Bu Şablonu Kullan"
+  },
+  "Tour": {
+    "step1": {
+      "title": "Jumpix'e Hoş Geldiniz! 🚀",
+      "description": "Yapay zeka asistanınızı kısaca tanıtalım. Bu sadece bir dakikanızı alacak."
+    },
+    "step2": {
+      "title": "Kontrol Paneli",
+      "description": "Önemli metriklerinizi, sistem durumunu ve son yapay zeka aktivitelerini tek bakışta görün."
+    },
+    "step3": {
+      "title": "Satış Hunisi",
+      "description": "Müşteri adaylarınızı farklı aşamalarda takip edin. Durumunu manuel olarak güncellemek isterseniz sürükleyip bırakabilirsiniz."
+    },
+    "step4": {
+      "title": "Canlı Konuşmalar",
+      "description": "Yapay zeka ve insan etkileşimlerini gerçek zamanlı izleyin. İstediğiniz an herhangi bir sohbete dahil olabilirsiniz."
+    },
+    "step5": {
+      "title": "B2B Müşteri Veritabanı",
+      "description": "Yeni potansiyel müşteriler keşfetmek için 400 milyondan fazla profesyonel iletişim bilgisine erişin."
+    },
+    "step6": {
+      "title": "Akıllı Akışlar (Sequences)",
+      "description": "Yanıt vermeyen adaylarla tekrar etkileşim kurmak için E-posta ve WhatsApp üzerinden çok kanallı takip akışları tasarlayın."
+    },
+    "step7": {
+      "title": "Ekip ve Yönlendirme",
+      "description": "Temsilcilerinizi yönetin ve otomatik müşteri yönlendirme (Round-Robin) yapısını kurun."
+    },
+    "step8": {
+      "title": "Kurulum Sihirbazı",
+      "description": "Kanallarınızı veya takviminizi yeniden ayarlamak mı istiyorsunuz? Kurulum sihirbazı her zaman burada hazır."
+    },
+    "buttons": {
+      "next": "İleri →",
+      "prev": "← Geri",
+      "done": "Turu Bitir"
+    }
+  },
+  "UseCases": {
+    "customerSuccess": {
+      "eyebrow": "Müşteri Başarısı",
+      "title": "Satış sonrası takibi ölçülebilir bir müşteri büyütme workflow'una dönüştürün",
+      "description": "Jumpix; müşteri başarısı ekiplerinin hesap sinyallerini merkezileştirmesine, riskli veya büyümeye hazır müşterileri önceliklendirmesine ve doğru takibi inbox, WhatsApp, takvim ve CRM bağlantılı workflow'larla başlatmasına yardım eder.",
+      "outcomes": {
+        "fasterRisk": {
+          "title": "Riske daha hızlı yanıt",
+          "description": "Churn sinyallerini daha erken yakalayın ve sessizlik iptale dönüşmeden müşteri iletişimini tetikleyin."
+        },
+        "expansion": {
+          "title": "Büyüme fırsatlarında görünürlük",
+          "description": "Yüksek niyetli konuşmaları tespit edin ve upsell veya cross-sell fırsatlarını doğru sahibe yönlendirin."
+        },
+        "renewals": {
+          "title": "Daha tutarlı yenilemeler",
+          "description": "Yenileme kontrol noktalarını, paydaş takibini ve toplantı geçmişini tek bir icra katmanında görünür tutun."
+        }
+      }
+    },
+    "sales": {
+      "eyebrow": "Satış Ekipleri",
+      "title": "Momentum düşmeden her ciddi lead'i bir satış görüşmesine dönüştürün",
+      "description": "Jumpix satış ekiplerine pratik bir icra katmanı sunar: inbound talebi toplayin, niyeti bağlamla skorlayın, çok kanallı takibi başlatın ve nitelikli fırsatları toplantı aşamasına daha hızlı taşıyın.",
+      "outcomes": {
+        "fasterReply": {
+          "title": "Yüksek niyetli lead'lere daha hızlı dönün",
+          "description": "Öncelikli lead'leri manuel triage beklemeden dakikalar içinde doğru temsilciye yönlendirin."
+        },
+        "moreMeetings": {
+          "title": "Daha fazla nitelikli toplantı planlayın",
+          "description": "AI destekli kalifikasyon ve zamanında iletişimle ilgiyi takvimdeki toplantıya dönüştürün."
+        }
+      }
+    },
+    "marketing": {
+      "eyebrow": "Pazarlama Ekipleri",
+      "title": "Pazarlama ekiplerinin kampanya talebini kalifiye pipeline'a dönüştürmesine yardım edin",
+      "description": "Jumpix, pazarlama liderlerine kampanya performansının lead formda bitmediğini göstermelidir. Bu performans yönlendirme, kalifikasyon ve satış handoff kalitesinde devam eder.",
+      "outcomes": {
+        "cleanIntake": {
+          "title": "Daha temiz lead intake",
+          "description": "Ham kampanya talebini doğrudan pipeline'a itmeyin."
+        },
+        "handoff": {
+          "title": "Daha iyi handoff kalitesi",
+          "description": "İlk takip başlamadan önce satışa daha zengin bağlam geçirin."
+        }
+      }
+    }
+  },
+  "Solutions": {
+    "analytics": "Analitik",
+    "flowBuilder": "Flow Builder",
+    "sequences": "Akıllı Sequence'ler",
+    "aiAgents": "AI Temsilcileri"
+  },
+  "Features": {
+    "leadCapture": "Lead Yakalama",
+    "leadEnrichment": "Lead Zenginleştirme",
+    "leadScoring": "Lead Skorlama",
+    "sequences": "Sequence'ler",
+    "pipelineAnalytics": "Pipeline Analitiği"
+  },
+  "MarketingIntegrations": {
+    "google-ads": "Google Ads",
+    "whatsapp": "WhatsApp",
+    "meta": "Meta Lead Ads",
+    "hubspot": "Hubspot",
+    "pipedrive": "Pipedrive"
+  },
+  "Marketing": {
+    "pricing": "Fiyatlandırma",
+    "integrations": "Entegrasyonlar",
+    "showcase": "Ürün Turunu Gör",
+    "trial": "Ücretsiz Denemeyi Başlat"
+  },
+  "Chatbot": {
+    "title": "Web AI Sohbet Botu",
+    "subtitle": "Ziyaretçi etkileşimini profesyonel bir yapay zeka widgetı ile dönüştürün.",
+    "buttons": {
+      "saveConfig": "Yapılandırmayı Kaydet",
+      "saving": "Kaydediliyor...",
+      "saved": "Kaydedildi!",
+      "initializeWidget": "Widgetı Şimdi Oluştur",
+      "copySnippet": "Snippet'i Kopyala",
+      "copied": "Kopyalandı!"
+    },
+    "tabs": {
+      "customization": "Özelleştirme",
+      "preview": "Görsel Önizleme",
+      "integration": "Entegrasyon"
+    },
+    "status": {
+      "label": "Widget Durumu",
+      "active": "Web Sitelerinde Aktif",
+      "inactive": "Şu Anda Durduruldu"
+    },
+    "ready": {
+      "title": "Yayına Hazır",
+      "description": "Widget'ınız yapılandırıldı ve hazır. Leadleri anında yakalamaya başlamak için kod snippet'ini sitenize yapıştırın."
+    },
+    "sections": {
+      "brandIdentity": "Marka ve Kimlik",
+      "behavior": "AI Davranışı ve Mesajlar",
+      "leadCapture": "Lead Yakalama Alanları"
+    },
+    "fields": {
+      "internalName": "Dahili Ad",
+      "internalNamePlaceholder": "Pazarlama Sitesi Sohbet Botu",
+      "botName": "Botun Herkese Açık Adı",
+      "botNamePlaceholder": "Yapay Zeka Asistanı",
+      "color": "Ana Marka Rengi",
+      "greeting": "Karşılama Mesajı",
+      "greetingPlaceholder": "Merhaba! Ben yapay zeka asistanınız. Bugün size nasıl yardımcı olabilirim?",
+      "greetingInputPlaceholder": "Merhaba! Hizmetlerimiz hakkında herhangi bir sorunuz var mı?",
+      "formTitle": "Form Başlığı",
+      "formTitlePlaceholder": "Bir görüşme başlatın",
+      "inputPlaceholder": "Giriş Yer Tutucusu",
+      "inputPlaceholderText": "Bana herhangi bir şey sorun...",
+      "emailLabel": "E-posta Adresi",
+      "emailDesc": "CRM ve Lead bölümlerinizle otomatik olarak senkronize edilir.",
+      "phoneLabel": "Telefon Numarası",
+      "phoneDesc": "İsteğe bağlı: Yüksek bütçeli doğrudan erişim için yararlıdır."
+    },
+    "badges": {
+      "tokensFree": "Sınırsız Token"
+    },
+    "preview": {
+      "content": "Web sitenizin içeriği burada görünecektir.",
+      "status": "Şu an çevrimiçi",
+      "chatPlaceholder": "Daha fazlasını görmek için sohbete başlayın...",
+      "domain": "alanadiniz.com"
+    },
+    "embed": {
+      "noIdTitle": "ID oluşturmak için kaydedin",
+      "noIdDescription": "Entegrasyon scriptinizi tamamlamak için önce yukarıdaki düğmeyi kullanarak yapılandırmanızı kaydedin.",
+      "scriptTitle": "Kurulum Scripti",
+      "scriptDescription": "Bu snippet'i kopyalayın ve web sitenizin header bölümüne veya kapanış body etiketinden hemen öncesine yapıştırın."
+    },
+    "features": {
+      "lightweightTitle": "Hafif",
+      "lightweightDesc": "Ağır kütüphaneler yok. Maksimum hız için saf vanilla JS.",
+      "crossDomainTitle": "Çapraz Alan Adı",
+      "crossDomainDesc": "WordPress, Shopify, Next.js ve statik HTML'de çalışır.",
+      "autoUpdateTitle": "Otomatik Güncelleme",
+      "autoUpdateDesc": "Değişiklikler, kodu yeniden dağıtmadan anında yansır."
+    }
+  },
+  "Support": {
+    "title": "Destek Taleplerim",
+    "subtitle": "Açık taleplerinizi takip edin ve buradan yenilerini oluşturun.",
+    "buttons": {
+      "newTicket": "Yeni Destek Talebi",
+      "filter": "Filtrele",
+      "createFirst": "İlk Talebi Oluştur"
+    },
+    "search": {
+      "placeholder": "Destek taleplerinde ara..."
+    },
+    "loading": {
+      "message": "Destek talepleri yükleniyor..."
+    },
+    "empty": {
+      "title": "Henüz destek talebi yok",
+      "description": "Herhangi bir sorunuz veya sorununuz varsa hemen bir destek talebi oluşturun."
+    },
+    "status": {
+      "open": "Açık",
+      "inProgress": "İşlemde",
+      "in_progress": "İşlemde",
+      "resolved": "Çözüldü",
+      "closed": "Kapalı"
+    },
+    "priority": {
+      "low": "Düşük",
+      "medium": "Orta",
+      "high": "Yüksek",
+      "urgent": "Acil"
+    },
+    "table": {
+      "lastUpdated": "Son güncelleme: {time}"
+    },
+    "newTicket": {
+      "goBack": "Geri Dön",
+      "title": "Yeni Bir Talep Oluştur",
+      "subtitle": "Size en iyi şekilde yardımcı olabilmemiz için lütfen sorununuzu ayrıntılı olarak açıklayın.",
+      "fields": {
+        "subject": "Konu",
+        "subjectPlaceholder": "Sorunu özetleyin (örn. Giriş problemi)",
+        "priority": "Öncelik",
+        "priorityPlaceholder": "Öncelik Seçin",
+        "description": "Açıklama",
+        "descriptionPlaceholder": "Lütfen sorununuzu detaylı olarak yazın...",
+        "hint": "Hata mesajları veya ekran görüntüleri sağlamak süreci hızlandırır."
+      },
+      "buttons": {
+        "submit": "Talebi Gönder",
+        "sending": "Gönderiliyor..."
+      }
+    },
+    "detail": {
+      "ticketId": "Ticket ID:",
+      "created": "Created:",
+      "supportTeam": "Support Team",
+      "me": "Me",
+      "ticketResolvedMessage": "This ticket is resolved. You can reopen it by sending a new message.",
+      "ticketClosedMessage": "This ticket is closed. You can reopen it by sending a new message.",
+      "messagePlaceholder": "Write your message...",
+      "ticketDetails": "Ticket Details",
+      "priority": "Priority",
+      "status": "Status",
+      "lastUpdate": "Last Update",
+      "replyTimePrefix": "Our support team usually replies within",
+      "replyTimeHighlight": "2-4 hours"
+    }
+  },
+  "Pipeline": {
+    "title": "Satış Süreci",
+    "subtitle": "Lead'lerinizi dönüşüm hunisi üzerinden takip edin ve yönetin.",
+    "search": {
+      "placeholder": "Lead bul..."
+    },
+    "buttons": {
+      "filter": "Filtrele",
+      "newLead": "Yeni Lead"
+    },
+    "columns": {
+      "newLead": "Yeni Lead",
+      "contacted": "İletişime Geçildi",
+      "qualified": "Kalifiye",
+      "booked": "Toplantı Ayarlandı",
+      "unqualified": "Kalifiye Değil/Kapalı",
+      "empty": "Lead'leri buraya bırakın",
+      "total": "Toplam: {count}"
+    },
+    "feedback": {
+      "dragging": "SÜRÜKLENİYOR"
+    },
+    "card": {
+      "score": "Skor: {score}",
+      "noCompany": "Şirket Yok",
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "confirmDelete": "Bu lead'i silmek istediğinize emin misiniz?"
+    }
+  },
+  "TeamSettings": {
+    "title": "Ekip Yönetimi",
+    "subtitle": "Ekip üyelerinizi, rollerini ve bekleyen davetleri yönetin.",
+    "buttons": {
+      "addMember": "Üye Ekle",
+      "inviteFirst": "İlk Üyeyi Davet Et",
+      "sendInvite": "Davet Gönder"
+    },
+    "invite": {
+      "title": "Yeni Üye Davet Et",
+      "emailLabel": "E-posta Adresi",
+      "roleLabel": "Rol",
+      "rolePlaceholder": "Rol Seçin"
+    },
+    "roles": {
+      "member": "Üye",
+      "agent": "Temsilci",
+      "admin": "Yönetici"
+    },
+    "table": {
+      "member": "Üye",
+      "role": "Rol",
+      "status": "Durum",
+      "actions": "İşlemler",
+      "noName": "İsim Yok",
+      "teamMembers": "Ekip Üyeleri ({count})"
+    },
+    "status": {
+      "pending": "Beklemede",
+      "active": "Aktif"
+    },
+    "tooltips": {
+      "cancelInvite": "Daveti İptal Et",
+      "removeMember": "Üyeyi Kaldır"
+    },
+    "empty": {
+      "title": "Henüz ekip üyesi yok",
+      "description": "Projelerinizde işbirliği yapmaya başlamak için ilk ekip üyenizi davet edin."
+    },
+    "toasts": {
+      "emailRequired": "Lütfen bir e-posta adresi girin.",
+      "inviteSent": "Davet başarıyla gönderildi",
+      "unexpectedError": "Beklenmedik bir hata oluştu.",
+      "removing": "Üye kaldırılıyor...",
+      "memberRemoved": "Üye başarıyla kaldırıldı"
+    },
+    "confirmDeleteMember": "Bu ekip üyesini veya daveti silmek istediğinize emin misiniz?"
+  },
+  "CalendarPage": {
+    "title": "Takvim",
+    "subtitle": "AI tarafından planlanan randevuları yönetin.",
+    "nextAppointment": "Sonraki Randevu",
+    "pastMeetings": "Toplantı Kayıtları",
+    "tabs": {
+      "calendar": "Takvim",
+      "records": "Toplantı Kayıtları",
+      "manual": "Toplantı Planla"
+    },
+    "buttons": {
+      "joinMeeting": "Toplantıya Katıl"
+    },
+    "empty": {
+      "noMeetings": "Yaklaşan toplantı yok"
+    },
+    "sync": {
+      "button": "Google Takvim'i Senkronize Et",
+      "syncing": "Senkronize ediliyor...",
+      "success": "{synced} yeni eklendi, {updated} güncellendi",
+      "error": "Senkronizasyon başarısız",
+      "notConnected": "Google Takvim bağlı değil",
+      "lastSync": "Google Takvim ile senkronize edildi"
+    }
+  },
+  "AITraining": {
+    "title": "AI Eğitim Merkezi",
+    "subtitle": "Yapay zeka asistanınızın nasıl konuştuğunu ve işletmeniz hakkında neler bildiğini kişiselleştirin.",
+    "sections": {
+      "brandVoice": "Marka Sesi / Tonu",
+      "brandVoiceDesc": "Potansiyel müşterilerle konuşurken yapay zekanın sahip olması gereken üslup.",
+      "personalization": "Ses Kişiselleştirme",
+      "personalizationDesc": "Marka kimliğinize en uygun tonu seçin.",
+      "knowledgeBase": "Bilgi Tabanı (Bağlam)",
+      "knowledgeBaseDesc": "Hizmetleriniz, fiyatlandırmanız ve iş politikalarınız hakkında detaylı bilgiler.",
+      "autonomousCore": "Autonomous Core",
+      "sandbox": "Sandbox Simulator",
+      "datasources": "Knowledge Sources",
+      "qualificationQuestions": "Nitelendirme Soruları",
+      "analytics": "Performans",
+      "persona": "AI Persona",
+      "rules": "Yasaklı Konular & Zorunlu Kurallar",
+      "faqBuilder": "SSS Oluşturucu",
+      "unanswered": "Cevaplanmayan Sorular"
+    },
+    "voices": {
+      "professional": "Profesyonel",
+      "friendly": "Arkadaş Canlısı",
+      "casual": "Samimi"
+    },
+    "placeholders": {
+      "knowledgeBase": "İşletmenizi, hizmetlerinizi, ekibinizi ve temel politikalarınızı burada tanımlayın. Ne kadar çok detay verirseniz, yapay zekanız o kadar iyi performans gösterir..."
+    },
+    "buttons": {
+      "save": "Yapılandırmayı Kaydet",
+      "saving": "Senkronize Ediliyor...",
+      "deploy": "Deploy to Production",
+      "deploying": "Deploying...",
+      "executeQuery": "Execute Test Query"
+    },
+    "fields": {
+      "brandVoice": "Brand Voice / Tone",
+      "knowledgeBase": "Knowledge Base (Context)",
+      "knowledgeBasePlaceholder": "Describe your business, services, team, and key policies here. The more detail you provide, the better your AI will perform...",
+      "knowledgeBaseHint": "The AI will use this information to respond to all customer inquiries.",
+      "autonomousMode": "Autonomous Mode",
+      "autonomousModeDesc": "AI handles responses instantly without manual approval.",
+      "responseDelay": "Yanıt Gecikmesi",
+      "responseDelayDesc": "AI yanıt göndermeden önce bekleyeceği süre — insan yazma hissini simüle eder.",
+      "responseDelayInstant": "Anında",
+      "responseDelayUnit": "sn"
+    },
+    "sandbox": {
+      "description": "Test your current AI configuration in a safe environment before going live.",
+      "placeholder": "Ask something like: What are your pricing plans? or Who is your founder?",
+      "outputLabel": "AI Simulation Output",
+      "clear": "Temizle",
+      "you": "Siz",
+      "ai": "AI",
+      "empty": "AI yapılandırmanızı test etmeye başlamak için bir mesaj gönderin."
+    },
+    "badges": {
+      "alphaPreview": "Alpha Preview"
+    },
+    "features": {
+      "webscraper": "Web Scraper",
+      "webscraperDesc": "Automatic knowledge sync from your website (Coming Soon)."
+    },
+    "toasts": {
+      "saved": "Ayarlar başarıyla kaydedildi!",
+      "saveError": "Ayarlar kaydedilemedi",
+      "testError": "Test hatası"
+    },
+    "qualificationQuestions": {
+      "description": "Bu sorular AI tarafından gelen lead'leri nitelendirmek için sorulacaktır.",
+      "placeholder": "örn. Bütçeniz nedir?",
+      "addQuestion": "Soru Ekle",
+      "empty": "Henüz soru eklenmedi. Lead'leri nitelendirmek için bir tane ekleyin."
+    },
+    "analytics": {
+      "title": "Performans (Son 30 Gün)",
+      "responses": "AI Yanıtları",
+      "meetings": "Rezerve Toplantı",
+      "rate": "Booking Oranı",
+      "empty": "Henüz veri yok"
+    },
+    "fallback": {
+      "title": "Fallback Davranışı",
+      "description": "AI bir soruya cevap veremediğinde ne olacak.",
+      "noneLabel": "Eylem Yok",
+      "noneDesc": "AI emin olmasa da yanıt vermeye devam eder.",
+      "handoffLabel": "İnsana Devret",
+      "handoffDesc": "AI'yı devre dışı bırak ve konuşmayı insan temsilciye işaretle.",
+      "customLabel": "Özel Mesaj",
+      "customDesc": "AI emin olmadığında önceden hazırlanmış bir yanıt gönder.",
+      "messagePlaceholder": "örn. Ulaştığınız için teşekkürler! Ekibimizden biri en kısa sürede sizinle iletişime geçecek."
+    },
+    "persona": {
+      "description": "AI'ınıza bir isim ve kısa bir tanıtım verin. Potansiyel müşteriler isimli asistanlara daha iyi yanıt verir.",
+      "nameLabel": "AI Adı",
+      "namePlaceholder": "örn. Alex, Sara, Max...",
+      "introLabel": "Tanıtım Mesajı",
+      "introPlaceholder": "örn. Merhaba! Ben Acme Corp'un dijital asistanıyım."
+    },
+    "rules": {
+      "forbiddenLabel": "Yasaklı Konular",
+      "forbiddenDesc": "AI hiçbir koşulda bu konuları tartışmayacak.",
+      "forbiddenPlaceholder": "örn. Rakip fiyatlandırması",
+      "mandatoryLabel": "Zorunlu Kurallar",
+      "mandatoryDesc": "AI her yanıtta bu kuralları mutlaka uygulayacak.",
+      "mandatoryPlaceholder": "örn. Her zaman 30 günlük garantimizden bahset"
+    },
+    "faqBuilder": {
+      "description": "Yapılandırılmış S-C çiftleri AI'a yaygın sorular için kesin yanıtlar verir. Serbest metin bilgi tabanından daha güvenilirdir.",
+      "questionPlaceholder": "örn. İade politikanız nedir?",
+      "answerPlaceholder": "örn. 30 günlük zahmetsiz iade politikamız var...",
+      "addItem": "SSS Maddesi Ekle",
+      "empty": "Henüz SSS maddesi yok. İlk soru-cevap çiftinizi ekleyin."
+    },
+    "unanswered": {
+      "description": "AI'ın son 30 günde yanıtlayamadığı sorular. Boşluğu kapatmak için bunları bilgi tabanınıza ekleyin.",
+      "addToKb": "SSS'ye Ekle",
+      "empty": "Bilgi boşluğu tespit edilmedi. AI tüm soruları başarıyla yanıtlıyor!"
+    },
+    "industryTemplates": {
+      "button": "Şablon Kullan",
+      "title": "Sektör Şablonları",
+      "subtitle": "Sektörünüz için önceden hazırlanmış bir şablon seçin. Uyguladıktan sonra özelleştirebilirsiniz."
+    },
+    "tips": {
+      "title": "İpuçları",
+      "tip1": "İsimli AI asistanlar (Alex, Sara) anonim botlara göre %40 daha yüksek yanıt oranı alır.",
+      "tip2": "Yaygın sorular için SSS Oluşturucu kullanın — serbest metin bilgi tabanından daha güvenilirdir.",
+      "tip3": "AI'ınızı sürekli geliştirmek için Cevaplanmayan Soruları haftalık kontrol edin."
+    },
+    "setup": {
+      "title": "AI Kurulum Sihirbazı",
+      "subtitle": "Asistanınızı sadece 5 dakikada eğitin ve canlıya alın.",
+      "steps": {
+        "businessProfile": "İşletme Profili",
+        "persona": "AI Persona",
+        "knowledgeBase": "Bilgi Tabanı",
+        "qualification": "Nitelendirme",
+        "rules": "Kurallar",
+        "goLive": "Canlıya Geç"
+      },
+      "buttons": {
+        "next": "Sonraki Adım",
+        "back": "Geri",
+        "complete": "Kurulumu Tamamla",
+        "skip": "Sihirbazı Atla"
+      }
+    },
+    "nurture": {
+      "title": "Proaktif Takip Sistemi (Nurture)",
+      "description": "Potansiyel müşterilerinizle otomatik takip mesajları ile etkileşimi sürdürün.",
+      "enabled": "Takip Sistemi Aktif",
+      "enabledDesc": "Müşteriler yanıt vermediğinde AI otomatik takip mesajları gönderir.",
+      "threshold": "Hareketsizlik Süresi (Saat)",
+      "thresholdDesc": "Takip mesajı gönderilmeden önce geçmesi gereken süre.",
+      "maxMessages": "Maksimum Takip Sayısı",
+      "maxMessagesDesc": "Bir aday için gönderilecek toplam takip mesajı limiti.",
+      "tone": "Takip Mesajı Tonu",
+      "channels": "Takip Kanalları",
+      "whatsapp": "WhatsApp",
+      "email": "E-posta"
+    }
+  },
+  "AISettings": {
+    "title": "AI Yapılandırması",
+    "subtitle": "AI'nızın kişiliğini ve bilgi tabanını yönetin.",
+    "sections": {
+      "brandVoice": "Marka Sesi / Tonu",
+      "brandVoiceDesc": "AI'nızın konuşma tarzını ve kişiliğini tanımlayın.",
+      "knowledgeBase": "Bilgi Tabanı",
+      "knowledgeBaseDesc": "AI'nıza işiniz, hizmetleriniz ve politikalarınız hakkında bağlam sağlayın.",
+      "aiEnvironment": "AI Environment"
+    },
+    "voices": {
+      "professional": "Profesyonel",
+      "friendly": "Arkadaş Canlısı",
+      "casual": "Samimi"
+    },
+    "placeholders": {
+      "brandVoice": "Markanız için bir ses seçin...",
+      "knowledgeBase": "İşinizi, hizmetlerinizi ve politikalarınızı tanımlayın..."
+    },
+    "buttons": {
+      "save": "Ayarları Kaydet",
+      "saving": "Kaydediliyor..."
+    },
+    "fields": {
+      "brandVoice": "Brand Voice / Tone",
+      "knowledgeBase": "Knowledge Base (Context)",
+      "knowledgePlaceholder": "Describe your business, services, and key policies here...",
+      "knowledgeHint": "The AI will use this information to respond to all customer inquiries."
+    }
+  },
+  "GeneralSettings": {
+    "title": "İşletme Profili",
+    "subtitle": "Temel işletme kimliğinizi ve bölgesel tercihlerinizi yönetin.",
+    "sections": {
+      "corporateIdentity": "Kurumsal Kimlik",
+      "globalPresence": "Küresel Varlık"
+    },
+    "fields": {
+      "businessName": "İşletme Yasal Adı",
+      "businessNamePlaceholder": "örn. Acme Anonim Şirketi",
+      "timezone": "Bölgesel Saat Dilimi",
+      "timezonePlaceholder": "Operasyonel Saat Dilimini Seçin",
+      "language": "Sistem Dili",
+      "languagePlaceholder": "Operasyonel dili seçin"
+    },
+    "buttons": {
+      "save": "Kurumsal Kimliği Güncelle",
+      "saving": "Profil Senkronize Ediliyor..."
+    },
+    "sidebar": {
+      "description": "İşletme bilgileriniz faturalandırma, belge oluşturma ve yapay zeka bağlamı için kullanılır. Yasal adınızın vergi kayıtlarınızla eşleştiğinden emin olun."
+    },
+    "toasts": {
+      "success": "İşletme profili başarıyla güncellendi.",
+      "error": "Ayarlar kaydedilirken bir hata oluştu: {error}"
+    }
+  },
+  "ActivityLog": {
+    "title": "Activity Log",
+    "subtitle": "Monitor every interaction and automated action in real-time.",
+    "breadcrumb": {
+      "system": "System",
+      "activityLog": "Activity Log"
+    },
+    "status": {
+      "connected": "Live Connection",
+      "connecting": "Connecting...",
+      "offline": "Live Offline"
+    },
+    "search": {
+      "placeholder": "Search logs by event, type or content...",
+      "clearButton": "Clear Search"
+    },
+    "empty": {
+      "title": "No actions recorded",
+      "description": "Events will appear here as they happen."
+    }
+  },
+  "Profile": {
+    "title": "My Profile",
+    "subtitle": "Manage your personal information and security preferences.",
+    "badges": {
+      "active": "Active"
+    },
+    "sections": {
+      "personalInfo": "Personal Information",
+      "security": "Security & Password",
+      "notifications": "Notifications",
+      "accountInfo": "Account Info"
+    },
+    "fields": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "language": "Language",
+      "languagePlaceholder": "Select Language",
+      "passkey": "Passkey Authentication",
+      "passkeyDesc": "Use your fingerprint or face ID to login.",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "options": {
+      "english": "English (US)",
+      "turkish": "Turkish (TR)"
+    },
+    "buttons": {
+      "updateInfo": "Update Info",
+      "saving": "Saving...",
+      "changePassword": "Change Password"
+    },
+    "notifications": {
+      "emailAlerts": "Email Alerts",
+      "emailAlertsDesc": "Get daily summaries",
+      "pushNotifications": "Push Notifications",
+      "pushNotificationsDesc": "Real-time updates on desktop",
+      "smsUpdates": "SMS Updates",
+      "smsUpdatesDesc": "Critical system alerts"
+    },
+    "account": {
+      "userId": "User ID",
+      "memberSince": "Member Since"
+    },
+    "messages": {
+      "noPasswordPermission": "You do not have permission to change your password. Please contact the administrator."
+    },
+    "toasts": {
+      "updateSuccess": "Profile updated successfully",
+      "updateFailed": "Failed to update profile",
+      "passwordMismatch": "Passwords do not match",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "passwordChanged": "Password changed successfully",
+      "passwordChangeFailed": "Failed to change password",
+      "avatarSuccess": "Avatar uploaded successfully",
+      "avatarFailed": "Failed to upload avatar",
+      "preferencesUpdateFailed": "Failed to update preferences"
+    }
+  },
+  "Conversations": {
+    "search": {
+      "placeholder": "Search intelligence logs..."
+    },
+    "empty": {
+      "noConversations": "No active conversations.",
+      "selectConversation": "Select a conversation to start chatting",
+      "startConversation": "Start the conversation!"
+    },
+    "status": {
+      "active": "Active Conversation",
+      "paused": "Paused",
+      "closed": "Closed",
+      "communicationBlocked": "Communication Blocked",
+      "aiActive": "AI Active",
+      "humanControl": "Human Control"
+    },
+    "badges": {
+      "unqualified": "Unqualified"
+    },
+    "buttons": {
+      "options": "Conversation Options",
+      "takeOver": "Take Over",
+      "resumeAI": "Resume AI"
+    },
+    "actions": {
+      "markAsRead": "Mark as Read",
+      "archive": "Archive",
+      "markUnqualified": "Mark Unqualified",
+      "delete": "Delete"
+    },
+    "input": {
+      "placeholder": "Mesajınızı yazın...",
+      "aiPlaceholder": "Müdahale etmek için yazın...",
+      "disabledPlaceholder": "Bu müşteri adayı kalifiye değil olarak işaretlendi. İletişim devre dışı."
+    },
+    "notices": {
+      "disabled": "İletişim Devre Dışı • Devam etmek için Kalifiye olarak işaretleyin",
+      "aiActive": "Yapay Zeka Aktif • Sadece Yetkili Erişimi",
+      "markedUnqualified": "Müşteri adayı başarıyla kalifiye değil olarak işaretlendi.",
+      "deleted": "Konuşma başarıyla silindi.",
+      "archived": "Konuşma başarıyla arşivlendi."
+    },
+    "senders": {
+      "agent": "Temsilci",
+      "ai": "Yapay Zeka",
+      "system": "Sistem",
+      "lead": "Aday"
+    },
+    "confirm": {
+      "markUnqualified": "Emin misiniz? Kalifiye değil olarak işaretlendiğinde, bu müşteri adayı artık mesaj veya e-posta almayacak ve otomasyonları durdurulacaktır.",
+      "delete": "Bu konuşmayı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+      "archive": "Bu konuşmayı arşivlemek istediğinizden emin misiniz?"
+    }
+  },
+  "Leads": {
+    "sidebar": {
+      "title": "Lead Segments",
+      "inbox": "Inbox",
+      "allLeads": "All Leads",
+      "folders": "Folders",
+      "newFolder": "New Folder",
+      "ungroupedSegments": "Ungrouped Segments",
+      "otherSegments": "Other Segments"
+    },
+    "header": {
+      "inboxTitle": "Inbox (Unassigned)",
+      "inboxSubtitle": "Leads from web, widgets, and manual entry.",
+      "allLeadsSubtitle": "Showing all leads in the system."
+    },
+    "input": {
+      "folderNamePlaceholder": "Folder name...",
+      "searchPlaceholder": "Search leads..."
+    },
+    "buttons": {
+      "add": "Add",
+      "addLead": "Add Lead",
+      "filter": "Filter",
+      "export": "Export",
+      "import": "Import",
+      "pushToSheets": "Push to Sheets",
+      "download": "Download",
+      "upload": "Upload",
+      "importLeads": "Import Leads"
+    },
+    "folder": {
+      "ungrouped": "Ungrouped",
+      "empty": "Empty folder"
+    },
+    "group": {
+      "empty": "No segments created yet."
+    },
+    "segment": {
+      "chooseSegment": "Choose Segment",
+      "chooseTarget": "Choose Target Segment",
+      "ungroupedInbox": "(Ungrouped/Inbox)",
+      "removeFromGroup": "Remove from Group (Move to Inbox)"
+    },
+    "table": {
+      "leadInfo": "Lead Info",
+      "status": "Status",
+      "created": "Created",
+      "actions": "Actions",
+      "assignSegment": "Assign to segment",
+      "viewDetails": "View details",
+      "noLeads": "No leads found.",
+      "paginationText": "Showing {from} to {to} of {total} leads",
+      "score": "Puan"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "actions": {
+      "downloadExcel": "Download as Excel",
+      "edit": "Edit",
+      "delete": "Delete",
+      "moveToGroup": "Move to group",
+      "moveToFolder": "Move to Folder",
+      "renameFolder": "Rename folder",
+      "deleteFolder": "Delete folder",
+      "deleteGroup": "Delete Group",
+      "startSequence": "Akışı Başlat"
+    },
+    "bulk": {
+      "selectAll": "Select All",
+      "moveAction": "Move selected to group",
+      "leadsSelected": "Leads Selected",
+      "deselectAll": "Deselect All",
+      "moveToSegment": "Move to Segment",
+      "deleteSelected": "Delete Selected",
+      "startSequence": "Seçili Akışı Başlat"
+    },
+    "channels": {
+      "title": "Channels",
+      "widgetOnly": "Only widget active"
+    },
+    "confirm": {
+      "deleteSingle": "Are you sure you want to delete this lead?",
+      "deleteGroup": "Are you sure you want to delete this group? The leads inside will become unassigned and appear in your Inbox.",
+      "deleteFolder": "Are you sure you want to delete this folder? The groups inside will NOT be deleted, they will just become ungrouped.",
+      "deleteBulk": "Are you sure you want to delete {count} selected leads?"
+    },
+    "modals": {
+      "selectSequence": {
+        "title": "Akış Seçin",
+        "description": "Seçili adayları hangi akışa dahil etmek istiyorsunuz?",
+        "placeholder": "Akış seçin...",
+        "startButton": "Başlat",
+        "cancelButton": "İptal"
+      }
+    },
+    "score": {
+      "label": "Lead Puanı",
+      "cold": "Soğuk",
+      "warm": "Ilık",
+      "hot": "Sıcak",
+      "veryHot": "Çok Sıcak",
+      "edit": "Puanı Düzenle",
+      "updateSuccess": "Puan güncellendi",
+      "updateError": "Puan güncellenemedi",
+      "invalidScore": "Puan 0-100 arasında olmalı"
+    }
+  },
+  "B2BDatabase": {
+    "sidebar": {
+      "filtersTitle": "Filters",
+      "extractTitle": "Extract Leads to CRM",
+      "extractDescription": "Pull multiple leads at once based on your active filters. They will be auto-grouped for you."
+    },
+    "buttons": {
+      "applyFilters": "Apply Filters",
+      "extractLeads": "Extract Leads (Cost: {cost})",
+      "extractLeadsDefault": "Extract Leads",
+      "extractSelected": "Extract Leads"
+    },
+    "filters": {
+      "companyName": "Company name",
+      "companyNamePlaceholder": "Enter a domain or company name...",
+      "location": "Headquarters location",
+      "locationPlaceholder": "Search for a city, state or country...",
+      "industry": "Industry",
+      "industryPlaceholder": "Search for an industry...",
+      "size": "Size",
+      "companyType": "Company type",
+      "companyTypePlaceholder": "Search for a company type...",
+      "keywords": "Keywords",
+      "keywordsPlaceholder": "Add keyword...",
+      "similar": "Companies similar to",
+      "founded": "Year founded",
+      "tech": "Technologies",
+      "funding": "Funding"
+    },
+    "credits": {
+      "label": "Available Credits",
+      "unit": "Leads"
+    },
+    "input": {
+      "maxLeadsPlaceholder": "Max leads to pull...",
+      "refineSearchPlaceholder": "Refine search..."
+    },
+    "empty": {
+      "title": "Find relevant companies at scale.",
+      "description": "Identify companies aligned with your ideal customer profile. Add filters to quickly surface qualified companies and proceed to find their contact information.",
+      "inputLabel": "Describe the companies you're looking for",
+      "inputPlaceholder": "e.g. Small and medium size companies from the banking industry in Europe",
+      "noResults": "No companies found",
+      "noResultsDescription": "Try adjusting your filters or using different keywords to find what you're looking for."
+    },
+    "results": {
+      "title": "Search Results"
+    },
+    "loading": {
+      "searching": "Searching B2B Database..."
+    },
+    "table": {
+      "company": "Company",
+      "industryType": "Industry & Type",
+      "locationSize": "Location & Size",
+      "status": "Status",
+      "employees": "EMPLOYEES",
+      "noDescription": "No description available",
+      "unlocked": "Unlocked",
+      "locked": "Locked"
+    },
+    "bulk": {
+      "selected": "selected",
+      "groupNamePlaceholder": "Group name (optional)..."
+    }
+  },
+  "Privacy": {
+    "title": "Gizlilik & KVKK",
+    "subtitle": "Verilerinizi ve gizlilik ayarlarınızı Genel Veri Koruma Yönetmeliği (GDPR/KVKK) uyarınca yönetin. Gizliliğiniz önceliğimizdir.",
+    "sections": {
+      "portabilityTitle": "Veri Taşınabilirliği Hakkı",
+      "portabilityDesc": "Tüm verilerinizin (Lead'ler, Toplantılar, Konuşmalar, Ayarlar) bir kopyasını makine tarafından okunabilir JSON formatında indirin.",
+      "forgottenTitle": "Unutulma Hakkı",
+      "forgottenDesc": "Hesabınızın ve ilişkili tüm verilerin tamamen silinmesini talep edin. Bu işlem geri alınamaz."
+    },
+    "buttons": {
+      "export": "Verileri Dışa Aktar",
+      "delete": "Verileri Sil",
+      "processing": "İşleniyor..."
+    },
+    "links": {
+      "privacy": "Gizlilik Politikasını Oku",
+      "terms": "Standart Hizmet Şartları"
+    },
+    "dpa": {
+      "title": "DPA Desteği",
+      "description": "Özel bir Veri İşleme Anlaşması (DPA) mı imzalamanız gerekiyor? Kurumsal planlar, kuruluşunuza özel olarak hazırlanmış tam uyumlu yasal dokümantasyonu içerir.",
+      "contact": "Gizlilik Ekibiyle İletişime Geçin"
+    },
+    "confirm": {
+      "delete": "Veri silme talebinde bulunmak istediğinizden emin misiniz? Bu işlem 30 gün içinde işleme alınacaktır."
+    },
+    "messages": {
+      "exportSuccess": "Verileriniz başarıyla dışa aktarıldı.",
+      "exportError": "Veri dışa aktarma başarısız oldu.",
+      "deleteSuccess": "Talep alındı. Veri silme işleminizi 30 gün içinde gerçekleştireceğiz.",
+      "deleteError": "Silme talebi gönderilemedi."
+    }
+  },
+  "Widget": {
+    "title": "WhatsApp Widget'ı",
+    "subtitle": "Web sitesi ziyaretçilerini anında lead'e dönüştürün",
+    "toggle": {
+      "active": "Aktif"
+    },
+    "buttons": {
+      "saveChanges": "Değişiklikleri Kaydet"
+    },
+    "sections": {
+      "general": "Genel Yapılandırma",
+      "appearance": "Görünüm",
+      "embed": "Yerleştirme Kodu",
+      "preview": "Canlı Önizleme"
+    },
+    "fields": {
+      "phone": "WhatsApp Telefon Numarası",
+      "phonePlaceholder": "Örn: +905001234567",
+      "phoneHint": "Ülke kodunu özel karakter kullanmadan ekleyin.",
+      "message": "Başlangıç Mesajı",
+      "messagePlaceholder": "Şununla ilgileniyorum...",
+      "messageHint": "Butona tıkladıklarında gönderilecek varsayılan mesaj.",
+      "color": "Buton Rengi",
+      "position": "Konum",
+      "buttonText": "Buton Metni",
+      "bubblePrompt": "Balon İpucu"
+    },
+    "position": {
+      "bottomRight": "Sağ Alt",
+      "bottomLeft": "Sol Alt"
+    },
+    "embed": {
+      "instruction": "Bu kodu web sitenizin </body> etiketinden hemen önce kopyalayıp yapıştırın.",
+      "noId": "Yerleştirme kodunu oluşturmak için önce widget'ı kaydedin.",
+      "code": "<!-- Jumpix Widget -->\n<script src=\"{url}\" data-id=\"{id}\" defer></script>"
+    },
+    "preview": {
+      "simulator": "Tarayıcı Simülatörü"
+    },
+    "tip": "İpucu: Entegre edildikten sonra, sohbet başlatan her ziyaretçi otomatik olarak Lead listenize eklenir ve AI akışlarını tetikleyebilir.",
+    "toasts": {
+      "saved": "Widget ayarları başarıyla kaydedildi!",
+      "saveFirst": "Lütfen önce widget'ınızı kaydedin!",
+      "copySuccess": "Yerleştirme kodu panoya kopyalandı!",
+      "copyError": "Kopyalama başarısız oldu. Lütfen manuel olarak seçip kopyalayın."
+    }
+  },
+  "Webhooks": {
+    "title": "Webhook'lar",
+    "subtitle": "Sistemimizde olaylar gerçekleştiğinde harici sistemlerinizi bilgilendirmek için giden webhook'ları yapılandırın.",
+    "form": {
+      "title": "Yeni Webhook Ekle",
+      "urlLabel": "Payload URL'si",
+      "urlPlaceholder": "https://api-adresiniz.com/webhook",
+      "eventsLabel": "Abone olunacak olaylar",
+      "submit": "Webhook Oluştur"
+    },
+    "list": {
+      "title": "Yapılandırılmış Webhook'lar",
+      "empty": "Henüz yapılandırılmış webhook yok."
+    },
+    "events": {
+      "leadCreated": "Lead Oluşturuldu",
+      "leadUpdated": "Lead Güncellendi",
+      "meetingBooked": "Toplantı Planlandı",
+      "meetingCancelled": "Toplantı İptal Edildi",
+      "messageReceived": "Mesaj Alındı",
+      "allEvents": "TÜM OLAYLAR"
+    },
+    "secret": "Gizli Anahtar: {value}"
+  },
+  "Billing": {
+    "title": "Ödeme & Abonelik",
+    "subtitle": "Planınızı, ödemelerinizi ve faturalarınızı Paddle aracılığıyla güvenli bir şekilde yönetin.",
+    "activePlan": {
+      "label": "Aktif Plan",
+      "managedByAdmin": "Yönetici tarafından yönetiliyor",
+      "renews": "{date} tarihinde yenileniyor",
+      "manageButton": "Ödemeleri Yönet"
+    },
+    "planCard": {
+      "currentBadge": "Mevcut Plan",
+      "perMonth": "/ay",
+      "active": "Aktif",
+      "upgrade": "Yükselt",
+      "downgrade": "Düşür",
+      "downgradeHint": "Planı düşürmek için yukarıdaki Faturalamayı Yönet düğmesini kullanın.",
+      "free": "Ücretsiz",
+      "loading": "..."
+    },
+    "cta": {
+      "upgradeHint": "Yükseltmek için bir plana tıklayın · Anında aktivasyon · İstediğiniz zaman iptal edin",
+      "adminManaged": "Planınız platform yöneticisi tarafından yönetilmektedir. Fatura talepleri için destekle iletişime geçin."
+    },
+    "history": {
+      "title": "Ödeme Geçmişi",
+      "subtitle": "Son ödemeleriniz ve faturalarınız.",
+      "date": "Tarih",
+      "planItem": "Plan / Kalem",
+      "amount": "Tutar",
+      "status": "Durum",
+      "invoice": "Fatura",
+      "view": "Görüntüle"
+    }
+  },
+  "HelpCenter": {
+    "hero": {
+      "title": "Size nasıl yardımcı olabiliriz?",
+      "titleHighlight": "yardımcı olabiliriz?",
+      "subtitle": "Bilgi tabanımızda arama yapın veya aşağıdaki kategorilere göz atın.",
+      "searchPlaceholder": "Makale ara (örn. WhatsApp, ödeme, akışlar)..."
+    },
+    "quickLinks": {
+      "docsTitle": "Dokümantasyon",
+      "docsDesc": "Her özellik için derinlemesine kılavuzlar ve referans belgeleri.",
+      "videosTitle": "Video Eğitimleri",
+      "videosDesc": "Adım adım kurulum kılavuzlarını izleyin.",
+      "wizardTitle": "Hızlı Kurulum Sihirbazı",
+      "wizardDesc": "Hesabınızı yapılandırmak için onboarding sihirbazını çalıştırın."
+    },
+    "categories": {
+      "heading": "Kategoriye Göre Göz At",
+      "resultsFor": "\"{query}\" için sonuçlar"
+    },
+    "noResults": {
+      "text": "\"{query}\" için makale bulunamadı",
+      "subtext": "Farklı bir anahtar kelime deneyin veya destek talebi açın."
+    },
+    "cta": {
+      "title": "Aradığınızı bulamadınız mı?",
+      "subtitle": "Destek ekibimiz her zaman yardıma hazır. Bir talep açın, 24 saat içinde yanıt verelim.",
+      "button": "Destek Talebi Aç"
+    },
+    "sheet": {
+      "tag": "Yardım Makalesi",
+      "description": "Detaylı kılavuzla AI akışınızda uzmanlaşın."
+    },
+    "feedback": {
+      "title": "Bu yardımcı oldu mu?",
+      "yes": "Evet, teşekkürler!",
+      "no": "Pek sayılmaz..."
+    }
+  },
+  "Analytics": {
+    "totalLeads": "Toplam Lead",
+    "totalLeadsDesc": "Kazanılan Kişiler",
+    "bookedMeetings": "Alınan Randevular",
+    "bookedMeetingsDesc": "Planlanan demo ve görüşmeler",
+    "responseRate": "Yanıt Oranı",
+    "responseRateDesc": "Mesajlaşma etkileşim verimliliği",
+    "aiWinRate": "AI Başarı Oranı",
+    "aiWinRateDesc": "Konuşma başarı skoru",
+    "trendingUp": "Bu dönem yükselişte",
+    "trendingDown": "Bu dönem düşüşte"
+  },
+  "MapsScraper": {
+    "title": "Google Maps Scraper",
+    "subtitle": "Google Maps üzerinden işletme arayarak lead toplayın.",
+    "configureApiKey": "API Key Ayarla",
+    "keyword": "Anahtar Kelime",
+    "keywordPlaceholder": "ör: diş kliniği, restoran, spor salonu",
+    "location": "Konum",
+    "locationPlaceholder": "ör: İstanbul, Ankara",
+    "radius": "Yarıçap",
+    "maxResults": "Maks. Sonuç",
+    "addToGroup": "Gruba Ekle",
+    "noGroup": "— Grup Yok —",
+    "search": "Ara",
+    "searching": "Aranıyor...",
+    "noResults": "Bu arama için sonuç bulunamadı.",
+    "resultsFound": "{count} sonuç bulundu",
+    "selectedCount": "{count} seçili",
+    "selectAll": "Tümünü Seç",
+    "deselectAll": "Seçimi Kaldır",
+    "importSelected": "{count} Lead İçe Aktar",
+    "importing": "Aktarılıyor...",
+    "importSuccess": "{count} lead başarıyla içe aktarıldı.",
+    "viewLeads": "Leadleri Gör →",
+    "business": "İşletme",
+    "address": "Adres",
+    "contact": "İletişim",
+    "rating": "Puan"
+  },
+  "CalendarPage": {
+    "title": "Takvim",
+    "subtitle": "Yapay zekanız tarafından planlanan randevuları yönetin.",
+    "nextAppointment": "Sıradaki Randevu",
+    "pastMeetings": "Toplantı Kayıtları",
+    "tabs": {
+      "calendar": "Takvim",
+      "records": "Toplantı Kayıtları",
+      "manual": "Toplantı Planla"
+    },
+    "buttons": {
+      "joinMeeting": "Toplantıya Katıl",
+      "scheduleMeeting": "Toplantıyı Planla",
+      "viewRecording": "Kaydı İzle",
+      "transcript": "Transkripsiyon"
+    },
+    "empty": {
+      "noMeetings": "Yaklaşan toplantı yok",
+      "noRecords": "Kayıt Bulunmadı",
+      "noRecordsDesc": "Henüz tamamlanmış bir toplantınız bulunmuyor."
+    },
+    "sync": {
+      "button": "Google Takvimi Senkronize Et",
+      "syncing": "Eşitleniyor...",
+      "success": "{synced} yeni etkinlik eklendi, {updated} etkinlik güncellendi",
+      "error": "Eşitleme başarısız",
+      "notConnected": "Google Takvim bağlı değil",
+      "lastSync": "Google Takvim ile eşitlendi"
+    },
+    "days": {
+      "mon": "Pzt",
+      "tue": "Sal",
+      "wed": "Çar",
+      "thu": "Per",
+      "fri": "Cum",
+      "sat": "Cmt",
+      "sun": "Paz"
+    },
+    "meetingTypes": {
+      "video": "Video Görüşmesi",
+      "in_person": "Yüz Yüze"
+    },
+    "status": {
+      "completed": "Tamamlandı",
+      "cancelled": "İptal Edildi"
+    },
+    "manualForm": {
+      "title": "Başlık *",
+      "titlePlaceholder": "Örn. Ürün tanıtım toplantısı",
+      "dateTime": "Tarih & Saat *",
+      "duration": "Süre (dakika) *",
+      "attendee": "Katılımcı E-postası (opsiyonel)",
+      "description": "Açıklama (opsiyonel)",
+      "descriptionPlaceholder": "Toplantı gündemi, notlar...",
+      "info": "Google Meet linki otomatik oluşturulur",
+      "success": "Toplantı oluşturuldu",
+      "error": "Hata"
+    }
+  }
+}

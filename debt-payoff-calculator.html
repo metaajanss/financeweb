@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Debt Snowball vs Avalanche Calculator — Free Payoff Planner</title>
+<meta name="description" content="Free debt snowball vs avalanche calculator. Compare both payoff strategies side by side, see how much interest you'll save, your debt-free date, and a month-by-month chart. No signup.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://YOURDOMAIN.com/debt-snowball-vs-avalanche-calculator/">
+
+<!-- ============================================================= -->
+<!-- GOOGLE ADSENSE: paste your loader script here (once, in <head>) -->
+<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+<!-- Then in each .ad-slot below, replace the placeholder with your real <ins> unit. -->
+<!-- ============================================================= -->
+
+<!-- JSON-LD FAQ schema for SEO rich results -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"What is the difference between the debt snowball and debt avalanche?","acceptedAnswer":{"@type":"Answer","text":"The debt snowball pays off your smallest balance first for quick motivational wins. The debt avalanche pays off your highest interest rate first to minimize total interest paid."}},
+    {"@type":"Question","name":"Which debt payoff method saves the most money?","acceptedAnswer":{"@type":"Answer","text":"The avalanche method almost always saves more money in total interest because it targets your most expensive debt first. The snowball can be faster psychologically because you eliminate individual debts sooner."}},
+    {"@type":"Question","name":"Is this debt calculator free?","acceptedAnswer":{"@type":"Answer","text":"Yes. The calculator runs entirely in your browser, requires no signup, and stores none of your data."}}
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --ink:#1c1a16;
+    --paper:#f6f2e9;
+    --paper-2:#fffdf7;
+    --line:#d9d1bf;
+    --muted:#6f6856;
+    --snow:#c2410c;        /* snowball = clay/amber */
+    --snow-soft:#fbe7d8;
+    --aval:#0b6b53;        /* avalanche = emerald */
+    --aval-soft:#d9ece5;
+    --gold:#a9842a;
+    --shadow:0 1px 0 rgba(28,26,22,.04), 0 18px 40px -22px rgba(28,26,22,.35);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Hanken Grotesk',-apple-system,sans-serif;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(circle at 12% -5%,rgba(169,132,42,.07),transparent 40%),radial-gradient(circle at 92% 0%,rgba(11,107,83,.06),transparent 38%);
+  }
+  .wrap{max-width:1060px;margin:0 auto;padding:0 22px}
+
+  /* header */
+  header{padding:34px 0 6px}
+  .brand{display:flex;align-items:center;gap:11px;font-family:'Fraunces',serif;font-weight:600;font-size:19px;letter-spacing:-.01em}
+  .brand .dot{width:13px;height:13px;border-radius:3px;background:linear-gradient(135deg,var(--snow),var(--aval))}
+
+  /* hero */
+  .hero{padding:30px 0 18px;max-width:760px}
+  .eyebrow{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:14px}
+  h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(31px,5vw,50px);line-height:1.04;letter-spacing:-.02em}
+  h1 em{font-style:italic;color:var(--snow)}
+  h1 .v{color:var(--aval)}
+  .lede{margin-top:16px;font-size:17px;color:var(--muted);max-width:620px}
+
+  /* ad slot */
+  .ad-slot{margin:22px 0;min-height:92px;border:1px dashed var(--line);border-radius:12px;display:flex;align-items:center;justify-content:center;background:repeating-linear-gradient(45deg,transparent,transparent 9px,rgba(217,209,191,.18) 9px,rgba(217,209,191,.18) 18px);color:var(--muted);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+
+  /* main grid */
+  .grid{display:grid;grid-template-columns:1.05fr 1.25fr;gap:26px;margin-top:14px;align-items:start}
+  @media(max-width:860px){.grid{grid-template-columns:1fr}}
+
+  .card{background:var(--paper-2);border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:var(--shadow)}
+  .card h2{font-family:'Fraunces',serif;font-weight:600;font-size:20px;letter-spacing:-.01em;margin-bottom:4px}
+  .card .sub{font-size:13.5px;color:var(--muted);margin-bottom:18px}
+
+  /* debt rows */
+  .debt{display:grid;grid-template-columns:1.4fr 1fr 1fr 28px;gap:9px;align-items:end;margin-bottom:11px}
+  .debt.head{margin-bottom:7px}
+  .debt.head span{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  label.field{display:flex;flex-direction:column;gap:5px;font-size:12px;color:var(--muted);font-weight:600}
+  input[type=text],input[type=number]{
+    font-family:'Hanken Grotesk',sans-serif;font-size:15px;color:var(--ink);
+    border:1px solid var(--line);background:#fff;border-radius:9px;padding:10px 11px;width:100%;font-weight:500;
+    transition:border-color .15s,box-shadow .15s;
+  }
+  input:focus{outline:none;border-color:var(--aval);box-shadow:0 0 0 3px var(--aval-soft)}
+  .rm{border:none;background:none;color:var(--muted);font-size:20px;cursor:pointer;line-height:1;padding:8px 0;transition:color .15s}
+  .rm:hover{color:var(--snow)}
+  .add{margin-top:6px;border:1px dashed var(--line);background:none;color:var(--ink);font-family:inherit;font-weight:600;font-size:14px;border-radius:9px;padding:11px;width:100%;cursor:pointer;transition:all .15s}
+  .add:hover{border-color:var(--aval);color:var(--aval)}
+
+  .extra{margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
+  .extra label{font-size:13px;color:var(--muted);font-weight:600}
+  .extra .row{display:flex;gap:12px;align-items:center;margin-top:8px}
+  .extra input{max-width:160px}
+
+  .calc-btn{margin-top:20px;width:100%;background:var(--ink);color:var(--paper-2);font-family:'Fraunces',serif;font-weight:600;font-size:17px;border:none;border-radius:11px;padding:15px;cursor:pointer;letter-spacing:-.01em;transition:transform .12s,background .15s}
+  .calc-btn:hover{background:#000;transform:translateY(-1px)}
+  .calc-btn:active{transform:translateY(0)}
+
+  /* results */
+  .verdict{border-radius:14px;padding:20px 22px;margin-bottom:18px;border:1px solid var(--line);background:linear-gradient(180deg,#fff,var(--paper));position:relative;overflow:hidden}
+  .verdict:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--aval)}
+  .verdict h3{font-family:'Fraunces',serif;font-size:15px;letter-spacing:.02em;color:var(--muted);font-weight:600;margin-bottom:8px;text-transform:uppercase}
+  .verdict .big{font-family:'Fraunces',serif;font-size:clamp(24px,4vw,33px);font-weight:600;letter-spacing:-.02em;line-height:1.1}
+  .verdict .big b{color:var(--aval)}
+  .verdict p{font-size:14px;color:var(--muted);margin-top:8px}
+
+  .compare{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
+  @media(max-width:480px){.compare{grid-template-columns:1fr}}
+  .strat{border:1px solid var(--line);border-radius:13px;padding:18px;background:#fff}
+  .strat.s{border-top:3px solid var(--snow)}
+  .strat.a{border-top:3px solid var(--aval)}
+  .strat .name{font-family:'Fraunces',serif;font-weight:600;font-size:17px;margin-bottom:2px}
+  .strat.s .name{color:var(--snow)}
+  .strat.a .name{color:var(--aval)}
+  .strat .tag{font-size:11.5px;color:var(--muted);margin-bottom:14px}
+  .metric{display:flex;justify-content:space-between;align-items:baseline;padding:7px 0;border-bottom:1px dashed var(--line);font-size:13.5px}
+  .metric:last-child{border-bottom:none}
+  .metric .k{color:var(--muted)}
+  .metric .val{font-weight:700;font-size:16px;font-variant-numeric:tabular-nums}
+
+  .chart-card{margin-top:16px}
+  canvas{width:100%;height:auto;display:block}
+  .legend{display:flex;gap:18px;justify-content:center;margin-top:10px;font-size:12.5px;color:var(--muted)}
+  .legend i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
+
+  .placeholder{color:var(--muted);font-size:14px;text-align:center;padding:40px 10px}
+
+  /* SEO content */
+  .content{max-width:760px;margin:46px auto 0;padding-top:30px;border-top:1px solid var(--line)}
+  .content h2{font-family:'Fraunces',serif;font-weight:600;font-size:27px;letter-spacing:-.01em;margin:34px 0 12px}
+  .content h3{font-family:'Fraunces',serif;font-weight:600;font-size:19px;margin:24px 0 8px}
+  .content p{margin-bottom:14px;color:#3a362d}
+  .content ul{margin:0 0 16px 20px;color:#3a362d}
+  .content li{margin-bottom:7px}
+  .faq{border-top:1px solid var(--line);margin-top:8px}
+  .faq details{border-bottom:1px solid var(--line);padding:15px 0}
+  .faq summary{font-family:'Fraunces',serif;font-weight:600;font-size:17px;cursor:pointer;list-style:none}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary:before{content:"+";color:var(--aval);font-weight:700;margin-right:10px}
+  .faq details[open] summary:before{content:"–"}
+  .faq p{margin-top:10px;color:var(--muted)}
+
+  footer{margin:50px 0 30px;padding-top:22px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);text-align:center}
+  .disclaimer{font-size:12px;color:var(--muted);margin-top:14px;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand"><span class="dot"></span> PayoffLab</div>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow">Debt Payoff Planner</div>
+    <h1>Debt <em>Snowball</em> vs <span class="v">Avalanche</span> Calculator</h1>
+    <p class="lede">Enter your debts and an extra monthly payment. See which strategy clears your debt faster, how much interest each one saves, and your exact debt-free date — calculated instantly, right in your browser.</p>
+  </section>
+
+  <!-- ===== TOP AD SLOT ===== -->
+  <div class="ad-slot" data-ad="top">Ad&nbsp;·&nbsp;Leaderboard&nbsp;728×90</div>
+
+  <div class="grid">
+    <!-- INPUT -->
+    <div class="card">
+      <h2>Your debts</h2>
+      <div class="sub">Add each debt with its balance, interest rate, and minimum monthly payment.</div>
+
+      <div class="debt head">
+        <span>Debt name</span><span>Balance ($)</span><span>APR (%)</span><span></span>
+      </div>
+      <div id="debts"></div>
+      <button class="add" id="addBtn">+ Add another debt</button>
+
+      <div class="extra">
+        <label>Extra payment toward debt each month</label>
+        <div class="row">
+          <input type="number" id="extra" value="200" min="0" step="10">
+          <span style="font-size:13px;color:var(--muted)">on top of all minimums</span>
+        </div>
+      </div>
+
+      <button class="calc-btn" id="calcBtn">Compare strategies →</button>
+    </div>
+
+    <!-- RESULTS -->
+    <div id="results">
+      <div class="card"><div class="placeholder">Your side-by-side comparison and payoff chart will appear here.</div></div>
+    </div>
+  </div>
+
+  <!-- ===== MID AD SLOT ===== -->
+  <div class="ad-slot" data-ad="mid">Ad&nbsp;·&nbsp;In-content&nbsp;Responsive</div>
+
+  <!-- SEO CONTENT -->
+  <article class="content">
+    <h2>How the debt snowball and avalanche actually work</h2>
+    <p>Both methods do the same core thing: you keep paying the minimum on every debt, then throw every extra dollar at <em>one</em> target debt until it's gone. When that debt is cleared, its old payment "rolls over" onto the next target. The only difference is <strong>which debt you target first.</strong></p>
+
+    <h3>The debt snowball method</h3>
+    <p>You attack the <strong>smallest balance first</strong>, regardless of interest rate. Each paid-off debt is a fast, visible win, which keeps motivation high. The trade-off is that you may pay more total interest if your smaller debts happen to have lower rates.</p>
+
+    <h3>The debt avalanche method</h3>
+    <p>You attack the <strong>highest interest rate first</strong>. This is mathematically optimal — it minimizes the total interest you pay and usually clears all debt a little sooner. The trade-off is that your first target might be a large balance, so the first "win" can take a while.</p>
+
+    <h2>Which should you choose?</h2>
+    <ul>
+      <li><strong>Choose avalanche</strong> if you're motivated by saving the most money and can stay disciplined without frequent wins.</li>
+      <li><strong>Choose snowball</strong> if you've struggled to stick with payoff plans before and need momentum from quick victories.</li>
+    </ul>
+    <p>The calculator above shows you the real dollar difference for <em>your</em> specific debts, so you can decide with numbers instead of guessing.</p>
+
+    <h2>Frequently asked questions</h2>
+    <div class="faq">
+      <details><summary>Does this calculator store my financial data?</summary><p>No. Everything is calculated locally in your browser. Nothing is uploaded, saved, or sent anywhere.</p></details>
+      <details><summary>What APR should I enter?</summary><p>Use the purchase APR shown on your statement. For credit cards it's often 18–29%. For loans, use the stated interest rate.</p></details>
+      <details><summary>What if my minimum payments don't cover the interest?</summary><p>If a balance's interest is higher than its minimum payment, that debt would never be paid off on minimums alone. The calculator will flag this so you know to increase your payment.</p></details>
+      <details><summary>Is the avalanche always better?</summary><p>In total interest, almost always. But the difference is sometimes small, and the snowball's motivational wins can matter more than a modest dollar saving for many people.</p></details>
+    </div>
+
+    <p class="disclaimer">This tool is for educational and estimation purposes only and does not constitute financial advice. Results are estimates based on the figures you enter and assume fixed rates and consistent payments. Consult a qualified financial professional before making decisions.</p>
+  </article>
+
+  <!-- ===== BOTTOM AD SLOT ===== -->
+  <div class="ad-slot" data-ad="bottom">Ad&nbsp;·&nbsp;Responsive</div>
+
+  <footer>© <span id="yr"></span> PayoffLab · Free debt payoff calculator · Built to run entirely in your browser</footer>
+</div>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+/* ---------- debt input rows ---------- */
+const seed = [
+  {name:'Credit Card A', bal:6200, apr:24.99},
+  {name:'Car Loan',      bal:11800, apr:7.4},
+  {name:'Credit Card B', bal:2400, apr:19.99},
+  {name:'Personal Loan', bal:4900, apr:12.5},
+];
+const debtsEl = document.getElementById('debts');
+
+function row(d={name:'',bal:'',apr:''}){
+  const div = document.createElement('div');
+  div.className='debt';
+  div.innerHTML = `
+    <input type="text" class="d-name" placeholder="e.g. Credit Card" value="${d.name||''}">
+    <input type="number" class="d-bal" placeholder="0" min="0" step="50" value="${d.bal??''}">
+    <input type="number" class="d-apr" placeholder="0" min="0" step="0.1" value="${d.apr??''}">
+    <button class="rm" title="Remove">×</button>`;
+  div.querySelector('.rm').onclick = ()=>{ div.remove(); };
+  debtsEl.appendChild(div);
+}
+seed.forEach(row);
+document.getElementById('addBtn').onclick = ()=>row();
+
+function readDebts(){
+  const out=[];
+  document.querySelectorAll('.debt:not(.head)').forEach((r,i)=>{
+    const name=r.querySelector('.d-name').value.trim()||('Debt '+(i+1));
+    const bal=parseFloat(r.querySelector('.d-bal').value)||0;
+    const apr=parseFloat(r.querySelector('.d-apr').value)||0;
+    if(bal>0) out.push({name,bal,apr});
+  });
+  return out;
+}
+
+/* ---------- core simulation ---------- */
+function simulate(debts, extra, strategy){
+  let list = debts.map(d=>({...d, balance:d.bal}));
+  // minimum payment estimate: 2% of balance or $25, whichever larger (typical CC rule)
+  list.forEach(d=>{ d.min = Math.max(25, d.bal*0.02); });
+  const pool = list.reduce((s,d)=>s+d.min,0) + extra;
+
+  if(strategy==='snowball') list.sort((a,b)=>a.balance-b.balance);
+  else list.sort((a,b)=>b.apr-a.apr);
+
+  let month=0, totalInterest=0;
+  const history=[ list.reduce((s,d)=>s+d.balance,0) ];
+  let stuck=false;
+
+  while(list.some(d=>d.balance>0.005)){
+    month++;
+    if(month>900){ stuck=true; break; }
+    // accrue interest
+    list.forEach(d=>{ if(d.balance>0){ const i=d.balance*(d.apr/100/12); d.balance+=i; totalInterest+=i; }});
+    // detect negative amortization
+    const totalMonthlyInterest = list.reduce((s,d)=>d.balance>0?s+d.balance*(d.apr/100/12):s,0);
+    if(pool < totalMonthlyInterest-0.01 && month>3){ stuck=true; break; }
+    // pay
+    let avail=pool;
+    // pass 1: minimums (capped to balance)
+    list.forEach(d=>{ if(d.balance>0 && avail>0){ const p=Math.min(d.min,d.balance,avail); d.balance-=p; avail-=p; }});
+    // pass 2: snowball leftover in priority order
+    for(const d of list){ if(avail<=0) break; if(d.balance>0){ const p=Math.min(d.balance,avail); d.balance-=p; avail-=p; }}
+    history.push(list.reduce((s,d)=>s+Math.max(0,d.balance),0));
+  }
+  return {months:month, totalInterest, history, stuck};
+}
+
+/* ---------- format ---------- */
+const usd = n => '$'+Math.round(n).toLocaleString('en-US');
+function dur(m){ const y=Math.floor(m/12), mo=m%12; return (y?y+'y ':'')+(mo?mo+'mo':(y?'':'0mo')); }
+function payoffDate(m){ const d=new Date(); d.setMonth(d.getMonth()+m); return d.toLocaleDateString('en-US',{month:'short',year:'numeric'}); }
+
+/* ---------- render ---------- */
+function render(){
+  const debts = readDebts();
+  const extra = parseFloat(document.getElementById('extra').value)||0;
+  const res = document.getElementById('results');
+
+  if(debts.length===0){
+    res.innerHTML = `<div class="card"><div class="placeholder">Add at least one debt with a balance above $0.</div></div>`;
+    return;
+  }
+
+  const snow = simulate(debts, extra, 'snowball');
+  const aval = simulate(debts, extra, 'avalanche');
+
+  if(snow.stuck || aval.stuck){
+    res.innerHTML = `<div class="card"><div class="placeholder">⚠ With these numbers, the minimum payments don't cover the interest. Increase your extra monthly payment to see a payoff plan.</div></div>`;
+    return;
+  }
+
+  const intSaved = snow.totalInterest - aval.totalInterest;
+  const monthsSaved = snow.months - aval.months;
+  const better = intSaved>=0 ? 'avalanche' : 'snowball';
+  const savedAbs = Math.abs(intSaved);
+
+  let verdict;
+  if(savedAbs < 1){
+    verdict = `<div class="big">It's basically a <b>tie</b> for your debts.</div><p>Both clear your debt in about ${dur(aval.months)}. Pick the <b>snowball</b> for motivation — the cost is negligible.</p>`;
+  } else {
+    verdict = `<div class="big">The <b>${better}</b> method saves you ${usd(savedAbs)} in interest.</div>
+      <p>${monthsSaved>0?`It's also about ${monthsSaved} month${monthsSaved>1?'s':''} faster. `:''}Below is the full side-by-side.</p>`;
+  }
+
+  res.innerHTML = `
+    <div class="verdict">
+      <h3>The verdict</h3>${verdict}
+    </div>
+    <div class="compare">
+      <div class="strat s">
+        <div class="name">❄ Snowball</div><div class="tag">Smallest balance first</div>
+        <div class="metric"><span class="k">Debt-free in</span><span class="val">${dur(snow.months)}</span></div>
+        <div class="metric"><span class="k">Payoff date</span><span class="val">${payoffDate(snow.months)}</span></div>
+        <div class="metric"><span class="k">Total interest</span><span class="val">${usd(snow.totalInterest)}</span></div>
+      </div>
+      <div class="strat a">
+        <div class="name">⛰ Avalanche</div><div class="tag">Highest rate first</div>
+        <div class="metric"><span class="k">Debt-free in</span><span class="val">${dur(aval.months)}</span></div>
+        <div class="metric"><span class="k">Payoff date</span><span class="val">${payoffDate(aval.months)}</span></div>
+        <div class="metric"><span class="k">Total interest</span><span class="val">${usd(aval.totalInterest)}</span></div>
+      </div>
+    </div>
+    <div class="card chart-card">
+      <h2>Balance over time</h2>
+      <div class="sub">How fast your total debt drops under each strategy.</div>
+      <canvas id="chart" width="640" height="300"></canvas>
+      <div class="legend"><span><i style="background:var(--snow)"></i>Snowball</span><span><i style="background:var(--aval)"></i>Avalanche</span></div>
+    </div>`;
+
+  drawChart(snow.history, aval.history);
+}
+
+/* ---------- canvas line chart ---------- */
+function drawChart(s, a){
+  const cv = document.getElementById('chart');
+  const dpr = window.devicePixelRatio||1;
+  const W=640,H=300, pad={l:58,r:14,t:14,b:30};
+  cv.width=W*dpr; cv.height=H*dpr; cv.style.height=(H)+'px';
+  const ctx=cv.getContext('2d'); ctx.scale(dpr,dpr);
+  const n=Math.max(s.length,a.length);
+  const maxV=Math.max(...s,...a,1);
+  const X=i=> pad.l + (i/(n-1))*(W-pad.l-pad.r);
+  const Y=v=> pad.t + (1-v/maxV)*(H-pad.t-pad.b);
+
+  // grid + y labels
+  ctx.strokeStyle='#e7dfcd'; ctx.fillStyle='#9c947f'; ctx.font='11px Hanken Grotesk'; ctx.lineWidth=1;
+  for(let g=0;g<=4;g++){ const v=maxV*g/4, y=Y(v);
+    ctx.beginPath();ctx.moveTo(pad.l,y);ctx.lineTo(W-pad.r,y);ctx.stroke();
+    ctx.fillText('$'+Math.round(v/1000)+'k', 8, y+4);
+  }
+  // x labels (years)
+  const months=n-1;
+  for(let m=0;m<=months;m+=12){ const x=X(m); ctx.fillText((m/12)+'y', x-6, H-10); }
+
+  const line=(data,color)=>{
+    ctx.strokeStyle=color; ctx.lineWidth=2.6; ctx.lineJoin='round'; ctx.beginPath();
+    data.forEach((v,i)=>{ const x=X(i),y=Y(v); i?ctx.lineTo(x,y):ctx.moveTo(x,y); });
+    ctx.stroke();
+    // endpoint dot
+    ctx.fillStyle=color; ctx.beginPath(); ctx.arc(X(data.length-1),Y(data[data.length-1]),3.5,0,7); ctx.fill();
+  };
+  line(s, getComputedStyle(document.documentElement).getPropertyValue('--snow').trim());
+  line(a, getComputedStyle(document.documentElement).getPropertyValue('--aval').trim());
+}
+
+document.getElementById('calcBtn').onclick = render;
+render(); // run once on load with seed data
+</script>
+<!-- Adsense Integration Script -->
+<script>
+  fetch('/api/ads')
+    .then(res => res.json())
+    .then(data => {
+      if (data && data.adsCode) {
+        // Create a temporary div to parse the saved HTML code (e.g. script tag)
+        const temp = document.createElement('div');
+        temp.innerHTML = data.adsCode.trim();
+        
+        // Find the script tag from the parsed code
+        const scriptTags = temp.getElementsByTagName('script');
+        for (let i = 0; i < scriptTags.length; i++) {
+          const newScript = document.createElement('script');
+          if (scriptTags[i].src) {
+            newScript.src = scriptTags[i].src;
+            newScript.async = true;
+            if (scriptTags[i].crossOrigin) {
+              newScript.crossOrigin = scriptTags[i].crossOrigin;
+            }
+          } else {
+            newScript.innerHTML = scriptTags[i].innerHTML;
+          }
+          document.head.appendChild(newScript);
+        }
+
+        // If the adsCode contains <ins> tags or other HTML, we might need to place them in the ad-slots
+        // For standard auto-ads, just injecting the script into head is enough.
+        // If they use manual ad units, they should place the <ins> code in the adCode text box, 
+        // and we inject it into the .ad-slot elements.
+        const insTags = temp.getElementsByTagName('ins');
+        if (insTags.length > 0) {
+           const slots = document.querySelectorAll('.ad-slot');
+           slots.forEach(slot => {
+               // Clone the ins tag for each slot
+               slot.innerHTML = '';
+               slot.appendChild(insTags[0].cloneNode(true));
+               // Push the ad
+               try {
+                  (window.adsbygoogle = window.adsbygoogle || []).push({});
+               } catch (e) {}
+           });
+        }
+      }
+    })
+    .catch(err => console.error('Failed to load ads config:', err));
+</script>
+</body>
+</html>

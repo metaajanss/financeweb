@@ -1,0 +1,2235 @@
+{
+  "Landing": {
+    "FAQ": {
+      "subtitle": "Pertanyaan yang Sering Diajukan",
+      "description": "Semua yang perlu Anda ketahui sebelum menghubungkan alur kerja Anda, mengundang tim, atau memigrasikan tagihan ke Jumpix.",
+      "supportLabel": "Hubungi dukungan",
+      "supportHref": "/contact",
+      "questions": [
+        {
+          "q": "Apa itu Jumpix dan bagaimana ia membantu tim penjualan?",
+          "a": "Jumpix adalah platform eksekusi pendapatan bertenaga AI yang menyatukan asupan prospek, kualifikasi, dan penjangkauan multi-saluran. Kami membantu tim bergerak lebih cepat dengan mengotomatiskan pengayaan data manual dan penilaian prospek."
+        },
+        {
+          "q": "Bagaimana cara kerja kualifikasi prospek AI?",
+          "a": "AI kami menganalisis data prospek masuk terhadap Profil Pelanggan Ideal (ICP) dan sinyal niat Anda. Ini memberi skor pada setiap prospek dan bahkan dapat memulai tindak lanjut otomatis yang dipersonalisasi berdasarkan kualitas kecocokan."
+        },
+        {
+          "q": "Platform CRM mana yang terintegrasi dengan Jumpix?",
+          "a": "Kami menawarkan integrasi asli sekali klik dengan HubSpot dan Salesforce. Anda juga dapat menyinkronkan data ke Google Sheets atau menggunakan API kami untuk alur kerja khusus."
+        },
+        {
+          "q": "Bisakah saya mengotomatiskan tindak lanjut melalui WhatsApp dan Email?",
+          "a": "Ya! Jumpix memungkinkan Anda membuat urutan multi-saluran. Anda dapat mengatur alur yang mengirim email awal dan menindaklanjuti melalui WhatsApp jika tidak ada tanggapan, memastikan keterlibatan yang lebih tinggi."
+        },
+        {
+          "q": "Apakah data saya aman dengan Jumpix?",
+          "a": "Keamanan adalah prioritas utama kami. Kami menggunakan enkripsi standar industri dan protokol database aman yang disediakan oleh Supabase. Data Anda sepenuhnya milik Anda dan hanya digunakan untuk alur kerja otomasi Anda sendiri."
+        },
+        {
+          "q": "Apakah Anda menawarkan dukungan untuk menyiapkan platform?",
+          "a": "Tentu saja. Kami menyediakan dokumentasi lengkap, tur dalam aplikasi, dan tim dukungan khusus. Untuk paket Perusahaan, kami juga menawarkan orientasi dan bantuan migrasi khusus."
+        }
+      ],
+      "title": "Pertanyaan, dijawab dengan jelas"
+    },
+    "Pricing": {
+      "plans": [
+        {
+          "featured": false,
+          "isCustom": false,
+          "name": "Gratis",
+          "price": "0",
+          "period": "/bln",
+          "description": "Ideal untuk menjelajahi fitur inti Jumpix.",
+          "features": [
+            "Semua Integrasi Termasuk",
+            "Skoring Intensi AI",
+            "Kotak Masuk Terpadu (Dasar)",
+            "1 Sekuens Aktif (Email/WA)",
+            "Dukungan Email"
+          ],
+          "ctaLabel": "Mulai Gratis",
+          "ctaHref": "/login?view=signup&plan=free"
+        },
+        {
+          "featured": false,
+          "isCustom": false,
+          "name": "Starter",
+          "price": "19",
+          "period": "/bln",
+          "description": "Tim kecil yang sedang memvalidasi pergerakan outbound mereka.",
+          "features": [
+            "Semua Integrasi Termasuk",
+            "Visibilitas Pipeline Langsung",
+            "Sinkronisasi CRM, Kalender & Sheets",
+            "Laporan Performa Mingguan"
+          ],
+          "ctaLabel": "Mulai Sekarang",
+          "ctaHref": "/login?view=signup&plan=starter"
+        },
+        {
+          "featured": false,
+          "isCustom": false,
+          "name": "Growth",
+          "price": "39",
+          "period": "/bln",
+          "description": "Tim penjualan yang sedang berkembang dan mencari volume.",
+          "features": [
+            "AI WhatsApp & Widget Web",
+            "Chatbot AI untuk Website",
+            "Analitik Sumber & ROI",
+            "Dukungan Email & Slack"
+          ],
+          "ctaLabel": "Pilih Growth",
+          "ctaHref": "/login?view=signup&plan=growth"
+        },
+        {
+          "featured": true,
+          "isCustom": false,
+          "name": "Pro",
+          "price": "69",
+          "period": "/bln",
+          "description": "Tim yang sedang berskala dan mencari otomatisasi penuh.",
+          "features": [
+            "Pelatihan Agen AI (KB)",
+            "Alur Kerja AI Autopilot",
+            "Penilaian Prospek Lanjutan",
+            "Dukungan Prioritas"
+          ],
+          "ctaLabel": "Pilih Pro",
+          "ctaHref": "/login?view=signup&plan=pro"
+        },
+        {
+          "featured": false,
+          "isCustom": false,
+          "name": "Business",
+          "price": "99",
+          "period": "/bln",
+          "description": "Operasi bervolume tinggi dengan kontrol penuh.",
+          "features": [
+            "Aturan Agen AI Kustom",
+            "Tim Sukses Berdedikasi",
+            "Keamanan SSO / SAML",
+            "Kursi Tim Tanpa Batas"
+          ],
+          "ctaLabel": "Pilih Business",
+          "ctaHref": "/login?view=signup&plan=business"
+        }
+      ],
+      "Comparison": {
+        "categories": [
+          {
+            "features": [
+              {
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Penilaian Niat AI"
+              },
+              {
+                "free": false,
+                "starter": false,
+                "growth": false,
+                "pro": true,
+                "business": true,
+                "name": "Pelatihan Agen AI (KB)"
+              },
+              {
+                "free": false,
+                "starter": false,
+                "growth": false,
+                "pro": true,
+                "business": true,
+                "name": "Penilaian Prospek Lanjutan"
+              }
+            ],
+            "name": "Intelijen & CRM"
+          },
+          {
+            "features": [
+              {
+                "free": false,
+                "starter": false,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "AI WhatsApp & Widget Web"
+              },
+              {
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Kotak Masuk Terpadu (Pusat)",
+                "free": "Dasar"
+              },
+              {
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Sekuens Multi-saluran",
+                "free": "1 Aktif"
+              },
+              {
+                "free": false,
+                "starter": false,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Alur Kerja Autopilot AI"
+              }
+            ],
+            "name": "Komunikasi & Saluran"
+          },
+          {
+            "features": [
+              {
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Visibilitas Pipeline Langsung"
+              },
+              {
+                "free": false,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Analitik Sumber & ROI"
+              }
+            ],
+            "name": "Analitik & Visibilitas"
+          },
+          {
+            "features": [
+              {
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Gmail, WhatsApp, Meta & Google Ads"
+              },
+              {
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Semua Integrasi (CRM, Kalender, Slack, Webhook)"
+              }
+            ],
+            "name": "Integrasi"
+          },
+          {
+            "name": "Tim & Dukungan",
+            "features": [
+              {
+                "name": "Kursi Pengguna",
+                "free": "1",
+                "starter": "3",
+                "growth": "10",
+                "pro": "Tanpa Batas",
+                "business": "Tanpa Batas"
+              },
+              {
+                "name": "Tingkat Dukungan",
+                "free": "Email",
+                "starter": "Email",
+                "growth": "Email + Slack",
+                "pro": "Prioritas",
+                "business": "Khusus 24/7"
+              }
+            ]
+          }
+        ],
+        "title": "Perbandingan Fitur Lengkap",
+        "columnNames": [
+          "Fitur",
+          "Gratis",
+          "Starter",
+          "Growth",
+          "Pro",
+          "Business"
+        ]
+      },
+      "title": "Harga yang berskala dengan gerakan outbound Anda",
+      "subtitle": "Jaga model tetap sederhana. Mulai dengan yang penting, lalu tingkatkan saat tim Anda membutuhkan lebih banyak volume dan kontrol.",
+      "footnote": "Penagihan bulanan. Diskon tahunan, bantuan onboarding, dan dukungan migrasi tersedia berdasarkan permintaan.",
+      "recommended": "DIREKOMENDASIKAN",
+      "eyebrow": "Harga"
+    },
+    "SalesWorkflow": {
+      "dummyData": {
+        "qualify": [
+          {
+            "score": 98,
+            "name": "Tim Cook",
+            "status": "Niat Tinggi"
+          },
+          {
+            "score": 85,
+            "name": "Emily Watson",
+            "status": "Terkualifikasi"
+          },
+          {
+            "score": 92,
+            "name": "Marc Benioff",
+            "status": "Prioritas"
+          },
+          {
+            "score": 45,
+            "name": "Satya Nadella",
+            "status": "Niat Rendah"
+          },
+          {
+            "score": 89,
+            "name": "Sundar Pichai",
+            "status": "Terualifikasi"
+          }
+        ],
+        "intake": [
+          {
+            "name": "Tim Cook",
+            "source": "Google Ads",
+            "time": "2m lalu",
+            "status": "Diterima"
+          },
+          {
+            "name": "Emily Watson",
+            "source": "WhatsApp",
+            "time": "5m lalu",
+            "status": "Diterima"
+          },
+          {
+            "name": "Marc Benioff",
+            "source": "Facebook",
+            "time": "12m lalu",
+            "status": "Diterima"
+          },
+          {
+            "name": "Satya Nadella",
+            "source": "Formulir Web",
+            "time": "18m lalu",
+            "status": "Diterima"
+          },
+          {
+            "name": "Sundar Pichai",
+            "source": "Sheets",
+            "time": "25m lalu",
+            "status": "Diterima"
+          }
+        ],
+        "followup": [
+          {
+            "name": "Tim Cook",
+            "step": "Menunggu Balasan",
+            "seq": "Langkah 2/4"
+          },
+          {
+            "name": "Emily Watson",
+            "step": "Email Terkirim",
+            "seq": "Langkah 1/4"
+          },
+          {
+            "name": "Marc Benioff",
+            "step": "Balasan Diterima",
+            "seq": "Sedang Menyusun..."
+          },
+          {
+            "name": "Satya Nadella",
+            "step": "WhatsApp Terkirim",
+            "seq": "Langkah 1/2"
+          },
+          {
+            "name": "Sundar Pichai",
+            "step": "Tidak Ada Respons",
+            "seq": "Mencoba Lagi..."
+          }
+        ],
+        "convert": [
+          {
+            "name": "Tim Cook",
+            "deal": " Kesepakatan",
+            "status": "Berhasil"
+          },
+          {
+            "name": "Emily Watson",
+            "deal": "Demo Ditetapkan",
+            "status": "Berhasil"
+          },
+          {
+            "name": "Marc Benioff",
+            "deal": "CRM Tersinkronisasi",
+            "status": "Berhasil"
+          },
+          {
+            "name": "Satya Nadella",
+            "deal": "Diarsipkan",
+            "status": "Berhasil"
+          },
+          {
+            "name": "Sundar Pichai",
+            "deal": "Demo Ditetapkan",
+            "status": "Berhasil"
+          }
+        ]
+      },
+      "badge": "Alur Kerja Penjualan",
+      "title_start": "Satu Platform AI untuk",
+      "title_end": "Perjalanan Penjualan Lengkap",
+      "googleButton": "Hubungkan dengan Google",
+      "progress": "Progres",
+      "tabs": {
+        "intake": {
+          "title": "Penerimaan Prospek",
+          "subtitle": "Kumpulkan dari semua sumber",
+          "description": "Satukan prospek dari Google Ads, Meta, WhatsApp, dan formulir web ke dalam satu lapisan terstruktur.",
+          "steps": {
+            "step1": "Hubungkan Saluran",
+            "step2": "Normalisasi Data",
+            "step3": "Pertahankan Konteks Sumber",
+            "step4": "Dorong ke Antrean Pusat"
+          }
+        },
+        "qualify": {
+          "title": "Perkaya & Beri Skor",
+          "subtitle": "Kedalaman dan prioritas AI",
+          "description": "Perkaya data yang hilang dan gunakan AI untuk mengidentifikasi prospek dengan niat tinggi secara instan.",
+          "steps": {
+            "step1": "Pengayaan Data",
+            "step2": "Kualifikasi AI",
+            "step3": "Penilaian Niat",
+            "step4": "Prioritas Antrean"
+          }
+        },
+        "followup": {
+          "title": "Tindak Lanjut Otomatis",
+          "subtitle": "Sekuens Gmail & WhatsApp",
+          "description": "Luncurkan sekuens tindak lanjut yang dipersonalisasi melalui Gmail atau WhatsApp saat prospek tertangkap.",
+          "steps": {
+            "step1": "Daftarkan ke Sekuens",
+            "step2": "Kirim Pesan Otomatis",
+            "step3": "Lacak Balasan",
+            "step4": "Draf Balasan AI"
+          }
+        },
+        "convert": {
+          "title": "Konversi & Sinkronisasi",
+          "subtitle": "Pertemuan dan serah terima CRM",
+          "description": "Ubah minat menjadi pertemuan yang dijadwalkan dan sinkronkan semua data secara otomatis ke CRM atau Sheets Anda.",
+          "steps": {
+            "step1": "Jadwalkan Pertemuan",
+            "step2": "Sinkronisasi CRM",
+            "step3": "Visibilitas Pipeline",
+            "step4": "Analisis ROI"
+          }
+        }
+      }
+    },
+    "Hero": {
+      "badgeText": "Dibuat untuk eksekusi pipeline yang lebih cepat",
+      "badgeLink": "Tim pendapatan",
+      "title": "Temukan prospek yang lebih baik, nilai intensi, dan luncurkan penjangkauan dari satu ruang kerja AI.",
+      "description": "Jumpix memberikan tim penjualan modern satu sistem yang rapi untuk menemukan prospek, mengkualifikasi permintaan, dan bergerak dari sinyal ke urutan tanpa alat yang terpisah-pisah.",
+      "messageLabel": "Tampilan operator",
+      "messageText": "Temukan kontak VP Pemasaran di perusahaan SaaS B2B di London, perkaya data mereka, dan dorong prospek berniat tinggi ke dalam urutan baru.",
+      "primaryCta": "Mulai Sekarang",
+      "chips": [
+        "Temukan akun target",
+        "Perkaya data kontak",
+        "Skor intensi",
+        "Luncurkan sekuens"
+      ],
+      "trustItems": [
+        {
+          "value": "Penemuan prospek",
+          "label": "Bangun daftar terfokus tanpa prospeksi manual."
+        },
+        {
+          "value": "Skoring intensi",
+          "label": "Prioritaskan akun sebelum perwakilan menghabiskan waktu."
+        },
+        {
+          "value": "Serah terima sekuens",
+          "label": "Pindahkan prospek yang memenuhi syarat ke penjangkauan dalam hitungan menit."
+        }
+      ],
+      "spotlight": {
+        "signalTitle": "Visibilitas pipeline",
+        "signalText": "Penemuan, penilaian, dan serah terima sekuens dalam satu alur premium.",
+        "commandLabel": "Perintah AI",
+        "liveLabel": "Kecocokan langsung",
+        "scoreLabel": "Skor intensi",
+        "scoreText": "Dipindahkan ke antrean prioritas",
+        "ribbonLabel": "Alur kerja aktif",
+        "readyTitle": "Sekuens siap",
+        "readyText": "Prospek terverifikasi dapat dikirim dalam satu klik.",
+        "dashboardAlt": "Pratinjau ruang kerja Jumpix"
+      }
+    },
+    "IntegrationsShowcase": {
+      "badge": "EKOSISTEM TERHUBUNG",
+      "title": "Bekerja dengan tumpukan teknologi Anda saat ini",
+      "description": "Jumpix terhubung dengan mulus ke alat yang sudah digunakan tim Anda. HubSpot, CRM, Slack, dan Gmail. Tanpa pengaturan rumit, hanya produktivitas murni.",
+      "cta": "Jelajahi semua integrasi"
+    },
+    "Features": {
+      "badge": "OPERASI PENDAPATAN",
+      "title": "Satukan Operasi Prospek Anda di Satu Tempat",
+      "description": "Konsolidasikan sumber prospek yang tersebar, kualifikasi manual, dan tindak lanjut yang terputus ke dalam satu lapisan eksekusi pendapatan.",
+      "items": {
+        "scoring": {
+          "title": "Kualifikasi & Skoring AI",
+          "description": "Tidak semua prospek diciptakan sama. Gunakan AI untuk menilai intensi dan memastikan perwakilan Anda memfokuskan waktu mereka pada peluang terpanas."
+        },
+        "enrichment": {
+          "title": "Penataan Prospek Cerdas",
+          "description": "Perkaya dan normalisasi data mentah. Berikan catatan yang siap dikerjakan kepada tim Anda alih-alih pengiriman formulir yang tidak lengkap."
+        },
+        "autopilot": {
+          "title": "Tindak Lanjut Omnichannel",
+          "description": "Luncurkan sekuens yang dipersonalisasi melalui Gmail dan WhatsApp. Jangan mengandalkan ingatan untuk tindak lanjut; biarkan sistem mengatur penjangkauan."
+        },
+        "widget": {
+          "title": "Widget WhatsApp & Web",
+          "description": "Ubah pengunjung menjadi prospek secara instan dan mulai percakapan otomatis melalui WhatsApp untuk menangkap intensi segera."
+        },
+        "visibility": {
+          "title": "Analitik Saluran & Corong",
+          "description": "Pantau kinerja setiap sumber dan setiap perwakilan secara real-time. Identifikasi hambatan dan optimalkan tingkat konversi dengan satu klik."
+        },
+        "stack": {
+          "title": "Konektivitas Tumpukan Strategis",
+          "description": "Sinkronisasi mulus dengan HubSpot, Salesforce, dan Google Sheets. Lindungi kebersihan data dan sistem catatan Anda dalam skala apa pun."
+        }
+      }
+    },
+    "HowItWorks": {
+      "title": "Bagaimana Cara Kerjanya?",
+      "subtitle": "Mulai hasilkan nilai dalam hitungan menit, bukan bulan.",
+      "steps": {
+        "step1": {
+          "title": "Hubungkan Data Anda",
+          "description": "Impor sumber data Anda yang ada ke dalam platform dalam hitungan detik dengan integrasi satu klik kami."
+        },
+        "step2": {
+          "title": "Tentukan Aturan Anda",
+          "description": "Konfigurasikan alur kerja Anda sendiri secara intuitif tanpa menulis kode apa pun menggunakan alat kami yang fleksibel."
+        },
+        "step3": {
+          "title": "Optimalkan & Skalakan",
+          "description": "Langsung aktif. Tingkatkan proses Anda secara berkelanjutan dengan metrik real-time."
+        }
+      }
+    },
+    "CTA": {
+      "badge": "INFRASTRUKTUR PENJUALAN MASA DEPAN",
+      "title_start": "Transformasi Proses",
+      "title_end": "Penjualan Anda Hari Ini.",
+      "description1": "Berinteraksi dengan data Anda, otomatisasi alur kerja, dan buka potensi tim Anda.",
+      "description2": "Dengan Jumpix, setiap interaksi berubah menjadi peluang.",
+      "getStarted": "Mulai Gratis",
+      "requestDemo": "Minta Demo",
+      "trustBadge": "Perusahaan & Kepercayaan Global"
+    },
+    "Testimonials": {
+      "title": "Disukai oleh Bisnis di Mana Saja",
+      "subtitle": "Jangan hanya percaya kata-kata kami, bergabunglah dengan ratusan tim bahagia yang berkembang dan mempercepat operasional mereka bersama kami."
+    },
+    "FeaturesSecondary": {
+      "badge": "OTOMATISASI ALUR KERJA",
+      "title_line1": "Rancang alur kerja Anda",
+      "title_line2": "dengan struktur pohon.",
+      "button": "Bangun Alur Anda",
+      "tabs": {
+        "intake": {
+          "label": "Saluran Masuk",
+          "title": "Satukan Semua Permintaan di Satu Tempat",
+          "description": "WhatsApp, Meta Ads, Google Ads, dan formulir web. Apa pun sumbernya, masukkan ke dalam alur."
+        },
+        "logic": {
+          "label": "Kecerdasan & Keputusan",
+          "title": "Perutean Cerdas dengan AI",
+          "description": "Ukur niat, beri skor prospek, dan arahkan secara otomatis ke tim atau urutan yang tepat."
+        },
+        "outreach": {
+          "label": "Tindak Lanjut Otomatis",
+          "title": "Alur Komunikasi yang Dipersonalisasi",
+          "description": "Tingkatkan tingkat balasan dengan alur tindak lanjut multi-saluran melalui Gmail dan WhatsApp."
+        },
+        "sync": {
+          "label": "Sinkronisasi Data",
+          "title": "Harmoni Penuh dengan CRM & Alat Anda",
+          "description": "Transfer rapat yang disetujui dan prospek yang memenuhi syarat secara otomatis ke sistem CRM Anda."
+        }
+      },
+      "visualization": {
+        "leadIntake": "Penerimaan Prospek",
+        "aiReasoning": "Penalaran AI",
+        "rejected": "DITOLAK",
+        "emailSequencer": "Pengurut Email",
+        "crmSync": "Sinkronisasi CRM",
+        "meeting": "Rapat",
+        "activeFlow": "ALUR AKTIF",
+        "aiEnabled": "DENGAN AI"
+      }
+    },
+    "Footer": {
+      "description": "Platform all-in-one untuk penskalaan SaaS modern. Otomatiskan, optimalkan, dan berkembang dengan percaya diri.",
+      "sections": {
+        "product": {
+          "title": "Produk",
+          "links": {
+            "features": "Fitur",
+            "workflow": "Alur Kerja",
+            "demo": "Demo",
+            "pricing": "Harga",
+            "faq": "FAQ"
+          }
+        },
+        "company": {
+          "title": "Perusahaan",
+          "links": {
+            "about": "Tentang Kami",
+            "blog": "Blog",
+            "careers": "Karier",
+            "contact": "Kontak"
+          }
+        },
+        "legal": {
+          "title": "Hukum",
+          "links": {
+            "privacy": "Kebijakan Privasi",
+            "terms": "Ketentuan Layanan",
+            "refund": "Kebijakan Pengembalian Dana",
+            "cookie": "Kebijakan Cookie"
+          }
+        }
+      },
+      "rights": "© {year} Jumpix Inc. Hak cipta dilindungi undang-undang.",
+      "status": "Status Sistem",
+      "support": "Dukungan"
+    },
+    "InteractiveShowcase": {
+      "badge": "Tur Produk Interaktif",
+      "title_start": "Satu Platform AI untuk",
+      "title_end": "Perjalanan Penjualan yang Lengkap",
+      "description": "Kami menyimulasikan dasbor kami dengan data nyata. Anda dapat menjelajahi fitur menggunakan menu kiri dan berinteraksi di layar utama.",
+      "hotspots": {
+        "search": {
+          "title": "Pencari Prospek",
+          "description": "Saring jutaan titik data profesional dengan filter canggih dan tambahkan ke daftar Anda."
+        },
+        "flowagent": {
+          "title": "Agen Alur",
+          "description": "Jadikan corong penjualan Anda otomatis dengan asisten AI, menangkap prospek paling potensial dengan sinyal berbasis niat."
+        },
+        "inbox": {
+          "title": "Kotak Masuk Terpadu",
+          "description": "Kumpulkan balasan dari semua saluran dalam satu hub dan tanggapi dalam hitungan detik dengan bantuan AI."
+        },
+        "analytics": {
+          "title": "Laporan Terperinci",
+          "description": "Ukur ROI Anda dengan menganalisis tingkat konversi dan keberhasilan kampanye berbasis saluran secara instan."
+        }
+      },
+      "sidebar": {
+        "mainMenu": "Menu Utama",
+        "system": "Sistem",
+        "dashboard": "Dasbor",
+        "search": "Pencari Prospek",
+        "sequences": "Agen Alur",
+        "inbox": "Kotak Masuk",
+        "lists": "Daftar Saya",
+        "analytics": "Laporan",
+        "integrations": "Integrasi",
+        "billing": "Penagihan",
+        "settings": "Pengaturan"
+      },
+      "header": {
+        "platform": "Platform",
+        "shortcut": "Pintasan (⌘K)"
+      },
+      "views": {
+        "dashboard": {
+          "greeting": "Selamat pagi, Emirhan",
+          "subtitle": "Inilah yang perlu Anda fokuskan hari ini.",
+          "newCampaign": "Kampanye Baru",
+          "activeLeads": "Prospek Aktif",
+          "openRate": "Email Dibuka",
+          "replyRate": "Tingkat Balasan",
+          "booking": "Pemesanan",
+          "campaignPerformance": "Performa Kampanye",
+          "trendingChannels": "Saluran Tren",
+          "last7Days": "7 Hari Terakhir",
+          "last30Days": "30 Hari Terakhir",
+          "email": "Email",
+          "linkedin": "LinkedIn",
+          "whatsapp": "WhatsApp",
+          "viewAll": "Lihat Semua"
+        },
+        "search": {
+          "title": "Basis Data Prospek",
+          "subtitle": "400jt+ data profesional yang dapat dipindai.",
+          "filters": "Filter",
+          "query": "Kueri",
+          "cols": [
+            "Nama Lengkap",
+            "Perusahaan & Industri",
+            "Lokasi",
+            "Status"
+          ],
+          "statusVerified": "Terverifikasi",
+          "statusPending": "Tertunda",
+          "industry": "Teknologi / SaaS",
+          "details": "Detail",
+          "showing": "Menampilkan 1-5 dari 1.248 kontak",
+          "prev": "Sebelumnya",
+          "next": "Selanjutnya"
+        },
+        "sequences": {
+          "title": "Jangkauan Perusahaan Q1",
+          "subtitle": "Model Hibrida LinkedIn + Email",
+          "statusActive": "Aktif",
+          "edit": "Edit",
+          "stepDay1": "Hari 1",
+          "stepDay4": "Hari 4",
+          "initialConnection": "Koneksi Awal",
+          "wait3Days": "Tunggu 3 Hari (Jika Tidak Ada Balasan)",
+          "linkedinVisit": "Kunjungan Profil & Permintaan",
+          "emailBody": "Subjek: Proposal kolaborasi untuk {{company}}",
+          "linkedinBody": "Catatan: Otomatisasi LinkedIn aktif.",
+          "addStep": "+ Tambah Langkah"
+        },
+        "analytics": {
+          "totalRevenue": "Dampak Pendapatan Total (ROI)",
+          "multiplier": "Pengali 12,4x",
+          "vsPrevMonth": "+24% vs Bulan Sebelumnya",
+          "inboxRate": "Tingkat Masuk Kotak Surat",
+          "inboxDesc": "92% email Anda mencapai folder utama.",
+          "replyAnalysis": "Analisis Balasan Masuk",
+          "positive": "Positif",
+          "neutral": "Netral",
+          "channels": [
+            "Kampanye Email",
+            "Pesan LinkedIn",
+            "Penjangkauan Langsung"
+          ]
+        }
+      },
+      "tooltip": {
+        "clickToView": "Klik untuk Melihat"
+      },
+      "quickAccess": "Akses Cepat"
+    },
+    "Mockups": {
+      "hero": {
+        "workspace": "ruang-kerja-jumpix",
+        "newLeads": "Prospek Baru",
+        "qualifying": "Kualifikasi",
+        "qualified": "Terkualifikasi",
+        "scoringSignal": "Sinyal Penilaian: Niat Tinggi",
+        "organic": "Organik"
+      },
+      "enrichment": {
+        "incoming": "Webhook Masuk",
+        "vpSales": "VP Penjualan di Acme Corp",
+        "companySize": "Ukuran Perusahaan: 50-200",
+        "industry": "Industri: SaaS"
+      },
+      "workflow": {
+        "leadCreated": "Prospek Dibuat",
+        "aiQual": "Kualifikasi AI",
+        "autoEmail": "Email Otomatis"
+      },
+      "analytics": {
+        "funnel": "Corong Konversi",
+        "formFills": "Pengisian Formulir",
+        "qualified": "Terkualifikasi",
+        "meetings": "Pertemuan",
+        "velocity": "Kecepatan Pipeline",
+        "days": "hari",
+        "winRate": "Tingkat Kemenangan"
+      }
+    }
+  },
+  "TestTranslations": "Uji Terjemahan Dinamis Berhasil!",
+  "SEO": {
+    "defaultTitle": "Jumpix | Otomatisasi Pemasaran Berbasis AI",
+    "defaultDescription": "Platform otomatisasi pemasaran dan jangkauan AI generasi berikutnya. Temukan prospek yang lebih baik, nilai intensi, dan otomatisasi alur kerja penjualan Anda.",
+    "titleTemplate": "%s | Jumpix",
+    "pages": {
+      "about": {
+        "title": "Tentang Kami",
+        "description": "Pelajari misi, cerita, dan nilai-nilai Jumpix - masa depan otomatisasi pemasaran."
+      },
+      "pricing": {
+        "title": "Paket Harga",
+        "description": "Paket harga terjangkau untuk tim penjualan modern. Mulai dengan fitur esensial dan kembangkan bersama Jumpix."
+      },
+      "contact": {
+        "title": "Hubungi Kami",
+        "description": "Punya pertanyaan? Tim kami siap membantu Anda mengoptimalkan alur kerja penjualan dengan AI."
+      },
+      "aiJumpix": {
+        "title": "AI Jumpix Assistant",
+        "description": "Chat with your dashboard data and get instant insights using Gemini 1.5 Pro."
+      }
+    }
+  },
+  "Navigation": {
+    "features": "Fitur",
+    "workflow": "Alur Kerja",
+    "showcase": "Demo",
+    "pricing": "Harga",
+    "faq": "FAQ",
+    "login": "Masuk",
+    "getStarted": "Mulai Sekarang",
+    "dashboard": "Ringkasan",
+    "pipeline": "Saluran Penjualan",
+    "conversations": "Percakapan Langsung",
+    "b2bDatabase": "Basis Data B2B",
+    "leads": "Prospek",
+    "calendar": "Kalender",
+    "aiTraining": "Pelatihan AI",
+    "activityLog": "Log Aktivitas",
+    "sequences": "Urutan Cerdas",
+    "widgetManagement": "Manajemen Widget",
+    "whatsappWidget": "Widget WhatsApp",
+    "webChatbot": "Chatbot Web",
+    "generalSettings": "Pengaturan Umum",
+    "businessProfile": "Profil Bisnis",
+    "systemIntegrations": "Integrasi Sistem",
+    "privacyGdpr": "Privasi & GDPR",
+    "billingSubscription": "Penagihan & Langganan",
+    "teamRouting": "Tim & Perutean",
+    "setupWizard": "Panduan Pengaturan",
+    "myTickets": "Tiket Dukungan Saya",
+    "helpCenter": "Pusat Bantuan",
+    "aiJumpix": "AI Jumpix",
+    "operations": "Operations",
+    "support": "Support",
+    "mapsScraper": "Maps Scraper"
+  },
+  "HomePage": {
+    "seoTitle": "Jumpix - Alat Otomatisasi Pemasaran AI Terbaik",
+    "seoDescription": "Sederhanakan alur kerja penjualan Anda dengan Jumpix. Fitur mencakup penilaian prospek, pengayaan, dan jangkauan otomatis.",
+    "title": "Selamat Datang di Jumpix",
+    "description": "Tempat terbaik untuk mengelola produk Anda.",
+    "features": {
+      "heading": "Mengapa Memilih Jumpix?",
+      "subheading": "Rangkaian alat lengkap untuk meningkatkan alur kerja pemesanan Anda tanpa usaha manual.",
+      "items": {
+        "instantResponse": {
+          "title": "Respons Instan",
+          "desc": "Libatkan prospek dalam waktu kurang dari 10 detik melalui WhatsApp atau Email."
+        },
+        "smartQualification": {
+          "title": "Kualifikasi Cerdas",
+          "desc": "AI memfilter prospek yang tidak memenuhi syarat sebelum mereka mencapai kalender Anda."
+        },
+        "availability": {
+          "title": "Ketersediaan 24/7",
+          "desc": "Jangan pernah melewatkan peluang pemesanan, bahkan saat Anda tidur."
+        }
+      }
+    }
+  },
+  "Integrations": {
+    "title": "Integrasi Sistem",
+    "description": "Hubungkan alat favorit Anda untuk mengotomatiskan alur kerja Anda.",
+    "activeChannels": "Saluran Aktif",
+    "activeChannelsSub": "Kelola ekosistem data omnichannel Anda",
+    "crmEcosystem": "Ekosistem Data CRM",
+    "crmEcosystemSub": "Sinkronkan prospek Anda dengan integrasi CRM bawaan",
+    "statusConnected": "Terhubung",
+    "statusDisconnected": "Terputus",
+    "actionActivate": "Aktifkan",
+    "actionRefactor": "Refaktor",
+    "modalTitle": "Konfigurasi",
+    "modalConnect": "Hubungkan",
+    "modalUpdate": "Perbarui",
+    "automationWebhooks": "Webhook & Otomatisasi",
+    "automationWebhooksSub": "Perluas alur data Anda dengan webhook kustom"
+  },
+  "Legal": {
+    "cookiePolicy": {
+      "title": "Kebijakan Cookie",
+      "lastUpdated": "Terakhir diperbarui: Februari 2026",
+      "section1Title": "1. Apa Itu Cookie",
+      "section1Content": "Cookie adalah file teks kecil yang ditempatkan di komputer atau perangkat seluler Anda oleh situs web yang Anda kunjungi. Cookie digunakan secara luas agar situs web dapat berfungsi, atau bekerja lebih efisien, serta untuk memberikan informasi kepada pemilik situs.",
+      "section2Title": "2. Bagaimana Kami Menggunakan Cookie",
+      "section2Content": "Kami menggunakan cookie untuk berbagai alasan yang dirinci di bawah ini:",
+      "essentialTitle": "Cookie Esensial:",
+      "essentialContent": "Cookie ini diperlukan agar situs web berfungsi dan tidak dapat dimatikan dalam sistem kami.",
+      "performanceTitle": "Cookie Kinerja:",
+      "performanceContent": "Cookie ini memungkinkan kami menghitung kunjungan dan sumber lalu lintas sehingga kami dapat mengukur dan meningkatkan kinerja situs kami.",
+      "functionalTitle": "Cookie Fungsional:",
+      "functionalContent": "Cookie ini memungkinkan situs web memberikan fungsionalitas dan personalisasi yang ditingkatkan.",
+      "section3Title": "3. Menonaktifkan Cookie",
+      "section3Content": "Anda dapat mencegah pengaturan cookie dengan menyesuaikan pengaturan pada browser Anda. Perlu diketahui bahwa menonaktifkan cookie akan memengaruhi fungsionalitas situs ini dan banyak situs web lainnya."
+    },
+    "privacyPolicy": {
+      "title": "Kebijakan Privasi",
+      "lastUpdated": "Terakhir Diperbarui: 10 Maret 2026",
+      "section1Title": "1. PENDAHULUAN",
+      "section1Content": "Jumpix (\"kami\") mengoperasikan platform otomatisasi pemasaran yang tersedia di jumpix.app. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan membagikan informasi dari pengguna kami dan pelanggan akhir mereka.",
+      "section2Title": "2. INFORMASI YANG KAMI KUMPULKAN",
+      "section2Content": "Kami mengumpulkan jenis informasi berikut:\n- Informasi Akun Pribadi: Saat Anda mendaftar ke Jumpix, kami mengumpulkan nama, alamat email (melalui Zoho), dan detail autentikasi (diproses melalui Supabase).\n- Informasi Pembayaran: Semua pembayaran diproses oleh pengecer online kami, Paddle.com (Merchant of Record). Kami tidak menyimpan detail kartu kredit atau bank lengkap Anda di server kami.\n- Data Pemasaran: Kami menyimpan informasi yang Anda unggah untuk otomatisasi, seperti daftar email, nama kontak, dan konten kampanye.\n- Data Penggunaan: Kami dapat mengumpulkan alamat IP, jenis browser, dan pola penggunaan untuk meningkatkan layanan kami.",
+      "section3Title": "3. BAGAIMANA KAMI MENGGUNAKAN INFORMASI ANDA",
+      "section3Content": "Kami menggunakan informasi Anda untuk:\n- Menyediakan, mengoperasikan, dan memelihara fitur otomatisasi pemasaran Jumpix.\n- Memproses transaksi Anda melalui Paddle.\n- Mengirim notifikasi sistem (melalui Resend) dan email dukungan pelanggan (melalui Zoho).\n- Mencegah penipuan dan memastikan kepatuhan terhadap kebijakan Anti-Spam.",
+      "section4Title": "4. LAYANAN PIHAK KETIGA",
+      "section4Content": "Kami membagikan data dengan penyedia pihak ketiga tepercaya hanya untuk memenuhi layanan kami: Paddle.com (pemrosesan pembayaran), Supabase (database backend dan autentikasi pengguna), Resend (pengiriman email transaksional dan pemasaran), dan Zoho (komunikasi email perusahaan).",
+      "section5Title": "5. KEPEMILIKAN DATA DAN GDPR / KVKK",
+      "section5Content": "Anda adalah Pengendali Data untuk setiap data pelanggan (misalnya, daftar email Anda) yang Anda unggah ke Jumpix. Kami bertindak sebagai Pemroses Data. Anda menyatakan bahwa Anda telah memperoleh semua persetujuan yang diperlukan dari pelanggan Anda untuk memproses data mereka melalui Jumpix. Pengguna di UE (GDPR) atau Turki (KVKK) memiliki hak untuk mengakses, memperbaiki, atau menghapus data pribadi mereka.",
+      "section6Title": "6. KEAMANAN DATA",
+      "section6Content": "Kami menggunakan langkah-langkah keamanan standar industri, termasuk enkripsi SSL dan protokol database aman yang disediakan oleh Supabase, untuk melindungi data Anda. Namun, tidak ada metode transmisi melalui internet yang 100% aman.",
+      "section7Title": "7. COOKIE",
+      "section7Content": "Kami menggunakan cookie untuk mengelola sesi pengguna dan memahami bagaimana Anda berinteraksi dengan situs web kami guna memberikan pengalaman pengguna yang lebih baik.",
+      "section8Title": "8. PERUBAHAN PADA KEBIJAKAN INI",
+      "section8Content": "Kami dapat memperbarui Kebijakan Privasi kami dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan apa pun dengan memposting Kebijakan Privasi baru di halaman ini dan memperbarui tanggal \"Terakhir Diperbarui\".",
+      "section9Title": "9. HUBUNGI KAMI",
+      "section9Content": "Untuk pertanyaan apa pun mengenai Kebijakan Privasi ini, silakan hubungi kami di hello@jumpix.app atau jumpix.app."
+    },
+    "refundPolicy": {
+      "title": "Kebijakan Pengembalian Dana",
+      "lastUpdated": "Terakhir Diperbarui: 10 Maret 2026",
+      "section1Title": "1. PENDAHULUAN",
+      "section1Content": "Terima kasih telah memilih Jumpix (jumpix.app). Tujuan kami adalah memastikan alat otomatisasi pemasaran kami memenuhi kebutuhan bisnis Anda. Karena pembayaran kami diproses oleh pengecer daring kami, Paddle.com (Merchant of Record), pengembalian dana tunduk pada ketentuan ini dan syarat umum Paddle.",
+      "section2Title": "2. PEMBATALAN BERLANGGANAN",
+      "section2Content": "Anda dapat membatalkan langganan Jumpix Anda kapan saja melalui dasbor akun Anda. Setelah pembatalan, akun Anda akan tetap aktif hingga akhir siklus penagihan berbayar saat ini, dan Anda tidak akan dikenakan biaya untuk periode berikutnya.",
+      "section3Title": "3. KELAYAKAN PENGEMBALIAN DANA",
+      "section3Content": "Langganan Bulanan: Kami umumnya tidak menawarkan pengembalian dana untuk langganan bulanan setelah periode penagihan dimulai. Namun, jika Anda mengalami masalah teknis yang menghalangi Anda menggunakan Layanan, silakan hubungi kami dalam waktu 14 hari setelah transaksi.\nLangganan Tahunan: Pengembalian dana untuk paket tahunan dapat dipertimbangkan berdasarkan kasus per kasus jika diminta dalam waktu 30 hari setelah pembelian, dengan ketentuan pemotongan tarif bulanan standar untuk periode yang telah digunakan.",
+      "section4Title": "4. PENGECUALIAN (TIDAK DAPAT DIKEMBALIKAN)",
+      "section4Content": "Pengembalian dana tidak akan diberikan dalam kasus berikut:\n- Akun yang ditangguhkan atau dihentikan karena pelanggaran Ketentuan Layanan kami (misalnya, mengirim SPAM, konten ilegal).\n- Pengguna yang telah menggunakan fitur otomatisasi secara signifikan (misalnya, mengirim email dalam volume besar) selama periode penagihan.\n- Masalah yang timbul dari layanan pihak ketiga yang terintegrasi dengan Jumpix.",
+      "section5Title": "5. CARA MEMINTA PENGEMBALIAN DANA",
+      "section5Content": "Untuk meminta pengembalian dana, silakan kirim email kepada kami di hello@jumpix.app dengan detail transaksi Anda dan alasan permintaan Anda. Sebagai alternatif, Anda dapat menghubungi Dukungan Paddle secara langsung karena mereka adalah pengecer resmi kami.",
+      "section6Title": "6. PEMROSESAN PENGEMBALIAN DANA",
+      "section6Content": "Pengembalian dana yang disetujui akan diproses melalui Paddle menggunakan metode pembayaran asli. Tergantung pada lembaga keuangan Anda, mungkin diperlukan waktu 5–10 hari kerja agar kredit muncul di laporan mutasi Anda.",
+      "section7Title": "7. HUBUNGI KAMI",
+      "section7Content": "Untuk pertanyaan apa pun mengenai Kebijakan Pengembalian Dana kami, silakan hubungi kami di hello@jumpix.app atau jumpix.app."
+    },
+    "termsOfService": {
+      "title": "Ketentuan Layanan",
+      "lastUpdated": "Terakhir Diperbarui: 10 Maret 2026",
+      "section1Title": "1. PENERIMAAN KETENTUAN",
+      "section1Content": "Dengan mengakses atau menggunakan Jumpix (\"Layanan\"), sebuah platform otomatisasi pemasaran yang dioperasikan melalui jumpix.app, Anda setuju untuk terikat oleh Ketentuan Layanan ini (\"Ketentuan\"). Jika Anda tidak setuju dengan ketentuan ini, mohon untuk tidak menggunakan Layanan.",
+      "section2Title": "2. DESKRIPSI LAYANAN",
+      "section2Content": "Jumpix menyediakan alat otomatisasi pemasaran, termasuk namun tidak terbatas pada kampanye email, manajemen prospek, dan alur kerja otomatisasi. Kami berhak untuk mengubah atau menghentikan fitur Layanan apa pun kapan saja.",
+      "section3Title": "3. PADDLE SEBAGAI MERCHANT OF RECORD",
+      "section3Content": "Proses pemesanan kami dilakukan oleh pengecer daring kami, Paddle.com. Paddle.com adalah Merchant of Record untuk semua pesanan kami. Paddle menangani semua pertanyaan layanan pelanggan dan pengembalian terkait pembayaran. Dengan berlangganan Jumpix, Anda juga setuju dengan Syarat dan Ketentuan Paddle.",
+      "section4Title": "4. AKUN PENGGUNA DAN KEAMANAN",
+      "section4Content": "Untuk menggunakan Jumpix, Anda harus membuat akun. Anda bertanggung jawab untuk menjaga kerahasiaan kredensial Anda dan atas semua aktivitas yang terjadi di bawah akun Anda. Anda harus segera memberi tahu kami jika ada penggunaan yang tidak sah.",
+      "section5Title": "5. KEBIJAKAN PENGGUNAAN YANG DAPAT DITERIMA DAN ANTI-SPAM",
+      "section5Content": "Jumpix melarang keras penggunaan Layanan untuk mengirim email yang tidak diminta (SPAM). Anda hanya boleh mengirim komunikasi pemasaran kepada penerima yang telah memberikan persetujuan eksplisit (Opt-in). Anda harus mematuhi semua hukum yang berlaku, termasuk namun tidak terbatas pada CAN-SPAM Act, GDPR, dan KVKK. Kami berhak menangguhkan akun dengan tingkat pentalan (bounce rate) yang tinggi atau keluhan spam.",
+      "section6Title": "6. PEMBAYARAN DAN BERLANGGANAN",
+      "section6Content": "Langganan ditagih di muka dalam siklus berulang (bulanan atau tahunan). Anda dapat membatalkan langganan Anda kapan saja melalui dasbor Anda. Akses akan berlanjut hingga akhir periode penagihan saat ini. Permintaan pengembalian dana ditangani sesuai dengan Kebijakan Pengembalian Dana kami dan melalui dukungan Paddle.",
+      "section7Title": "7. KEPEMILIKAN DATA DAN PRIVASI",
+      "section7Content": "Anda tetap memiliki semua hak atas data yang Anda unggah ke Jumpix (misalnya, daftar email). Penggunaan kami atas data pribadi Anda dan data pelanggan Anda diatur oleh Kebijakan Privasi kami.",
+      "section8Title": "8. PEMBATASAN TANGGUNG JAWAB",
+      "section8Content": "Jumpix disediakan \"sebagaimana adanya\". Sejauh diizinkan oleh hukum, Jumpix tidak bertanggung jawab atas kerugian tidak langsung, insidental, atau konsekuensial yang diakibatkan oleh penggunaan atau ketidakmampuan untuk menggunakan Layanan.",
+      "section9Title": "9. PENGHENTIAN",
+      "section9Content": "Kami berhak untuk menghentikan atau menangguhkan akses Anda ke Layanan segera, tanpa pemberitahuan sebelumnya, jika Anda melanggar Ketentuan ini.",
+      "section10Title": "10. HUBUNGI KAMI",
+      "section10Content": "Jika Anda memiliki pertanyaan tentang Ketentuan ini, silakan hubungi kami di hello@jumpix.app atau melalui jumpix.app."
+    }
+  },
+  "CookieConsent": {
+    "message": "Kami menggunakan cookie untuk meningkatkan pengalaman Anda.",
+    "accept": "Terima",
+    "decline": "Tolak",
+    "learnMore": "Pelajari Lebih Lanjut"
+  },
+  "Dashboard": {
+    "title": "Pusat Komando",
+    "description": "Pusat kecerdasan waktu nyata. Agen AI memindai dan dioptimalkan.",
+    "metrics": {
+      "totalRevenue": "Total Pendapatan",
+      "newCustomers": "Pelanggan Baru",
+      "activeAccounts": "Akun Aktif",
+      "growthRate": "Tingkat Pertumbuhan"
+    },
+    "charts": {
+      "performanceIndex": "Indeks Performa",
+      "neuralFeed": "Umpan Neural"
+    },
+    "subtitle": "Welcome back. Here is what's happening today.",
+    "sections": {
+      "recentLeads": "Recent Leads",
+      "recentActivity": "Recent Activity"
+    },
+    "activity": {
+      "eventLabel": "Event"
+    },
+    "loading": {
+      "table": "Loading table...",
+      "chart": "Loading chart..."
+    }
+  },
+  "Auth": {
+    "login": {
+      "title": "Selamat Datang Kembali",
+      "subtitle": "Mari mulai uji coba gratis 30 hari Anda",
+      "emailPlaceholder": "Masukkan alamat email Anda",
+      "passwordPlaceholder": "Masukkan kata sandi Anda",
+      "rememberMe": "Ingat Saya",
+      "forgotPassword": "Lupa Kata Sandi?",
+      "submit": "Masuk ke Jumpix",
+      "noAccount": "Belum punya akun?",
+      "signUp": "Daftar",
+      "securityVerification": "Verifikasi Keamanan"
+    },
+    "signup": {
+      "title": "Buat Akun",
+      "subtitle": "Bergabunglah dengan ribuan bisnis yang melakukan penjualan lebih baik.",
+      "namePlaceholder": "Masukkan nama Anda",
+      "submit": "Buat Akun",
+      "alreadyHaveAccount": "Sudah punya akun?",
+      "login": "Masuk"
+    },
+    "forgotPassword": {
+      "title": "Atur Ulang Kata Sandi",
+      "subtitle": "Masukkan alamat email Anda untuk mengatur ulang kata sandi.",
+      "question": "Ingat kata sandi Anda?",
+      "submit": "Kirim Tautan Atur Ulang",
+      "backToLogin": "Kembali ke Masuk"
+    },
+    "social": {
+      "google": "Lanjutkan dengan Google"
+    },
+    "messages": {
+      "checkEmail": "Periksa email Anda untuk tautan konfirmasi.",
+      "linkSent": "Tautan atur ulang kata sandi telah dikirim! Periksa email Anda.",
+      "error": "Terjadi kesalahan.",
+      "captchaRequired": "Harap verifikasi bahwa Anda bukan robot"
+    },
+    "divider": "Atau",
+    "hero": {
+      "title": "Selamat Datang di Dunia Jumpix",
+      "subtitle": "Kelola proses penjualan Anda dari satu platform, tingkatkan produktivitas Anda dengan AI.",
+      "mockup": {
+        "triggerTitle": "Prospek Baru Ditambahkan",
+        "triggerSubtitle": "Kandidat yang cocok dengan ICP dipicu",
+        "intentTitle": "Periksa Skor Niat",
+        "intentStatus": "Tinggi",
+        "sequenceTitle": "Mulai Urutan: Penjangkauan Q1",
+        "sequenceVariant": "Varian B",
+        "sequenceStatus": "Berjalan..."
+      }
+    },
+    "resetPassword": {
+      "titleReset": "Atur Ulang Kata Sandi",
+      "titleInvite": "Lengkapi Akun Anda",
+      "subtitleReset": "Masukkan kata sandi baru Anda di bawah ini untuk mendapatkan kembali akses.",
+      "subtitleInvite": "Silakan atur kata sandi baru Anda untuk melanjutkan.",
+      "labelNewPassword": "Kata Sandi Baru",
+      "labelConfirmPassword": "Konfirmasi Kata Sandi Baru",
+      "submit": "Perbarui Kata Sandi",
+      "successTitle": "Kata sandi berhasil diperbarui!",
+      "successRedirect": "Mengalihkan ke halaman masuk...",
+      "backToLogin": "Kembali ke Masuk",
+      "errorMinLength": "Kata sandi minimal harus 6 karakter",
+      "errorMismatch": "Kata sandi tidak cocok",
+      "errorNoSession": "Sesi hilang. Silakan klik tautan kembali atau segarkan halaman."
+    }
+  },
+  "Contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Punya pertanyaan tentang solusi AI kami? Kami siap membantu Anda mengembangkan bisnis.",
+    "infoTitle": "Informasi Kontak",
+    "emailLabel": "Email Kami",
+    "phoneLabel": "Telepon Kami",
+    "visitLabel": "Kunjungi Kami",
+    "chatTitle": "Dukungan Obrolan Langsung",
+    "chatDesc": "Butuh bantuan segera? Tim dukungan kami tersedia 24/7.",
+    "startChat": "Mulai Obrolan",
+    "formTitle": "Kirim Pesan kepada Kami",
+    "name": "Nama",
+    "email": "Email",
+    "message": "Pesan",
+    "placeholderName": "John Doe",
+    "placeholderEmail": "john@example.com",
+    "placeholderMessage": "Apa yang bisa kami bantu?",
+    "submit": "Kirim Pesan",
+    "sending": "Mengirim...",
+    "success": "Pesan berhasil dikirim!",
+    "securityVerification": "Verifikasi Keamanan"
+  },
+  "Sequences": {
+    "active": "Aktif",
+    "passive": "Pasif",
+    "draft": "Draf",
+    "published": "Diterbitkan",
+    "title": "Pusat Urutan",
+    "reporting": "Analisis Performa",
+    "all": "Urutan",
+    "queue": "Antrean",
+    "settings": "Pengaturan",
+    "newSequence": "Urutan Baru",
+    "searchPlaceholder": "Cari sekuens...",
+    "filterAll": "Semua",
+    "filterActive": "Aktif",
+    "filterDraft": "Draf",
+    "table": {
+      "name": "Nama Sekuens",
+      "steps": "Langkah",
+      "status": "Status",
+      "performance": "Performa",
+      "action": "Tindakan",
+      "noSteps": "Tidak Ada Langkah",
+      "loading": "Memuat..."
+    },
+    "actions": {
+      "edit": "Edit",
+      "pause": "Jeda",
+      "start": "Mulai",
+      "delete": "Hapus",
+      "saveDraft": "Simpan Draf",
+      "publish": "Publikasikan",
+      "cancel": "Batal",
+      "deleteConfirm": "Apakah Anda yakin ingin menghapus sekuens ini?",
+      "deleteSuccess": "Sequence deleted successfully.",
+      "queueSuccess": "Operation completed successfully",
+      "deleteWarning": "Tindakan ini tidak dapat dibatalkan. Semua leads yang terdaftar akan dihapus dari urutan ini."
+    },
+    "stats": {
+      "active": "Aktif",
+      "sent": "Terkirim",
+      "opened": "Dibuka",
+      "revenue": "Pendapatan",
+      "unitMessages": "PESAN",
+      "unitPcs": "PCS",
+      "unitCurrency": "USD"
+    },
+    "reportingTitle": "Performa Kampanye",
+    "reportingDesc": "Tren pengiriman dan interaksi selama 30 hari terakhir",
+    "queueTitle": "Antrean Proses Aktif",
+    "queueDesc": "Langkah sekuens yang menunggu untuk dikirim atau sedang diproses",
+    "settingsTitle": "Konfigurasi Sekuens",
+    "settingsDesc": "Batas pengiriman berbasis akun dan aturan global",
+    "settingsForm": {
+      "limits": "Batas Pengiriman",
+      "dailyEmail": "Batas Email Harian",
+      "dailyWhatsapp": "Batas WhatsApp Harian",
+      "blackout": "Jam Nonaktif",
+      "startHour": "Jam Mulai",
+      "endHour": "Jam Selesai",
+      "action": "Tindakan Selama Jam Nonaktif",
+      "actionDelay": "Tunda",
+      "actionSkip": "Lewati Langkah",
+      "unsubControl": "Kontrol Berhenti Berlangganan Global",
+      "unsubDesc": "Mencegah pengiriman pesan ke prospek yang ditandai sebagai \"berhenti berlangganan\".",
+      "save": "Terapkan Perubahan",
+      "saving": "Menyimpan..."
+    },
+    "queueTable": {
+      "lead": "Prospek / Pelanggan",
+      "seqStep": "Sekuens / Langkah",
+      "dueAt": "Waktu Terjadwal",
+      "status": "Status",
+      "action": "Tindakan",
+      "failed": "Gagal: Mencoba ulang ({retry})",
+      "pending": "Tertunda",
+      "empty": "Tidak ada item yang menunggu dalam antrean."
+    },
+    "builder": {
+      "actions": {
+        "saveDraft": "Simpan Draf",
+        "publish": "Publikasikan"
+      },
+      "published": "Dipublikasikan",
+      "loading": "Memuat Pembuat Alur...",
+      "defaultName": "Smart Sequence Baru",
+      "drafting": "Menyusun Draf",
+      "palette": "Palet Langkah",
+      "email": "Email",
+      "emailDesc": "Kirim pesan otomatis",
+      "whatsapp": "WhatsApp",
+      "whatsappDesc": "Pesan WhatsApp",
+      "condition": "Kondisi",
+      "conditionDesc": "Tunggu dan buat cabang",
+      "task": "Tugas Manual",
+      "taskDesc": "Tetapkan tugas ke anggota tim",
+      "trigger": "Pemicu",
+      "triggerLabel": "Tipe Pemicu",
+      "triggerNoResponse": "Jika Tidak Ada Respons",
+      "triggerCreated": "Saat Prospek Dibuat",
+      "triggerMeeting": "Saat Pertemuan Dipesan",
+      "triggerInstant": "Mulai Seketika",
+      "triggerNow": "Mulai Sekarang",
+      "targetLabel": "Target",
+      "targetAll": "Semua Kumpulan",
+      "aiIcebreaker": "AI Icebreaker",
+      "aiAutopilot": "AI Autopilot",
+      "templateLabel": "Templat Pesan",
+      "templatePlaceholder": "Ketik pesan Anda di sini...",
+      "btnIcebreaker": "Icebreaker",
+      "btnOptimize": "Optimalkan",
+      "delayLabel": "Penundaan (Jam)",
+      "branchYes": "YA",
+      "branchNo": "TIDAK",
+      "controlLabel": "Kontrol",
+      "controlReplied": "Apakah mereka membalas?",
+      "controlOpened": "Apakah email dibuka?",
+      "selectionPlaceholder": "Buat pilihan",
+      "selectionDesc": "Klik langkah pada komponen untuk mengedit pengaturannya.",
+      "toastSuccess": "Sequence berhasil dipublikasikan!",
+      "toastDraft": "Draf berhasil disimpan!",
+      "toastAiSuccess": "Konten AI berhasil dibuat",
+      "toastAiError": "Konten AI tidak dapat dibuat",
+      "toastError": "Terjadi kesalahan",
+      "toastSave": "Settings saved successfully",
+      "toastEmptyTemplate": "Harap isi template pesan untuk semua langkah sebelum menyimpan."
+    },
+    "loading": "Loading...",
+    "noResults": "No results found",
+    "noResultsDesc": "No sequences matching your search criteria were found."
+  },
+  "Tour": {
+    "step1": {
+      "title": "Selamat datang di Jumpix! 🚀",
+      "description": "Izinkan kami menunjukkan asisten janji temu bertenaga AI baru Anda. Ini hanya akan memakan waktu satu menit."
+    },
+    "step2": {
+      "title": "Ringkasan Dasbor",
+      "description": "Lihat metrik tingkat tinggi, status sistem, dan aktivitas AI terbaru Anda secara sekilas."
+    },
+    "step3": {
+      "title": "Saluran Penjualan",
+      "description": "Lacak prospek Anda melalui berbagai tahapan. Seret dan lepas untuk memperbarui status mereka secara manual jika diperlukan."
+    },
+    "step4": {
+      "title": "Percakapan Langsung",
+      "description": "Pantau interaksi AI-manusia secara real-time. Anda dapat mengambil alih obrolan apa pun kapan saja."
+    },
+    "step5": {
+      "title": "Basis Data Prospek B2B",
+      "description": "Akses 400 juta+ kontak profesional untuk menemukan dan memverifikasi calon klien baru."
+    },
+    "step6": {
+      "title": "Urutan Cerdas",
+      "description": "Rancang urutan tindak lanjut multi-saluran melalui Email dan WhatsApp untuk melibatkan kembali prospek secara otomatis."
+    },
+    "step7": {
+      "title": "Tim & Perutean",
+      "description": "Kelola agen Anda dan atur distribusi prospek otomatis (Round-Robin)."
+    },
+    "step8": {
+      "title": "Panduan Pengaturan",
+      "description": "Perlu mengonfigurasi ulang saluran atau kalender Anda? Panduan pengaturan selalu tersedia di sini."
+    },
+    "buttons": {
+      "next": "Selanjutnya →",
+      "prev": "← Sebelumnya",
+      "done": "Selesaikan Tur"
+    }
+  },
+  "JumpixAssistant": {
+    "title": "AI Jumpix",
+    "subtitle": "Intelligent Dashboard Assistant",
+    "newChat": "New Chat",
+    "history": "History",
+    "placeholder": "Ask something...",
+    "welcomeTitle": "How can I help you?",
+    "welcomeDesc": "You can ask anything about your lead data, appointments, or platform usage. Gemini 1.5 Pro has access to all your dashboard data!",
+    "analyzing": "AI Jumpix is analyzing...",
+    "poweredBy": "Powered by Google Gemini 1.5 Pro",
+    "suggestions": {
+      "leads": "List the last 5 leads",
+      "meetings": "What are my meetings for next week?",
+      "integration": "How to set up Lead Ads integration?",
+      "analysis": "Analyze my conversion rates"
+    }
+  },
+  "Blog": {
+    "title": "Intelligence Feed",
+    "subtitle": "Jumpix Inside",
+    "description": "Explorations in AI automation, appointment setting, and the future of B2B SaaS growth.",
+    "featured": "Featured Insight",
+    "readingTime": "{minutes} Min Read",
+    "recentTitle": "Recent Explorations",
+    "noPosts": "More insights arriving soon. Stay tuned.",
+    "ctaTitle": "Scale Your Growth with AI Intelligence.",
+    "ctaDescription": "Join 5,000+ founders receiving weekly tactical guides on AI sales automation and appointment setting.",
+    "ctaButton": "Start Scaling",
+    "backLink": "Back to Insights",
+    "shareTitle": "Share Insight",
+    "didYouFindValuable": "Did you find this valuable?",
+    "valuableDescription": "Share this exploration with your network or start your own automation journey with Jumpix.",
+    "tryFree": "Try Jumpix Free",
+    "copyLink": "Copy Article Link",
+    "authorDefault": "Jumpix Editorial",
+    "authorTag": "Expertise Writer"
+  },
+  "UseCases": {
+    "customerSuccess": {
+      "eyebrow": "Customer Success",
+      "title": "Turn post-sale follow-up into a measurable customer expansion workflow",
+      "description": "Jumpix helps customer-success teams centralize account signals, prioritize at-risk or expansion-ready customers, and launch the right follow-up through inbox, WhatsApp, calendar, and CRM-connected workflows.",
+      "outcomes": {
+        "fasterRisk": {
+          "title": "Faster risk response",
+          "description": "Catch churn signals earlier and trigger customer outreach before silence turns into cancellation."
+        },
+        "expansion": {
+          "title": "Expansion visibility",
+          "description": "Identify high-intent conversations and route upsell or cross-sell opportunities to the right owner."
+        },
+        "renewals": {
+          "title": "Consistent renewals",
+          "description": "Keep renewal checkpoints, stakeholder follow-up, and meeting history visible in one execution layer."
+        }
+      }
+    },
+    "sales": {
+      "eyebrow": "Sales Teams",
+      "title": "Turn every serious lead into a sales conversation before momentum fades",
+      "description": "Jumpix gives sales teams a practical execution layer: capture inbound demand, score intent with context, launch multichannel follow-up, and move qualified opportunities to meeting stage faster.",
+      "outcomes": {
+        "fasterReply": {
+          "title": "Reply faster on high-intent leads",
+          "description": "Route priority leads to the right rep in minutes, not after manual triage."
+        },
+        "moreMeetings": {
+          "title": "Book more qualified meetings",
+          "description": "Use AI-supported qualification and timely outreach to convert interest into calendar events."
+        }
+      }
+    },
+    "marketing": {
+      "eyebrow": "Marketing Teams",
+      "title": "Help marketing teams turn campaign demand into qualified pipeline",
+      "description": "Jumpix should show marketing leaders that campaign performance does not stop at the lead form. It continues through routing, qualification, and sales handoff quality.",
+      "outcomes": {
+        "cleanIntake": {
+          "title": "Cleaner lead intake",
+          "description": "Stop pushing raw campaign demand directly into the pipeline."
+        },
+        "handoff": {
+          "title": "Better handoff quality",
+          "description": "Pass richer context to sales before the first follow-up starts."
+        }
+      }
+    }
+  },
+  "Solutions": {
+    "analytics": "Analytics",
+    "flowBuilder": "Flow Builder",
+    "sequences": "Smart Sequences",
+    "aiAgents": "AI Agents"
+  },
+  "Features": {
+    "leadCapture": "Lead Capture",
+    "leadEnrichment": "Lead Enrichment",
+    "leadScoring": "Lead Scoring",
+    "sequences": "Sequences",
+    "pipelineAnalytics": "Pipeline Analytics"
+  },
+  "MarketingIntegrations": {
+    "google-ads": "Google Ads",
+    "whatsapp": "WhatsApp",
+    "meta": "Meta Lead Ads",
+    "hubspot": "Hubspot",
+    "pipedrive": "Pipedrive"
+  },
+  "Marketing": {
+    "pricing": "Pricing",
+    "integrations": "Integrations",
+    "showcase": "See Product Tour",
+    "trial": "Start Free Trial"
+  },
+  "ActivityLog": {
+    "title": "Activity Log",
+    "subtitle": "Monitor every interaction and automated action in real-time.",
+    "breadcrumb": {
+      "system": "System",
+      "activityLog": "Activity Log"
+    },
+    "status": {
+      "connected": "Live Connection",
+      "connecting": "Connecting...",
+      "offline": "Live Offline"
+    },
+    "search": {
+      "placeholder": "Search logs by event, type or content...",
+      "clearButton": "Clear Search"
+    },
+    "empty": {
+      "title": "No actions recorded",
+      "description": "Events will appear here as they happen."
+    }
+  },
+  "Profile": {
+    "title": "My Profile",
+    "subtitle": "Manage your personal information and security preferences.",
+    "badges": {
+      "active": "Active"
+    },
+    "sections": {
+      "personalInfo": "Personal Information",
+      "security": "Security & Password",
+      "notifications": "Notifications",
+      "accountInfo": "Account Info"
+    },
+    "fields": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "language": "Language",
+      "languagePlaceholder": "Select Language",
+      "passkey": "Passkey Authentication",
+      "passkeyDesc": "Use your fingerprint or face ID to login.",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "options": {
+      "english": "English (US)",
+      "turkish": "Turkish (TR)"
+    },
+    "buttons": {
+      "updateInfo": "Update Info",
+      "saving": "Saving...",
+      "changePassword": "Change Password"
+    },
+    "notifications": {
+      "emailAlerts": "Email Alerts",
+      "emailAlertsDesc": "Get daily summaries",
+      "pushNotifications": "Push Notifications",
+      "pushNotificationsDesc": "Real-time updates on desktop",
+      "smsUpdates": "SMS Updates",
+      "smsUpdatesDesc": "Critical system alerts"
+    },
+    "account": {
+      "userId": "User ID",
+      "memberSince": "Member Since"
+    },
+    "messages": {
+      "noPasswordPermission": "You do not have permission to change your password. Please contact the administrator."
+    },
+    "toasts": {
+      "updateSuccess": "Profile updated successfully",
+      "updateFailed": "Failed to update profile",
+      "passwordMismatch": "Passwords do not match",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "passwordChanged": "Password changed successfully",
+      "passwordChangeFailed": "Failed to change password",
+      "avatarSuccess": "Avatar uploaded successfully",
+      "avatarFailed": "Failed to upload avatar",
+      "preferencesUpdateFailed": "Failed to update preferences"
+    }
+  },
+  "AITraining": {
+    "title": "AI Training Center",
+    "subtitle": "Personalize how your AI assistant speaks and what it knows about your business.",
+    "sections": {
+      "autonomousCore": "Autonomous Core",
+      "sandbox": "Sandbox Simulator",
+      "datasources": "Knowledge Sources",
+      "qualificationQuestions": "Pertanyaan Kualifikasi",
+      "analytics": "Kinerja"
+    },
+    "fields": {
+      "brandVoice": "Brand Voice / Tone",
+      "knowledgeBase": "Knowledge Base (Context)",
+      "knowledgeBasePlaceholder": "Describe your business, services, team, and key policies here. The more detail you provide, the better your AI will perform...",
+      "knowledgeBaseHint": "The AI will use this information to respond to all customer inquiries.",
+      "autonomousMode": "Autonomous Mode",
+      "autonomousModeDesc": "AI handles responses instantly without manual approval.",
+      "responseDelay": "Penundaan Respons",
+      "responseDelayDesc": "Penundaan sebelum AI mengirim balasan — mensimulasikan waktu mengetik manusia.",
+      "responseDelayInstant": "Instan",
+      "responseDelayUnit": "det"
+    },
+    "voices": {
+      "professional": "Professional",
+      "friendly": "Friendly",
+      "casual": "Casual"
+    },
+    "buttons": {
+      "save": "Save Configuration",
+      "saving": "Synchronizing...",
+      "deploy": "Deploy to Production",
+      "deploying": "Deploying...",
+      "executeQuery": "Execute Test Query"
+    },
+    "sandbox": {
+      "description": "Test your current AI configuration in a safe environment before going live.",
+      "placeholder": "Ask something like: What are your pricing plans? or Who is your founder?",
+      "outputLabel": "AI Simulation Output",
+      "clear": "Hapus",
+      "you": "Anda",
+      "ai": "AI",
+      "empty": "Kirim pesan untuk mulai menguji konfigurasi AI Anda."
+    },
+    "badges": {
+      "alphaPreview": "Alpha Preview"
+    },
+    "features": {
+      "webscraper": "Web Scraper",
+      "webscraperDesc": "Automatic knowledge sync from your website (Coming Soon)."
+    },
+    "toasts": {
+      "saved": "Pengaturan berhasil disimpan!",
+      "saveError": "Kesalahan menyimpan pengaturan",
+      "testError": "Kesalahan tes"
+    },
+    "qualificationQuestions": {
+      "description": "Pertanyaan-pertanyaan ini akan ditanyakan oleh AI untuk mengkualifikasi prospek masuk.",
+      "placeholder": "mis. Berapa anggaran Anda?",
+      "addQuestion": "Tambah Pertanyaan",
+      "empty": "Belum ada pertanyaan. Tambahkan satu untuk mulai mengkualifikasi prospek."
+    },
+    "analytics": {
+      "title": "Kinerja (30 Hari Terakhir)",
+      "responses": "Respons AI",
+      "meetings": "Pertemuan Terjadwal",
+      "rate": "Tingkat Pemesanan",
+      "empty": "Belum ada data"
+    },
+    "fallback": {
+      "title": "Perilaku Fallback",
+      "description": "Apa yang terjadi ketika AI tidak dapat menjawab pertanyaan.",
+      "noneLabel": "Tidak Ada Tindakan",
+      "noneDesc": "AI tetap menjawab meski tidak yakin.",
+      "handoffLabel": "Serahkan ke Manusia",
+      "handoffDesc": "Nonaktifkan AI dan tandai percakapan untuk agen manusia.",
+      "customLabel": "Pesan Kustom",
+      "customDesc": "Kirim balasan yang telah disiapkan ketika AI tidak yakin.",
+      "messagePlaceholder": "mis. Terima kasih sudah menghubungi kami! Anggota tim kami akan segera menghubungi Anda."
+    }
+  },
+  "Conversations": {
+    "search": {
+      "placeholder": "Search intelligence logs..."
+    },
+    "empty": {
+      "noConversations": "No active conversations.",
+      "selectConversation": "Select a conversation to start chatting",
+      "startConversation": "Start the conversation!"
+    },
+    "status": {
+      "active": "Active Conversation",
+      "paused": "Paused",
+      "closed": "Closed",
+      "communicationBlocked": "Communication Blocked",
+      "aiActive": "AI Active",
+      "humanControl": "Human Control"
+    },
+    "badges": {
+      "unqualified": "Unqualified",
+      "handoff": "Handoff"
+    },
+    "buttons": {
+      "options": "Conversation Options",
+      "takeOver": "Take Over",
+      "resumeAI": "Resume AI"
+    },
+    "actions": {
+      "markAsRead": "Mark as Read",
+      "archive": "Archive",
+      "markUnqualified": "Mark Unqualified",
+      "delete": "Delete"
+    },
+    "input": {
+      "placeholder": "Type your message...",
+      "aiPlaceholder": "Type to intervene...",
+      "disabledPlaceholder": "This lead is marked as unqualified. Communication is disabled."
+    },
+    "notices": {
+      "disabled": "Communication Disabled • Mark as Qualified to Resume",
+      "aiActive": "Neural Link Active • Authorized Access Only",
+      "markedRead": "Marked as read."
+    },
+    "senders": {
+      "agent": "Agent",
+      "ai": "AI Assistant",
+      "system": "System",
+      "lead": "Lead"
+    },
+    "confirm": {
+      "markUnqualified": "Are you sure? Once marked as unqualified, this lead will no longer receive any messages or emails, and their automations will be stopped."
+    },
+    "filter": {
+      "all": "All",
+      "handoff": "Needs Handoff"
+    },
+    "feedback": {
+      "positiveSaved": "Feedback saved.",
+      "correctionSaved": "Correction saved.",
+      "correctionPlaceholder": "What should the correct response have been? (optional)",
+      "cancel": "Cancel",
+      "saveCorrection": "Save Correction"
+    },
+    "email": {
+      "collapse": "▲ Collapse",
+      "expand": "▼ View email",
+      "subject": "Subject:"
+    },
+    "warnings": {
+      "channelDelivery": "Message saved but channel delivery failed:"
+    }
+  },
+  "Pipeline": {
+    "title": "Sales Pipeline",
+    "subtitle": "Track and manage your leads through the conversion funnel.",
+    "search": {
+      "placeholder": "Find a lead..."
+    },
+    "buttons": {
+      "filter": "Filter",
+      "newLead": "New Lead"
+    },
+    "columns": {
+      "newLead": "New Lead",
+      "contacted": "Contacted",
+      "qualified": "Qualified",
+      "booked": "Meeting Booked",
+      "unqualified": "Unqualified/Closed",
+      "empty": "Drop leads here",
+      "total": "Total: {count}"
+    },
+    "feedback": {
+      "dragging": "DRAGGING"
+    },
+    "card": {
+      "score": "Score: {score}",
+      "noCompany": "No Company",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDelete": "Are you sure you want to delete this lead?"
+    }
+  },
+  "Leads": {
+    "sidebar": {
+      "title": "Lead Segments",
+      "inbox": "Inbox",
+      "allLeads": "All Leads",
+      "folders": "Folders",
+      "newFolder": "New Folder",
+      "ungroupedSegments": "Ungrouped Segments",
+      "otherSegments": "Other Segments"
+    },
+    "header": {
+      "inboxTitle": "Inbox (Unassigned)",
+      "inboxSubtitle": "Leads from web, widgets, and manual entry.",
+      "allLeadsSubtitle": "Showing all leads in the system."
+    },
+    "input": {
+      "folderNamePlaceholder": "Folder name...",
+      "searchPlaceholder": "Search leads..."
+    },
+    "buttons": {
+      "add": "Add",
+      "addLead": "Add Lead",
+      "filter": "Filter",
+      "export": "Export",
+      "import": "Import",
+      "pushToSheets": "Push to Sheets",
+      "download": "Download",
+      "upload": "Upload",
+      "importLeads": "Import Leads"
+    },
+    "folder": {
+      "ungrouped": "Ungrouped",
+      "empty": "Empty folder"
+    },
+    "group": {
+      "empty": "No segments created yet."
+    },
+    "segment": {
+      "chooseSegment": "Choose Segment",
+      "chooseTarget": "Choose Target Segment",
+      "ungroupedInbox": "(Ungrouped/Inbox)",
+      "removeFromGroup": "Remove from Group (Move to Inbox)"
+    },
+    "table": {
+      "leadInfo": "Lead Info",
+      "status": "Status",
+      "created": "Created",
+      "actions": "Actions",
+      "assignSegment": "Assign to segment",
+      "viewDetails": "View details",
+      "noLeads": "No leads found.",
+      "paginationText": "Showing {from} to {to} of {total} leads"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "actions": {
+      "downloadExcel": "Download as Excel",
+      "edit": "Edit",
+      "delete": "Delete",
+      "moveToGroup": "Move to group",
+      "moveToFolder": "Move to Folder",
+      "renameFolder": "Rename folder",
+      "deleteFolder": "Delete folder",
+      "deleteGroup": "Delete Group"
+    },
+    "bulk": {
+      "selectAll": "Select All",
+      "moveAction": "Move selected to group",
+      "leadsSelected": "Leads Selected",
+      "deselectAll": "Deselect All",
+      "moveToSegment": "Move to Segment",
+      "deleteSelected": "Delete Selected"
+    },
+    "channels": {
+      "title": "Channels",
+      "widgetOnly": "Only widget active"
+    },
+    "confirm": {
+      "deleteSingle": "Are you sure you want to delete this lead?",
+      "deleteGroup": "Are you sure you want to delete this group? The leads inside will become unassigned and appear in your Inbox.",
+      "deleteFolder": "Are you sure you want to delete this folder? The groups inside will NOT be deleted, they will just become ungrouped.",
+      "deleteBulk": "Are you sure you want to delete {count} selected leads?"
+    }
+  },
+  "CalendarPage": {
+    "title": "Calendar",
+    "subtitle": "Manage appointments scheduled by your AI.",
+    "nextAppointment": "Next Appointment",
+    "buttons": {
+      "joinMeeting": "Join Meeting"
+    },
+    "empty": {
+      "noMeetings": "No upcoming meetings"
+    },
+    "sync": {
+      "button": "Sync Google Calendar",
+      "syncing": "Syncing...",
+      "success": "Synced {synced} new, updated {updated} events",
+      "error": "Sync failed",
+      "notConnected": "Google Calendar not connected",
+      "lastSync": "Synced with Google Calendar"
+    },
+    "aiAvatar": {
+      "label": "AI Avatar",
+      "pending": "Scheduled",
+      "joining": "Joining...",
+      "in_call": "In Meeting",
+      "recording": "Recording",
+      "stopped": "Left",
+      "failed": "Failed",
+      "completed": "Completed",
+      "analysis_complete": "Analysis Ready",
+      "cancelled": "Cancelled",
+      "disabled": "Disabled"
+    },
+    "manualForm": {
+      "modalTitle": "Schedule Manual Meeting",
+      "cancel": "Cancel",
+      "create": "Create",
+      "attendeePlaceholder": "example@company.com",
+      "unknownError": "Unknown error"
+    }
+  },
+  "B2BDatabase": {
+    "sidebar": {
+      "filtersTitle": "Filters",
+      "extractTitle": "Extract Leads to CRM",
+      "extractDescription": "Pull multiple leads at once based on your active filters. They will be auto-grouped for you."
+    },
+    "buttons": {
+      "applyFilters": "Apply Filters",
+      "extractLeads": "Extract Leads (Cost: {cost})",
+      "extractLeadsDefault": "Extract Leads",
+      "extractSelected": "Extract Leads"
+    },
+    "filters": {
+      "companyName": "Company name",
+      "companyNamePlaceholder": "Enter a domain or company name...",
+      "location": "Headquarters location",
+      "locationPlaceholder": "Search for a city, state or country...",
+      "industry": "Industry",
+      "industryPlaceholder": "Search for an industry...",
+      "size": "Size",
+      "companyType": "Company type",
+      "companyTypePlaceholder": "Search for a company type...",
+      "keywords": "Keywords",
+      "keywordsPlaceholder": "Add keyword...",
+      "similar": "Companies similar to",
+      "founded": "Year founded",
+      "tech": "Technologies",
+      "funding": "Funding"
+    },
+    "credits": {
+      "label": "Available Credits",
+      "unit": "Leads"
+    },
+    "input": {
+      "maxLeadsPlaceholder": "Max leads to pull...",
+      "refineSearchPlaceholder": "Refine search..."
+    },
+    "empty": {
+      "title": "Find relevant companies at scale.",
+      "description": "Identify companies aligned with your ideal customer profile. Add filters to quickly surface qualified companies and proceed to find their contact information.",
+      "inputLabel": "Describe the companies you're looking for",
+      "inputPlaceholder": "e.g. Small and medium size companies from the banking industry in Europe",
+      "noResults": "No companies found",
+      "noResultsDescription": "Try adjusting your filters or using different keywords to find what you're looking for."
+    },
+    "results": {
+      "title": "Search Results"
+    },
+    "loading": {
+      "searching": "Searching B2B Database..."
+    },
+    "table": {
+      "company": "Company",
+      "industryType": "Industry & Type",
+      "locationSize": "Location & Size",
+      "status": "Status",
+      "employees": "EMPLOYEES",
+      "noDescription": "No description available",
+      "unlocked": "Unlocked",
+      "locked": "Locked"
+    },
+    "bulk": {
+      "selected": "selected",
+      "groupNamePlaceholder": "Group name (optional)..."
+    }
+  },
+  "Chatbot": {
+    "title": "Web AI Chatbot",
+    "subtitle": "Transform visitor engagement with a professional AI widget.",
+    "buttons": {
+      "saveConfig": "Save Configuration",
+      "saving": "Saving...",
+      "saved": "Saved!",
+      "initializeWidget": "Initialize Widget Now",
+      "copySnippet": "Copy Snippet",
+      "copied": "Copied!"
+    },
+    "tabs": {
+      "customization": "Customization",
+      "preview": "Visual Preview",
+      "integration": "Integration"
+    },
+    "status": {
+      "label": "Widget Status",
+      "active": "Live on Websites",
+      "inactive": "Currently Paused"
+    },
+    "ready": {
+      "title": "Ready for Launch",
+      "description": "Your widget is configured and ready. Paste the code snippet on your site to start capturing leads instantly."
+    },
+    "sections": {
+      "brandIdentity": "Brand & Identity",
+      "behavior": "AI Behavior & Messages",
+      "leadCapture": "Lead Capture Fields"
+    },
+    "fields": {
+      "internalName": "Internal Name",
+      "internalNamePlaceholder": "Marketing Site Chatbot",
+      "botName": "Bot Public Name",
+      "botNamePlaceholder": "AI Assistant",
+      "color": "Primary Brand Color",
+      "greeting": "Greeting Message",
+      "greetingPlaceholder": "Hi! I'm your AI assistant. How can I help you today?",
+      "greetingInputPlaceholder": "Hi! Any questions about our services?",
+      "formTitle": "Form Header",
+      "formTitlePlaceholder": "Start a conversation",
+      "inputPlaceholder": "Input Placeholder",
+      "inputPlaceholderText": "Ask me anything...",
+      "emailLabel": "Email Address",
+      "emailDesc": "Syncs automatically to your CRM & Leads sections.",
+      "phoneLabel": "Phone Number",
+      "phoneDesc": "Optional: Useful for high-ticket direct outreach."
+    },
+    "badges": {
+      "tokensFree": "Tokens Free"
+    },
+    "preview": {
+      "content": "Content of your website will render here.",
+      "status": "Online now",
+      "chatPlaceholder": "Start chatting to see more...",
+      "domain": "yourdomain.com"
+    },
+    "embed": {
+      "noIdTitle": "Save to generate ID",
+      "noIdDescription": "To finalize your integration script, first save your configuration using the button above.",
+      "scriptTitle": "Installation Script",
+      "scriptDescription": "Copy and paste this snippet into the header section or before the closing body tag of your website."
+    },
+    "features": {
+      "lightweightTitle": "Lightweight",
+      "lightweightDesc": "No heavy libraries. Pure vanilla JS for maximum speed.",
+      "crossDomainTitle": "Cross-Domain",
+      "crossDomainDesc": "Works on WordPress, Shopify, Next.js, and static HTML.",
+      "autoUpdateTitle": "Auto-Update",
+      "autoUpdateDesc": "Changes reflect instantly without re-deploying code."
+    }
+  },
+  "Support": {
+    "title": "My Support Tickets",
+    "subtitle": "Track your open requests and create new ones from here.",
+    "buttons": {
+      "newTicket": "New Support Ticket",
+      "filter": "Filter",
+      "createFirst": "Create First Ticket"
+    },
+    "search": {
+      "placeholder": "Search tickets..."
+    },
+    "loading": {
+      "message": "Loading tickets..."
+    },
+    "empty": {
+      "title": "No support tickets yet",
+      "description": "If you have any questions or issues, create a support ticket right away."
+    },
+    "status": {
+      "open": "Open",
+      "inProgress": "In Progress",
+      "in_progress": "In Progress",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "urgent": "Urgent"
+    },
+    "table": {
+      "lastUpdated": "Last updated: {time}"
+    },
+    "newTicket": {
+      "goBack": "Go Back",
+      "title": "Create a New Ticket",
+      "subtitle": "Please describe your issue in detail so we can help you best.",
+      "fields": {
+        "subject": "Subject",
+        "subjectPlaceholder": "Summarize the issue (e.g. Login problem)",
+        "priority": "Priority",
+        "priorityPlaceholder": "Select Priority",
+        "description": "Description",
+        "descriptionPlaceholder": "Please write down your issue in detail...",
+        "hint": "Providing error messages or screenshots speeds up the process."
+      },
+      "buttons": {
+        "submit": "Submit Ticket",
+        "sending": "Sending..."
+      }
+    },
+    "detail": {
+      "ticketId": "Ticket ID:",
+      "created": "Created:",
+      "supportTeam": "Support Team",
+      "me": "Me",
+      "ticketResolvedMessage": "This ticket is resolved. You can reopen it by sending a new message.",
+      "ticketClosedMessage": "This ticket is closed. You can reopen it by sending a new message.",
+      "messagePlaceholder": "Write your message...",
+      "ticketDetails": "Ticket Details",
+      "priority": "Priority",
+      "status": "Status",
+      "lastUpdate": "Last Update",
+      "replyTimePrefix": "Our support team usually replies within",
+      "replyTimeHighlight": "2-4 hours"
+    }
+  },
+  "AISettings": {
+    "title": "AI Configuration",
+    "subtitle": "Manage your AI's personality and knowledge base.",
+    "sections": {
+      "aiEnvironment": "AI Environment"
+    },
+    "fields": {
+      "brandVoice": "Brand Voice / Tone",
+      "knowledgeBase": "Knowledge Base (Context)",
+      "knowledgePlaceholder": "Describe your business, services, and key policies here...",
+      "knowledgeHint": "The AI will use this information to respond to all customer inquiries."
+    },
+    "buttons": {
+      "save": "Save Configuration",
+      "saving": "Synchronizing..."
+    }
+  },
+  "TeamSettings": {
+    "title": "Team Management",
+    "subtitle": "Manage your team members, roles and pending invitations.",
+    "buttons": {
+      "addMember": "Add Member",
+      "inviteFirst": "Invite First Member",
+      "sendInvite": "Send Invite"
+    },
+    "invite": {
+      "title": "Invite New Member",
+      "emailLabel": "Email Address",
+      "roleLabel": "Role",
+      "rolePlaceholder": "Select Role"
+    },
+    "roles": {
+      "member": "Member",
+      "agent": "Agent",
+      "admin": "Admin"
+    },
+    "table": {
+      "member": "Member",
+      "role": "Role",
+      "status": "Status",
+      "actions": "Actions",
+      "noName": "No Name",
+      "teamMembers": "Team Members ({count})"
+    },
+    "status": {
+      "pending": "Pending",
+      "active": "Active"
+    },
+    "tooltips": {
+      "cancelInvite": "Cancel Invitation",
+      "removeMember": "Remove Member"
+    },
+    "empty": {
+      "title": "No team members yet",
+      "description": "Invite your first team member to start collaborating on your projects."
+    },
+    "toasts": {
+      "emailRequired": "Please enter an email address.",
+      "inviteSent": "Invitation sent successfully",
+      "unexpectedError": "An unexpected error occurred.",
+      "removing": "Removing member...",
+      "memberRemoved": "Member removed successfully"
+    },
+    "confirmDeleteMember": "Are you sure you want to delete this team member or invitation?"
+  },
+  "Privacy": {
+    "title": "Privacy & GDPR",
+    "subtitle": "Manage your data and privacy settings in accordance with the General Data Protection Regulation (GDPR). Your privacy is our priority.",
+    "sections": {
+      "portabilityTitle": "Right to Portability",
+      "portabilityDesc": "Download a copy of all your data (Leads, Meetings, Conversations, Settings) in machine-readable JSON format.",
+      "forgottenTitle": "Right to be Forgotten",
+      "forgottenDesc": "Request full deletion of your account and all associated data. This action is irreversible according to GDPR Article 17."
+    },
+    "buttons": {
+      "export": "Export Data",
+      "delete": "Delete Data",
+      "processing": "Processing..."
+    },
+    "links": {
+      "privacy": "Read Privacy Policy",
+      "terms": "Standard Terms of Service"
+    },
+    "dpa": {
+      "title": "DPA Support",
+      "description": "Need a custom Data Processing Agreement (DPA) signed? Enterprise plans include fully compliant legal documentation tailored to your organization.",
+      "contact": "Contact Privacy Team"
+    },
+    "confirm": {
+      "delete": "Are you sure you want to request data deletion? This action follows GDPR Article 17 and will be processed within 30 days."
+    },
+    "messages": {
+      "exportSuccess": "Your data has been successfully exported.",
+      "exportError": "Failed to export data.",
+      "deleteSuccess": "Request received. We will process your data deletion within 30 days.",
+      "deleteError": "Failed to submit deletion request."
+    }
+  },
+  "Widget": {
+    "title": "WhatsApp Widget",
+    "subtitle": "Turn website visitors into leads instantly",
+    "toggle": {
+      "active": "Active"
+    },
+    "buttons": {
+      "saveChanges": "Save Changes"
+    },
+    "sections": {
+      "general": "General Configuration",
+      "appearance": "Appearance",
+      "embed": "Embed Code",
+      "preview": "Live Preview"
+    },
+    "fields": {
+      "phone": "WhatsApp Phone Number",
+      "phonePlaceholder": "e.g. +905001234567",
+      "phoneHint": "Include country code without special characters.",
+      "message": "Initial Message",
+      "messagePlaceholder": "I'm interested in...",
+      "messageHint": "The default message sent when they click the button.",
+      "color": "Button Color",
+      "position": "Position",
+      "buttonText": "Button Text",
+      "bubblePrompt": "Bubble Prompt"
+    },
+    "position": {
+      "bottomRight": "Bottom Right",
+      "bottomLeft": "Bottom Left"
+    },
+    "embed": {
+      "instruction": "Copy and paste this code before the closing </body> tag of your website.",
+      "noId": "Save the widget first to generate the embed code."
+    },
+    "preview": {
+      "simulator": "Browser Simulator"
+    },
+    "tip": "Tip: Once integrated, any visitor who starts a chat will be automatically added to your Leads list and can trigger AI sequences.",
+    "toasts": {
+      "saved": "Widget settings saved successfully!",
+      "saveFirst": "Please save your widget first!",
+      "copySuccess": "Embed code copied to clipboard!",
+      "copyError": "Failed to copy. Please select and copy manually."
+    }
+  },
+  "Webhooks": {
+    "title": "Webhooks",
+    "subtitle": "Configure outgoing webhooks to notify your external systems when events occur in our system.",
+    "form": {
+      "title": "Add New Webhook",
+      "urlLabel": "Payload URL",
+      "urlPlaceholder": "https://your-api.com/webhook",
+      "eventsLabel": "Events to subscribe to",
+      "submit": "Create Webhook"
+    },
+    "list": {
+      "title": "Configured Webhooks",
+      "empty": "No webhooks configured yet."
+    },
+    "events": {
+      "leadCreated": "Lead Created",
+      "leadUpdated": "Lead Updated",
+      "meetingBooked": "Meeting Booked",
+      "meetingCancelled": "Meeting Cancelled",
+      "messageReceived": "Message Received",
+      "allEvents": "ALL EVENTS"
+    },
+    "secret": "Secret: {value}"
+  },
+  "GeneralSettings": {
+    "title": "Business Profile",
+    "subtitle": "Manage your core business identity and regional preferences.",
+    "sections": {
+      "corporateIdentity": "Corporate Identity",
+      "globalPresence": "Global Presence"
+    },
+    "fields": {
+      "businessName": "Business Legal Name",
+      "businessNamePlaceholder": "e.g. Acme Corporation",
+      "timezone": "Regional Timezone",
+      "timezonePlaceholder": "Select Operational Timezone",
+      "language": "System Language",
+      "languagePlaceholder": "Select operational language"
+    },
+    "buttons": {
+      "save": "Update Corporate Identity",
+      "saving": "Synchronizing Profile..."
+    },
+    "sidebar": {
+      "description": "Your business entity data is used for invoicing, document generation, and AI contextualization. Ensure your legal name matches your tax records."
+    },
+    "toasts": {
+      "success": "Business profile updated successfully.",
+      "error": "An error occurred while saving settings: {error}"
+    }
+  },
+  "Billing": {
+    "title": "Billing & Subscription",
+    "subtitle": "Manage your plan, payments, and invoices safely via Paddle.",
+    "activePlan": {
+      "label": "Active Plan",
+      "managedByAdmin": "Managed by admin",
+      "renews": "Renews {date}",
+      "manageButton": "Manage Billing"
+    },
+    "planCard": {
+      "currentBadge": "Current Plan",
+      "perMonth": "/mo",
+      "active": "Active",
+      "upgrade": "Upgrade",
+      "downgrade": "Downgrade",
+      "downgradeHint": "To downgrade, use the Manage Billing button above.",
+      "free": "Free",
+      "loading": "..."
+    },
+    "cta": {
+      "upgradeHint": "Click a plan to upgrade · Instant activation · Cancel anytime",
+      "adminManaged": "Your plan is managed by the platform administrator. Contact support for billing enquiries."
+    },
+    "history": {
+      "title": "Billing History",
+      "subtitle": "Your recent payments and invoices.",
+      "date": "Date",
+      "planItem": "Plan / Item",
+      "amount": "Amount",
+      "status": "Status",
+      "invoice": "Invoice",
+      "view": "View"
+    }
+  },
+  "HelpCenter": {
+    "hero": {
+      "title": "How can we help you?",
+      "titleHighlight": "help you?",
+      "subtitle": "Search our knowledge base or browse categories below to master your AI pipeline.",
+      "searchPlaceholder": "Search articles (e.g. WhatsApp, billing, sequences)..."
+    },
+    "quickLinks": {
+      "docsTitle": "Documentation",
+      "docsDesc": "In-depth guides and reference docs for every feature.",
+      "videosTitle": "Video Tutorials",
+      "videosDesc": "Watch step-by-step setup guides for key workflows.",
+      "wizardTitle": "Quick Setup Wizard",
+      "wizardDesc": "Run the onboarding wizard to configure your account."
+    },
+    "categories": {
+      "heading": "Browse by Category",
+      "resultsFor": "Results for \"{query}\""
+    },
+    "noResults": {
+      "text": "No articles found for \"{query}\"",
+      "subtext": "Try a different keyword or open a support ticket below."
+    },
+    "cta": {
+      "title": "Still haven't found what you're looking for?",
+      "subtitle": "Our support team is always ready to help. Open a support ticket and we'll respond within 24 hours.",
+      "button": "Open Support Ticket"
+    },
+    "sheet": {
+      "tag": "Help Article",
+      "description": "Master your AI pipeline with this detailed guide."
+    },
+    "feedback": {
+      "title": "Was this helpful?",
+      "yes": "Yes, thanks!",
+      "no": "Not really..."
+    }
+  },
+  "MapsScraper": {
+    "title": "Google Maps Scraper",
+    "subtitle": "Search Google Maps to discover and import business leads.",
+    "configureApiKey": "Configure API Key",
+    "keyword": "Keyword",
+    "keywordPlaceholder": "e.g. dentist, restaurant, gym",
+    "location": "Location",
+    "locationPlaceholder": "e.g. Istanbul, London",
+    "radius": "Radius",
+    "maxResults": "Max Results",
+    "addToGroup": "Add to Group",
+    "noGroup": "— No Group —",
+    "search": "Search",
+    "searching": "Searching...",
+    "noResults": "No results found for this search.",
+    "resultsFound": "{count} results found",
+    "selectedCount": "{count} selected",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "importSelected": "Import {count} Lead(s)",
+    "importing": "Importing...",
+    "importSuccess": "{count} lead(s) imported successfully.",
+    "viewLeads": "View Leads →",
+    "business": "Business",
+    "address": "Address",
+    "contact": "Contact",
+    "rating": "Rating"
+  }
+}

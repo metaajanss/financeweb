@@ -1,0 +1,1 @@
+ALTER TABLE conversations ADD COLUMN is_ai_active BOOLEAN DEFAULT TRUE;

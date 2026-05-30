@@ -1,0 +1,2234 @@
+{
+  "TestTranslations": "动态翻译测试成功！",
+  "SEO": {
+    "defaultTitle": "Jumpix | AI 驱动的营销自动化",
+    "defaultDescription": "新一代营销自动化与 AI 外联平台。寻找更优质的潜在客户，评估意向，并自动化您的销售工作流程。",
+    "titleTemplate": "%s | Jumpix",
+    "pages": {
+      "about": {
+        "title": "关于我们",
+        "description": "了解 Jumpix 的使命、故事和价值观——营销自动化的未来。"
+      },
+      "pricing": {
+        "title": "定价方案",
+        "description": "为现代销售团队提供的经济实惠的定价方案。从基础功能开始，随 Jumpix 一起扩展业务。"
+      },
+      "contact": {
+        "title": "联系我们",
+        "description": "有疑问吗？我们的团队随时为您提供帮助，助您利用 AI 优化销售工作流程。"
+      },
+      "aiJumpix": {
+        "title": "AI Jumpix Assistant",
+        "description": "Chat with your dashboard data and get instant insights using Gemini 1.5 Pro."
+      }
+    }
+  },
+  "Navigation": {
+    "features": "功能",
+    "workflow": "工作流程",
+    "showcase": "演示",
+    "pricing": "定价",
+    "faq": "常见问题",
+    "login": "登录",
+    "getStarted": "开始使用",
+    "dashboard": "概览",
+    "pipeline": "销售漏斗",
+    "conversations": "实时对话",
+    "b2bDatabase": "B2B 数据库",
+    "leads": "潜在客户",
+    "calendar": "日历",
+    "aiTraining": "AI 训练",
+    "activityLog": "活动日志",
+    "sequences": "智能序列",
+    "widgetManagement": "组件管理",
+    "whatsappWidget": "WhatsApp 组件",
+    "webChatbot": "网页聊天机器人",
+    "generalSettings": "常规设置",
+    "businessProfile": "企业资料",
+    "systemIntegrations": "系统集成",
+    "privacyGdpr": "隐私与 GDPR",
+    "billingSubscription": "账单与订阅",
+    "teamRouting": "团队与路由",
+    "setupWizard": "设置向导",
+    "myTickets": "我的支持工单",
+    "helpCenter": "帮助中心",
+    "aiJumpix": "AI Jumpix",
+    "operations": "Operations",
+    "support": "Support",
+    "mapsScraper": "Maps Scraper"
+  },
+  "HomePage": {
+    "seoTitle": "Jumpix - 终极 AI 营销自动化工具",
+    "seoDescription": "使用 Jumpix 简化您的销售工作流程。功能包括潜在客户评分、信息丰富化和自动化外联。",
+    "title": "欢迎使用 Jumpix",
+    "description": "管理您产品的最佳平台。",
+    "features": {
+      "heading": "为什么选择 Jumpix？",
+      "subheading": "一套完整的工具，无需人工干预即可扩展您的预约工作流程。",
+      "items": {
+        "instantResponse": {
+          "title": "即时响应",
+          "desc": "通过 WhatsApp 或电子邮件在 10 秒内与潜在客户互动。"
+        },
+        "smartQualification": {
+          "title": "智能筛选",
+          "desc": "AI 在潜在客户进入您的日程表之前自动过滤掉不合格的线索。"
+        },
+        "availability": {
+          "title": "24/7 全天候可用",
+          "desc": "即使在您休息时，也不会错过任何预约机会。"
+        }
+      }
+    }
+  },
+  "Integrations": {
+    "title": "系统集成",
+    "description": "连接您喜爱的工具以自动化您的工作流程。",
+    "activeChannels": "活跃渠道",
+    "activeChannelsSub": "管理您的全渠道数据生态系统",
+    "crmEcosystem": "CRM 数据生态系统",
+    "crmEcosystemSub": "通过原生 CRM 集成同步您的潜在客户",
+    "statusConnected": "已连接",
+    "statusDisconnected": "已断开",
+    "actionActivate": "激活",
+    "actionRefactor": "重构",
+    "modalTitle": "配置",
+    "modalConnect": "连接",
+    "modalUpdate": "更新",
+    "automationWebhooks": "Webhooks 与自动化",
+    "automationWebhooksSub": "通过自定义 Webhooks 扩展您的数据流"
+  },
+  "Legal": {
+    "cookiePolicy": {
+      "title": "Cookie 政策",
+      "lastUpdated": "最后更新：2026 年 2 月",
+      "section1Title": "1. 什么是 Cookie",
+      "section1Content": "Cookie 是您访问的网站放置在您的计算机或移动设备上的小型文本文件。它们被广泛用于使网站正常工作或更高效地工作，并为网站所有者提供信息。",
+      "section2Title": "2. 我们如何使用 Cookie",
+      "section2Content": "我们出于以下详细说明的多种原因使用 Cookie：",
+      "essentialTitle": "必要 Cookie：",
+      "essentialContent": "这些 Cookie 对于网站的正常运行是必不可少的，无法在我们的系统中关闭。",
+      "performanceTitle": "性能 Cookie：",
+      "performanceContent": "这些 Cookie 允许我们统计访问量和流量来源，以便我们衡量和改进网站的性能。",
+      "functionalTitle": "功能性 Cookie：",
+      "functionalContent": "这些 Cookie 使网站能够提供增强的功能和个性化体验。",
+      "section3Title": "3. 禁用 Cookie",
+      "section3Content": "您可以通过调整浏览器设置来阻止 Cookie 的设置。请注意，禁用 Cookie 将会影响本网站及许多其他网站的功能。"
+    },
+    "privacyPolicy": {
+      "title": "隐私政策",
+      "lastUpdated": "最后更新日期：2026 年 3 月 10 日",
+      "section1Title": "1. 简介",
+      "section1Content": "Jumpix（“我们”或“我们的”）运营着位于 jumpix.app 的营销自动化平台。本隐私政策解释了我们如何收集、使用和共享来自用户及其终端客户的信息。",
+      "section2Title": "2. 我们收集的信息",
+      "section2Content": "我们收集以下类型的信息：\n- 个人账户信息：当您注册 Jumpix 时，我们会收集您的姓名、电子邮件地址（通过 Zoho）以及身份验证详细信息（通过 Supabase 处理）。\n- 支付信息：所有付款均由我们的在线经销商 Paddle.com（记录商户）处理。我们不会在我们的服务器上存储您的完整信用卡或银行详细信息。\n- 营销数据：我们存储您上传用于自动化的信息，例如电子邮件列表、联系人姓名和营销活动内容。\n- 使用数据：我们可能会收集 IP 地址、浏览器类型和使用模式，以改进我们的服务。",
+      "section3Title": "3. 我们如何使用您的信息",
+      "section3Content": "我们使用您的信息来：\n- 提供、运营和维护 Jumpix 的营销自动化功能。\n- 通过 Paddle 处理您的交易。\n- 发送系统通知（通过 Resend）和客户支持电子邮件（通过 Zoho）。\n- 防止欺诈并确保遵守反垃圾邮件政策。",
+      "section4Title": "4. 第三方服务",
+      "section4Content": "我们仅与受信任的第三方服务提供商共享数据以履行我们的服务：Paddle.com（支付处理）、Supabase（后端数据库和用户身份验证）、Resend（交易和营销电子邮件发送）以及 Zoho（企业电子邮件通信）。",
+      "section5Title": "5. 数据所有权与 GDPR / KVKK",
+      "section5Content": "对于您上传到 Jumpix 的任何客户数据（例如您的电子邮件列表），您是数据控制者。我们充当数据处理者。您声明您已获得客户的所有必要同意，以通过 Jumpix 处理其数据。欧盟 (GDPR) 或土耳其 (KVKK) 的用户有权访问、更正或删除其个人数据。",
+      "section6Title": "6. 数据安全",
+      "section6Content": "我们使用行业标准的安全措施，包括 SSL 加密和 Supabase 提供的安全数据库协议，来保护您的数据。然而，没有任何互联网传输方法是 100% 安全的。",
+      "section7Title": "7. COOKIE",
+      "section7Content": "我们使用 Cookie 来管理用户会话并了解您如何与我们的网站互动，从而提供更好的用户体验。",
+      "section8Title": "8. 本政策的变更",
+      "section8Content": "我们可能会不时更新我们的隐私政策。我们将通过在本页面发布新的隐私政策并更新“最后更新”日期来通知您任何变更。",
+      "section9Title": "9. 联系我们",
+      "section9Content": "对于有关本隐私政策的任何问题，请通过 hello@jumpix.app 或 jumpix.app 与我们联系。"
+    },
+    "refundPolicy": {
+      "title": "退款政策",
+      "lastUpdated": "最后更新日期：2026 年 3 月 10 日",
+      "section1Title": "1. 简介",
+      "section1Content": "感谢您选择 Jumpix (jumpix.app)。我们的目标是确保我们的营销自动化工具满足您的业务需求。由于我们的付款由我们的在线经销商 Paddle.com（记录商户）处理，退款受这些条款和 Paddle 的一般条件约束。",
+      "section2Title": "2. 订阅取消",
+      "section2Content": "您可以随时通过您的账户仪表板取消您的 Jumpix 订阅。取消后，您的账户将在当前付费计费周期结束前保持活跃，并且您不会被收取下一周期的费用。",
+      "section3Title": "3. 退款资格",
+      "section3Content": "月度订阅：一旦计费周期开始，我们通常不提供月度订阅的退款。但是，如果您遇到导致无法使用服务的技术问题，请在交易后 14 天内联系我们。\n年度订阅：如果年度计划在购买后 30 天内提出申请，我们可能会根据具体情况考虑退款，并扣除已使用期间的标准月费。",
+      "section4Title": "4. 例外情况（不可退款）",
+      "section4Content": "在以下情况下将不予退款：\n- 因违反我们的服务条款（例如发送垃圾邮件、非法内容）而被暂停或终止的账户。\n- 在计费周期内大量使用自动化功能（例如发送了大量电子邮件）的用户。\n- 因与 Jumpix 集成的第三方服务引起的问题。",
+      "section5Title": "5. 如何申请退款",
+      "section5Content": "要申请退款，请发送电子邮件至 hello@jumpix.app，并提供您的交易详细信息和申请原因。或者，您可以直接联系 Paddle 支持，因为他们是我们的授权经销商。",
+      "section6Title": "6. 处理退款",
+      "section6Content": "批准的退款将通过 Paddle 使用原始付款方式进行处理。根据您的金融机构，款项出现在您的账单上可能需要 5-10 个工作日。",
+      "section7Title": "7. 联系我们",
+      "section7Content": "对于有关我们退款政策的任何问题，请通过 hello@jumpix.app 或 jumpix.app 与我们联系。"
+    },
+    "termsOfService": {
+      "title": "服务条款",
+      "lastUpdated": "最后更新日期：2026 年 3 月 10 日",
+      "section1Title": "1. 条款接受",
+      "section1Content": "通过访问或使用 Jumpix（“服务”），即一个通过 jumpix.app 运营的营销自动化平台，您同意受这些服务条款（“条款”）的约束。如果您不同意这些条款，请勿使用本服务。",
+      "section2Title": "2. 服务描述",
+      "section2Content": "Jumpix 提供营销自动化工具，包括但不限于电子邮件营销活动、潜在客户管理和自动化工作流程。我们保留随时修改或终止服务任何功能的权利。",
+      "section3Title": "3. PADDLE 作为记录商户",
+      "section3Content": "我们的订单流程由在线经销商 Paddle.com 处理。Paddle.com 是我们所有订单的记录商户（Merchant of Record）。Paddle 负责处理所有与付款相关的客户服务咨询和退款事宜。订阅 Jumpix 即表示您同时同意 Paddle 的条款与条件。",
+      "section4Title": "4. 用户账户与安全",
+      "section4Content": "要使用 Jumpix，您必须创建一个账户。您有责任维护您的凭据机密性，并对在您账户下发生的所有活动负责。若发现任何未经授权的使用，您必须立即通知我们。",
+      "section5Title": "5. 可接受使用与反垃圾邮件政策",
+      "section5Content": "Jumpix 严禁使用本服务发送未经请求的电子邮件（垃圾邮件）。您仅可向已明确同意（选择加入）的收件人发送营销通讯。您必须遵守所有适用法律，包括但不限于 CAN-SPAM 法案、GDPR 和 KVKK。我们保留暂停高退信率或收到垃圾邮件投诉的账户的权利。",
+      "section6Title": "6. 付款与订阅",
+      "section6Content": "订阅按周期（月度或年度）预先计费。您可以随时通过仪表板取消订阅。访问权限将持续到当前计费周期结束。退款请求将根据我们的退款政策并通过 Paddle 的支持渠道进行处理。",
+      "section7Title": "7. 数据所有权与隐私",
+      "section7Content": "您保留上传至 Jumpix 的数据（例如电子邮件列表）的所有权利。我们对您的个人数据及客户数据的使用受我们的隐私政策约束。",
+      "section8Title": "8. 责任限制",
+      "section8Content": "Jumpix 按“原样”提供。在法律允许的最大范围内，对于因使用或无法使用本服务而导致的任何间接、附带或后果性损害，Jumpix 不承担任何责任。",
+      "section9Title": "9. 终止",
+      "section9Content": "如果您违反本条款，我们保留立即终止或暂停您对本服务访问权限的权利，恕不另行通知。",
+      "section10Title": "10. 联系我们",
+      "section10Content": "如果您对这些条款有任何疑问，请通过 hello@jumpix.app 或访问 jumpix.app 与我们联系。"
+    }
+  },
+  "CookieConsent": {
+    "message": "我们使用 Cookie 来提升您的使用体验。",
+    "accept": "接受",
+    "decline": "拒绝",
+    "learnMore": "了解更多"
+  },
+  "Landing": {
+    "Hero": {
+      "badgeText": "专为更快的销售流程执行而构建",
+      "badgeLink": "销售团队",
+      "title": "在一个 AI 工作区中寻找更好的潜在客户、评估意向并启动外联。",
+      "description": "Jumpix 为现代销售团队提供了一个简洁的系统，用于发现潜在客户、评估需求，并无需分散的工具即可从信号直接进入序列。",
+      "messageLabel": "操作员视图",
+      "messageText": "查找伦敦 B2B SaaS 公司的营销副总裁联系人，进行信息丰富化，并将高意向潜在客户推送到新的序列中。",
+      "primaryCta": "开始使用",
+      "chips": [
+        "寻找目标客户",
+        "丰富联系人数据",
+        "意向评分",
+        "启动序列"
+      ],
+      "trustItems": [
+        {
+          "value": "潜在客户挖掘",
+          "label": "无需手动勘探，即可构建精准列表。"
+        },
+        {
+          "value": "意向评分",
+          "label": "在销售代表投入时间前优先处理高意向客户。"
+        },
+        {
+          "value": "序列移交",
+          "label": "在几分钟内将合格的潜在客户转入外联流程。"
+        }
+      ],
+      "spotlight": {
+        "signalTitle": "销售漏斗可见性",
+        "signalText": "发现、评分和序列移交均集成在一个高级工作流中。",
+        "commandLabel": "AI 指令",
+        "liveLabel": "实时匹配",
+        "scoreLabel": "意向评分",
+        "scoreText": "已移入优先级队列",
+        "ribbonLabel": "活跃工作流",
+        "readyTitle": "序列已就绪",
+        "readyText": "一键即可推送已验证的潜在客户。",
+        "dashboardAlt": "Jumpix 工作区预览"
+      }
+    },
+    "IntegrationsShowcase": {
+      "badge": "互联生态系统",
+      "title": "与您现有的技术栈协同工作",
+      "description": "Jumpix 可与您团队已使用的工具无缝连接。HubSpot、CRM、Slack 和 Gmail。无需复杂的设置，只需纯粹的生产力。",
+      "cta": "探索所有集成"
+    },
+    "Features": {
+      "badge": "收入运营",
+      "title": "统一您的潜在客户运营",
+      "description": "将分散的潜在客户来源、手动资格审查和断开的后续跟进整合到一个统一的收入执行层中。",
+      "items": {
+        "scoring": {
+          "title": "AI 资格审查与评分",
+          "description": "并非所有潜在客户都生而平等。利用 AI 评估意向，确保您的销售代表将时间集中在最热门的机会上。"
+        },
+        "enrichment": {
+          "title": "智能潜在客户结构化",
+          "description": "丰富并标准化原始数据。为您的团队提供可直接跟进的记录，而非不完整的表单提交。"
+        },
+        "autopilot": {
+          "title": "全渠道后续跟进",
+          "description": "通过 Gmail 和 WhatsApp 启动个性化序列。不要依赖记忆进行跟进；让系统来编排外联工作。"
+        },
+        "widget": {
+          "title": "WhatsApp 与网页小部件",
+          "description": "即时将访客转化为潜在客户，并通过 WhatsApp 开启自动化对话，以捕捉即时意向。"
+        },
+        "visibility": {
+          "title": "销售漏斗与渠道分析",
+          "description": "实时监控每个来源和每个销售代表的表现。识别瓶颈并一键优化转化率。"
+        },
+        "stack": {
+          "title": "战略性技术栈连接",
+          "description": "与 HubSpot、Salesforce 和 Google Sheets 无缝同步。在任何规模下保护您的数据卫生和记录系统。"
+        }
+      }
+    },
+    "HowItWorks": {
+      "title": "它是如何工作的？",
+      "subtitle": "在几分钟内开始创造价值，而不是几个月。",
+      "steps": {
+        "step1": {
+          "title": "连接您的数据",
+          "description": "通过我们的一键式集成，在几秒钟内将您现有的数据源导入平台。"
+        },
+        "step2": {
+          "title": "定义您的规则",
+          "description": "使用我们灵活的工具，无需编写任何代码，即可直观地配置您自己的工作流程。"
+        },
+        "step3": {
+          "title": "优化与扩展",
+          "description": "立即上线。通过实时指标持续改进您的流程。"
+        }
+      }
+    },
+    "Pricing": {
+      "title": "随您的外呼业务同步扩展的定价",
+      "subtitle": "保持模式简单。从基础功能开始，当您的团队需要更多容量和控制权时再进行升级。",
+      "footnote": "按月计费。如需年度折扣、入职培训协助及迁移支持，请联系我们。",
+      "recommended": "推荐",
+      "Comparison": {
+        "title": "完整功能对比",
+        "categories": [
+          {
+            "features": [
+              {
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "AI 意图评分"
+              },
+              {
+                "free": false,
+                "starter": false,
+                "growth": false,
+                "pro": true,
+                "business": true,
+                "name": "AI 智能体训练 (知识库)"
+              },
+              {
+                "free": false,
+                "starter": false,
+                "growth": false,
+                "pro": true,
+                "business": true,
+                "name": "高级潜在客户评分"
+              }
+            ],
+            "name": "智能与 CRM"
+          },
+          {
+            "features": [
+              {
+                "free": false,
+                "starter": false,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "AI WhatsApp 与网页插件"
+              },
+              {
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "统一收件箱 (中心)",
+                "free": "基础版"
+              },
+              {
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "多渠道序列",
+                "free": "1 个活跃"
+              },
+              {
+                "free": false,
+                "starter": false,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "AI 自动驾驶工作流"
+              }
+            ],
+            "name": "沟通与渠道"
+          },
+          {
+            "features": [
+              {
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "实时销售漏斗可见性"
+              },
+              {
+                "free": false,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "来源与投资回报率 (ROI) 分析"
+              }
+            ],
+            "name": "分析与可视化"
+          },
+          {
+            "features": [
+              {
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Gmail, WhatsApp, Meta 与 Google Ads"
+              },
+              {
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "所有集成 (CRM, 日历, Slack, Webhooks)"
+              }
+            ],
+            "name": "集成"
+          },
+          {
+            "name": "团队与支持",
+            "features": [
+              {
+                "name": "用户席位",
+                "free": "1",
+                "starter": "3",
+                "growth": "10",
+                "pro": "不限",
+                "business": "不限"
+              },
+              {
+                "name": "支持级别",
+                "free": "电子邮件",
+                "starter": "电子邮件",
+                "growth": "电子邮件 + Slack",
+                "pro": "优先支持",
+                "business": "7/24 专属支持"
+              }
+            ]
+          }
+        ],
+        "columnNames": [
+          "功能",
+          "免费版",
+          "入门版",
+          "成长版",
+          "专业版",
+          "商业版"
+        ]
+      },
+      "eyebrow": "定价",
+      "plans": [
+        {
+          "featured": false,
+          "isCustom": false,
+          "name": "免费版",
+          "price": "0",
+          "period": "/月",
+          "description": "适合探索 Jumpix 的核心功能。",
+          "features": [
+            "包含所有集成",
+            "AI 意向评分",
+            "统一收件箱（基础版）",
+            "1 个活跃序列（邮件/WhatsApp）",
+            "邮件支持"
+          ],
+          "ctaLabel": "免费开始",
+          "ctaHref": "/login?view=signup&plan=free"
+        },
+        {
+          "featured": false,
+          "isCustom": false,
+          "name": "入门版",
+          "price": "19",
+          "period": "/月",
+          "description": "适合验证外联流程的小型团队。",
+          "features": [
+            "包含所有集成",
+            "实时漏斗可见性",
+            "CRM、日历与表格同步",
+            "每周绩效报告"
+          ],
+          "ctaLabel": "立即开始",
+          "ctaHref": "/login?view=signup&plan=starter"
+        },
+        {
+          "featured": false,
+          "isCustom": false,
+          "name": "成长版",
+          "price": "39",
+          "period": "/月",
+          "description": "适合追求业务增长的销售团队。",
+          "features": [
+            "AI WhatsApp 与网页插件",
+            "网站 AI 聊天机器人",
+            "来源与 ROI 分析",
+            "电子邮件与 Slack 支持"
+          ],
+          "ctaLabel": "选择 Growth",
+          "ctaHref": "/login?view=signup&plan=growth"
+        },
+        {
+          "featured": true,
+          "isCustom": false,
+          "name": "专业版",
+          "price": "69",
+          "period": "/月",
+          "description": "适合追求全面自动化的扩张型团队。",
+          "features": [
+            "AI 智能体训练 (知识库)",
+            "自动驾驶 AI 工作流",
+            "高级潜在客户评分",
+            "优先支持服务"
+          ],
+          "ctaLabel": "选择 Pro",
+          "ctaHref": "/login?view=signup&plan=pro"
+        },
+        {
+          "featured": false,
+          "isCustom": false,
+          "name": "商业版",
+          "price": "99",
+          "period": "/月",
+          "description": "适合需要全面掌控的高容量业务运营。",
+          "features": [
+            "自定义 AI 智能体规则",
+            "专属客户成功团队",
+            "SSO / SAML 安全认证",
+            "无限团队席位"
+          ],
+          "ctaLabel": "选择 Business",
+          "ctaHref": "/login?view=signup&plan=business"
+        }
+      ]
+    },
+    "FAQ": {
+      "title": "清晰解答您的疑问",
+      "subtitle": "常见问题解答",
+      "description": "在连接工作流程、邀请团队成员或将账单迁移至 Jumpix 之前，您需要了解的一切信息。",
+      "supportLabel": "联系支持团队",
+      "supportHref": "/contact",
+      "questions": [
+        {
+          "q": "什么是 Jumpix？它如何帮助销售团队？",
+          "a": "Jumpix 是一个 AI 驱动的收入执行平台，统一了潜在客户接入、资格审查和多渠道外联。我们通过自动化手动数据丰富和潜在客户评分，帮助团队提高执行速度。"
+        },
+        {
+          "q": "AI 潜在客户资格审查是如何工作的？",
+          "a": "我们的 AI 会根据您的理想客户画像 (ICP) 和意图信号分析传入的潜在客户数据。它会为每个潜在客户评分，甚至可以根据匹配质量启动个性化的自动后续跟进。"
+        },
+        {
+          "q": "Jumpix 可以与哪些 CRM 平台集成？",
+          "a": "我们提供与 HubSpot 和 Salesforce 的原生一键集成。您也可以将数据同步到 Google Sheets，或使用我们的 API 进行自定义工作流程。"
+        },
+        {
+          "q": "我可以通过 WhatsApp 和电子邮件自动化后续跟进吗？",
+          "a": "是的！Jumpix 允许您创建多渠道序列。您可以设置流程，先发送初始电子邮件，如果无回复则通过 WhatsApp 进行跟进，确保更高的互动率。"
+        },
+        {
+          "q": "我的数据在 Jumpix 安全吗？",
+          "a": "安全是我们的首要任务。我们使用行业标准的加密技术和由 Supabase 提供的安全数据库协议识别。您的数据完全归您所有，仅用于您自己的自动化工作流程。"
+        },
+        {
+          "q": "你们提供平台设置支持吗？",
+          "a": "当然。我们提供全面的文档、应用内引导和专门的支持团队。对于企业版方案，我们还提供贴身的入职培训和迁移协助。"
+        }
+      ]
+    },
+    "CTA": {
+      "badge": "未来的销售基础设施",
+      "title_start": "立即转型您的",
+      "title_end": "销售流程。",
+      "description1": "与您的数据对话，自动化工作流程，并释放团队的潜力。",
+      "description2": "有了 Jumpix，每一次互动都能转化为机遇。",
+      "getStarted": "免费开始",
+      "requestDemo": "申请演示",
+      "trustBadge": "企业与全球信赖"
+    },
+    "Testimonials": {
+      "title": "深受全球企业喜爱",
+      "subtitle": "不仅是我们的自夸，加入数百个与我们共同成长并加速运营的优秀团队吧。"
+    },
+    "SalesWorkflow": {
+      "badge": "销售工作流",
+      "title_start": "一个 AI 平台，",
+      "title_end": "覆盖完整的销售旅程",
+      "googleButton": "连接 Google",
+      "progress": "进度",
+      "tabs": {
+        "intake": {
+          "title": "线索获取",
+          "subtitle": "从所有来源收集",
+          "description": "将来自 Google Ads、Meta、WhatsApp 和网页表单的线索统一整合到一个结构化层中。",
+          "steps": {
+            "step1": "连接渠道",
+            "step2": "标准化数据",
+            "step3": "保留来源上下文",
+            "step4": "推送到中央队列"
+          }
+        },
+        "qualify": {
+          "title": "丰富与评分",
+          "subtitle": "AI 深度与优先级",
+          "description": "丰富缺失的数据，并利用 AI 即时识别高意向线索。",
+          "steps": {
+            "step1": "数据丰富",
+            "step2": "AI 资质评估",
+            "step3": "意向评分",
+            "step4": "队列优先级排序"
+          }
+        },
+        "followup": {
+          "title": "自动跟进",
+          "subtitle": "Gmail 与 WhatsApp 序列",
+          "description": "在线索捕获的瞬间，通过 Gmail 或 WhatsApp 启动个性化的跟进序列。",
+          "steps": {
+            "step1": "加入序列",
+            "step2": "发送自动消息",
+            "step3": "追踪回复",
+            "step4": "AI 回复草稿"
+          }
+        },
+        "convert": {
+          "title": "转化与同步",
+          "subtitle": "会议安排与 CRM 交接",
+          "description": "将意向转化为已预订的会议，并自动将所有数据同步到您的 CRM 或表格中。",
+          "steps": {
+            "step1": "安排会议",
+            "step2": "CRM 同步",
+            "step3": "销售漏斗可视化",
+            "step4": "ROI 分析"
+          }
+        }
+      },
+      "dummyData": {
+        "qualify": [
+          {
+            "score": 98,
+            "name": "Tim Cook",
+            "status": "高意向"
+          },
+          {
+            "score": 85,
+            "name": "Emily Watson",
+            "status": "已合格"
+          },
+          {
+            "score": 92,
+            "name": "Marc Benioff",
+            "status": "优先"
+          },
+          {
+            "score": 45,
+            "name": "Satya Nadella",
+            "status": "低意向"
+          },
+          {
+            "score": 89,
+            "name": "Sundar Pichai",
+            "status": "已合格"
+          }
+        ],
+        "intake": [
+          {
+            "name": "Tim Cook",
+            "source": "Google Ads",
+            "time": "2分钟前",
+            "status": "已接收"
+          },
+          {
+            "name": "Emily Watson",
+            "source": "WhatsApp",
+            "time": "5分钟前",
+            "status": "已接收"
+          },
+          {
+            "name": "Marc Benioff",
+            "source": "Facebook",
+            "time": "12分钟前",
+            "status": "已接收"
+          },
+          {
+            "name": "Satya Nadella",
+            "source": "网页表单",
+            "time": "18分钟前",
+            "status": "已接收"
+          },
+          {
+            "name": "Sundar Pichai",
+            "source": "Sheets",
+            "time": "25分钟前",
+            "status": "已接收"
+          }
+        ],
+        "followup": [
+          {
+            "name": "Tim Cook",
+            "step": "等待回复",
+            "seq": "第 2/4 步"
+          },
+          {
+            "name": "Emily Watson",
+            "step": "邮件已发送",
+            "seq": "第 1/4 步"
+          },
+          {
+            "name": "Marc Benioff",
+            "step": "已收到回复",
+            "seq": "草拟中..."
+          },
+          {
+            "name": "Satya Nadella",
+            "step": "WhatsApp 已发送",
+            "seq": "第 1/2 步"
+          },
+          {
+            "name": "Sundar Pichai",
+            "step": "无回复",
+            "seq": "重试中..."
+          }
+        ],
+        "convert": [
+          {
+            "name": "Tim Cook",
+            "deal": " 交易",
+            "status": "成功"
+          },
+          {
+            "name": "Emily Watson",
+            "deal": "演示已预约",
+            "status": "成功"
+          },
+          {
+            "name": "Marc Benioff",
+            "deal": "CRM 已同步",
+            "status": "成功"
+          },
+          {
+            "name": "Satya Nadella",
+            "deal": "已归档",
+            "status": "成功"
+          },
+          {
+            "name": "Sundar Pichai",
+            "deal": "演示已预约",
+            "status": "成功"
+          }
+        ]
+      }
+    },
+    "FeaturesSecondary": {
+      "badge": "工作流自动化",
+      "title_line1": "使用树状结构",
+      "title_line2": "设计您的工作流。",
+      "button": "构建您的流程",
+      "tabs": {
+        "intake": {
+          "label": "接入渠道",
+          "title": "统一管理所有需求",
+          "description": "无论是 WhatsApp、Meta Ads、Google Ads 还是网页表单，无论来源如何，均可将其纳入流程。"
+        },
+        "logic": {
+          "label": "智能与决策",
+          "title": "AI 智能路由",
+          "description": "衡量意向、评估潜在客户，并自动将其分配给合适的团队或序列。"
+        },
+        "outreach": {
+          "label": "自动化跟进",
+          "title": "个性化沟通流程",
+          "description": "通过 Gmail 和 WhatsApp 的多渠道跟进流程，提高回复率。"
+        },
+        "sync": {
+          "label": "数据同步",
+          "title": "与您的 CRM 及工具完美协作",
+          "description": "自动将已确认的会议和合格的潜在客户传输到您的 CRM 系统。"
+        }
+      },
+      "visualization": {
+        "leadIntake": "潜在客户接入",
+        "aiReasoning": "AI 推理",
+        "rejected": "已拒绝",
+        "emailSequencer": "邮件序列器",
+        "crmSync": "CRM 同步",
+        "meeting": "会议",
+        "activeFlow": "活跃流程",
+        "aiEnabled": "已启用 AI"
+      }
+    },
+    "Footer": {
+      "description": "专为现代 SaaS 扩展打造的一体化平台。自信地实现自动化、优化与增长。",
+      "sections": {
+        "product": {
+          "title": "产品",
+          "links": {
+            "features": "功能",
+            "workflow": "工作流",
+            "demo": "演示",
+            "pricing": "定价",
+            "faq": "常见问题"
+          }
+        },
+        "company": {
+          "title": "公司",
+          "links": {
+            "about": "关于我们",
+            "blog": "博客",
+            "careers": "加入我们",
+            "contact": "联系我们"
+          }
+        },
+        "legal": {
+          "title": "法律条款",
+          "links": {
+            "privacy": "隐私政策",
+            "terms": "服务条款",
+            "refund": "退款政策",
+            "cookie": "Cookie 政策"
+          }
+        }
+      },
+      "rights": "© {year} Jumpix Inc. 保留所有权利。",
+      "status": "系统状态",
+      "support": "支持"
+    },
+    "InteractiveShowcase": {
+      "badge": "交互式产品演示",
+      "title_start": "一个 AI 平台，助力",
+      "title_end": "完整的销售旅程",
+      "description": "我们使用真实数据模拟了仪表板。您可以使用左侧菜单探索功能，并在主屏幕上进行交互。",
+      "hotspots": {
+        "search": {
+          "title": "潜在客户搜索器",
+          "description": "利用高级筛选器从数百万个专业数据点中进行筛选，并将其添加到您的列表中。"
+        },
+        "flowagent": {
+          "title": "流程代理",
+          "description": "通过 AI 助手实现销售漏斗自动化，利用基于意图的信号捕捉最热门的潜在客户。"
+        },
+        "inbox": {
+          "title": "统一收件箱",
+          "description": "在一个中心汇集所有渠道的回复，并借助 AI 辅助在几秒钟内完成回复。"
+        },
+        "analytics": {
+          "title": "详细报告",
+          "description": "通过即时分析转化率和基于渠道的营销活动成效，衡量您的投资回报率 (ROI)。"
+        }
+      },
+      "sidebar": {
+        "mainMenu": "主菜单",
+        "system": "系统",
+        "dashboard": "仪表板",
+        "search": "潜在客户搜索器",
+        "sequences": "流程代理",
+        "inbox": "收件箱",
+        "lists": "我的列表",
+        "analytics": "报告",
+        "integrations": "集成",
+        "billing": "账单",
+        "settings": "设置"
+      },
+      "header": {
+        "platform": "平台",
+        "shortcut": "快捷键 (⌘K)"
+      },
+      "views": {
+        "dashboard": {
+          "greeting": "早上好，Emirhan",
+          "subtitle": "这是您今天需要关注的内容。",
+          "newCampaign": "新建营销活动",
+          "activeLeads": "活跃潜在客户",
+          "openRate": "邮件打开率",
+          "replyRate": "回复率",
+          "booking": "预约",
+          "campaignPerformance": "营销活动表现",
+          "trendingChannels": "热门渠道",
+          "last7Days": "过去 7 天",
+          "last30Days": "过去 30 天",
+          "email": "电子邮件",
+          "linkedin": "LinkedIn",
+          "whatsapp": "WhatsApp",
+          "viewAll": "查看全部"
+        },
+        "search": {
+          "title": "潜在客户数据库",
+          "subtitle": "超过 4 亿条可扫描的专业数据。",
+          "filters": "筛选器",
+          "query": "查询",
+          "statusVerified": "已验证",
+          "statusPending": "待处理",
+          "industry": "技术 / SaaS",
+          "details": "详情",
+          "showing": "显示 1,248 个联系人中的 1-5 个",
+          "prev": "上一页",
+          "next": "下一页",
+          "cols": [
+            "全名",
+            "公司与行业",
+            "地点",
+            "状态"
+          ]
+        },
+        "sequences": {
+          "title": "第一季度企业外联",
+          "subtitle": "LinkedIn + 电子邮件混合模式",
+          "statusActive": "进行中",
+          "edit": "编辑",
+          "stepDay1": "第 1 天",
+          "stepDay4": "第 4 天",
+          "initialConnection": "初步联系",
+          "wait3Days": "等待 3 天（若无回复）",
+          "linkedinVisit": "个人资料访问与请求",
+          "emailBody": "主题：关于 {{company}} 的合作提案",
+          "linkedinBody": "备注：LinkedIn 自动化已启用。",
+          "addStep": "+ 添加步骤"
+        },
+        "analytics": {
+          "totalRevenue": "总收入影响 (ROI)",
+          "multiplier": "12.4 倍乘数",
+          "vsPrevMonth": "较上月增长 24%",
+          "inboxRate": "收件箱送达率",
+          "inboxDesc": "92% 的邮件已送达主要收件箱。",
+          "replyAnalysis": "入站回复分析",
+          "positive": "正面",
+          "neutral": "中性",
+          "channels": [
+            "电子邮件营销",
+            "LinkedIn 消息",
+            "直接外联"
+          ]
+        }
+      },
+      "tooltip": {
+        "clickToView": "点击查看"
+      },
+      "quickAccess": "快速访问"
+    },
+    "Mockups": {
+      "hero": {
+        "workspace": "jumpix-工作区",
+        "newLeads": "新潜在客户",
+        "qualifying": "资格审核中",
+        "qualified": "已通过审核",
+        "scoringSignal": "评分信号：高意向",
+        "organic": "自然流量"
+      },
+      "enrichment": {
+        "incoming": "入站 Webhook",
+        "vpSales": "Acme Corp 销售副总裁",
+        "companySize": "公司规模：50-200 人",
+        "industry": "行业：SaaS"
+      },
+      "workflow": {
+        "leadCreated": "潜在客户已创建",
+        "aiQual": "AI 资格审核",
+        "autoEmail": "自动邮件"
+      },
+      "analytics": {
+        "funnel": "转化漏斗",
+        "formFills": "表单填写",
+        "qualified": "已通过审核",
+        "meetings": "会议",
+        "velocity": "销售周期速度",
+        "days": "天",
+        "winRate": "赢单率"
+      }
+    }
+  },
+  "Dashboard": {
+    "title": "指挥中心",
+    "description": "实时智能中心。AI 代理扫描并优化中。",
+    "metrics": {
+      "totalRevenue": "总收入",
+      "newCustomers": "新客户",
+      "activeAccounts": "活跃账户",
+      "growthRate": "增长率"
+    },
+    "charts": {
+      "performanceIndex": "绩效指数",
+      "neuralFeed": "神经反馈"
+    },
+    "subtitle": "Welcome back. Here is what's happening today.",
+    "sections": {
+      "recentLeads": "Recent Leads",
+      "recentActivity": "Recent Activity"
+    },
+    "activity": {
+      "eventLabel": "Event"
+    },
+    "loading": {
+      "table": "Loading table...",
+      "chart": "Loading chart..."
+    }
+  },
+  "Auth": {
+    "login": {
+      "title": "欢迎回来",
+      "subtitle": "开启您的 30 天免费试用",
+      "emailPlaceholder": "请输入您的电子邮箱地址",
+      "passwordPlaceholder": "请输入您的密码",
+      "rememberMe": "记住我",
+      "forgotPassword": "忘记密码？",
+      "submit": "登录 Jumpix",
+      "noAccount": "还没有账号？",
+      "signUp": "注册",
+      "securityVerification": "安全验证"
+    },
+    "signup": {
+      "title": "创建账号",
+      "subtitle": "加入成千上万家正在提升销售业绩的企业。",
+      "namePlaceholder": "请输入您的姓名",
+      "submit": "创建账号",
+      "alreadyHaveAccount": "已有账号？",
+      "login": "登录"
+    },
+    "forgotPassword": {
+      "title": "重置密码",
+      "subtitle": "输入您的电子邮箱地址以重置密码。",
+      "question": "想起密码了？",
+      "submit": "发送重置链接",
+      "backToLogin": "返回登录"
+    },
+    "social": {
+      "google": "使用 Google 继续"
+    },
+    "messages": {
+      "checkEmail": "请检查您的邮箱以获取确认链接。",
+      "linkSent": "密码重置链接已发送！请检查您的邮箱。",
+      "error": "发生了一个错误。",
+      "captchaRequired": "请验证您不是机器人"
+    },
+    "divider": "或",
+    "hero": {
+      "title": "欢迎来到 Jumpix 的世界",
+      "subtitle": "在单一平台上管理您的销售流程，利用 AI 提升生产力。",
+      "mockup": {
+        "triggerTitle": "新增潜在客户",
+        "triggerSubtitle": "匹配 ICP 的候选人已被触发",
+        "intentTitle": "检查意向评分",
+        "intentStatus": "高",
+        "sequenceTitle": "启动序列：第一季度外联",
+        "sequenceVariant": "变体 B",
+        "sequenceStatus": "运行中..."
+      }
+    },
+    "resetPassword": {
+      "titleReset": "重置密码",
+      "titleInvite": "完善您的账户",
+      "subtitleReset": "请输入您的新密码以恢复访问权限。",
+      "subtitleInvite": "请设置您的新密码以继续。",
+      "labelNewPassword": "新密码",
+      "labelConfirmPassword": "确认新密码",
+      "submit": "更新密码",
+      "successTitle": "密码更新成功！",
+      "successRedirect": "正在跳转至登录页面...",
+      "backToLogin": "返回登录",
+      "errorMinLength": "密码长度至少需要 6 个字符",
+      "errorMismatch": "两次输入的密码不一致",
+      "errorNoSession": "会话丢失。请重新点击链接或刷新页面。"
+    }
+  },
+  "Contact": {
+    "title": "联系我们",
+    "subtitle": "对我们的 AI 解决方案有疑问吗？我们随时为您提供帮助，助力您的业务扩展。",
+    "infoTitle": "联系信息",
+    "emailLabel": "给我们发邮件",
+    "phoneLabel": "致电我们",
+    "visitLabel": "访问我们",
+    "chatTitle": "在线聊天支持",
+    "chatDesc": "需要立即协助？我们的支持团队 24/7 全天候在线。",
+    "startChat": "开始聊天",
+    "formTitle": "给我们留言",
+    "name": "姓名",
+    "email": "电子邮箱",
+    "message": "留言",
+    "placeholderName": "张三",
+    "placeholderEmail": "john@example.com",
+    "placeholderMessage": "有什么我们可以帮您的吗？",
+    "submit": "发送留言",
+    "sending": "发送中...",
+    "success": "留言发送成功！",
+    "securityVerification": "安全验证"
+  },
+  "Sequences": {
+    "active": "进行中",
+    "passive": "已停止",
+    "draft": "草稿",
+    "published": "已发布",
+    "title": "序列中心",
+    "reporting": "效果分析",
+    "all": "序列",
+    "queue": "队列",
+    "settings": "设置",
+    "newSequence": "新建序列",
+    "searchPlaceholder": "搜索序列...",
+    "filterAll": "全部",
+    "filterActive": "进行中",
+    "filterDraft": "草稿",
+    "table": {
+      "name": "序列名称",
+      "steps": "步骤",
+      "status": "状态",
+      "performance": "效果",
+      "action": "操作",
+      "noSteps": "无步骤",
+      "loading": "加载中..."
+    },
+    "actions": {
+      "edit": "编辑",
+      "pause": "暂停",
+      "start": "开始",
+      "delete": "删除",
+      "saveDraft": "保存草稿",
+      "publish": "发布",
+      "cancel": "取消",
+      "deleteConfirm": "确定要删除此序列吗？",
+      "deleteSuccess": "Sequence deleted successfully.",
+      "queueSuccess": "Operation completed successfully",
+      "deleteWarning": "此操作无法撤销。所有已注册的潜在客户将从此序列中删除。"
+    },
+    "stats": {
+      "active": "进行中",
+      "sent": "已发送",
+      "opened": "已打开",
+      "revenue": "收入",
+      "unitMessages": "条消息",
+      "unitPcs": "个",
+      "unitCurrency": "美元"
+    },
+    "reportingTitle": "营销活动效果",
+    "reportingDesc": "过去 30 天的发送与互动趋势",
+    "queueTitle": "进行中处理队列",
+    "queueDesc": "等待发送或正在处理的序列步骤",
+    "settingsTitle": "序列配置",
+    "settingsDesc": "基于账户的发送限制和全局规则",
+    "settingsForm": {
+      "limits": "发送限制",
+      "dailyEmail": "每日邮件发送上限",
+      "dailyWhatsapp": "每日 WhatsApp 发送上限",
+      "blackout": "静默时间段",
+      "startHour": "开始时间",
+      "endHour": "结束时间",
+      "action": "静默期间的操作",
+      "actionDelay": "延迟发送",
+      "actionSkip": "跳过步骤",
+      "unsubControl": "全局退订控制",
+      "unsubDesc": "防止向标记为“已退订”的潜在客户发送消息。",
+      "save": "应用更改",
+      "saving": "保存中..."
+    },
+    "queueTable": {
+      "lead": "潜在客户 / 客户",
+      "seqStep": "序列 / 步骤",
+      "dueAt": "计划时间",
+      "status": "状态",
+      "action": "操作",
+      "failed": "失败：正在重试 ({retry})",
+      "pending": "待处理",
+      "empty": "队列中没有等待的项目。"
+    },
+    "builder": {
+      "actions": {
+        "saveDraft": "保存草稿",
+        "publish": "发布"
+      },
+      "published": "已发布",
+      "loading": "正在加载流程构建器...",
+      "defaultName": "新建智能序列",
+      "drafting": "草稿中",
+      "palette": "步骤面板",
+      "email": "电子邮件",
+      "emailDesc": "发送自动消息",
+      "whatsapp": "WhatsApp",
+      "whatsappDesc": "WhatsApp 消息",
+      "condition": "条件",
+      "conditionDesc": "等待并分支",
+      "task": "手动任务",
+      "taskDesc": "分配任务给团队成员",
+      "trigger": "触发器",
+      "triggerLabel": "触发类型",
+      "triggerNoResponse": "若无回复",
+      "triggerCreated": "潜在客户创建时",
+      "triggerMeeting": "会议预订时",
+      "triggerInstant": "立即开始",
+      "triggerNow": "现在开始",
+      "targetLabel": "目标",
+      "targetAll": "所有资源池",
+      "aiIcebreaker": "AI 开场白",
+      "aiAutopilot": "AI 自动驾驶",
+      "templateLabel": "消息模板",
+      "templatePlaceholder": "在此输入您的消息...",
+      "btnIcebreaker": "开场白",
+      "btnOptimize": "优化",
+      "delayLabel": "延迟（小时）",
+      "branchYes": "是",
+      "branchNo": "否",
+      "controlLabel": "控制",
+      "controlReplied": "对方是否回复？",
+      "controlOpened": "邮件是否已打开？",
+      "selectionPlaceholder": "请做出选择",
+      "selectionDesc": "点击组件上的步骤以编辑其设置。",
+      "toastSuccess": "序列发布成功！",
+      "toastDraft": "草稿保存成功！",
+      "toastAiSuccess": "AI 内容生成成功",
+      "toastAiError": "无法生成 AI 内容",
+      "toastError": "发生错误",
+      "toastSave": "Settings saved successfully",
+      "toastEmptyTemplate": "保存前请填写所有步骤的消息模板。"
+    },
+    "loading": "Loading...",
+    "noResults": "No results found",
+    "noResultsDesc": "No sequences matching your search criteria were found."
+  },
+  "Tour": {
+    "step1": {
+      "title": "欢迎使用 Jumpix！🚀",
+      "description": "让我们带您了解您的全新 AI 预约助手。只需一分钟即可完成。"
+    },
+    "step2": {
+      "title": "仪表盘概览",
+      "description": "一目了然地查看您的核心指标、系统状态以及近期的 AI 活动。"
+    },
+    "step3": {
+      "title": "销售漏斗",
+      "description": "追踪潜在客户在不同阶段的进展。如有需要，可通过拖拽手动更新其状态。"
+    },
+    "step4": {
+      "title": "实时对话",
+      "description": "实时监控 AI 与客户的互动。您可以随时接管任何对话。"
+    },
+    "step5": {
+      "title": "B2B 潜在客户数据库",
+      "description": "访问超过 4 亿条专业联系人信息，发现并验证新的潜在客户。"
+    },
+    "step6": {
+      "title": "智能序列",
+      "description": "设计通过 Email 和 WhatsApp 进行的多渠道跟进序列，自动重新激活潜在客户。"
+    },
+    "step7": {
+      "title": "团队与分配",
+      "description": "管理您的坐席并设置自动化的潜在客户分配（轮询机制）。"
+    },
+    "step8": {
+      "title": "设置向导",
+      "description": "需要重新配置渠道或日历？设置向导随时为您服务。"
+    },
+    "buttons": {
+      "next": "下一步 →",
+      "prev": "← 上一步",
+      "done": "完成引导"
+    }
+  },
+  "JumpixAssistant": {
+    "title": "AI Jumpix",
+    "subtitle": "智能仪表板助手",
+    "newChat": "新对话",
+    "history": "历史记录",
+    "placeholder": "问点什么...",
+    "welcomeTitle": "我能为您做些什么？",
+    "welcomeDesc": "您可以询问有关潜客数据、预约或平台使用的任何问题。Gemini 1.5 Pro 可以访问您的所有仪表板数据！",
+    "analyzing": "AI Jumpix 正在分析...",
+    "poweredBy": "由 Google Gemini 1.5 Pro 提供支持",
+    "suggestions": {
+      "leads": "列出最近 5 个潜客",
+      "meetings": "我下周的会议有哪些？",
+      "integration": "如何设置 Lead Ads 集成？",
+      "analysis": "分析我的转化率"
+    }
+  },
+  "Blog": {
+    "title": "Intelligence Feed",
+    "subtitle": "Jumpix Inside",
+    "description": "Explorations in AI automation, appointment setting, and the future of B2B SaaS growth.",
+    "featured": "Featured Insight",
+    "readingTime": "{minutes} Min Read",
+    "recentTitle": "Recent Explorations",
+    "noPosts": "More insights arriving soon. Stay tuned.",
+    "ctaTitle": "Scale Your Growth with AI Intelligence.",
+    "ctaDescription": "Join 5,000+ founders receiving weekly tactical guides on AI sales automation and appointment setting.",
+    "ctaButton": "Start Scaling",
+    "backLink": "Back to Insights",
+    "shareTitle": "Share Insight",
+    "didYouFindValuable": "Did you find this valuable?",
+    "valuableDescription": "Share this exploration with your network or start your own automation journey with Jumpix.",
+    "tryFree": "Try Jumpix Free",
+    "copyLink": "Copy Article Link",
+    "authorDefault": "Jumpix Editorial",
+    "authorTag": "Expertise Writer"
+  },
+  "UseCases": {
+    "customerSuccess": {
+      "eyebrow": "Customer Success",
+      "title": "Turn post-sale follow-up into a measurable customer expansion workflow",
+      "description": "Jumpix helps customer-success teams centralize account signals, prioritize at-risk or expansion-ready customers, and launch the right follow-up through inbox, WhatsApp, calendar, and CRM-connected workflows.",
+      "outcomes": {
+        "fasterRisk": {
+          "title": "Faster risk response",
+          "description": "Catch churn signals earlier and trigger customer outreach before silence turns into cancellation."
+        },
+        "expansion": {
+          "title": "Expansion visibility",
+          "description": "Identify high-intent conversations and route upsell or cross-sell opportunities to the right owner."
+        },
+        "renewals": {
+          "title": "Consistent renewals",
+          "description": "Keep renewal checkpoints, stakeholder follow-up, and meeting history visible in one execution layer."
+        }
+      }
+    },
+    "sales": {
+      "eyebrow": "Sales Teams",
+      "title": "Turn every serious lead into a sales conversation before momentum fades",
+      "description": "Jumpix gives sales teams a practical execution layer: capture inbound demand, score intent with context, launch multichannel follow-up, and move qualified opportunities to meeting stage faster.",
+      "outcomes": {
+        "fasterReply": {
+          "title": "Reply faster on high-intent leads",
+          "description": "Route priority leads to the right rep in minutes, not after manual triage."
+        },
+        "moreMeetings": {
+          "title": "Book more qualified meetings",
+          "description": "Use AI-supported qualification and timely outreach to convert interest into calendar events."
+        }
+      }
+    },
+    "marketing": {
+      "eyebrow": "Marketing Teams",
+      "title": "Help marketing teams turn campaign demand into qualified pipeline",
+      "description": "Jumpix should show marketing leaders that campaign performance does not stop at the lead form. It continues through routing, qualification, and sales handoff quality.",
+      "outcomes": {
+        "cleanIntake": {
+          "title": "Cleaner lead intake",
+          "description": "Stop pushing raw campaign demand directly into the pipeline."
+        },
+        "handoff": {
+          "title": "Better handoff quality",
+          "description": "Pass richer context to sales before the first follow-up starts."
+        }
+      }
+    }
+  },
+  "Solutions": {
+    "analytics": "Analytics",
+    "flowBuilder": "Flow Builder",
+    "sequences": "Smart Sequences",
+    "aiAgents": "AI Agents"
+  },
+  "Features": {
+    "leadCapture": "Lead Capture",
+    "leadEnrichment": "Lead Enrichment",
+    "leadScoring": "Lead Scoring",
+    "sequences": "Sequences",
+    "pipelineAnalytics": "Pipeline Analytics"
+  },
+  "MarketingIntegrations": {
+    "google-ads": "Google Ads",
+    "whatsapp": "WhatsApp",
+    "meta": "Meta Lead Ads",
+    "hubspot": "Hubspot",
+    "pipedrive": "Pipedrive"
+  },
+  "Marketing": {
+    "pricing": "Pricing",
+    "integrations": "Integrations",
+    "showcase": "See Product Tour",
+    "trial": "Start Free Trial"
+  },
+  "ActivityLog": {
+    "title": "Activity Log",
+    "subtitle": "Monitor every interaction and automated action in real-time.",
+    "breadcrumb": {
+      "system": "System",
+      "activityLog": "Activity Log"
+    },
+    "status": {
+      "connected": "Live Connection",
+      "connecting": "Connecting...",
+      "offline": "Live Offline"
+    },
+    "search": {
+      "placeholder": "Search logs by event, type or content...",
+      "clearButton": "Clear Search"
+    },
+    "empty": {
+      "title": "No actions recorded",
+      "description": "Events will appear here as they happen."
+    }
+  },
+  "Profile": {
+    "title": "My Profile",
+    "subtitle": "Manage your personal information and security preferences.",
+    "badges": {
+      "active": "Active"
+    },
+    "sections": {
+      "personalInfo": "Personal Information",
+      "security": "Security & Password",
+      "notifications": "Notifications",
+      "accountInfo": "Account Info"
+    },
+    "fields": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "language": "Language",
+      "languagePlaceholder": "Select Language",
+      "passkey": "Passkey Authentication",
+      "passkeyDesc": "Use your fingerprint or face ID to login.",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "options": {
+      "english": "English (US)",
+      "turkish": "Turkish (TR)"
+    },
+    "buttons": {
+      "updateInfo": "Update Info",
+      "saving": "Saving...",
+      "changePassword": "Change Password"
+    },
+    "notifications": {
+      "emailAlerts": "Email Alerts",
+      "emailAlertsDesc": "Get daily summaries",
+      "pushNotifications": "Push Notifications",
+      "pushNotificationsDesc": "Real-time updates on desktop",
+      "smsUpdates": "SMS Updates",
+      "smsUpdatesDesc": "Critical system alerts"
+    },
+    "account": {
+      "userId": "User ID",
+      "memberSince": "Member Since"
+    },
+    "messages": {
+      "noPasswordPermission": "You do not have permission to change your password. Please contact the administrator."
+    },
+    "toasts": {
+      "updateSuccess": "Profile updated successfully",
+      "updateFailed": "Failed to update profile",
+      "passwordMismatch": "Passwords do not match",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "passwordChanged": "Password changed successfully",
+      "passwordChangeFailed": "Failed to change password",
+      "avatarSuccess": "Avatar uploaded successfully",
+      "avatarFailed": "Failed to upload avatar",
+      "preferencesUpdateFailed": "Failed to update preferences"
+    }
+  },
+  "AITraining": {
+    "title": "AI Training Center",
+    "subtitle": "Personalize how your AI assistant speaks and what it knows about your business.",
+    "sections": {
+      "autonomousCore": "Autonomous Core",
+      "sandbox": "Sandbox Simulator",
+      "datasources": "Knowledge Sources",
+      "qualificationQuestions": "资质审核问题",
+      "analytics": "性能（最近30天）"
+    },
+    "fields": {
+      "brandVoice": "Brand Voice / Tone",
+      "knowledgeBase": "Knowledge Base (Context)",
+      "knowledgeBasePlaceholder": "Describe your business, services, team, and key policies here. The more detail you provide, the better your AI will perform...",
+      "knowledgeBaseHint": "The AI will use this information to respond to all customer inquiries.",
+      "autonomousMode": "Autonomous Mode",
+      "autonomousModeDesc": "AI handles responses instantly without manual approval.",
+      "responseDelay": "响应延迟",
+      "responseDelayDesc": "AI发送回复前的延迟时间 — 模拟人工打字时间。",
+      "responseDelayInstant": "即时",
+      "responseDelayUnit": "秒"
+    },
+    "voices": {
+      "professional": "Professional",
+      "friendly": "Friendly",
+      "casual": "Casual"
+    },
+    "buttons": {
+      "save": "Save Configuration",
+      "saving": "Synchronizing...",
+      "deploy": "Deploy to Production",
+      "deploying": "Deploying...",
+      "executeQuery": "Execute Test Query"
+    },
+    "sandbox": {
+      "description": "Test your current AI configuration in a safe environment before going live.",
+      "placeholder": "Ask something like: What are your pricing plans? or Who is your founder?",
+      "outputLabel": "AI Simulation Output",
+      "clear": "清除",
+      "you": "您",
+      "ai": "AI",
+      "empty": "发送消息以开始测试您的AI配置。"
+    },
+    "badges": {
+      "alphaPreview": "Alpha Preview"
+    },
+    "features": {
+      "webscraper": "Web Scraper",
+      "webscraperDesc": "Automatic knowledge sync from your website (Coming Soon)."
+    },
+    "toasts": {
+      "saved": "设置保存成功！",
+      "saveError": "保存设置时出错",
+      "testError": "测试错误"
+    },
+    "qualificationQuestions": {
+      "description": "AI将通过这些问题对潜在客户进行资质审核。",
+      "placeholder": "例如：您的预算是多少？",
+      "addQuestion": "添加问题",
+      "empty": "暂无问题。添加一个问题以开始审核潜在客户。"
+    },
+    "analytics": {
+      "title": "性能（最近30天）",
+      "responses": "AI回复数",
+      "meetings": "已预约会议",
+      "rate": "预约转化率",
+      "empty": "暂无数据"
+    },
+    "fallback": {
+      "title": "兜底行为",
+      "description": "AI无法回答问题时的处理方式。",
+      "noneLabel": "无操作",
+      "noneDesc": "AI即使不确定也会正常回复。",
+      "handoffLabel": "转人工",
+      "handoffDesc": "禁用AI并将对话标记给人工客服。",
+      "customLabel": "自定义消息",
+      "customDesc": "AI不确定时发送预设回复。",
+      "messagePlaceholder": "例如：感谢您的联系！我们的团队成员将很快与您取得联系。"
+    }
+  },
+  "Conversations": {
+    "search": {
+      "placeholder": "Search intelligence logs..."
+    },
+    "empty": {
+      "noConversations": "No active conversations.",
+      "selectConversation": "Select a conversation to start chatting",
+      "startConversation": "Start the conversation!"
+    },
+    "status": {
+      "active": "Active Conversation",
+      "paused": "Paused",
+      "closed": "Closed",
+      "communicationBlocked": "Communication Blocked",
+      "aiActive": "AI Active",
+      "humanControl": "Human Control"
+    },
+    "badges": {
+      "unqualified": "Unqualified",
+      "handoff": "Handoff"
+    },
+    "buttons": {
+      "options": "Conversation Options",
+      "takeOver": "Take Over",
+      "resumeAI": "Resume AI"
+    },
+    "actions": {
+      "markAsRead": "Mark as Read",
+      "archive": "Archive",
+      "markUnqualified": "Mark Unqualified",
+      "delete": "Delete"
+    },
+    "input": {
+      "placeholder": "Type your message...",
+      "aiPlaceholder": "Type to intervene...",
+      "disabledPlaceholder": "This lead is marked as unqualified. Communication is disabled."
+    },
+    "notices": {
+      "disabled": "Communication Disabled • Mark as Qualified to Resume",
+      "aiActive": "Neural Link Active • Authorized Access Only",
+      "markedRead": "Marked as read."
+    },
+    "senders": {
+      "agent": "Agent",
+      "ai": "AI Assistant",
+      "system": "System",
+      "lead": "Lead"
+    },
+    "confirm": {
+      "markUnqualified": "Are you sure? Once marked as unqualified, this lead will no longer receive any messages or emails, and their automations will be stopped."
+    },
+    "filter": {
+      "all": "All",
+      "handoff": "Needs Handoff"
+    },
+    "feedback": {
+      "positiveSaved": "Feedback saved.",
+      "correctionSaved": "Correction saved.",
+      "correctionPlaceholder": "What should the correct response have been? (optional)",
+      "cancel": "Cancel",
+      "saveCorrection": "Save Correction"
+    },
+    "email": {
+      "collapse": "▲ Collapse",
+      "expand": "▼ View email",
+      "subject": "Subject:"
+    },
+    "warnings": {
+      "channelDelivery": "Message saved but channel delivery failed:"
+    }
+  },
+  "Pipeline": {
+    "title": "Sales Pipeline",
+    "subtitle": "Track and manage your leads through the conversion funnel.",
+    "search": {
+      "placeholder": "Find a lead..."
+    },
+    "buttons": {
+      "filter": "Filter",
+      "newLead": "New Lead"
+    },
+    "columns": {
+      "newLead": "New Lead",
+      "contacted": "Contacted",
+      "qualified": "Qualified",
+      "booked": "Meeting Booked",
+      "unqualified": "Unqualified/Closed",
+      "empty": "Drop leads here",
+      "total": "Total: {count}"
+    },
+    "feedback": {
+      "dragging": "DRAGGING"
+    },
+    "card": {
+      "score": "Score: {score}",
+      "noCompany": "No Company",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDelete": "Are you sure you want to delete this lead?"
+    }
+  },
+  "Leads": {
+    "sidebar": {
+      "title": "Lead Segments",
+      "inbox": "Inbox",
+      "allLeads": "All Leads",
+      "folders": "Folders",
+      "newFolder": "New Folder",
+      "ungroupedSegments": "Ungrouped Segments",
+      "otherSegments": "Other Segments"
+    },
+    "header": {
+      "inboxTitle": "Inbox (Unassigned)",
+      "inboxSubtitle": "Leads from web, widgets, and manual entry.",
+      "allLeadsSubtitle": "Showing all leads in the system."
+    },
+    "input": {
+      "folderNamePlaceholder": "Folder name...",
+      "searchPlaceholder": "Search leads..."
+    },
+    "buttons": {
+      "add": "Add",
+      "addLead": "Add Lead",
+      "filter": "Filter",
+      "export": "Export",
+      "import": "Import",
+      "pushToSheets": "Push to Sheets",
+      "download": "Download",
+      "upload": "Upload",
+      "importLeads": "Import Leads"
+    },
+    "folder": {
+      "ungrouped": "Ungrouped",
+      "empty": "Empty folder"
+    },
+    "group": {
+      "empty": "No segments created yet."
+    },
+    "segment": {
+      "chooseSegment": "Choose Segment",
+      "chooseTarget": "Choose Target Segment",
+      "ungroupedInbox": "(Ungrouped/Inbox)",
+      "removeFromGroup": "Remove from Group (Move to Inbox)"
+    },
+    "table": {
+      "leadInfo": "Lead Info",
+      "status": "Status",
+      "created": "Created",
+      "actions": "Actions",
+      "assignSegment": "Assign to segment",
+      "viewDetails": "View details",
+      "noLeads": "No leads found.",
+      "paginationText": "Showing {from} to {to} of {total} leads"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "actions": {
+      "downloadExcel": "Download as Excel",
+      "edit": "Edit",
+      "delete": "Delete",
+      "moveToGroup": "Move to group",
+      "moveToFolder": "Move to Folder",
+      "renameFolder": "Rename folder",
+      "deleteFolder": "Delete folder",
+      "deleteGroup": "Delete Group"
+    },
+    "bulk": {
+      "selectAll": "Select All",
+      "moveAction": "Move selected to group",
+      "leadsSelected": "Leads Selected",
+      "deselectAll": "Deselect All",
+      "moveToSegment": "Move to Segment",
+      "deleteSelected": "Delete Selected"
+    },
+    "channels": {
+      "title": "Channels",
+      "widgetOnly": "Only widget active"
+    },
+    "confirm": {
+      "deleteSingle": "Are you sure you want to delete this lead?",
+      "deleteGroup": "Are you sure you want to delete this group? The leads inside will become unassigned and appear in your Inbox.",
+      "deleteFolder": "Are you sure you want to delete this folder? The groups inside will NOT be deleted, they will just become ungrouped.",
+      "deleteBulk": "Are you sure you want to delete {count} selected leads?"
+    }
+  },
+  "CalendarPage": {
+    "title": "Calendar",
+    "subtitle": "Manage appointments scheduled by your AI.",
+    "nextAppointment": "Next Appointment",
+    "buttons": {
+      "joinMeeting": "Join Meeting"
+    },
+    "empty": {
+      "noMeetings": "No upcoming meetings"
+    },
+    "sync": {
+      "button": "Sync Google Calendar",
+      "syncing": "Syncing...",
+      "success": "Synced {synced} new, updated {updated} events",
+      "error": "Sync failed",
+      "notConnected": "Google Calendar not connected",
+      "lastSync": "Synced with Google Calendar"
+    },
+    "aiAvatar": {
+      "label": "AI Avatar",
+      "pending": "Scheduled",
+      "joining": "Joining...",
+      "in_call": "In Meeting",
+      "recording": "Recording",
+      "stopped": "Left",
+      "failed": "Failed",
+      "completed": "Completed",
+      "analysis_complete": "Analysis Ready",
+      "cancelled": "Cancelled",
+      "disabled": "Disabled"
+    },
+    "manualForm": {
+      "modalTitle": "Schedule Manual Meeting",
+      "cancel": "Cancel",
+      "create": "Create",
+      "attendeePlaceholder": "example@company.com",
+      "unknownError": "Unknown error"
+    }
+  },
+  "B2BDatabase": {
+    "sidebar": {
+      "filtersTitle": "Filters",
+      "extractTitle": "Extract Leads to CRM",
+      "extractDescription": "Pull multiple leads at once based on your active filters. They will be auto-grouped for you."
+    },
+    "buttons": {
+      "applyFilters": "Apply Filters",
+      "extractLeads": "Extract Leads (Cost: {cost})",
+      "extractLeadsDefault": "Extract Leads",
+      "extractSelected": "Extract Leads"
+    },
+    "filters": {
+      "companyName": "Company name",
+      "companyNamePlaceholder": "Enter a domain or company name...",
+      "location": "Headquarters location",
+      "locationPlaceholder": "Search for a city, state or country...",
+      "industry": "Industry",
+      "industryPlaceholder": "Search for an industry...",
+      "size": "Size",
+      "companyType": "Company type",
+      "companyTypePlaceholder": "Search for a company type...",
+      "keywords": "Keywords",
+      "keywordsPlaceholder": "Add keyword...",
+      "similar": "Companies similar to",
+      "founded": "Year founded",
+      "tech": "Technologies",
+      "funding": "Funding"
+    },
+    "credits": {
+      "label": "Available Credits",
+      "unit": "Leads"
+    },
+    "input": {
+      "maxLeadsPlaceholder": "Max leads to pull...",
+      "refineSearchPlaceholder": "Refine search..."
+    },
+    "empty": {
+      "title": "Find relevant companies at scale.",
+      "description": "Identify companies aligned with your ideal customer profile. Add filters to quickly surface qualified companies and proceed to find their contact information.",
+      "inputLabel": "Describe the companies you're looking for",
+      "inputPlaceholder": "e.g. Small and medium size companies from the banking industry in Europe",
+      "noResults": "No companies found",
+      "noResultsDescription": "Try adjusting your filters or using different keywords to find what you're looking for."
+    },
+    "results": {
+      "title": "Search Results"
+    },
+    "loading": {
+      "searching": "Searching B2B Database..."
+    },
+    "table": {
+      "company": "Company",
+      "industryType": "Industry & Type",
+      "locationSize": "Location & Size",
+      "status": "Status",
+      "employees": "EMPLOYEES",
+      "noDescription": "No description available",
+      "unlocked": "Unlocked",
+      "locked": "Locked"
+    },
+    "bulk": {
+      "selected": "selected",
+      "groupNamePlaceholder": "Group name (optional)..."
+    }
+  },
+  "Chatbot": {
+    "title": "Web AI Chatbot",
+    "subtitle": "Transform visitor engagement with a professional AI widget.",
+    "buttons": {
+      "saveConfig": "Save Configuration",
+      "saving": "Saving...",
+      "saved": "Saved!",
+      "initializeWidget": "Initialize Widget Now",
+      "copySnippet": "Copy Snippet",
+      "copied": "Copied!"
+    },
+    "tabs": {
+      "customization": "Customization",
+      "preview": "Visual Preview",
+      "integration": "Integration"
+    },
+    "status": {
+      "label": "Widget Status",
+      "active": "Live on Websites",
+      "inactive": "Currently Paused"
+    },
+    "ready": {
+      "title": "Ready for Launch",
+      "description": "Your widget is configured and ready. Paste the code snippet on your site to start capturing leads instantly."
+    },
+    "sections": {
+      "brandIdentity": "Brand & Identity",
+      "behavior": "AI Behavior & Messages",
+      "leadCapture": "Lead Capture Fields"
+    },
+    "fields": {
+      "internalName": "Internal Name",
+      "internalNamePlaceholder": "Marketing Site Chatbot",
+      "botName": "Bot Public Name",
+      "botNamePlaceholder": "AI Assistant",
+      "color": "Primary Brand Color",
+      "greeting": "Greeting Message",
+      "greetingPlaceholder": "Hi! I'm your AI assistant. How can I help you today?",
+      "greetingInputPlaceholder": "Hi! Any questions about our services?",
+      "formTitle": "Form Header",
+      "formTitlePlaceholder": "Start a conversation",
+      "inputPlaceholder": "Input Placeholder",
+      "inputPlaceholderText": "Ask me anything...",
+      "emailLabel": "Email Address",
+      "emailDesc": "Syncs automatically to your CRM & Leads sections.",
+      "phoneLabel": "Phone Number",
+      "phoneDesc": "Optional: Useful for high-ticket direct outreach."
+    },
+    "badges": {
+      "tokensFree": "Tokens Free"
+    },
+    "preview": {
+      "content": "Content of your website will render here.",
+      "status": "Online now",
+      "chatPlaceholder": "Start chatting to see more...",
+      "domain": "yourdomain.com"
+    },
+    "embed": {
+      "noIdTitle": "Save to generate ID",
+      "noIdDescription": "To finalize your integration script, first save your configuration using the button above.",
+      "scriptTitle": "Installation Script",
+      "scriptDescription": "Copy and paste this snippet into the header section or before the closing body tag of your website."
+    },
+    "features": {
+      "lightweightTitle": "Lightweight",
+      "lightweightDesc": "No heavy libraries. Pure vanilla JS for maximum speed.",
+      "crossDomainTitle": "Cross-Domain",
+      "crossDomainDesc": "Works on WordPress, Shopify, Next.js, and static HTML.",
+      "autoUpdateTitle": "Auto-Update",
+      "autoUpdateDesc": "Changes reflect instantly without re-deploying code."
+    }
+  },
+  "Support": {
+    "title": "My Support Tickets",
+    "subtitle": "Track your open requests and create new ones from here.",
+    "buttons": {
+      "newTicket": "New Support Ticket",
+      "filter": "Filter",
+      "createFirst": "Create First Ticket"
+    },
+    "search": {
+      "placeholder": "Search tickets..."
+    },
+    "loading": {
+      "message": "Loading tickets..."
+    },
+    "empty": {
+      "title": "No support tickets yet",
+      "description": "If you have any questions or issues, create a support ticket right away."
+    },
+    "status": {
+      "open": "Open",
+      "inProgress": "In Progress",
+      "in_progress": "In Progress",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "urgent": "Urgent"
+    },
+    "table": {
+      "lastUpdated": "Last updated: {time}"
+    },
+    "newTicket": {
+      "goBack": "Go Back",
+      "title": "Create a New Ticket",
+      "subtitle": "Please describe your issue in detail so we can help you best.",
+      "fields": {
+        "subject": "Subject",
+        "subjectPlaceholder": "Summarize the issue (e.g. Login problem)",
+        "priority": "Priority",
+        "priorityPlaceholder": "Select Priority",
+        "description": "Description",
+        "descriptionPlaceholder": "Please write down your issue in detail...",
+        "hint": "Providing error messages or screenshots speeds up the process."
+      },
+      "buttons": {
+        "submit": "Submit Ticket",
+        "sending": "Sending..."
+      }
+    },
+    "detail": {
+      "ticketId": "Ticket ID:",
+      "created": "Created:",
+      "supportTeam": "Support Team",
+      "me": "Me",
+      "ticketResolvedMessage": "This ticket is resolved. You can reopen it by sending a new message.",
+      "ticketClosedMessage": "This ticket is closed. You can reopen it by sending a new message.",
+      "messagePlaceholder": "Write your message...",
+      "ticketDetails": "Ticket Details",
+      "priority": "Priority",
+      "status": "Status",
+      "lastUpdate": "Last Update",
+      "replyTimePrefix": "Our support team usually replies within",
+      "replyTimeHighlight": "2-4 hours"
+    }
+  },
+  "AISettings": {
+    "title": "AI Configuration",
+    "subtitle": "Manage your AI's personality and knowledge base.",
+    "sections": {
+      "aiEnvironment": "AI Environment"
+    },
+    "fields": {
+      "brandVoice": "Brand Voice / Tone",
+      "knowledgeBase": "Knowledge Base (Context)",
+      "knowledgePlaceholder": "Describe your business, services, and key policies here...",
+      "knowledgeHint": "The AI will use this information to respond to all customer inquiries."
+    },
+    "buttons": {
+      "save": "Save Configuration",
+      "saving": "Synchronizing..."
+    }
+  },
+  "TeamSettings": {
+    "title": "Team Management",
+    "subtitle": "Manage your team members, roles and pending invitations.",
+    "buttons": {
+      "addMember": "Add Member",
+      "inviteFirst": "Invite First Member",
+      "sendInvite": "Send Invite"
+    },
+    "invite": {
+      "title": "Invite New Member",
+      "emailLabel": "Email Address",
+      "roleLabel": "Role",
+      "rolePlaceholder": "Select Role"
+    },
+    "roles": {
+      "member": "Member",
+      "agent": "Agent",
+      "admin": "Admin"
+    },
+    "table": {
+      "member": "Member",
+      "role": "Role",
+      "status": "Status",
+      "actions": "Actions",
+      "noName": "No Name",
+      "teamMembers": "Team Members ({count})"
+    },
+    "status": {
+      "pending": "Pending",
+      "active": "Active"
+    },
+    "tooltips": {
+      "cancelInvite": "Cancel Invitation",
+      "removeMember": "Remove Member"
+    },
+    "empty": {
+      "title": "No team members yet",
+      "description": "Invite your first team member to start collaborating on your projects."
+    },
+    "toasts": {
+      "emailRequired": "Please enter an email address.",
+      "inviteSent": "Invitation sent successfully",
+      "unexpectedError": "An unexpected error occurred.",
+      "removing": "Removing member...",
+      "memberRemoved": "Member removed successfully"
+    },
+    "confirmDeleteMember": "Are you sure you want to delete this team member or invitation?"
+  },
+  "Privacy": {
+    "title": "Privacy & GDPR",
+    "subtitle": "Manage your data and privacy settings in accordance with the General Data Protection Regulation (GDPR). Your privacy is our priority.",
+    "sections": {
+      "portabilityTitle": "Right to Portability",
+      "portabilityDesc": "Download a copy of all your data (Leads, Meetings, Conversations, Settings) in machine-readable JSON format.",
+      "forgottenTitle": "Right to be Forgotten",
+      "forgottenDesc": "Request full deletion of your account and all associated data. This action is irreversible according to GDPR Article 17."
+    },
+    "buttons": {
+      "export": "Export Data",
+      "delete": "Delete Data",
+      "processing": "Processing..."
+    },
+    "links": {
+      "privacy": "Read Privacy Policy",
+      "terms": "Standard Terms of Service"
+    },
+    "dpa": {
+      "title": "DPA Support",
+      "description": "Need a custom Data Processing Agreement (DPA) signed? Enterprise plans include fully compliant legal documentation tailored to your organization.",
+      "contact": "Contact Privacy Team"
+    },
+    "confirm": {
+      "delete": "Are you sure you want to request data deletion? This action follows GDPR Article 17 and will be processed within 30 days."
+    },
+    "messages": {
+      "exportSuccess": "Your data has been successfully exported.",
+      "exportError": "Failed to export data.",
+      "deleteSuccess": "Request received. We will process your data deletion within 30 days.",
+      "deleteError": "Failed to submit deletion request."
+    }
+  },
+  "Widget": {
+    "title": "WhatsApp Widget",
+    "subtitle": "Turn website visitors into leads instantly",
+    "toggle": {
+      "active": "Active"
+    },
+    "buttons": {
+      "saveChanges": "Save Changes"
+    },
+    "sections": {
+      "general": "General Configuration",
+      "appearance": "Appearance",
+      "embed": "Embed Code",
+      "preview": "Live Preview"
+    },
+    "fields": {
+      "phone": "WhatsApp Phone Number",
+      "phonePlaceholder": "e.g. +905001234567",
+      "phoneHint": "Include country code without special characters.",
+      "message": "Initial Message",
+      "messagePlaceholder": "I'm interested in...",
+      "messageHint": "The default message sent when they click the button.",
+      "color": "Button Color",
+      "position": "Position",
+      "buttonText": "Button Text",
+      "bubblePrompt": "Bubble Prompt"
+    },
+    "position": {
+      "bottomRight": "Bottom Right",
+      "bottomLeft": "Bottom Left"
+    },
+    "embed": {
+      "instruction": "Copy and paste this code before the closing </body> tag of your website.",
+      "noId": "Save the widget first to generate the embed code."
+    },
+    "preview": {
+      "simulator": "Browser Simulator"
+    },
+    "tip": "Tip: Once integrated, any visitor who starts a chat will be automatically added to your Leads list and can trigger AI sequences.",
+    "toasts": {
+      "saved": "Widget settings saved successfully!",
+      "saveFirst": "Please save your widget first!",
+      "copySuccess": "Embed code copied to clipboard!",
+      "copyError": "Failed to copy. Please select and copy manually."
+    }
+  },
+  "Webhooks": {
+    "title": "Webhooks",
+    "subtitle": "Configure outgoing webhooks to notify your external systems when events occur in our system.",
+    "form": {
+      "title": "Add New Webhook",
+      "urlLabel": "Payload URL",
+      "urlPlaceholder": "https://your-api.com/webhook",
+      "eventsLabel": "Events to subscribe to",
+      "submit": "Create Webhook"
+    },
+    "list": {
+      "title": "Configured Webhooks",
+      "empty": "No webhooks configured yet."
+    },
+    "events": {
+      "leadCreated": "Lead Created",
+      "leadUpdated": "Lead Updated",
+      "meetingBooked": "Meeting Booked",
+      "meetingCancelled": "Meeting Cancelled",
+      "messageReceived": "Message Received",
+      "allEvents": "ALL EVENTS"
+    },
+    "secret": "Secret: {value}"
+  },
+  "GeneralSettings": {
+    "title": "企业资料",
+    "subtitle": "管理您的核心业务身份和区域偏好。",
+    "sections": {
+      "corporateIdentity": "企业身份",
+      "globalPresence": "全球业务"
+    },
+    "fields": {
+      "businessName": "企业法定名称",
+      "businessNamePlaceholder": "例如：Acme Corporation",
+      "timezone": "区域时区",
+      "timezonePlaceholder": "选择运营时区",
+      "language": "系统语言",
+      "languagePlaceholder": "选择运营语言"
+    },
+    "buttons": {
+      "save": "更新企业身份",
+      "saving": "正在同步个人资料..."
+    },
+    "sidebar": {
+      "description": "您的企业实体数据用于开具发票、生成文档和 AI 背景化。请确保您的法定名称与您的税务记录一致。"
+    },
+    "toasts": {
+      "success": "企业资料已成功更新。",
+      "error": "保存设置时发生错误：{error}"
+    }
+  },
+  "Billing": {
+    "title": "账单与订阅",
+    "subtitle": "通过 Paddle 安全地管理您的计划、付款和发票。",
+    "activePlan": {
+      "label": "当前计划",
+      "managedByAdmin": "由管理员管理",
+      "renews": "{date} 续订",
+      "manageButton": "管理账单"
+    },
+    "planCard": {
+      "currentBadge": "当前计划",
+      "perMonth": "/月",
+      "active": "有效",
+      "upgrade": "升级",
+      "downgrade": "降级",
+      "free": "免费",
+      "loading": "..."
+    },
+    "cta": {
+      "upgradeHint": "点击计划进行升级 · 立即激活 · 随时取消",
+      "adminManaged": "您的计划由平台管理员管理。如有账单查询，请联系支持部门。"
+    },
+    "history": {
+      "title": "账单历史",
+      "subtitle": "您最近的付款和发票。",
+      "date": "日期",
+      "planItem": "计划 / 项目",
+      "amount": "金额",
+      "status": "状态",
+      "invoice": "发票",
+      "view": "查看"
+    }
+  },
+  "HelpCenter": {
+    "hero": {
+      "title": "How can we help you?",
+      "titleHighlight": "help you?",
+      "subtitle": "Search our knowledge base or browse categories below to master your AI pipeline.",
+      "searchPlaceholder": "Search articles (e.g. WhatsApp, billing, sequences)..."
+    },
+    "quickLinks": {
+      "docsTitle": "Documentation",
+      "docsDesc": "In-depth guides and reference docs for every feature.",
+      "videosTitle": "Video Tutorials",
+      "videosDesc": "Watch step-by-step setup guides for key workflows.",
+      "wizardTitle": "Quick Setup Wizard",
+      "wizardDesc": "Run the onboarding wizard to configure your account."
+    },
+    "categories": {
+      "heading": "Browse by Category",
+      "resultsFor": "Results for \"{query}\""
+    },
+    "noResults": {
+      "text": "No articles found for \"{query}\"",
+      "subtext": "Try a different keyword or open a support ticket below."
+    },
+    "cta": {
+      "title": "Still haven't found what you're looking for?",
+      "subtitle": "Our support team is always ready to help. Open a support ticket and we'll respond within 24 hours.",
+      "button": "Open Support Ticket"
+    },
+    "sheet": {
+      "tag": "Help Article",
+      "description": "Master your AI pipeline with this detailed guide."
+    },
+    "feedback": {
+      "title": "Was this helpful?",
+      "yes": "Yes, thanks!",
+      "no": "Not really..."
+    }
+  },
+  "MapsScraper": {
+    "title": "Google Maps Scraper",
+    "subtitle": "Search Google Maps to discover and import business leads.",
+    "configureApiKey": "Configure API Key",
+    "keyword": "Keyword",
+    "keywordPlaceholder": "e.g. dentist, restaurant, gym",
+    "location": "Location",
+    "locationPlaceholder": "e.g. Istanbul, London",
+    "radius": "Radius",
+    "maxResults": "Max Results",
+    "addToGroup": "Add to Group",
+    "noGroup": "— No Group —",
+    "search": "Search",
+    "searching": "Searching...",
+    "noResults": "No results found for this search.",
+    "resultsFound": "{count} results found",
+    "selectedCount": "{count} selected",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "importSelected": "Import {count} Lead(s)",
+    "importing": "Importing...",
+    "importSuccess": "{count} lead(s) imported successfully.",
+    "viewLeads": "View Leads →",
+    "business": "Business",
+    "address": "Address",
+    "contact": "Contact",
+    "rating": "Rating"
+  }
+}

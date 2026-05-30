@@ -1,0 +1,2235 @@
+{
+  "TestTranslations": "Test di traduzione dinamica riuscito!",
+  "SEO": {
+    "defaultTitle": "Jumpix | Automazione marketing basata su AI",
+    "defaultDescription": "Piattaforma di automazione marketing e outreach AI di nuova generazione. Trova lead migliori, valuta l'intento e automatizza il tuo flusso di lavoro di vendita.",
+    "titleTemplate": "%s | Jumpix",
+    "pages": {
+      "about": {
+        "title": "Chi siamo",
+        "description": "Scopri la missione, la storia e i valori di Jumpix: il futuro dell'automazione marketing."
+      },
+      "pricing": {
+        "title": "Piani tariffari",
+        "description": "Piani tariffari convenienti per i moderni team di vendita. Inizia con l'essenziale e scala con Jumpix."
+      },
+      "contact": {
+        "title": "Contattaci",
+        "description": "Hai domande? Il nostro team è qui per aiutarti a ottimizzare il tuo flusso di lavoro di vendita con l'AI."
+      },
+      "aiJumpix": {
+        "title": "AI Jumpix Assistant",
+        "description": "Chat with your dashboard data and get instant insights using Gemini 1.5 Pro."
+      }
+    }
+  },
+  "Navigation": {
+    "features": "Funzionalità",
+    "workflow": "Flusso di lavoro",
+    "showcase": "Demo",
+    "pricing": "Prezzi",
+    "faq": "FAQ",
+    "login": "Accedi",
+    "getStarted": "Inizia ora",
+    "dashboard": "Panoramica",
+    "pipeline": "Pipeline di vendita",
+    "conversations": "Conversazioni live",
+    "b2bDatabase": "Database B2B",
+    "leads": "Lead",
+    "calendar": "Calendario",
+    "aiTraining": "Formazione AI",
+    "activityLog": "Registro attività",
+    "sequences": "Smart Sequence",
+    "widgetManagement": "Gestione widget",
+    "whatsappWidget": "Widget WhatsApp",
+    "webChatbot": "Chatbot web",
+    "generalSettings": "Impostazioni generali",
+    "businessProfile": "Profilo aziendale",
+    "systemIntegrations": "Integrazioni di sistema",
+    "privacyGdpr": "Privacy e GDPR",
+    "billingSubscription": "Fatturazione e abbonamento",
+    "teamRouting": "Team e routing",
+    "setupWizard": "Procedura guidata di configurazione",
+    "myTickets": "I miei ticket di supporto",
+    "helpCenter": "Centro assistenza",
+    "aiJumpix": "AI Jumpix",
+    "operations": "Operations",
+    "support": "Support",
+    "mapsScraper": "Maps Scraper"
+  },
+  "HomePage": {
+    "seoTitle": "Jumpix - Il miglior strumento di automazione marketing AI",
+    "seoDescription": "Semplifica il tuo flusso di lavoro di vendita con Jumpix. Le funzionalità includono lead scoring, arricchimento dati e outreach automatizzato.",
+    "title": "Benvenuto in Jumpix",
+    "description": "Il posto migliore per gestire i tuoi prodotti.",
+    "features": {
+      "heading": "Perché scegliere Jumpix?",
+      "subheading": "Una suite completa di strumenti per scalare il tuo flusso di lavoro di prenotazione senza sforzi manuali.",
+      "items": {
+        "instantResponse": {
+          "title": "Risposta istantanea",
+          "desc": "Coinvolgi i lead in meno di 10 secondi tramite WhatsApp o Email."
+        },
+        "smartQualification": {
+          "title": "Qualificazione intelligente",
+          "desc": "L'AI filtra i lead non qualificati prima che raggiungano il tuo calendario."
+        },
+        "availability": {
+          "title": "Disponibilità 24/7",
+          "desc": "Non perdere mai un'opportunità di prenotazione, anche mentre dormi."
+        }
+      }
+    }
+  },
+  "Integrations": {
+    "title": "Integrazioni di sistema",
+    "description": "Collega i tuoi strumenti preferiti per automatizzare il tuo flusso di lavoro.",
+    "activeChannels": "Canali attivi",
+    "activeChannelsSub": "Gestisci il tuo ecosistema di dati omnicanale",
+    "crmEcosystem": "Ecosistema dati CRM",
+    "crmEcosystemSub": "Sincronizza i tuoi potenziali clienti con le integrazioni CRM native",
+    "statusConnected": "Connesso",
+    "statusDisconnected": "Disconnesso",
+    "actionActivate": "Attiva",
+    "actionRefactor": "Rielabora",
+    "modalTitle": "Configurazione",
+    "modalConnect": "Connetti",
+    "modalUpdate": "Aggiorna",
+    "automationWebhooks": "Webhooks e automazione",
+    "automationWebhooksSub": "Espandi il tuo flusso di dati con webhook personalizzati"
+  },
+  "Legal": {
+    "cookiePolicy": {
+      "title": "Informativa sui cookie",
+      "lastUpdated": "Ultimo aggiornamento: febbraio 2026",
+      "section1Title": "1. Cosa sono i cookie",
+      "section1Content": "I cookie sono piccoli file di testo che vengono inseriti sul tuo computer o dispositivo mobile dai siti web che visiti. Sono ampiamente utilizzati per far funzionare i siti web, o per farli funzionare in modo più efficiente, nonché per fornire informazioni ai proprietari del sito.",
+      "section2Title": "2. Come utilizziamo i cookie",
+      "section2Content": "Utilizziamo i cookie per una serie di motivi dettagliati di seguito:",
+      "essentialTitle": "Cookie essenziali:",
+      "essentialContent": "Questi cookie sono necessari per il funzionamento del sito web e non possono essere disattivati nei nostri sistemi.",
+      "performanceTitle": "Cookie di performance:",
+      "performanceContent": "Questi cookie ci permettono di contare le visite e le fonti di traffico, in modo da poter misurare e migliorare le prestazioni del nostro sito.",
+      "functionalTitle": "Cookie funzionali:",
+      "functionalContent": "Questi cookie consentono al sito web di fornire funzionalità avanzate e personalizzazione.",
+      "section3Title": "3. Disabilitazione dei cookie",
+      "section3Content": "È possibile impedire l'impostazione dei cookie regolando le impostazioni del proprio browser. Si prega di notare che la disabilitazione dei cookie influirà sulla funzionalità di questo e di molti altri siti web."
+    },
+    "privacyPolicy": {
+      "title": "Informativa sulla privacy",
+      "lastUpdated": "Ultimo aggiornamento: 10 marzo 2026",
+      "section1Title": "1. INTRODUZIONE",
+      "section1Content": "Jumpix (\"noi\", \"ci\" o \"nostro\") gestisce la piattaforma di automazione del marketing disponibile su jumpix.app. La presente Informativa sulla privacy spiega come raccogliamo, utilizziamo e condividiamo le informazioni dei nostri utenti e dei loro clienti finali.",
+      "section2Title": "2. INFORMAZIONI CHE RACCOGLIAMO",
+      "section2Content": "Raccogliamo i seguenti tipi di informazioni:\n- Informazioni personali dell'account: Quando ti registri a Jumpix, raccogliamo il tuo nome, indirizzo email (tramite Zoho) e dettagli di autenticazione (elaborati tramite Supabase).\n- Informazioni di pagamento: Tutti i pagamenti sono elaborati dal nostro rivenditore online Paddle.com (Merchant of Record). Non memorizziamo i dettagli completi della tua carta di credito o del tuo conto bancario sui nostri server.\n- Dati di marketing: Memorizziamo le informazioni che carichi per l'automazione, come liste email, nomi di contatti e contenuti delle campagne.\n- Dati di utilizzo: Possiamo raccogliere indirizzi IP, tipi di browser e modelli di utilizzo per migliorare il nostro servizio.",
+      "section3Title": "3. COME UTILIZZIAMO LE TUE INFORMAZIONI",
+      "section3Content": "Utilizziamo le tue informazioni per:\n- Fornire, gestire e mantenere le funzionalità di automazione del marketing di Jumpix.\n- Elaborare le tue transazioni tramite Paddle.\n- Inviare notifiche di sistema (tramite Resend) ed email di assistenza clienti (tramite Zoho).\n- Prevenire frodi e garantire la conformità alle politiche Anti-Spam.",
+      "section4Title": "4. SERVIZI DI TERZE PARTI",
+      "section4Content": "Condividiamo i dati con fornitori terzi di fiducia solo per adempiere ai nostri servizi: Paddle.com (elaborazione dei pagamenti), Supabase (database backend e autenticazione utente), Resend (invio di email transazionali e di marketing) e Zoho (comunicazione email aziendale).",
+      "section5Title": "5. PROPRIETÀ DEI DATI E GDPR / KVKK",
+      "section5Content": "Tu sei il Titolare del trattamento per qualsiasi dato del cliente (ad esempio, le tue liste email) che carichi su Jumpix. Noi agiamo in qualità di Responsabile del trattamento. Dichiari di aver ottenuto tutti i consensi necessari dai tuoi clienti per elaborare i loro dati tramite Jumpix. Gli utenti nell'UE (GDPR) o in Turchia (KVKK) hanno il diritto di accedere, correggere o eliminare i propri dati personali.",
+      "section6Title": "6. SICUREZZA DEI DATI",
+      "section6Content": "Utilizziamo misure di sicurezza standard del settore, tra cui la crittografia SSL e protocolli di database sicuri forniti da Supabase, per proteggere i tuoi dati. Tuttavia, nessun metodo di trasmissione su Internet è sicuro al 100%.",
+      "section7Title": "7. COOKIE",
+      "section7Content": "Utilizziamo i cookie per gestire le sessioni degli utenti e comprendere come interagisci con il nostro sito web per offrire una migliore esperienza utente.",
+      "section8Title": "8. MODIFICHE ALLA PRESENTE INFORMATIVA",
+      "section8Content": "Potremmo aggiornare la nostra Informativa sulla privacy di volta in volta. Ti informeremo di eventuali modifiche pubblicando la nuova Informativa sulla privacy su questa pagina e aggiornando la data di \"Ultimo aggiornamento\".",
+      "section9Title": "9. CONTATTACI",
+      "section9Content": "Per qualsiasi domanda riguardante la presente Informativa sulla privacy, ti preghiamo di contattarci all'indirizzo hello@jumpix.app o su jumpix.app."
+    },
+    "refundPolicy": {
+      "title": "Politica di rimborso",
+      "lastUpdated": "Ultimo aggiornamento: 10 marzo 2026",
+      "section1Title": "1. INTRODUZIONE",
+      "section1Content": "Grazie per aver scelto Jumpix (jumpix.app). Il nostro obiettivo è garantire che i nostri strumenti di automazione del marketing soddisfino le tue esigenze aziendali. Poiché i nostri pagamenti sono elaborati dal nostro rivenditore online Paddle.com (Merchant of Record), i rimborsi sono soggetti a questi termini e alle condizioni generali di Paddle.",
+      "section2Title": "2. CANCELLAZIONE DELL'ABBONAMENTO",
+      "section2Content": "Puoi annullare il tuo abbonamento a Jumpix in qualsiasi momento tramite la dashboard del tuo account. Dopo la cancellazione, il tuo account rimarrà attivo fino alla fine del ciclo di fatturazione pagato e non ti verrà addebitato alcun costo per il periodo successivo.",
+      "section3Title": "3. IDONEITÀ AL RIMBORSO",
+      "section3Content": "Abbonamenti mensili: Generalmente non offriamo rimborsi per gli abbonamenti mensili una volta iniziato il periodo di fatturazione. Tuttavia, se riscontri problemi tecnici che ti impediscono di utilizzare il Servizio, ti preghiamo di contattarci entro 14 giorni dalla transazione.\nAbbonamenti annuali: I rimborsi per i piani annuali possono essere presi in considerazione caso per caso se richiesti entro 30 giorni dall'acquisto, previa detrazione della tariffa mensile standard per il periodo utilizzato.",
+      "section4Title": "4. ECCEZIONI (NON RIMBORSABILI)",
+      "section4Content": "I rimborsi non saranno concessi nei seguenti casi:\n- Account sospesi o terminati a causa di violazioni dei nostri Termini di servizio (ad esempio, invio di SPAM, contenuti illegali).\n- Utenti che hanno utilizzato in modo significativo le funzionalità di automazione (ad esempio, inviato un grande volume di email) durante il periodo di fatturazione.\n- Problemi derivanti da servizi di terze parti integrati con Jumpix.",
+      "section5Title": "5. COME RICHIEDERE UN RIMBORSO",
+      "section5Content": "Per richiedere un rimborso, inviaci un'email a hello@jumpix.app con i dettagli della transazione e il motivo della richiesta. In alternativa, puoi contattare direttamente l'assistenza di Paddle, in quanto sono il nostro rivenditore autorizzato.",
+      "section6Title": "6. ELABORAZIONE DEI RIMBORSI",
+      "section6Content": "I rimborsi approvati saranno elaborati tramite Paddle utilizzando il metodo di pagamento originale. A seconda del tuo istituto finanziario, potrebbero essere necessari 5-10 giorni lavorativi affinché il credito appaia sul tuo estratto conto.",
+      "section7Title": "7. CONTATTACI",
+      "section7Content": "Per qualsiasi domanda riguardante la nostra Politica di rimborso, ti preghiamo di contattarci all'indirizzo hello@jumpix.app o su jumpix.app."
+    },
+    "termsOfService": {
+      "title": "Termini di servizio",
+      "lastUpdated": "Ultimo aggiornamento: 10 marzo 2026",
+      "section1Title": "1. ACCETTAZIONE DEI TERMINI",
+      "section1Content": "Accedendo o utilizzando Jumpix (il \"Servizio\"), una piattaforma di automazione del marketing gestita tramite jumpix.app, accetti di essere vincolato dai presenti Termini di servizio (\"Termini\"). Se non accetti questi termini, ti preghiamo di non utilizzare il Servizio.",
+      "section2Title": "2. DESCRIZIONE DEL SERVIZIO",
+      "section2Content": "Jumpix fornisce strumenti di automazione del marketing, inclusi, a titolo esemplificativo, campagne email, gestione dei lead e flussi di lavoro di automazione. Ci riserviamo il diritto di modificare o interrompere qualsiasi funzionalità del Servizio in qualsiasi momento.",
+      "section3Title": "3. PADDLE COME MERCHANT OF RECORD",
+      "section3Content": "Il nostro processo d'ordine è gestito dal nostro rivenditore online Paddle.com. Paddle.com è il Merchant of Record per tutti i nostri ordini. Paddle gestisce tutte le richieste di assistenza clienti e i resi relativi ai pagamenti. Sottoscrivendo Jumpix, accetti anche i Termini e le Condizioni di Paddle.",
+      "section4Title": "4. ACCOUNT UTENTE E SICUREZZA",
+      "section4Content": "Per utilizzare Jumpix, devi creare un account. Sei responsabile del mantenimento della riservatezza delle tue credenziali e di tutte le attività che si verificano sotto il tuo account. Devi informarci immediatamente di qualsiasi uso non autorizzato.",
+      "section5Title": "5. USO ACCETTABILE E POLICY ANTI-SPAM",
+      "section5Content": "Jumpix proibisce rigorosamente l'uso del Servizio per l'invio di email non richieste (SPAM). Puoi inviare comunicazioni di marketing solo ai destinatari che hanno fornito un consenso esplicito (Opt-in). Devi rispettare tutte le leggi applicabili, inclusi, ma non limitati a, CAN-SPAM Act, GDPR e KVKK. Ci riserviamo il diritto di sospendere gli account con alti tassi di rimbalzo o reclami per spam.",
+      "section6Title": "6. PAGAMENTI E ABBONAMENTI",
+      "section6Content": "Gli abbonamenti vengono fatturati in anticipo su un ciclo ricorrente (mensile o annuale). Puoi annullare l'abbonamento in qualsiasi momento tramite la tua dashboard. L'accesso continuerà fino alla fine del periodo di fatturazione corrente. Le richieste di rimborso sono gestite in conformità con la nostra Politica di Rimborso e tramite l'assistenza di Paddle.",
+      "section7Title": "7. PROPRIETÀ DEI DATI E PRIVACY",
+      "section7Content": "Mantieni tutti i diritti sui dati che carichi su Jumpix (ad esempio, liste email). Il nostro utilizzo dei tuoi dati personali e dei dati dei tuoi clienti è regolato dalla nostra Informativa sulla Privacy.",
+      "section8Title": "8. LIMITAZIONE DI RESPONSABILITÀ",
+      "section8Content": "Jumpix è fornito \"così com'è\". Nella misura massima consentita dalla legge, Jumpix non sarà responsabile per eventuali danni indiretti, incidentali o consequenziali derivanti dall'uso o dall'impossibilità di utilizzare il Servizio.",
+      "section9Title": "9. RISOLUZIONE",
+      "section9Content": "Ci riserviamo il diritto di terminare o sospendere il tuo accesso al Servizio immediatamente, senza preavviso, in caso di violazione dei presenti Termini.",
+      "section10Title": "10. CONTATTACI",
+      "section10Content": "Se hai domande su questi Termini, ti preghiamo di contattarci all'indirizzo hello@jumpix.app o tramite jumpix.app."
+    }
+  },
+  "CookieConsent": {
+    "message": "Utilizziamo i cookie per migliorare la tua esperienza.",
+    "accept": "Accetta",
+    "decline": "Rifiuta",
+    "learnMore": "Scopri di più"
+  },
+  "Landing": {
+    "Hero": {
+      "badgeText": "Progettato per un'esecuzione più rapida della pipeline",
+      "badgeLink": "Team Revenue",
+      "title": "Trova lead migliori, valuta l'intento e avvia l'outreach da un unico spazio di lavoro AI.",
+      "description": "Jumpix offre ai moderni team di vendita un sistema pulito per scoprire potenziali clienti, qualificare la domanda e passare dal segnale alla sequenza senza strumenti frammentati.",
+      "messageLabel": "Vista operatore",
+      "messageText": "Trova contatti VP Marketing presso aziende SaaS B2B a Londra, arricchiscili e inserisci i lead ad alto intento in una nuova sequenza.",
+      "primaryCta": "Inizia ora",
+      "chips": [
+        "Trova account target",
+        "Arricchisci i dati di contatto",
+        "Valuta l'intento",
+        "Avvia sequenze"
+      ],
+      "trustItems": [
+        {
+          "value": "Scoperta dei lead",
+          "label": "Crea liste mirate senza prospezione manuale."
+        },
+        {
+          "value": "Valutazione dell'intento",
+          "label": "Dai priorità agli account prima che i commerciali perdano tempo."
+        },
+        {
+          "value": "Passaggio alle sequenze",
+          "label": "Trasferisci i lead qualificati all'outreach in pochi minuti."
+        }
+      ],
+      "spotlight": {
+        "signalTitle": "Visibilità della pipeline",
+        "signalText": "Scoperta, scoring e passaggio di consegne delle sequenze in un unico flusso premium.",
+        "commandLabel": "Comando AI",
+        "liveLabel": "Corrispondenza live",
+        "scoreLabel": "Punteggio di intent",
+        "scoreText": "Spostato nella coda prioritaria",
+        "ribbonLabel": "Flusso di lavoro attivo",
+        "readyTitle": "Sequenza pronta",
+        "readyText": "I lead verificati possono essere inviati con un solo clic.",
+        "dashboardAlt": "Anteprima dell'area di lavoro Jumpix"
+      }
+    },
+    "IntegrationsShowcase": {
+      "badge": "ECOSISTEMA CONNESSO",
+      "title": "Funziona con il tuo stack esistente",
+      "description": "Jumpix si connette perfettamente con gli strumenti che il tuo team utilizza già. HubSpot, CRM, Slack e Gmail. Nessuna configurazione complessa, solo pura produttività.",
+      "cta": "Esplora tutte le integrazioni"
+    },
+    "Features": {
+      "badge": "REVENUE OPERATIONS",
+      "title": "Unifica le tue operazioni sui lead in un unico posto",
+      "description": "Consolida fonti di lead frammentate, qualificazione manuale e follow-up disconnessi in un unico livello di esecuzione delle entrate.",
+      "items": {
+        "scoring": {
+          "title": "Qualificazione e Scoring AI",
+          "description": "Non tutti i lead sono uguali. Usa l'AI per valutare l'intento e assicurarti che i tuoi rappresentanti concentrino il loro tempo sulle opportunità più calde."
+        },
+        "enrichment": {
+          "title": "Strutturazione Intelligente dei Lead",
+          "description": "Arricchisci e normalizza i dati grezzi. Fornisci al tuo team record pronti all'uso invece di moduli incompleti."
+        },
+        "autopilot": {
+          "title": "Follow-up Omnicanale",
+          "description": "Avvia sequenze personalizzate tramite Gmail e WhatsApp. Non affidare i follow-up alla memoria; lascia che il sistema orchestri l'outreach."
+        },
+        "widget": {
+          "title": "WhatsApp & Web Widget",
+          "description": "Converti i visitatori in lead istantaneamente e avvia conversazioni automatizzate tramite WhatsApp per catturare l'intento immediato."
+        },
+        "visibility": {
+          "title": "Analisi Pipeline & Funnel",
+          "description": "Monitora le prestazioni di ogni fonte e di ogni rappresentante in tempo reale. Identifica i colli di bottiglia e ottimizza i tassi di conversione con un clic."
+        },
+        "stack": {
+          "title": "Connettività Strategica dello Stack",
+          "description": "Sincronizzazione perfetta con HubSpot, Salesforce e Google Sheets. Proteggi l'igiene dei tuoi dati e il sistema di registrazione su qualsiasi scala."
+        }
+      }
+    },
+    "HowItWorks": {
+      "title": "Come funziona?",
+      "subtitle": "Inizia a generare valore in pochi minuti, non mesi.",
+      "steps": {
+        "step1": {
+          "title": "Connetti i tuoi dati",
+          "description": "Importa le tue fonti di dati esistenti nella piattaforma in pochi secondi con le nostre integrazioni one-click."
+        },
+        "step2": {
+          "title": "Definisci le tue regole",
+          "description": "Configura il tuo flusso di lavoro in modo intuitivo senza scrivere codice, utilizzando i nostri strumenti flessibili."
+        },
+        "step3": {
+          "title": "Ottimizza e scala",
+          "description": "Vai live istantaneamente. Migliora continuamente i tuoi processi con metriche in tempo reale."
+        }
+      }
+    },
+    "Pricing": {
+      "title": "Prezzi che scalano con la tua attività di outbound",
+      "subtitle": "Mantieni il modello semplice. Inizia con l'essenziale, poi esegui l'upgrade quando il tuo team ha bisogno di più volume e controllo.",
+      "footnote": "Fatturazione mensile. Sconti annuali, assistenza all'onboarding e supporto alla migrazione sono disponibili su richiesta.",
+      "recommended": "CONSIGLIATO",
+      "Comparison": {
+        "title": "Confronto completo delle funzionalità",
+        "categories": [
+          {
+            "features": [
+              {
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "AI Intent Scoring"
+              },
+              {
+                "free": false,
+                "starter": false,
+                "growth": false,
+                "pro": true,
+                "business": true,
+                "name": "Addestramento Agente AI (KB)"
+              },
+              {
+                "free": false,
+                "starter": false,
+                "growth": false,
+                "pro": true,
+                "business": true,
+                "name": "Lead Scoring avanzato"
+              }
+            ],
+            "name": "Intelligenza e CRM"
+          },
+          {
+            "features": [
+              {
+                "free": false,
+                "starter": false,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Widget AI per WhatsApp e Web"
+              },
+              {
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Posta in arrivo unificata (Center)",
+                "free": "Base"
+              },
+              {
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Sequenze multicanale",
+                "free": "1 Attiva"
+              },
+              {
+                "free": false,
+                "starter": false,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Flussi di lavoro AI in autopilota"
+              }
+            ],
+            "name": "Comunicazione e Canali"
+          },
+          {
+            "features": [
+              {
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Visibilità della pipeline in tempo reale"
+              },
+              {
+                "free": false,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Analisi delle fonti e del ROI"
+              }
+            ],
+            "name": "Analisi e Visibilità"
+          },
+          {
+            "features": [
+              {
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Gmail, WhatsApp, Meta e Google Ads"
+              },
+              {
+                "free": true,
+                "starter": true,
+                "growth": true,
+                "pro": true,
+                "business": true,
+                "name": "Tutte le integrazioni (CRM, Calendario, Slack, Webhook)"
+              }
+            ],
+            "name": "Integrazioni"
+          },
+          {
+            "name": "Team e Supporto",
+            "features": [
+              {
+                "name": "Postazioni utente",
+                "free": "1",
+                "starter": "3",
+                "growth": "10",
+                "pro": "Illimitate",
+                "business": "Illimitate"
+              },
+              {
+                "name": "Livello di supporto",
+                "free": "Email",
+                "starter": "Email",
+                "growth": "Email + Slack",
+                "pro": "Prioritario",
+                "business": "Dedicato 24/7"
+              }
+            ]
+          }
+        ],
+        "columnNames": [
+          "Funzionalità",
+          "Gratuito",
+          "Starter",
+          "Growth",
+          "Pro",
+          "Business"
+        ]
+      },
+      "eyebrow": "Prezzi",
+      "plans": [
+        {
+          "featured": false,
+          "isCustom": false,
+          "name": "Gratuito",
+          "price": "0",
+          "period": "/mese",
+          "description": "Ideale per esplorare le funzionalità principali di Jumpix.",
+          "features": [
+            "Tutte le integrazioni incluse",
+            "Valutazione dell'intento tramite AI",
+            "Posta in arrivo unificata (base)",
+            "1 sequenza attiva (Email/WA)",
+            "Supporto via email"
+          ],
+          "ctaLabel": "Inizia gratis",
+          "ctaHref": "/login?view=signup&plan=free"
+        },
+        {
+          "featured": false,
+          "isCustom": false,
+          "name": "Starter",
+          "price": "19",
+          "period": "/mese",
+          "description": "Piccoli team che convalidano la loro strategia di outbound.",
+          "features": [
+            "Tutte le integrazioni incluse",
+            "Visibilità della pipeline live",
+            "Sincronizzazione CRM, Calendario e Fogli",
+            "Report settimanali sulle prestazioni"
+          ],
+          "ctaLabel": "Inizia ora",
+          "ctaHref": "/login?view=signup&plan=starter"
+        },
+        {
+          "featured": false,
+          "isCustom": false,
+          "name": "Growth",
+          "price": "39",
+          "period": "/mese",
+          "description": "Team di vendita in crescita che puntano al volume.",
+          "features": [
+            "Widget AI per WhatsApp e Web",
+            "Chatbot AI per siti web",
+            "Analisi di origine e ROI",
+            "Supporto via Email e Slack"
+          ],
+          "ctaLabel": "Scegli Growth",
+          "ctaHref": "/login?view=signup&plan=growth"
+        },
+        {
+          "featured": true,
+          "isCustom": false,
+          "name": "Pro",
+          "price": "69",
+          "period": "/mese",
+          "description": "Team in fase di scalata che cercano l'automazione completa.",
+          "features": [
+            "Addestramento Agente AI (KB)",
+            "Flussi di lavoro AI in autopilota",
+            "Lead Scoring avanzato",
+            "Supporto prioritario"
+          ],
+          "ctaLabel": "Passa a Pro",
+          "ctaHref": "/login?view=signup&plan=pro"
+        },
+        {
+          "featured": false,
+          "isCustom": false,
+          "name": "Business",
+          "price": "99",
+          "period": "/mese",
+          "description": "Operazioni ad alto volume con controllo totale.",
+          "features": [
+            "Regole personalizzate per Agenti AI",
+            "Team di Success dedicato",
+            "Sicurezza SSO / SAML",
+            "Postazioni team illimitate"
+          ],
+          "ctaLabel": "Scegli Business",
+          "ctaHref": "/login?view=signup&plan=business"
+        }
+      ]
+    },
+    "FAQ": {
+      "title": "Domande, risposte chiare",
+      "subtitle": "FAQ",
+      "description": "Tutto ciò che devi sapere prima di collegare il tuo flusso di lavoro, invitare il team o spostare la fatturazione su Jumpix.",
+      "supportLabel": "Contatta il supporto",
+      "supportHref": "/contact",
+      "questions": [
+        {
+          "q": "Cos'è esattamente Jumpix e come si differenzia da un CRM?",
+          "a": "Mentre un CRM è un sistema di registrazione, Jumpix è un layer di esecuzione. Raccoglie lead da vari canali (Google Ads, WhatsApp, Moduli), li valuta tramite AI e gestisce sequenze di follow-up automatizzate tramite Gmail e WhatsApp. Ti permette di gestire le operazioni in Jumpix senza sovraccaricare il tuo CRM, sincronizzando solo i lead qualificati."
+        },
+        {
+          "q": "Offrite funzionalità di scoperta lead o un database globale?",
+          "a": "Attualmente, Jumpix si concentra sull'ottimizzazione delle operazioni lead inbound. È particolarmente potente nel catturare e processare lead da Google Ads, Meta e form web. La nostra funzione di database B2B è nella roadmap e sarà disponibile presto."
+        },
+        {
+          "q": "Come funziona l'AI? Risparmierà davvero tempo al mio team?",
+          "a": "La nostra AI è molto più di un semplice chatbot. È addestrata sulla voce del tuo brand e sulla knowledge base per comprendere l'intento, prenotare riunioni tramite il tuo calendario e dare priorità ai lead più caldi. Questo livello di automazione può ridurre il tempo di triage manuale e follow-up fino all'80%."
+        },
+        {
+          "q": "Le integrazioni WhatsApp e Gmail sono sicure?",
+          "a": "Sì. Jumpix utilizza WhatsApp Business API e i protocolli Google OAuth. I tuoi dati sono crittografati end-to-end e utilizzati solo per i flussi che autorizzi. La sicurezza dei dati è al centro della nostra piattaforma."
+        },
+        {
+          "q": "Con quali CRM e strumenti vi integrate?",
+          "a": "Offriamo integrazioni native con i CRM più popolari come HubSpot, Salesforce, Pipedrive, Zoho e Close, oltre a Slack, Discord e Google Sheets. Supportiamo anche i webhook per connetterci con il tuo stack esistente in pochi minuti."
+        },
+        {
+          "q": "Posso davvero gestire tutto in 'un unico flusso'?",
+          "a": "Assolutamente. Puoi costruire il ciclo \"Cattura → Valuta → Sequenza → Riunione → Sincronizza\" come un unico Revenue Workflow all'interno di Jumpix. Colmiamo tutti i gap operativi tra la cattura dei lead e la visibilità della pipeline."
+        }
+      ]
+    },
+    "CTA": {
+      "badge": "INFRASTRUTTURA DI VENDITA DEL FUTURO",
+      "title_start": "Trasforma i tuoi processi",
+      "title_end": "di vendita oggi stesso.",
+      "description1": "Parla con i tuoi dati, automatizza i tuoi flussi di lavoro e libera il potenziale del tuo team.",
+      "description2": "Con Jumpix, ogni interazione si trasforma in un'opportunità.",
+      "getStarted": "Inizia gratuitamente",
+      "requestDemo": "Richiedi una demo",
+      "trustBadge": "Aziende e fiducia globale"
+    },
+    "Testimonials": {
+      "title": "Amato dalle aziende di tutto il mondo",
+      "subtitle": "Non limitarti a crederci sulla parola, unisciti a centinaia di team soddisfatti che crescono e accelerano le loro operazioni con noi."
+    },
+    "SalesWorkflow": {
+      "badge": "Flusso di lavoro di vendita",
+      "title_start": "Un'unica piattaforma AI per",
+      "title_end": "l'intero percorso di vendita",
+      "googleButton": "Connettiti con Google",
+      "progress": "Progresso",
+      "tabs": {
+        "intake": {
+          "title": "Acquisizione Lead",
+          "subtitle": "Raccogli da tutte le fonti",
+          "description": "Unisci i lead da Google Ads, Meta, WhatsApp e moduli web in un unico livello strutturato.",
+          "steps": {
+            "step1": "Connetti i canali",
+            "step2": "Normalizza i dati",
+            "step3": "Mantieni il contesto della fonte",
+            "step4": "Invia alla coda centrale"
+          }
+        },
+        "qualify": {
+          "title": "Arricchisci e valuta",
+          "subtitle": "Profondità e priorità AI",
+          "description": "Arricchisci i dati mancanti e usa l'AI per identificare istantaneamente i lead ad alta intenzione.",
+          "steps": {
+            "step1": "Arricchimento dati",
+            "step2": "Qualificazione AI",
+            "step3": "Punteggio di intenzione",
+            "step4": "Priorità della coda"
+          }
+        },
+        "followup": {
+          "title": "Follow-up automatico",
+          "subtitle": "Sequenze Gmail e WhatsApp",
+          "description": "Avvia sequenze di follow-up personalizzate tramite Gmail o WhatsApp nel momento in cui un lead viene acquisito.",
+          "steps": {
+            "step1": "Iscrivi alla sequenza",
+            "step2": "Invia messaggio automatico",
+            "step3": "Traccia le risposte",
+            "step4": "Bozze di risposta AI"
+          }
+        },
+        "convert": {
+          "title": "Converti e Sincronizza",
+          "subtitle": "Riunioni e passaggio al CRM",
+          "description": "Trasforma l'interesse in riunioni prenotate e sincronizza automaticamente tutti i dati con il tuo CRM o i tuoi fogli di calcolo.",
+          "steps": {
+            "step1": "Pianifica riunioni",
+            "step2": "Sincronizzazione CRM",
+            "step3": "Visibilità della pipeline",
+            "step4": "Analisi del ROI"
+          }
+        }
+      },
+      "dummyData": {
+        "qualify": [
+          {
+            "score": 98,
+            "name": "Tim Cook",
+            "status": "Alto interesse"
+          },
+          {
+            "score": 85,
+            "name": "Emily Watson",
+            "status": "Qualificato"
+          },
+          {
+            "score": 92,
+            "name": "Marc Benioff",
+            "status": "Prioritario"
+          },
+          {
+            "score": 45,
+            "name": "Satya Nadella",
+            "status": "Basso interesse"
+          },
+          {
+            "score": 89,
+            "name": "Sundar Pichai",
+            "status": "Qualificato"
+          }
+        ],
+        "intake": [
+          {
+            "name": "Tim Cook",
+            "source": "Google Ads",
+            "time": "2m fa",
+            "status": "Ricevuto"
+          },
+          {
+            "name": "Emily Watson",
+            "source": "WhatsApp",
+            "time": "5m fa",
+            "status": "Ricevuto"
+          },
+          {
+            "name": "Marc Benioff",
+            "source": "Facebook",
+            "time": "12m fa",
+            "status": "Ricevuto"
+          },
+          {
+            "name": "Satya Nadella",
+            "source": "Modulo Web",
+            "time": "18m fa",
+            "status": "Ricevuto"
+          },
+          {
+            "name": "Sundar Pichai",
+            "source": "Sheets",
+            "time": "25m fa",
+            "status": "Ricevuto"
+          }
+        ],
+        "followup": [
+          {
+            "name": "Tim Cook",
+            "step": "In attesa di risposta",
+            "seq": "Passaggio 2/4"
+          },
+          {
+            "name": "Emily Watson",
+            "step": "Email inviata",
+            "seq": "Passaggio 1/4"
+          },
+          {
+            "name": "Marc Benioff",
+            "step": "Risposta ricevuta",
+            "seq": "Bozza in corso..."
+          },
+          {
+            "name": "Satya Nadella",
+            "step": "WhatsApp inviato",
+            "seq": "Passaggio 1/2"
+          },
+          {
+            "name": "Sundar Pichai",
+            "step": "Nessuna risposta",
+            "seq": "Riprovo..."
+          }
+        ],
+        "convert": [
+          {
+            "name": "Tim Cook",
+            "deal": " Trattativa",
+            "status": "Successo"
+          },
+          {
+            "name": "Emily Watson",
+            "deal": "Demo fissata",
+            "status": "Successo"
+          },
+          {
+            "name": "Marc Benioff",
+            "deal": "CRM sincronizzato",
+            "status": "Successo"
+          },
+          {
+            "name": "Satya Nadella",
+            "deal": "Archiviato",
+            "status": "Successo"
+          },
+          {
+            "name": "Sundar Pichai",
+            "deal": "Demo fissata",
+            "status": "Successo"
+          }
+        ]
+      }
+    },
+    "FeaturesSecondary": {
+      "badge": "AUTOMAZIONE DEL FLUSSO DI LAVORO",
+      "title_line1": "Progetta i tuoi flussi di lavoro",
+      "title_line2": "con una struttura ad albero.",
+      "button": "Crea il tuo flusso",
+      "tabs": {
+        "intake": {
+          "label": "Canali di acquisizione",
+          "title": "Unisci tutte le richieste in un unico posto",
+          "description": "WhatsApp, Meta Ads, Google Ads e moduli web. Indipendentemente dalla fonte, portali nel flusso."
+        },
+        "logic": {
+          "label": "Intelligenza e decisioni",
+          "title": "Instradamento intelligente con AI",
+          "description": "Misura l'intento, valuta i lead e indirizzali automaticamente al team o alla sequenza giusta."
+        },
+        "outreach": {
+          "label": "Follow-up automatizzato",
+          "title": "Flussi di comunicazione personalizzati",
+          "description": "Aumenta i tassi di risposta con flussi di follow-up multicanale tramite Gmail e WhatsApp."
+        },
+        "sync": {
+          "label": "Sincronizzazione dati",
+          "title": "Piena armonia con il tuo CRM e i tuoi strumenti",
+          "description": "Trasferisci automaticamente le riunioni approvate e i lead qualificati al tuo sistema CRM."
+        }
+      },
+      "visualization": {
+        "leadIntake": "Acquisizione lead",
+        "aiReasoning": "Ragionamento AI",
+        "rejected": "RIFIUTATO",
+        "emailSequencer": "Sequenziatore email",
+        "crmSync": "Sincronizzazione CRM",
+        "meeting": "Riunione",
+        "activeFlow": "FLUSSO ATTIVO",
+        "aiEnabled": "AI ABILITATA"
+      }
+    },
+    "Footer": {
+      "description": "Piattaforma all-in-one per lo scaling SaaS moderno. Automatizza, ottimizza e cresci con sicurezza.",
+      "sections": {
+        "product": {
+          "title": "Prodotto",
+          "links": {
+            "features": "Funzionalità",
+            "workflow": "Flusso di lavoro",
+            "demo": "Demo",
+            "pricing": "Prezzi",
+            "faq": "FAQ"
+          }
+        },
+        "company": {
+          "title": "Azienda",
+          "links": {
+            "about": "Chi siamo",
+            "blog": "Blog",
+            "careers": "Carriere",
+            "contact": "Contatti"
+          }
+        },
+        "legal": {
+          "title": "Legale",
+          "links": {
+            "privacy": "Informativa sulla privacy",
+            "terms": "Termini di servizio",
+            "refund": "Politica di rimborso",
+            "cookie": "Informativa sui cookie"
+          }
+        }
+      },
+      "rights": "© {year} Jumpix Inc. Tutti i diritti riservati.",
+      "status": "Stato del sistema",
+      "support": "Supporto"
+    },
+    "InteractiveShowcase": {
+      "badge": "Tour interattivo del prodotto",
+      "title_start": "Un'unica piattaforma AI per",
+      "title_end": "l'intero percorso di vendita",
+      "description": "Abbiamo simulato la nostra dashboard con dati reali. Puoi esplorare le funzionalità usando il menu a sinistra e interagire sulla schermata principale.",
+      "hotspots": {
+        "search": {
+          "title": "Lead Finder",
+          "description": "Filtra milioni di punti dati professionali con filtri avanzati e aggiungili alla tua lista."
+        },
+        "flowagent": {
+          "title": "Flow Agent",
+          "description": "Metti il tuo funnel di vendita in pilota automatico con il tuo assistente AI, intercettando i lead più caldi con segnali basati sull'intento."
+        },
+        "inbox": {
+          "title": "Posta in arrivo unificata",
+          "description": "Raccogli le risposte da tutti i canali in un unico hub e rispondi in pochi secondi con l'assistenza dell'AI."
+        },
+        "analytics": {
+          "title": "Report dettagliati",
+          "description": "Misura il tuo ROI analizzando istantaneamente i tassi di conversione e il successo delle campagne basate sui canali."
+        }
+      },
+      "sidebar": {
+        "mainMenu": "Menu principale",
+        "system": "Sistema",
+        "dashboard": "Dashboard",
+        "search": "Lead Finder",
+        "sequences": "Agente di flusso",
+        "inbox": "Posta in arrivo",
+        "lists": "Le mie liste",
+        "analytics": "Report",
+        "integrations": "Integrazioni",
+        "billing": "Fatturazione",
+        "settings": "Impostazioni"
+      },
+      "header": {
+        "platform": "Piattaforma",
+        "shortcut": "Scorciatoia (⌘K)"
+      },
+      "views": {
+        "dashboard": {
+          "greeting": "Buongiorno, Emirhan",
+          "subtitle": "Ecco su cosa devi concentrarti oggi.",
+          "newCampaign": "Nuova campagna",
+          "activeLeads": "Lead attivi",
+          "openRate": "Email aperte",
+          "replyRate": "Tasso di risposta",
+          "booking": "Prenotazioni",
+          "campaignPerformance": "Performance della campagna",
+          "trendingChannels": "Canali di tendenza",
+          "last7Days": "Ultimi 7 giorni",
+          "last30Days": "Ultimi 30 giorni",
+          "email": "Email",
+          "linkedin": "LinkedIn",
+          "whatsapp": "WhatsApp",
+          "viewAll": "Vedi tutto"
+        },
+        "search": {
+          "title": "Database Lead",
+          "subtitle": "Oltre 400 milioni di dati professionali scansionabili.",
+          "filters": "Filtri",
+          "query": "Query",
+          "statusVerified": "Verificato",
+          "statusPending": "In attesa",
+          "industry": "Tecnologia / SaaS",
+          "details": "Dettagli",
+          "showing": "Visualizzazione di 1-5 di 1.248 contatti",
+          "prev": "Indietro",
+          "next": "Avanti",
+          "cols": [
+            "Nome completo",
+            "Azienda e settore",
+            "Posizione",
+            "Stato"
+          ]
+        },
+        "sequences": {
+          "title": "Enterprise Outreach Q1",
+          "subtitle": "Modello ibrido LinkedIn + Email",
+          "statusActive": "Attivo",
+          "edit": "Modifica",
+          "stepDay1": "Giorno 1",
+          "stepDay4": "Giorno 4",
+          "initialConnection": "Connessione iniziale",
+          "wait3Days": "Attendi 3 giorni (se nessuna risposta)",
+          "linkedinVisit": "Visita profilo e richiesta",
+          "emailBody": "Oggetto: Proposta di collaborazione per {{company}}",
+          "linkedinBody": "Nota: L'automazione LinkedIn è attiva.",
+          "addStep": "+ Aggiungi passaggio"
+        },
+        "analytics": {
+          "totalRevenue": "Impatto ricavi totali (ROI)",
+          "multiplier": "Moltiplicatore 12,4x",
+          "vsPrevMonth": "+24% rispetto al mese precedente",
+          "inboxRate": "Tasso di consegna in posta in arrivo",
+          "inboxDesc": "Il 92% delle tue email ha raggiunto la cartella principale.",
+          "replyAnalysis": "Analisi delle risposte in arrivo",
+          "positive": "Positivo",
+          "neutral": "Neutro",
+          "channels": [
+            "Campagne email",
+            "Messaggi LinkedIn",
+            "Contatto diretto"
+          ]
+        }
+      },
+      "tooltip": {
+        "clickToView": "Clicca per visualizzare"
+      },
+      "quickAccess": "Accesso rapido"
+    },
+    "Mockups": {
+      "hero": {
+        "workspace": "jumpix-workspace",
+        "newLeads": "Nuovi lead",
+        "qualifying": "In fase di qualificazione",
+        "qualified": "Qualificato",
+        "scoringSignal": "Segnale di punteggio: Alta intenzione",
+        "organic": "Organico"
+      },
+      "enrichment": {
+        "incoming": "Webhook in arrivo",
+        "vpSales": "VP of Sales presso Acme Corp",
+        "companySize": "Dimensioni azienda: 50-200",
+        "industry": "Settore: SaaS"
+      },
+      "workflow": {
+        "leadCreated": "Lead creato",
+        "aiQual": "Qualificazione AI",
+        "autoEmail": "Email automatica"
+      },
+      "analytics": {
+        "funnel": "Imbuto di conversione",
+        "formFills": "Compilazioni modulo",
+        "qualified": "Qualificato",
+        "meetings": "Riunioni",
+        "velocity": "Velocità della pipeline",
+        "days": "giorni",
+        "winRate": "Tasso di vincita"
+      }
+    }
+  },
+  "Dashboard": {
+    "title": "Centro di comando",
+    "description": "Hub di intelligence in tempo reale. Agenti AI in scansione e ottimizzati.",
+    "metrics": {
+      "totalRevenue": "Ricavi totali",
+      "newCustomers": "Nuovi clienti",
+      "activeAccounts": "Account attivi",
+      "growthRate": "Tasso di crescita"
+    },
+    "charts": {
+      "performanceIndex": "Indice di performance",
+      "neuralFeed": "Neural Feed"
+    },
+    "subtitle": "Welcome back. Here is what's happening today.",
+    "sections": {
+      "recentLeads": "Recent Leads",
+      "recentActivity": "Recent Activity"
+    },
+    "activity": {
+      "eventLabel": "Event"
+    },
+    "loading": {
+      "table": "Loading table...",
+      "chart": "Loading chart..."
+    }
+  },
+  "Auth": {
+    "login": {
+      "title": "Bentornato",
+      "subtitle": "Iniziamo con la tua prova gratuita di 30 giorni",
+      "emailPlaceholder": "Inserisci il tuo indirizzo email",
+      "passwordPlaceholder": "Inserisci la tua password",
+      "rememberMe": "Ricordami",
+      "forgotPassword": "Password dimenticata?",
+      "submit": "Accedi a Jumpix",
+      "noAccount": "Non hai ancora un account?",
+      "signUp": "Registrati",
+      "securityVerification": "Verifica di sicurezza"
+    },
+    "signup": {
+      "title": "Crea un account",
+      "subtitle": "Unisciti a migliaia di aziende che migliorano le proprie vendite.",
+      "namePlaceholder": "Inserisci il tuo nome",
+      "submit": "Crea account",
+      "alreadyHaveAccount": "Hai già un account?",
+      "login": "Accedi"
+    },
+    "forgotPassword": {
+      "title": "Reimposta password",
+      "subtitle": "Inserisci il tuo indirizzo email per reimpostare la password.",
+      "question": "Ricordi la tua password?",
+      "submit": "Invia link di ripristino",
+      "backToLogin": "Torna all'accesso"
+    },
+    "social": {
+      "google": "Continua con Google"
+    },
+    "messages": {
+      "checkEmail": "Controlla la tua email per il link di conferma.",
+      "linkSent": "Link di ripristino inviato! Controlla la tua email.",
+      "error": "Si è verificato un errore.",
+      "captchaRequired": "Verifica di non essere un robot"
+    },
+    "divider": "O",
+    "hero": {
+      "title": "Benvenuto nel mondo di Jumpix",
+      "subtitle": "Gestisci i tuoi processi di vendita da un'unica piattaforma, aumenta la tua produttività con l'IA.",
+      "mockup": {
+        "triggerTitle": "Nuovo lead aggiunto",
+        "triggerSubtitle": "I candidati che corrispondono all'ICP vengono attivati",
+        "intentTitle": "Controlla punteggio di intent",
+        "intentStatus": "Alto",
+        "sequenceTitle": "Avvia sequenza: Q1 Outreach",
+        "sequenceVariant": "Variante B",
+        "sequenceStatus": "In esecuzione..."
+      }
+    },
+    "resetPassword": {
+      "titleReset": "Reimposta password",
+      "titleInvite": "Completa il tuo account",
+      "subtitleReset": "Inserisci la tua nuova password qui sotto per riaccedere.",
+      "subtitleInvite": "Imposta la tua nuova password per continuare.",
+      "labelNewPassword": "Nuova password",
+      "labelConfirmPassword": "Conferma nuova password",
+      "submit": "Aggiorna password",
+      "successTitle": "Password aggiornata correttamente!",
+      "successRedirect": "Reindirizzamento alla pagina di accesso...",
+      "backToLogin": "Torna all'accesso",
+      "errorMinLength": "La password deve contenere almeno 6 caratteri",
+      "errorMismatch": "Le password non corrispondono",
+      "errorNoSession": "Sessione mancante. Clicca nuovamente sul link o aggiorna la pagina."
+    }
+  },
+  "Contact": {
+    "title": "Mettiti in contatto",
+    "subtitle": "Hai domande sulle nostre soluzioni IA? Siamo qui per aiutarti a far crescere la tua azienda.",
+    "infoTitle": "Informazioni di contatto",
+    "emailLabel": "Inviaci un'email",
+    "phoneLabel": "Chiamaci",
+    "visitLabel": "Vieni a trovarci",
+    "chatTitle": "Supporto via chat",
+    "chatDesc": "Hai bisogno di assistenza immediata? Il nostro team di supporto è disponibile 24/7.",
+    "startChat": "Avvia chat",
+    "formTitle": "Inviaci un messaggio",
+    "name": "Nome",
+    "email": "Email",
+    "message": "Messaggio",
+    "placeholderName": "Mario Rossi",
+    "placeholderEmail": "mario@esempio.it",
+    "placeholderMessage": "Come possiamo aiutarti?",
+    "submit": "Invia messaggio",
+    "sending": "Invio in corso...",
+    "success": "Messaggio inviato con successo!",
+    "securityVerification": "Verifica di sicurezza"
+  },
+  "Sequences": {
+    "active": "Attiva",
+    "passive": "Passiva",
+    "draft": "Bozza",
+    "published": "Pubblicata",
+    "title": "Centro sequenze",
+    "reporting": "Analisi delle prestazioni",
+    "all": "Sequenze",
+    "queue": "Coda",
+    "settings": "Impostazioni",
+    "newSequence": "Nuova sequenza",
+    "searchPlaceholder": "Cerca sequenze...",
+    "filterAll": "Tutte",
+    "filterActive": "Attive",
+    "filterDraft": "Bozze",
+    "table": {
+      "name": "Nome sequenza",
+      "steps": "Passaggi",
+      "status": "Stato",
+      "performance": "Prestazioni",
+      "action": "Azione",
+      "noSteps": "Nessun passaggio",
+      "loading": "Caricamento in corso..."
+    },
+    "actions": {
+      "edit": "Modifica",
+      "pause": "Metti in pausa",
+      "start": "Avvia",
+      "delete": "Elimina",
+      "saveDraft": "Salva bozza",
+      "publish": "Pubblica",
+      "cancel": "Annulla",
+      "deleteConfirm": "Sei sicuro di voler eliminare questa sequenza?",
+      "deleteSuccess": "Sequence deleted successfully.",
+      "queueSuccess": "Operation completed successfully",
+      "deleteWarning": "Questa azione non può essere annullata. Tutti i lead iscritti verranno rimossi da questa sequenza."
+    },
+    "stats": {
+      "active": "Attive",
+      "sent": "Inviate",
+      "opened": "Aperte",
+      "revenue": "Ricavi",
+      "unitMessages": "MESSAGGI",
+      "unitPcs": "PZ",
+      "unitCurrency": "USD"
+    },
+    "reportingTitle": "Prestazioni della campagna",
+    "reportingDesc": "Tendenze di invio e interazione negli ultimi 30 giorni",
+    "queueTitle": "Coda processi attivi",
+    "queueDesc": "Passaggi della sequenza in attesa di invio o attualmente in elaborazione",
+    "settingsTitle": "Configurazione sequenza",
+    "settingsDesc": "Limiti di invio basati sull'account e regole globali",
+    "settingsForm": {
+      "limits": "Limiti di invio",
+      "dailyEmail": "Limite giornaliero email",
+      "dailyWhatsapp": "Limite giornaliero WhatsApp",
+      "blackout": "Orari di pausa",
+      "startHour": "Ora di inizio",
+      "endHour": "Ora di fine",
+      "action": "Azione durante la pausa",
+      "actionDelay": "Ritarda",
+      "actionSkip": "Salta passaggio",
+      "unsubControl": "Controllo globale di disiscrizione",
+      "unsubDesc": "Impedisce l'invio di messaggi ai lead contrassegnati come \"disiscritti\".",
+      "save": "Applica modifiche",
+      "saving": "Salvataggio in corso..."
+    },
+    "queueTable": {
+      "lead": "Lead / Cliente",
+      "seqStep": "Sequenza / Passaggio",
+      "dueAt": "Orario programmato",
+      "status": "Stato",
+      "action": "Azione",
+      "failed": "Fallito: Riprovo ({retry})",
+      "pending": "In attesa",
+      "empty": "Nessun elemento in coda."
+    },
+    "builder": {
+      "actions": {
+        "saveDraft": "Salva bozza",
+        "publish": "Pubblica"
+      },
+      "published": "Pubblicato",
+      "loading": "Caricamento Flow Builder...",
+      "defaultName": "Nuova Smart Sequence",
+      "drafting": "In bozza",
+      "palette": "Palette passaggi",
+      "email": "Email",
+      "emailDesc": "Invia messaggio automatico",
+      "whatsapp": "WhatsApp",
+      "whatsappDesc": "Messaggio WhatsApp",
+      "condition": "Condizione",
+      "conditionDesc": "Attendi e dirama",
+      "task": "Attività manuale",
+      "taskDesc": "Assegna attività a un membro del team",
+      "trigger": "Trigger",
+      "triggerLabel": "Tipo di trigger",
+      "triggerNoResponse": "Se nessuna risposta",
+      "triggerCreated": "Alla creazione del lead",
+      "triggerMeeting": "Alla prenotazione di un meeting",
+      "triggerInstant": "Avvio immediato",
+      "triggerNow": "Inizia ora",
+      "targetLabel": "Target",
+      "targetAll": "Tutto il pool",
+      "aiIcebreaker": "AI Icebreaker",
+      "aiAutopilot": "AI Autopilot",
+      "templateLabel": "Modello di messaggio",
+      "templatePlaceholder": "Scrivi qui il tuo messaggio...",
+      "btnIcebreaker": "Icebreaker",
+      "btnOptimize": "Ottimizza",
+      "delayLabel": "Ritardo (ore)",
+      "branchYes": "SÌ",
+      "branchNo": "NO",
+      "controlLabel": "Controllo",
+      "controlReplied": "Hanno risposto?",
+      "controlOpened": "L'email è stata aperta?",
+      "selectionPlaceholder": "Effettua una selezione",
+      "selectionDesc": "Fai clic su un passaggio del componente per modificarne le impostazioni.",
+      "toastSuccess": "Sequenza pubblicata con successo!",
+      "toastDraft": "Bozza salvata con successo!",
+      "toastAiSuccess": "Contenuto AI generato con successo",
+      "toastAiError": "Impossibile generare il contenuto AI",
+      "toastError": "Si è verificato un errore",
+      "toastSave": "Settings saved successfully",
+      "toastEmptyTemplate": "Si prega di compilare il modello di messaggio per tutti i passaggi prima di salvare."
+    },
+    "loading": "Loading...",
+    "noResults": "No results found",
+    "noResultsDesc": "No sequences matching your search criteria were found."
+  },
+  "Tour": {
+    "step1": {
+      "title": "Benvenuto su Jumpix! 🚀",
+      "description": "Lascia che ti mostriamo il tuo nuovo assistente agli appuntamenti basato sull'IA. Ci vorrà solo un minuto."
+    },
+    "step2": {
+      "title": "Panoramica della Dashboard",
+      "description": "Visualizza a colpo d'occhio le tue metriche principali, lo stato del sistema e le recenti attività dell'IA."
+    },
+    "step3": {
+      "title": "Pipeline di Vendita",
+      "description": "Monitora i tuoi lead attraverso le diverse fasi. Trascina e rilascia per aggiornare manualmente il loro stato, se necessario."
+    },
+    "step4": {
+      "title": "Conversazioni dal vivo",
+      "description": "Monitora le interazioni tra IA e umani in tempo reale. Puoi prendere il controllo di qualsiasi chat in qualsiasi momento."
+    },
+    "step5": {
+      "title": "Database Lead B2B",
+      "description": "Accedi a oltre 400 milioni di contatti professionali per scoprire e verificare nuovi potenziali clienti."
+    },
+    "step6": {
+      "title": "Sequenze Intelligenti",
+      "description": "Progetta sequenze di follow-up multicanale tramite Email e WhatsApp per ricontattare i lead automaticamente."
+    },
+    "step7": {
+      "title": "Team e Routing",
+      "description": "Gestisci i tuoi agenti e configura la distribuzione automatica dei lead (Round-Robin)."
+    },
+    "step8": {
+      "title": "Configurazione Guidata",
+      "description": "Hai bisogno di riconfigurare i tuoi canali o il calendario? La configurazione guidata è sempre a tua disposizione."
+    },
+    "buttons": {
+      "next": "Avanti →",
+      "prev": "← Indietro",
+      "done": "Termina tour"
+    }
+  },
+  "JumpixAssistant": {
+    "title": "AI Jumpix",
+    "subtitle": "Intelligent Dashboard Assistant",
+    "newChat": "New Chat",
+    "history": "History",
+    "placeholder": "Ask something...",
+    "welcomeTitle": "How can I help you?",
+    "welcomeDesc": "You can ask anything about your lead data, appointments, or platform usage. Gemini 1.5 Pro has access to all your dashboard data!",
+    "analyzing": "AI Jumpix is analyzing...",
+    "poweredBy": "Powered by Google Gemini 1.5 Pro",
+    "suggestions": {
+      "leads": "List the last 5 leads",
+      "meetings": "What are my meetings for next week?",
+      "integration": "How to set up Lead Ads integration?",
+      "analysis": "Analyze my conversion rates"
+    }
+  },
+  "Blog": {
+    "title": "Intelligence Feed",
+    "subtitle": "Jumpix Inside",
+    "description": "Explorations in AI automation, appointment setting, and the future of B2B SaaS growth.",
+    "featured": "Featured Insight",
+    "readingTime": "{minutes} Min Read",
+    "recentTitle": "Recent Explorations",
+    "noPosts": "More insights arriving soon. Stay tuned.",
+    "ctaTitle": "Scale Your Growth with AI Intelligence.",
+    "ctaDescription": "Join 5,000+ founders receiving weekly tactical guides on AI sales automation and appointment setting.",
+    "ctaButton": "Start Scaling",
+    "backLink": "Back to Insights",
+    "shareTitle": "Share Insight",
+    "didYouFindValuable": "Did you find this valuable?",
+    "valuableDescription": "Share this exploration with your network or start your own automation journey with Jumpix.",
+    "tryFree": "Try Jumpix Free",
+    "copyLink": "Copy Article Link",
+    "authorDefault": "Jumpix Editorial",
+    "authorTag": "Expertise Writer"
+  },
+  "UseCases": {
+    "customerSuccess": {
+      "eyebrow": "Customer Success",
+      "title": "Turn post-sale follow-up into a measurable customer expansion workflow",
+      "description": "Jumpix helps customer-success teams centralize account signals, prioritize at-risk or expansion-ready customers, and launch the right follow-up through inbox, WhatsApp, calendar, and CRM-connected workflows.",
+      "outcomes": {
+        "fasterRisk": {
+          "title": "Faster risk response",
+          "description": "Catch churn signals earlier and trigger customer outreach before silence turns into cancellation."
+        },
+        "expansion": {
+          "title": "Expansion visibility",
+          "description": "Identify high-intent conversations and route upsell or cross-sell opportunities to the right owner."
+        },
+        "renewals": {
+          "title": "Consistent renewals",
+          "description": "Keep renewal checkpoints, stakeholder follow-up, and meeting history visible in one execution layer."
+        }
+      }
+    },
+    "sales": {
+      "eyebrow": "Sales Teams",
+      "title": "Turn every serious lead into a sales conversation before momentum fades",
+      "description": "Jumpix gives sales teams a practical execution layer: capture inbound demand, score intent with context, launch multichannel follow-up, and move qualified opportunities to meeting stage faster.",
+      "outcomes": {
+        "fasterReply": {
+          "title": "Reply faster on high-intent leads",
+          "description": "Route priority leads to the right rep in minutes, not after manual triage."
+        },
+        "moreMeetings": {
+          "title": "Book more qualified meetings",
+          "description": "Use AI-supported qualification and timely outreach to convert interest into calendar events."
+        }
+      }
+    },
+    "marketing": {
+      "eyebrow": "Marketing Teams",
+      "title": "Help marketing teams turn campaign demand into qualified pipeline",
+      "description": "Jumpix should show marketing leaders that campaign performance does not stop at the lead form. It continues through routing, qualification, and sales handoff quality.",
+      "outcomes": {
+        "cleanIntake": {
+          "title": "Cleaner lead intake",
+          "description": "Stop pushing raw campaign demand directly into the pipeline."
+        },
+        "handoff": {
+          "title": "Better handoff quality",
+          "description": "Pass richer context to sales before the first follow-up starts."
+        }
+      }
+    }
+  },
+  "Solutions": {
+    "analytics": "Analytics",
+    "flowBuilder": "Flow Builder",
+    "sequences": "Smart Sequences",
+    "aiAgents": "AI Agents"
+  },
+  "Features": {
+    "leadCapture": "Lead Capture",
+    "leadEnrichment": "Lead Enrichment",
+    "leadScoring": "Lead Scoring",
+    "sequences": "Sequences",
+    "pipelineAnalytics": "Pipeline Analytics"
+  },
+  "MarketingIntegrations": {
+    "google-ads": "Google Ads",
+    "whatsapp": "WhatsApp",
+    "meta": "Meta Lead Ads",
+    "hubspot": "Hubspot",
+    "pipedrive": "Pipedrive"
+  },
+  "Marketing": {
+    "pricing": "Pricing",
+    "integrations": "Integrations",
+    "showcase": "See Product Tour",
+    "trial": "Start Free Trial"
+  },
+  "ActivityLog": {
+    "title": "Activity Log",
+    "subtitle": "Monitor every interaction and automated action in real-time.",
+    "breadcrumb": {
+      "system": "System",
+      "activityLog": "Activity Log"
+    },
+    "status": {
+      "connected": "Live Connection",
+      "connecting": "Connecting...",
+      "offline": "Live Offline"
+    },
+    "search": {
+      "placeholder": "Search logs by event, type or content...",
+      "clearButton": "Clear Search"
+    },
+    "empty": {
+      "title": "No actions recorded",
+      "description": "Events will appear here as they happen."
+    }
+  },
+  "Profile": {
+    "title": "My Profile",
+    "subtitle": "Manage your personal information and security preferences.",
+    "badges": {
+      "active": "Active"
+    },
+    "sections": {
+      "personalInfo": "Personal Information",
+      "security": "Security & Password",
+      "notifications": "Notifications",
+      "accountInfo": "Account Info"
+    },
+    "fields": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "language": "Language",
+      "languagePlaceholder": "Select Language",
+      "passkey": "Passkey Authentication",
+      "passkeyDesc": "Use your fingerprint or face ID to login.",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "options": {
+      "english": "English (US)",
+      "turkish": "Turkish (TR)"
+    },
+    "buttons": {
+      "updateInfo": "Update Info",
+      "saving": "Saving...",
+      "changePassword": "Change Password"
+    },
+    "notifications": {
+      "emailAlerts": "Email Alerts",
+      "emailAlertsDesc": "Get daily summaries",
+      "pushNotifications": "Push Notifications",
+      "pushNotificationsDesc": "Real-time updates on desktop",
+      "smsUpdates": "SMS Updates",
+      "smsUpdatesDesc": "Critical system alerts"
+    },
+    "account": {
+      "userId": "User ID",
+      "memberSince": "Member Since"
+    },
+    "messages": {
+      "noPasswordPermission": "You do not have permission to change your password. Please contact the administrator."
+    },
+    "toasts": {
+      "updateSuccess": "Profile updated successfully",
+      "updateFailed": "Failed to update profile",
+      "passwordMismatch": "Passwords do not match",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "passwordChanged": "Password changed successfully",
+      "passwordChangeFailed": "Failed to change password",
+      "avatarSuccess": "Avatar uploaded successfully",
+      "avatarFailed": "Failed to upload avatar",
+      "preferencesUpdateFailed": "Failed to update preferences"
+    }
+  },
+  "AITraining": {
+    "title": "AI Training Center",
+    "subtitle": "Personalize how your AI assistant speaks and what it knows about your business.",
+    "sections": {
+      "autonomousCore": "Autonomous Core",
+      "sandbox": "Sandbox Simulator",
+      "datasources": "Knowledge Sources",
+      "qualificationQuestions": "Domande di qualificazione",
+      "analytics": "Prestazioni"
+    },
+    "fields": {
+      "brandVoice": "Brand Voice / Tone",
+      "knowledgeBase": "Knowledge Base (Context)",
+      "knowledgeBasePlaceholder": "Describe your business, services, team, and key policies here. The more detail you provide, the better your AI will perform...",
+      "knowledgeBaseHint": "The AI will use this information to respond to all customer inquiries.",
+      "autonomousMode": "Autonomous Mode",
+      "autonomousModeDesc": "AI handles responses instantly without manual approval.",
+      "responseDelay": "Ritardo di risposta",
+      "responseDelayDesc": "Ritardo prima che l'IA invii una risposta — simula il tempo di digitazione umana.",
+      "responseDelayInstant": "Istantaneo",
+      "responseDelayUnit": "sec"
+    },
+    "voices": {
+      "professional": "Professional",
+      "friendly": "Friendly",
+      "casual": "Casual"
+    },
+    "buttons": {
+      "save": "Save Configuration",
+      "saving": "Synchronizing...",
+      "deploy": "Deploy to Production",
+      "deploying": "Deploying...",
+      "executeQuery": "Execute Test Query"
+    },
+    "sandbox": {
+      "description": "Test your current AI configuration in a safe environment before going live.",
+      "placeholder": "Ask something like: What are your pricing plans? or Who is your founder?",
+      "outputLabel": "AI Simulation Output",
+      "clear": "Cancella",
+      "you": "Tu",
+      "ai": "IA",
+      "empty": "Invia un messaggio per iniziare a testare la tua configurazione IA."
+    },
+    "badges": {
+      "alphaPreview": "Alpha Preview"
+    },
+    "features": {
+      "webscraper": "Web Scraper",
+      "webscraperDesc": "Automatic knowledge sync from your website (Coming Soon)."
+    },
+    "toasts": {
+      "saved": "Impostazioni salvate con successo!",
+      "saveError": "Errore nel salvataggio delle impostazioni",
+      "testError": "Errore di test"
+    },
+    "qualificationQuestions": {
+      "description": "Queste domande saranno poste dall'IA per qualificare i lead in arrivo.",
+      "placeholder": "es. Qual è il tuo budget?",
+      "addQuestion": "Aggiungi domanda",
+      "empty": "Nessuna domanda ancora. Aggiungine una per iniziare a qualificare i lead."
+    },
+    "analytics": {
+      "title": "Prestazioni (Ultimi 30 Giorni)",
+      "responses": "Risposte IA",
+      "meetings": "Riunioni Prenotate",
+      "rate": "Tasso di Prenotazione",
+      "empty": "Nessun dato ancora"
+    },
+    "fallback": {
+      "title": "Comportamento di Fallback",
+      "description": "Cosa succede quando l'IA non riesce a rispondere.",
+      "noneLabel": "Nessuna Azione",
+      "noneDesc": "L'IA risponde comunque anche se incerta.",
+      "handoffLabel": "Trasferimento Umano",
+      "handoffDesc": "Disabilitare l'IA e segnalare la conversazione a un agente umano.",
+      "customLabel": "Messaggio Personalizzato",
+      "customDesc": "Inviare una risposta predefinita quando l'IA è incerta.",
+      "messagePlaceholder": "es. Grazie per averci contattato! Un membro del team ti risponderà presto."
+    }
+  },
+  "Conversations": {
+    "search": {
+      "placeholder": "Search intelligence logs..."
+    },
+    "empty": {
+      "noConversations": "No active conversations.",
+      "selectConversation": "Select a conversation to start chatting",
+      "startConversation": "Start the conversation!"
+    },
+    "status": {
+      "active": "Active Conversation",
+      "paused": "Paused",
+      "closed": "Closed",
+      "communicationBlocked": "Communication Blocked",
+      "aiActive": "AI Active",
+      "humanControl": "Human Control"
+    },
+    "badges": {
+      "unqualified": "Unqualified",
+      "handoff": "Handoff"
+    },
+    "buttons": {
+      "options": "Conversation Options",
+      "takeOver": "Take Over",
+      "resumeAI": "Resume AI"
+    },
+    "actions": {
+      "markAsRead": "Mark as Read",
+      "archive": "Archive",
+      "markUnqualified": "Mark Unqualified",
+      "delete": "Delete"
+    },
+    "input": {
+      "placeholder": "Type your message...",
+      "aiPlaceholder": "Type to intervene...",
+      "disabledPlaceholder": "This lead is marked as unqualified. Communication is disabled."
+    },
+    "notices": {
+      "disabled": "Communication Disabled • Mark as Qualified to Resume",
+      "aiActive": "Neural Link Active • Authorized Access Only",
+      "markedRead": "Marked as read."
+    },
+    "senders": {
+      "agent": "Agent",
+      "ai": "AI Assistant",
+      "system": "System",
+      "lead": "Lead"
+    },
+    "confirm": {
+      "markUnqualified": "Are you sure? Once marked as unqualified, this lead will no longer receive any messages or emails, and their automations will be stopped."
+    },
+    "filter": {
+      "all": "All",
+      "handoff": "Needs Handoff"
+    },
+    "feedback": {
+      "positiveSaved": "Feedback saved.",
+      "correctionSaved": "Correction saved.",
+      "correctionPlaceholder": "What should the correct response have been? (optional)",
+      "cancel": "Cancel",
+      "saveCorrection": "Save Correction"
+    },
+    "email": {
+      "collapse": "▲ Collapse",
+      "expand": "▼ View email",
+      "subject": "Subject:"
+    },
+    "warnings": {
+      "channelDelivery": "Message saved but channel delivery failed:"
+    }
+  },
+  "Pipeline": {
+    "title": "Sales Pipeline",
+    "subtitle": "Track and manage your leads through the conversion funnel.",
+    "search": {
+      "placeholder": "Find a lead..."
+    },
+    "buttons": {
+      "filter": "Filter",
+      "newLead": "New Lead"
+    },
+    "columns": {
+      "newLead": "New Lead",
+      "contacted": "Contacted",
+      "qualified": "Qualified",
+      "booked": "Meeting Booked",
+      "unqualified": "Unqualified/Closed",
+      "empty": "Drop leads here",
+      "total": "Total: {count}"
+    },
+    "feedback": {
+      "dragging": "DRAGGING"
+    },
+    "card": {
+      "score": "Score: {score}",
+      "noCompany": "No Company",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirmDelete": "Are you sure you want to delete this lead?"
+    }
+  },
+  "Leads": {
+    "sidebar": {
+      "title": "Lead Segments",
+      "inbox": "Inbox",
+      "allLeads": "All Leads",
+      "folders": "Folders",
+      "newFolder": "New Folder",
+      "ungroupedSegments": "Ungrouped Segments",
+      "otherSegments": "Other Segments"
+    },
+    "header": {
+      "inboxTitle": "Inbox (Unassigned)",
+      "inboxSubtitle": "Leads from web, widgets, and manual entry.",
+      "allLeadsSubtitle": "Showing all leads in the system."
+    },
+    "input": {
+      "folderNamePlaceholder": "Folder name...",
+      "searchPlaceholder": "Search leads..."
+    },
+    "buttons": {
+      "add": "Add",
+      "addLead": "Add Lead",
+      "filter": "Filter",
+      "export": "Export",
+      "import": "Import",
+      "pushToSheets": "Push to Sheets",
+      "download": "Download",
+      "upload": "Upload",
+      "importLeads": "Import Leads"
+    },
+    "folder": {
+      "ungrouped": "Ungrouped",
+      "empty": "Empty folder"
+    },
+    "group": {
+      "empty": "No segments created yet."
+    },
+    "segment": {
+      "chooseSegment": "Choose Segment",
+      "chooseTarget": "Choose Target Segment",
+      "ungroupedInbox": "(Ungrouped/Inbox)",
+      "removeFromGroup": "Remove from Group (Move to Inbox)"
+    },
+    "table": {
+      "leadInfo": "Lead Info",
+      "status": "Status",
+      "created": "Created",
+      "actions": "Actions",
+      "assignSegment": "Assign to segment",
+      "viewDetails": "View details",
+      "noLeads": "No leads found.",
+      "paginationText": "Showing {from} to {to} of {total} leads"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "actions": {
+      "downloadExcel": "Download as Excel",
+      "edit": "Edit",
+      "delete": "Delete",
+      "moveToGroup": "Move to group",
+      "moveToFolder": "Move to Folder",
+      "renameFolder": "Rename folder",
+      "deleteFolder": "Delete folder",
+      "deleteGroup": "Delete Group"
+    },
+    "bulk": {
+      "selectAll": "Select All",
+      "moveAction": "Move selected to group",
+      "leadsSelected": "Leads Selected",
+      "deselectAll": "Deselect All",
+      "moveToSegment": "Move to Segment",
+      "deleteSelected": "Delete Selected"
+    },
+    "channels": {
+      "title": "Channels",
+      "widgetOnly": "Only widget active"
+    },
+    "confirm": {
+      "deleteSingle": "Are you sure you want to delete this lead?",
+      "deleteGroup": "Are you sure you want to delete this group? The leads inside will become unassigned and appear in your Inbox.",
+      "deleteFolder": "Are you sure you want to delete this folder? The groups inside will NOT be deleted, they will just become ungrouped.",
+      "deleteBulk": "Are you sure you want to delete {count} selected leads?"
+    }
+  },
+  "CalendarPage": {
+    "title": "Calendar",
+    "subtitle": "Manage appointments scheduled by your AI.",
+    "nextAppointment": "Next Appointment",
+    "buttons": {
+      "joinMeeting": "Join Meeting"
+    },
+    "empty": {
+      "noMeetings": "No upcoming meetings"
+    },
+    "sync": {
+      "button": "Sync Google Calendar",
+      "syncing": "Syncing...",
+      "success": "Synced {synced} new, updated {updated} events",
+      "error": "Sync failed",
+      "notConnected": "Google Calendar not connected",
+      "lastSync": "Synced with Google Calendar"
+    },
+    "aiAvatar": {
+      "label": "AI Avatar",
+      "pending": "Scheduled",
+      "joining": "Joining...",
+      "in_call": "In Meeting",
+      "recording": "Recording",
+      "stopped": "Left",
+      "failed": "Failed",
+      "completed": "Completed",
+      "analysis_complete": "Analysis Ready",
+      "cancelled": "Cancelled",
+      "disabled": "Disabled"
+    },
+    "manualForm": {
+      "modalTitle": "Schedule Manual Meeting",
+      "cancel": "Cancel",
+      "create": "Create",
+      "attendeePlaceholder": "example@company.com",
+      "unknownError": "Unknown error"
+    }
+  },
+  "B2BDatabase": {
+    "sidebar": {
+      "filtersTitle": "Filters",
+      "extractTitle": "Extract Leads to CRM",
+      "extractDescription": "Pull multiple leads at once based on your active filters. They will be auto-grouped for you."
+    },
+    "buttons": {
+      "applyFilters": "Apply Filters",
+      "extractLeads": "Extract Leads (Cost: {cost})",
+      "extractLeadsDefault": "Extract Leads",
+      "extractSelected": "Extract Leads"
+    },
+    "filters": {
+      "companyName": "Company name",
+      "companyNamePlaceholder": "Enter a domain or company name...",
+      "location": "Headquarters location",
+      "locationPlaceholder": "Search for a city, state or country...",
+      "industry": "Industry",
+      "industryPlaceholder": "Search for an industry...",
+      "size": "Size",
+      "companyType": "Company type",
+      "companyTypePlaceholder": "Search for a company type...",
+      "keywords": "Keywords",
+      "keywordsPlaceholder": "Add keyword...",
+      "similar": "Companies similar to",
+      "founded": "Year founded",
+      "tech": "Technologies",
+      "funding": "Funding"
+    },
+    "credits": {
+      "label": "Available Credits",
+      "unit": "Leads"
+    },
+    "input": {
+      "maxLeadsPlaceholder": "Max leads to pull...",
+      "refineSearchPlaceholder": "Refine search..."
+    },
+    "empty": {
+      "title": "Find relevant companies at scale.",
+      "description": "Identify companies aligned with your ideal customer profile. Add filters to quickly surface qualified companies and proceed to find their contact information.",
+      "inputLabel": "Describe the companies you're looking for",
+      "inputPlaceholder": "e.g. Small and medium size companies from the banking industry in Europe",
+      "noResults": "No companies found",
+      "noResultsDescription": "Try adjusting your filters or using different keywords to find what you're looking for."
+    },
+    "results": {
+      "title": "Search Results"
+    },
+    "loading": {
+      "searching": "Searching B2B Database..."
+    },
+    "table": {
+      "company": "Company",
+      "industryType": "Industry & Type",
+      "locationSize": "Location & Size",
+      "status": "Status",
+      "employees": "EMPLOYEES",
+      "noDescription": "No description available",
+      "unlocked": "Unlocked",
+      "locked": "Locked"
+    },
+    "bulk": {
+      "selected": "selected",
+      "groupNamePlaceholder": "Group name (optional)..."
+    }
+  },
+  "Chatbot": {
+    "title": "Web AI Chatbot",
+    "subtitle": "Transform visitor engagement with a professional AI widget.",
+    "buttons": {
+      "saveConfig": "Save Configuration",
+      "saving": "Saving...",
+      "saved": "Saved!",
+      "initializeWidget": "Initialize Widget Now",
+      "copySnippet": "Copy Snippet",
+      "copied": "Copied!"
+    },
+    "tabs": {
+      "customization": "Customization",
+      "preview": "Visual Preview",
+      "integration": "Integration"
+    },
+    "status": {
+      "label": "Widget Status",
+      "active": "Live on Websites",
+      "inactive": "Currently Paused"
+    },
+    "ready": {
+      "title": "Ready for Launch",
+      "description": "Your widget is configured and ready. Paste the code snippet on your site to start capturing leads instantly."
+    },
+    "sections": {
+      "brandIdentity": "Brand & Identity",
+      "behavior": "AI Behavior & Messages",
+      "leadCapture": "Lead Capture Fields"
+    },
+    "fields": {
+      "internalName": "Internal Name",
+      "internalNamePlaceholder": "Marketing Site Chatbot",
+      "botName": "Bot Public Name",
+      "botNamePlaceholder": "AI Assistant",
+      "color": "Primary Brand Color",
+      "greeting": "Greeting Message",
+      "greetingPlaceholder": "Hi! I'm your AI assistant. How can I help you today?",
+      "greetingInputPlaceholder": "Hi! Any questions about our services?",
+      "formTitle": "Form Header",
+      "formTitlePlaceholder": "Start a conversation",
+      "inputPlaceholder": "Input Placeholder",
+      "inputPlaceholderText": "Ask me anything...",
+      "emailLabel": "Email Address",
+      "emailDesc": "Syncs automatically to your CRM & Leads sections.",
+      "phoneLabel": "Phone Number",
+      "phoneDesc": "Optional: Useful for high-ticket direct outreach."
+    },
+    "badges": {
+      "tokensFree": "Tokens Free"
+    },
+    "preview": {
+      "content": "Content of your website will render here.",
+      "status": "Online now",
+      "chatPlaceholder": "Start chatting to see more...",
+      "domain": "yourdomain.com"
+    },
+    "embed": {
+      "noIdTitle": "Save to generate ID",
+      "noIdDescription": "To finalize your integration script, first save your configuration using the button above.",
+      "scriptTitle": "Installation Script",
+      "scriptDescription": "Copy and paste this snippet into the header section or before the closing body tag of your website."
+    },
+    "features": {
+      "lightweightTitle": "Lightweight",
+      "lightweightDesc": "No heavy libraries. Pure vanilla JS for maximum speed.",
+      "crossDomainTitle": "Cross-Domain",
+      "crossDomainDesc": "Works on WordPress, Shopify, Next.js, and static HTML.",
+      "autoUpdateTitle": "Auto-Update",
+      "autoUpdateDesc": "Changes reflect instantly without re-deploying code."
+    }
+  },
+  "Support": {
+    "title": "My Support Tickets",
+    "subtitle": "Track your open requests and create new ones from here.",
+    "buttons": {
+      "newTicket": "New Support Ticket",
+      "filter": "Filter",
+      "createFirst": "Create First Ticket"
+    },
+    "search": {
+      "placeholder": "Search tickets..."
+    },
+    "loading": {
+      "message": "Loading tickets..."
+    },
+    "empty": {
+      "title": "No support tickets yet",
+      "description": "If you have any questions or issues, create a support ticket right away."
+    },
+    "status": {
+      "open": "Open",
+      "inProgress": "In Progress",
+      "in_progress": "In Progress",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "urgent": "Urgent"
+    },
+    "table": {
+      "lastUpdated": "Last updated: {time}"
+    },
+    "newTicket": {
+      "goBack": "Go Back",
+      "title": "Create a New Ticket",
+      "subtitle": "Please describe your issue in detail so we can help you best.",
+      "fields": {
+        "subject": "Subject",
+        "subjectPlaceholder": "Summarize the issue (e.g. Login problem)",
+        "priority": "Priority",
+        "priorityPlaceholder": "Select Priority",
+        "description": "Description",
+        "descriptionPlaceholder": "Please write down your issue in detail...",
+        "hint": "Providing error messages or screenshots speeds up the process."
+      },
+      "buttons": {
+        "submit": "Submit Ticket",
+        "sending": "Sending..."
+      }
+    },
+    "detail": {
+      "ticketId": "Ticket ID:",
+      "created": "Created:",
+      "supportTeam": "Support Team",
+      "me": "Me",
+      "ticketResolvedMessage": "This ticket is resolved. You can reopen it by sending a new message.",
+      "ticketClosedMessage": "This ticket is closed. You can reopen it by sending a new message.",
+      "messagePlaceholder": "Write your message...",
+      "ticketDetails": "Ticket Details",
+      "priority": "Priority",
+      "status": "Status",
+      "lastUpdate": "Last Update",
+      "replyTimePrefix": "Our support team usually replies within",
+      "replyTimeHighlight": "2-4 hours"
+    }
+  },
+  "AISettings": {
+    "title": "AI Configuration",
+    "subtitle": "Manage your AI's personality and knowledge base.",
+    "sections": {
+      "aiEnvironment": "AI Environment"
+    },
+    "fields": {
+      "brandVoice": "Brand Voice / Tone",
+      "knowledgeBase": "Knowledge Base (Context)",
+      "knowledgePlaceholder": "Describe your business, services, and key policies here...",
+      "knowledgeHint": "The AI will use this information to respond to all customer inquiries."
+    },
+    "buttons": {
+      "save": "Save Configuration",
+      "saving": "Synchronizing..."
+    }
+  },
+  "TeamSettings": {
+    "title": "Team Management",
+    "subtitle": "Manage your team members, roles and pending invitations.",
+    "buttons": {
+      "addMember": "Add Member",
+      "inviteFirst": "Invite First Member",
+      "sendInvite": "Send Invite"
+    },
+    "invite": {
+      "title": "Invite New Member",
+      "emailLabel": "Email Address",
+      "roleLabel": "Role",
+      "rolePlaceholder": "Select Role"
+    },
+    "roles": {
+      "member": "Member",
+      "agent": "Agent",
+      "admin": "Admin"
+    },
+    "table": {
+      "member": "Member",
+      "role": "Role",
+      "status": "Status",
+      "actions": "Actions",
+      "noName": "No Name",
+      "teamMembers": "Team Members ({count})"
+    },
+    "status": {
+      "pending": "Pending",
+      "active": "Active"
+    },
+    "tooltips": {
+      "cancelInvite": "Cancel Invitation",
+      "removeMember": "Remove Member"
+    },
+    "empty": {
+      "title": "No team members yet",
+      "description": "Invite your first team member to start collaborating on your projects."
+    },
+    "toasts": {
+      "emailRequired": "Please enter an email address.",
+      "inviteSent": "Invitation sent successfully",
+      "unexpectedError": "An unexpected error occurred.",
+      "removing": "Removing member...",
+      "memberRemoved": "Member removed successfully"
+    },
+    "confirmDeleteMember": "Are you sure you want to delete this team member or invitation?"
+  },
+  "Privacy": {
+    "title": "Privacy & GDPR",
+    "subtitle": "Manage your data and privacy settings in accordance with the General Data Protection Regulation (GDPR). Your privacy is our priority.",
+    "sections": {
+      "portabilityTitle": "Right to Portability",
+      "portabilityDesc": "Download a copy of all your data (Leads, Meetings, Conversations, Settings) in machine-readable JSON format.",
+      "forgottenTitle": "Right to be Forgotten",
+      "forgottenDesc": "Request full deletion of your account and all associated data. This action is irreversible according to GDPR Article 17."
+    },
+    "buttons": {
+      "export": "Export Data",
+      "delete": "Delete Data",
+      "processing": "Processing..."
+    },
+    "links": {
+      "privacy": "Read Privacy Policy",
+      "terms": "Standard Terms of Service"
+    },
+    "dpa": {
+      "title": "DPA Support",
+      "description": "Need a custom Data Processing Agreement (DPA) signed? Enterprise plans include fully compliant legal documentation tailored to your organization.",
+      "contact": "Contact Privacy Team"
+    },
+    "confirm": {
+      "delete": "Are you sure you want to request data deletion? This action follows GDPR Article 17 and will be processed within 30 days."
+    },
+    "messages": {
+      "exportSuccess": "Your data has been successfully exported.",
+      "exportError": "Failed to export data.",
+      "deleteSuccess": "Request received. We will process your data deletion within 30 days.",
+      "deleteError": "Failed to submit deletion request."
+    }
+  },
+  "Widget": {
+    "title": "WhatsApp Widget",
+    "subtitle": "Turn website visitors into leads instantly",
+    "toggle": {
+      "active": "Active"
+    },
+    "buttons": {
+      "saveChanges": "Save Changes"
+    },
+    "sections": {
+      "general": "General Configuration",
+      "appearance": "Appearance",
+      "embed": "Embed Code",
+      "preview": "Live Preview"
+    },
+    "fields": {
+      "phone": "WhatsApp Phone Number",
+      "phonePlaceholder": "e.g. +905001234567",
+      "phoneHint": "Include country code without special characters.",
+      "message": "Initial Message",
+      "messagePlaceholder": "I'm interested in...",
+      "messageHint": "The default message sent when they click the button.",
+      "color": "Button Color",
+      "position": "Position",
+      "buttonText": "Button Text",
+      "bubblePrompt": "Bubble Prompt"
+    },
+    "position": {
+      "bottomRight": "Bottom Right",
+      "bottomLeft": "Bottom Left"
+    },
+    "embed": {
+      "instruction": "Copy and paste this code before the closing </body> tag of your website.",
+      "noId": "Save the widget first to generate the embed code."
+    },
+    "preview": {
+      "simulator": "Browser Simulator"
+    },
+    "tip": "Tip: Once integrated, any visitor who starts a chat will be automatically added to your Leads list and can trigger AI sequences.",
+    "toasts": {
+      "saved": "Widget settings saved successfully!",
+      "saveFirst": "Please save your widget first!",
+      "copySuccess": "Embed code copied to clipboard!",
+      "copyError": "Failed to copy. Please select and copy manually."
+    }
+  },
+  "Webhooks": {
+    "title": "Webhooks",
+    "subtitle": "Configure outgoing webhooks to notify your external systems when events occur in our system.",
+    "form": {
+      "title": "Add New Webhook",
+      "urlLabel": "Payload URL",
+      "urlPlaceholder": "https://your-api.com/webhook",
+      "eventsLabel": "Events to subscribe to",
+      "submit": "Create Webhook"
+    },
+    "list": {
+      "title": "Configured Webhooks",
+      "empty": "No webhooks configured yet."
+    },
+    "events": {
+      "leadCreated": "Lead Created",
+      "leadUpdated": "Lead Updated",
+      "meetingBooked": "Meeting Booked",
+      "meetingCancelled": "Meeting Cancelled",
+      "messageReceived": "Message Received",
+      "allEvents": "ALL EVENTS"
+    },
+    "secret": "Secret: {value}"
+  },
+  "GeneralSettings": {
+    "title": "Business Profile",
+    "subtitle": "Manage your core business identity and regional preferences.",
+    "sections": {
+      "corporateIdentity": "Corporate Identity",
+      "globalPresence": "Global Presence"
+    },
+    "fields": {
+      "businessName": "Business Legal Name",
+      "businessNamePlaceholder": "e.g. Acme Corporation",
+      "timezone": "Regional Timezone",
+      "timezonePlaceholder": "Select Operational Timezone",
+      "language": "System Language",
+      "languagePlaceholder": "Select operational language"
+    },
+    "buttons": {
+      "save": "Update Corporate Identity",
+      "saving": "Synchronizing Profile..."
+    },
+    "sidebar": {
+      "description": "Your business entity data is used for invoicing, document generation, and AI contextualization. Ensure your legal name matches your tax records."
+    },
+    "toasts": {
+      "success": "Business profile updated successfully.",
+      "error": "An error occurred while saving settings: {error}"
+    }
+  },
+  "Billing": {
+    "title": "Billing & Subscription",
+    "subtitle": "Manage your plan, payments, and invoices safely via Paddle.",
+    "activePlan": {
+      "label": "Active Plan",
+      "managedByAdmin": "Managed by admin",
+      "renews": "Renews {date}",
+      "manageButton": "Manage Billing"
+    },
+    "planCard": {
+      "currentBadge": "Current Plan",
+      "perMonth": "/mo",
+      "active": "Active",
+      "upgrade": "Upgrade",
+      "downgrade": "Downgrade",
+      "downgradeHint": "To downgrade, use the Manage Billing button above.",
+      "free": "Free",
+      "loading": "..."
+    },
+    "cta": {
+      "upgradeHint": "Click a plan to upgrade · Instant activation · Cancel anytime",
+      "adminManaged": "Your plan is managed by the platform administrator. Contact support for billing enquiries."
+    },
+    "history": {
+      "title": "Billing History",
+      "subtitle": "Your recent payments and invoices.",
+      "date": "Date",
+      "planItem": "Plan / Item",
+      "amount": "Amount",
+      "status": "Status",
+      "invoice": "Invoice",
+      "view": "View"
+    }
+  },
+  "HelpCenter": {
+    "hero": {
+      "title": "How can we help you?",
+      "titleHighlight": "help you?",
+      "subtitle": "Search our knowledge base or browse categories below to master your AI pipeline.",
+      "searchPlaceholder": "Search articles (e.g. WhatsApp, billing, sequences)..."
+    },
+    "quickLinks": {
+      "docsTitle": "Documentation",
+      "docsDesc": "In-depth guides and reference docs for every feature.",
+      "videosTitle": "Video Tutorials",
+      "videosDesc": "Watch step-by-step setup guides for key workflows.",
+      "wizardTitle": "Quick Setup Wizard",
+      "wizardDesc": "Run the onboarding wizard to configure your account."
+    },
+    "categories": {
+      "heading": "Browse by Category",
+      "resultsFor": "Results for \"{query}\""
+    },
+    "noResults": {
+      "text": "No articles found for \"{query}\"",
+      "subtext": "Try a different keyword or open a support ticket below."
+    },
+    "cta": {
+      "title": "Still haven't found what you're looking for?",
+      "subtitle": "Our support team is always ready to help. Open a support ticket and we'll respond within 24 hours.",
+      "button": "Open Support Ticket"
+    },
+    "sheet": {
+      "tag": "Help Article",
+      "description": "Master your AI pipeline with this detailed guide."
+    },
+    "feedback": {
+      "title": "Was this helpful?",
+      "yes": "Yes, thanks!",
+      "no": "Not really..."
+    }
+  },
+  "MapsScraper": {
+    "title": "Google Maps Scraper",
+    "subtitle": "Search Google Maps to discover and import business leads.",
+    "configureApiKey": "Configure API Key",
+    "keyword": "Keyword",
+    "keywordPlaceholder": "e.g. dentist, restaurant, gym",
+    "location": "Location",
+    "locationPlaceholder": "e.g. Istanbul, London",
+    "radius": "Radius",
+    "maxResults": "Max Results",
+    "addToGroup": "Add to Group",
+    "noGroup": "— No Group —",
+    "search": "Search",
+    "searching": "Searching...",
+    "noResults": "No results found for this search.",
+    "resultsFound": "{count} results found",
+    "selectedCount": "{count} selected",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "importSelected": "Import {count} Lead(s)",
+    "importing": "Importing...",
+    "importSuccess": "{count} lead(s) imported successfully.",
+    "viewLeads": "View Leads →",
+    "business": "Business",
+    "address": "Address",
+    "contact": "Contact",
+    "rating": "Rating"
+  }
+}

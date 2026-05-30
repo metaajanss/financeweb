@@ -1,0 +1,322 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Jumpix Premium Purple Theme */
+    --background: 255 255 255;
+    --foreground: 10 10 10;
+
+    --surface: 252 252 252;
+    --surface-hover: 248 248 248;
+
+    --card: 255 255 255;
+    --card-foreground: 10 10 10;
+
+    --popover: 255 255 255;
+    --popover-foreground: 10 10 10;
+
+    --primary: 142 68 173; /* #8E44AD */
+    --primary-foreground: 255 255 255;
+
+    --secondary: 240 240 242;
+    --secondary-foreground: 10 10 10;
+
+    --accent: 250 250 250;
+    --accent-foreground: 142 68 173;
+
+    --muted: 97 97 107;
+    --muted-foreground: 97 97 107;
+
+    --border: 228 228 231;
+    --input: 228 228 231;
+    --ring: 142 68 173;
+
+    /* Glow/Neon Palette */
+    --neon-purple: 168 85 247; /* #A855F7 */
+    --neon-glow: 192 132 252; /* #C084FC */
+    --neon-deep: 124 58 237;  /* #7C3AED */
+
+    --radius: 0.75rem;
+
+    /* Rainbow Button Colors */
+    --color-1: 0 100% 63%;
+    --color-2: 270 100% 63%;
+    --color-3: 210 100% 63%;
+    --color-4: 195 100% 63%;
+    --color-5: 90 100% 63%;
+  }
+
+  .dark {
+    /* Premium Purple Dark Mode */
+    --background: 5 5 12;
+    --foreground: 250 250 250;
+
+    --surface: 12 12 20;
+    --surface-hover: 22 22 30;
+
+    --card: 12 12 20;
+    --card-foreground: 250 250 250;
+
+    --popover: 12 12 20;
+    --popover-foreground: 250 250 250;
+
+    --primary: 142 68 173; /* #8E44AD */
+    --primary-foreground: 255 255 255;
+
+    --secondary: 30 30 40;
+    --secondary-foreground: 250 250 250;
+
+    --accent: 30 30 40;
+    --accent-foreground: 168 85 247;
+
+    --muted: 161 161 170;
+    --muted-foreground: 161 161 170;
+
+    --border: 255 255 255;
+    --border-opacity: 0.1;
+    --input: 39 39 42;
+    --ring: 168 85 247;
+
+    /* Rainbow Button Colors (Dark Mode) */
+    --color-1: 0 100% 63%;
+    --color-2: 270 100% 63%;
+    --color-3: 210 100% 63%;
+    --color-4: 195 100% 63%;
+    --color-5: 90 100% 63%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-white/60 dark:bg-black/40 backdrop-blur-xl border border-white/20 dark:border-white/10 shadow-xl;
+  }
+
+  .glass-card {
+    @apply bg-white/50 dark:bg-white/5 backdrop-blur-lg border border-black/5 dark:border-white/10 transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-500 dark:from-white dark:to-gray-400;
+  }
+
+  .text-gradient-primary {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-zinc-900 to-zinc-500 dark:from-white dark:to-zinc-400;
+  }
+
+  /* JUMPIX DESIGN RULE: Primary buttons must use this gradient */
+  .btn-primary-gradient {
+    @apply bg-gradient-to-r from-[#8E44AD] to-[#4F46E5] text-white shadow-md hover:brightness-110 active:scale-[0.98] transition-all;
+  }
+}
+
+/* Aurora / Mesh Gradients effectively utilizing tailwind utilities usually, 
+   but here are some custom helpers */
+.mesh-gradient-bg {
+  background-image: radial-gradient(at 0% 0%, hsla(0, 0%, 90%, 0.1) 0, transparent 50%),
+    radial-gradient(at 50% 0%, hsla(0, 0%, 50%, 0.05) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(0, 0%, 20%, 0.05) 0, transparent 50%);
+}
+
+.dark .mesh-gradient-bg {
+  background-image: radial-gradient(at 0% 0%, hsla(0, 0%, 0%, 1) 0, transparent 50%),
+    radial-gradient(at 50% 0%, hsla(0, 0%, 10%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(0, 0%, 5%, 1) 0, transparent 50%);
+}
+
+/* Animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(var(--primary), 0.1);
+  }
+
+  50% {
+    box-shadow: 0 0 30px rgba(var(--primary), 0.3);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s infinite;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 200% 0;
+  }
+
+  to {
+    background-position: -200% 0;
+  }
+}
+
+.animate-shimmer {
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite linear;
+}
+
+/* Custom Driver.js Styling - Premium Dark/Glass Theme */
+.driver-popover.driverjs-theme {
+  background-color: #09090b !important;
+  /* Dark surface */
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.4) !important;
+  padding: 24px !important;
+  min-width: 320px !important;
+}
+
+.driver-popover.driverjs-theme .driver-popover-title {
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  margin-bottom: 8px !important;
+  letter-spacing: -0.02em !important;
+}
+
+.driver-popover.driverjs-theme .driver-popover-description {
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+  color: #a1a1aa !important;
+  /* Muted text */
+}
+
+.driver-popover.driverjs-theme .driver-popover-footer {
+  margin-top: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.driver-popover.driverjs-theme button {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  padding: 8px 16px !important;
+  border-radius: 8px !important;
+  border: none !important;
+  text-shadow: none !important;
+  transition: all 0.2s ease !important;
+}
+
+.driver-popover.driverjs-theme button:hover {
+  background-color: #f4f4f5 !important;
+  transform: translateY(-1px) !important;
+}
+
+.driver-popover.driverjs-theme .driver-popover-close-btn {
+  color: #71717a !important;
+  width: 24px !important;
+  height: 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.driver-popover.driverjs-theme .driver-popover-close-btn svg {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.driver-popover.driverjs-theme .driver-popover-close-btn:hover {
+  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 6px !important;
+}
+
+.driver-popover.driverjs-theme .driver-popover-progress-text {
+  color: #71717a !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+}
+
+.driver-popover.driverjs-theme .driver-popover-arrow {
+  border-color: #09090b !important;
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgb(var(--foreground) / 0.1);
+  border-radius: 100px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--foreground) / 0.2);
+}
+
+/* Premium Dashboard Animations */
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-soft {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 3s ease-in-out infinite;
+}
+
+.animate-fade-slide-up {
+  animation: fadeSlideUp 0.5s ease-out forwards;
+}
