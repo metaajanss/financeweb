@@ -155,7 +155,7 @@ export default async function RootLayout({
 
         {/* Third-Party Scripts (Moved out of head for performance & build health) */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-1M8CQLLNQ0"
+          src="https://www.googletagmanager.com/gtag/js?id=G-SGK1MR106K"
           strategy="lazyOnload"
         />
         <Script id="google-analytics" strategy="lazyOnload">
@@ -163,7 +163,7 @@ export default async function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-1M8CQLLNQ0', { send_page_view: false });
+            gtag('config', 'G-SGK1MR106K');
           `}
         </Script>
 
