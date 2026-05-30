@@ -1,14 +1,14 @@
 {
   "TestTranslations": "Dynamic Translation Test Success!",
-  "JumpixAssistant": {
-    "title": "AI Jumpix",
+  "PayoffLabAssistant": {
+    "title": "AI PayoffLab",
     "subtitle": "Intelligent Dashboard Assistant",
     "newChat": "New Chat",
     "history": "History",
     "placeholder": "Ask something...",
     "welcomeTitle": "How can I help you?",
     "welcomeDesc": "You can ask anything about your lead data, appointments, or platform usage. Gemini 1.5 Pro has access to all your dashboard data!",
-    "analyzing": "AI Jumpix is analyzing...",
+    "analyzing": "AI PayoffLab is analyzing...",
     "poweredBy": "Powered by Google Gemini 1.5 Pro",
     "suggestions": {
       "leads": "List the last 5 leads",
@@ -18,31 +18,31 @@
     }
   },
   "SEO": {
-    "defaultTitle": "Jumpix | AI-Powered Marketing Automation",
+    "defaultTitle": "PayoffLab | Debt Payoff Calculator",
     "defaultDescription": "Next-generation marketing automation and AI outreach platform. Find better leads, score intent, and automate your sales workflow.",
-    "titleTemplate": "%s | Jumpix",
+    "titleTemplate": "%s | PayoffLab",
     "pages": {
       "about": {
         "title": "About Us",
-        "description": "Learn about Jumpix mission, story, and values - the future of marketing automation."
+        "description": "Learn about PayoffLab mission, story, and values - the future of marketing automation."
       },
       "pricing": {
         "title": "Pricing Plans",
-        "description": "Affordable pricing plans for modern sales teams. Start with the essentials and scale with Jumpix."
+        "description": "Affordable pricing plans for modern sales teams. Start with the essentials and scale with PayoffLab."
       },
       "contact": {
         "title": "Contact Us",
         "description": "Have questions? Our team is here to help you optimize your sales workflow with AI."
       },
-      "aiJumpix": {
-        "title": "AI Jumpix Assistant",
+      "aiPayoffLab": {
+        "title": "AI PayoffLab Assistant",
         "description": "Chat with your dashboard data and get instant insights using Gemini 1.5 Pro."
       }
     }
   },
   "Blog": {
     "title": "Intelligence Feed",
-    "subtitle": "Jumpix Inside",
+    "subtitle": "PayoffLab Inside",
     "description": "Explorations in AI automation, appointment setting, and the future of B2B SaaS growth.",
     "featured": "Featured Insight",
     "readingTime": "{minutes} Min Read",
@@ -54,10 +54,10 @@
     "backLink": "Back to Insights",
     "shareTitle": "Share Insight",
     "didYouFindValuable": "Did you find this valuable?",
-    "valuableDescription": "Share this exploration with your network or start your own automation journey with Jumpix.",
-    "tryFree": "Try Jumpix Free",
+    "valuableDescription": "Share this exploration with your network or start your own automation journey with PayoffLab.",
+    "tryFree": "Try PayoffLab Free",
     "copyLink": "Copy Article Link",
-    "authorDefault": "Jumpix Editorial",
+    "authorDefault": "PayoffLab Editorial",
     "authorTag": "Expertise Writer"
   },
   "Navigation": {
@@ -89,18 +89,18 @@
     "setupWizard": "Setup Wizard",
     "myTickets": "My Support Tickets",
     "helpCenter": "Help Center",
-    "aiJumpix": "AI Jumpix",
+    "aiPayoffLab": "AI PayoffLab",
     "operations": "Operations",
     "support": "Support",
     "mapsScraper": "Maps Scraper"
   },
   "HomePage": {
-    "seoTitle": "Jumpix - The Ultimate AI Marketing Automation Tool",
-    "seoDescription": "Streamline your sales workflow with Jumpix. Features include lead scoring, enrichment, and automated outreach.",
-    "title": "Welcome to Jumpix",
+    "seoTitle": "PayoffLab - The Ultimate AI Marketing Automation Tool",
+    "seoDescription": "Streamline your sales workflow with PayoffLab. Features include lead scoring, enrichment, and automated outreach.",
+    "title": "Welcome to PayoffLab",
     "description": "The best place to manage your products.",
     "features": {
-      "heading": "Why Choose Jumpix?",
+      "heading": "Why Choose PayoffLab?",
       "subheading": "A complete suite of tools to scale your booking workflow without the manual effort.",
       "items": {
         "instantResponse": {
@@ -135,7 +135,7 @@
     "automationWebhooks": "Webhooks & Automation",
     "automationWebhooksSub": "Expand your data flow with custom webhooks",
     "platformFeatures": "Platform Features",
-    "platformFeaturesSub": "Manage additional features in your Jumpix dashboard.",
+    "platformFeaturesSub": "Manage additional features in your PayoffLab dashboard.",
     "twilio": {
       "phoneLabel": "WhatsApp Phone Number",
       "phonePlaceholder": "+905XXXXXXXXX",
@@ -154,7 +154,7 @@
       "verifiedDesc": "{number} is ready to use.",
       "webhookStatus": "Inbound Webhook Status",
       "webhookActive": "Active",
-      "webhookInfo": "Incoming messages are automatically processed. No additional setup required if using Jumpix's managed services.",
+      "webhookInfo": "Incoming messages are automatically processed. No additional setup required if using PayoffLab's managed services.",
       "checklistTitle": "Before You Start",
       "checklistItem1": "The number must not be registered on WhatsApp — if it is, first go to WhatsApp → Settings → Account → Delete Account",
       "checklistItem2": "It must be able to receive SMS or voice calls (for OTP verification)",
@@ -185,15 +185,15 @@
       "title": "Privacy Policy",
       "lastUpdated": "Last Updated: March 10, 2026",
       "section1Title": "1. INTRODUCTION",
-      "section1Content": "Jumpix (\"we,\" \"us,\" or \"our\") operates the marketing automation platform available at jumpix.app. This Privacy Policy explains how we collect, use, and share information from our users and their end-customers.",
+      "section1Content": "PayoffLab (\"we,\" \"us,\" or \"our\") operates the marketing automation platform available at PayoffLab.app. This Privacy Policy explains how we collect, use, and share information from our users and their end-customers.",
       "section2Title": "2. INFORMATION WE COLLECT",
-      "section2Content": "We collect the following types of information:\n- Personal Account Information: When you register for Jumpix, we collect your name, email address (via Zoho), and authentication details (processed through Supabase).\n- Payment Information: All payments are processed by our online reseller Paddle.com (Merchant of Record). We do not store your full credit card or bank details on our servers.\n- Marketing Data: We store information you upload for automation, such as email lists, contact names, and campaign content.\n- Usage Data: We may collect IP addresses, browser types, and usage patterns to improve our service.",
+      "section2Content": "We collect the following types of information:\n- Personal Account Information: When you register for PayoffLab, we collect your name, email address (via Zoho), and authentication details (processed through Supabase).\n- Payment Information: All payments are processed by our online reseller Paddle.com (Merchant of Record). We do not store your full credit card or bank details on our servers.\n- Marketing Data: We store information you upload for automation, such as email lists, contact names, and campaign content.\n- Usage Data: We may collect IP addresses, browser types, and usage patterns to improve our service.",
       "section3Title": "3. HOW WE USE YOUR INFORMATION",
-      "section3Content": "We use your information to:\n- Provide, operate, and maintain Jumpix's marketing automation features.\n- Process your transactions via Paddle.\n- Send system notifications (via Resend) and customer support emails (via Zoho).\n- Prevent fraud and ensure compliance with Anti-Spam policies.",
+      "section3Content": "We use your information to:\n- Provide, operate, and maintain PayoffLab's marketing automation features.\n- Process your transactions via Paddle.\n- Send system notifications (via Resend) and customer support emails (via Zoho).\n- Prevent fraud and ensure compliance with Anti-Spam policies.",
       "section4Title": "4. THIRD-PARTY SERVICES",
       "section4Content": "We share data with trusted third-party providers only to fulfill our services: Paddle.com (Payment processing), Supabase (Backend database and user authentication), Resend (Transactional and marketing email delivery), and Zoho (Corporate email communication).",
       "section5Title": "5. DATA OWNERSHIP AND THE GDPR / KVKK",
-      "section5Content": "You are the Data Controller for any customer data (e.g., your email lists) you upload to Jumpix. We act as the Data Processor. You represent that you have obtained all necessary consents from your customers to process their data via Jumpix. Users in the EU (GDPR) or Turkey (KVKK) have the right to access, correct, or delete their personal data.",
+      "section5Content": "You are the Data Controller for any customer data (e.g., your email lists) you upload to PayoffLab. We act as the Data Processor. You represent that you have obtained all necessary consents from your customers to process their data via PayoffLab. Users in the EU (GDPR) or Turkey (KVKK) have the right to access, correct, or delete their personal data.",
       "section6Title": "6. DATA SECURITY",
       "section6Content": "We use industry-standard security measures, including SSL encryption and secure database protocols provided by Supabase, to protect your data. However, no method of transmission over the internet is 100% secure.",
       "section7Title": "7. COOKIES",
@@ -201,49 +201,49 @@
       "section8Title": "8. CHANGES TO THIS POLICY",
       "section8Content": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the \"Last Updated\" date.",
       "section9Title": "9. CONTACT US",
-      "section9Content": "For any questions regarding this Privacy Policy, please contact us at hello@jumpix.app or jumpix.app."
+      "section9Content": "For any questions regarding this Privacy Policy, please contact us at hello@PayoffLab.app or PayoffLab.app."
     },
     "refundPolicy": {
       "title": "Refund Policy",
       "lastUpdated": "Last Updated: March 10, 2026",
       "section1Title": "1. INTRODUCTION",
-      "section1Content": "Thank you for choosing Jumpix (jumpix.app). Our goal is to ensure our marketing automation tools meet your business needs. As our payments are processed by our online reseller Paddle.com (Merchant of Record), refunds are subject to these terms and Paddle’s general conditions.",
+      "section1Content": "Thank you for choosing PayoffLab (PayoffLab.app). Our goal is to ensure our marketing automation tools meet your business needs. As our payments are processed by our online reseller Paddle.com (Merchant of Record), refunds are subject to these terms and Paddle’s general conditions.",
       "section2Title": "2. SUBSCRIPTION CANCELLATIONS",
-      "section2Content": "You may cancel your Jumpix subscription at any time through your account dashboard. Upon cancellation, your account will remain active until the end of the current paid billing cycle, and you will not be charged for the following period.",
+      "section2Content": "You may cancel your PayoffLab subscription at any time through your account dashboard. Upon cancellation, your account will remain active until the end of the current paid billing cycle, and you will not be charged for the following period.",
       "section3Title": "3. REFUND ELIGIBILITY",
       "section3Content": "Monthly Subscriptions: We generally do not offer refunds for monthly subscriptions once the billing period has started. However, if you experience technical issues that prevent you from using the Service, please contact us within 14 days of the transaction.\nAnnual Subscriptions: Refunds for annual plans may be considered on a case-by-case basis if requested within 30 days of the purchase, subject to the deduction of the standard monthly rate for the period used.",
       "section4Title": "4. EXCEPTIONS (NON-REFUNDABLE)",
-      "section4Content": "Refunds will not be granted in the following cases:\n- Accounts suspended or terminated due to violations of our Terms of Service (e.g., sending SPAM, illegal content).\n- Users who have significantly used the automation features (e.g., sent a large volume of emails) during the billing period.\n- Issues arising from third-party services integrated with Jumpix.",
+      "section4Content": "Refunds will not be granted in the following cases:\n- Accounts suspended or terminated due to violations of our Terms of Service (e.g., sending SPAM, illegal content).\n- Users who have significantly used the automation features (e.g., sent a large volume of emails) during the billing period.\n- Issues arising from third-party services integrated with PayoffLab.",
       "section5Title": "5. HOW TO REQUEST A REFUND",
-      "section5Content": "To request a refund, please email us at hello@jumpix.app with your transaction details and the reason for your request. Alternatively, you can contact Paddle Support directly as they are our authorized reseller.",
+      "section5Content": "To request a refund, please email us at hello@PayoffLab.app with your transaction details and the reason for your request. Alternatively, you can contact Paddle Support directly as they are our authorized reseller.",
       "section6Title": "6. PROCESSING REFUNDS",
       "section6Content": "Approved refunds will be processed via Paddle using the original payment method. Depending on your financial institution, it may take 5–10 business days for the credit to appear on your statement.",
       "section7Title": "7. CONTACT US",
-      "section7Content": "For any questions regarding our Refund Policy, please contact us at hello@jumpix.app or jumpix.app."
+      "section7Content": "For any questions regarding our Refund Policy, please contact us at hello@PayoffLab.app or PayoffLab.app."
     },
     "termsOfService": {
       "title": "Terms of Service",
       "lastUpdated": "Last Updated: March 10, 2026",
       "section1Title": "1. ACCEPTANCE OF TERMS",
-      "section1Content": "By accessing or using Jumpix (the \"Service\"), a marketing automation platform operated via jumpix.app, you agree to be bound by these Terms of Service (\"Terms\"). If you do not agree to these terms, please do not use the Service.",
+      "section1Content": "By accessing or using PayoffLab (the \"Service\"), a marketing automation platform operated via PayoffLab.app, you agree to be bound by these Terms of Service (\"Terms\"). If you do not agree to these terms, please do not use the Service.",
       "section2Title": "2. DESCRIPTION OF SERVICE",
-      "section2Content": "Jumpix provides marketing automation tools, including but not limited to email campaigns, lead management, and automation workflows. We reserve the right to modify or discontinue any feature of the Service at any time.",
+      "section2Content": "PayoffLab provides marketing automation tools, including but not limited to email campaigns, lead management, and automation workflows. We reserve the right to modify or discontinue any feature of the Service at any time.",
       "section3Title": "3. PADDLE AS MERCHANT OF RECORD",
-      "section3Content": "Our order process is conducted by our online reseller Paddle.com. Paddle.com is the Merchant of Record for all our orders. Paddle handles all customer service inquiries and returns related to payments. By subscribing to Jumpix, you also agree to Paddle’s Terms and Conditions.",
+      "section3Content": "Our order process is conducted by our online reseller Paddle.com. Paddle.com is the Merchant of Record for all our orders. Paddle handles all customer service inquiries and returns related to payments. By subscribing to PayoffLab, you also agree to Paddle’s Terms and Conditions.",
       "section4Title": "4. USER ACCOUNTS AND SECURITY",
-      "section4Content": "To use Jumpix, you must create an account. You are responsible for maintaining the confidentiality of your credentials and for all activities that occur under your account. You must notify us immediately of any unauthorized use.",
+      "section4Content": "To use PayoffLab, you must create an account. You are responsible for maintaining the confidentiality of your credentials and for all activities that occur under your account. You must notify us immediately of any unauthorized use.",
       "section5Title": "5. ACCEPTABLE USE AND ANTI-SPAM POLICY",
-      "section5Content": "Jumpix strictly prohibits the use of the Service for sending unsolicited emails (SPAM). You may only send marketing communications to recipients who have given explicit consent (Opt-in). You must comply with all applicable laws, including but not limited to CAN-SPAM Act, GDPR, and KVKK. We reserve the right to suspend accounts with high bounce rates or spam complaints.",
+      "section5Content": "PayoffLab strictly prohibits the use of the Service for sending unsolicited emails (SPAM). You may only send marketing communications to recipients who have given explicit consent (Opt-in). You must comply with all applicable laws, including but not limited to CAN-SPAM Act, GDPR, and KVKK. We reserve the right to suspend accounts with high bounce rates or spam complaints.",
       "section6Title": "6. PAYMENTS AND SUBSCRIPTIONS",
       "section6Content": "Subscriptions are billed in advance on a recurring cycle (monthly or annually). You may cancel your subscription at any time through your dashboard. Access will continue until the end of the current billing period. Refund requests are handled in accordance with our Refund Policy and via Paddle’s support.",
       "section7Title": "7. DATA OWNERSHIP AND PRIVACY",
-      "section7Content": "You retain all rights to the data you upload to Jumpix (e.g., email lists). Our use of your personal data and your customers' data is governed by our Privacy Policy.",
+      "section7Content": "You retain all rights to the data you upload to PayoffLab (e.g., email lists). Our use of your personal data and your customers' data is governed by our Privacy Policy.",
       "section8Title": "8. LIMITATION OF LIABILITY",
-      "section8Content": "Jumpix is provided \"as is.\" To the maximum extent permitted by law, Jumpix shall not be liable for any indirect, incidental, or consequential damages resulting from the use or inability to use the Service.",
+      "section8Content": "PayoffLab is provided \"as is.\" To the maximum extent permitted by law, PayoffLab shall not be liable for any indirect, incidental, or consequential damages resulting from the use or inability to use the Service.",
       "section9Title": "9. TERMINATION",
       "section9Content": "We reserve the right to terminate or suspend your access to the Service immediately, without prior notice, if you breach these Terms.",
       "section10Title": "10. CONTACT US",
-      "section10Content": "If you have any questions about these Terms, please contact us at hello@jumpix.app or via jumpix.app."
+      "section10Content": "If you have any questions about these Terms, please contact us at hello@PayoffLab.app or via PayoffLab.app."
     }
   },
   "CookieConsent": {
@@ -257,7 +257,7 @@
       "badgeText": "Built for faster pipeline execution",
       "badgeLink": "Revenue teams",
       "title": "Find better leads, score intent, and launch outreach from one AI workspace.",
-      "description": "Jumpix gives modern sales teams one clean system to discover prospects, qualify demand, and move from signal to sequence without scattered tools.",
+      "description": "PayoffLab gives modern sales teams one clean system to discover prospects, qualify demand, and move from signal to sequence without scattered tools.",
       "messageLabel": "Operator view",
       "messageText": "Find VP Marketing contacts at B2B SaaS companies in London, enrich them, and push high-intent leads into a new sequence.",
       "primaryCta": "Get Started",
@@ -291,13 +291,13 @@
         "ribbonLabel": "Active workflow",
         "readyTitle": "Sequence ready",
         "readyText": "Verified leads can be pushed in one click.",
-        "dashboardAlt": "Jumpix workspace preview"
+        "dashboardAlt": "PayoffLab workspace preview"
       }
     },
     "IntegrationsShowcase": {
       "badge": "CONNECTED ECOSYSTEM",
       "title": "Works with your existing stack",
-      "description": "Jumpix connects seamlessly with the tools your team already uses. HubSpot, CRM, Slack, and Gmail. No complex setups, just pure productivity.",
+      "description": "PayoffLab connects seamlessly with the tools your team already uses. HubSpot, CRM, Slack, and Gmail. No complex setups, just pure productivity.",
       "cta": "Explore all integrations"
     },
     "Features": {
@@ -359,7 +359,7 @@
           "name": "Free",
           "price": "0",
           "period": "/mo",
-          "description": "Ideal for exploring Jumpix's core features.",
+          "description": "Ideal for exploring PayoffLab's core features.",
           "features": [
             "All Integrations Included",
             "AI Intent Scoring",
@@ -584,17 +584,17 @@
     "FAQ": {
       "title": "Questions, answered clearly",
       "subtitle": "FAQ",
-      "description": "Everything you need to know before you connect your workflow, invite the team, or move billing into Jumpix.",
+      "description": "Everything you need to know before you connect your workflow, invite the team, or move billing into PayoffLab.",
       "supportLabel": "Talk to support",
       "supportHref": "/contact",
       "questions": [
         {
-          "q": "What is Jumpix exactly and how does it differ from a CRM?",
-          "a": "While a CRM is a system of record, Jumpix is an execution layer. It gathers leads from various channels (Google Ads, WhatsApp, Forms), scores them using AI, and manages automated follow-up sequences via Gmail and WhatsApp. It allows you to run your operations in Jumpix without cluttering your CRM, syncing only qualified leads."
+          "q": "What is PayoffLab exactly and how does it differ from a CRM?",
+          "a": "While a CRM is a system of record, PayoffLab is an execution layer. It gathers leads from various channels (Google Ads, WhatsApp, Forms), scores them using AI, and manages automated follow-up sequences via Gmail and WhatsApp. It allows you to run your operations in PayoffLab without cluttering your CRM, syncing only qualified leads."
         },
         {
           "q": "Do you offer lead discovery or a global database?",
-          "a": "Currently, Jumpix focuses on optimizing inbound lead operations. It is uniquely powerful at capturing and processing leads from Google Ads, Meta, and Web forms. Our B2B database feature is on our roadmap and will be available soon."
+          "a": "Currently, PayoffLab focuses on optimizing inbound lead operations. It is uniquely powerful at capturing and processing leads from Google Ads, Meta, and Web forms. Our B2B database feature is on our roadmap and will be available soon."
         },
         {
           "q": "How does the AI work? Will it really save my team time?",
@@ -602,7 +602,7 @@
         },
         {
           "q": "Are the WhatsApp and Gmail integrations secure?",
-          "a": "Yes. Jumpix utilizes WhatsApp Business API and Google OAuth protocols. Your data is end-to-end encrypted and used only for the flows you authorize. Data security is at the core of our platform."
+          "a": "Yes. PayoffLab utilizes WhatsApp Business API and Google OAuth protocols. Your data is end-to-end encrypted and used only for the flows you authorize. Data security is at the core of our platform."
         },
         {
           "q": "Which CRMs and tools do you integrate with?",
@@ -610,7 +610,7 @@
         },
         {
           "q": "Can I really manage everything in \"one single flow\"?",
-          "a": "Absolutely. You can build the \"Capture -> Score -> Sequence -> Meeting -> Sync\" cycle as a single Revenue Workflow within Jumpix. We close all the operational gaps between lead capture and pipeline visibility."
+          "a": "Absolutely. You can build the \"Capture -> Score -> Sequence -> Meeting -> Sync\" cycle as a single Revenue Workflow within PayoffLab. We close all the operational gaps between lead capture and pipeline visibility."
         }
       ]
     },
@@ -619,7 +619,7 @@
       "title_start": "Transform Your Sales",
       "title_end": "Processes Today.",
       "description1": "Talk to your data, automate your workflows, and unleash your team's potential.",
-      "description2": "With Jumpix, every interaction turns into an opportunity.",
+      "description2": "With PayoffLab, every interaction turns into an opportunity.",
       "getStarted": "Start for Free",
       "requestDemo": "Request Demo",
       "trustBadge": "Companies & Global Trust"
@@ -866,7 +866,7 @@
           }
         }
       },
-      "rights": "© {year} Jumpix Inc. All rights reserved.",
+      "rights": "© {year} PayoffLab Inc. All rights reserved.",
       "status": "System Status",
       "support": "Support"
     },
@@ -984,7 +984,7 @@
     },
     "Mockups": {
       "hero": {
-        "workspace": "jumpix-workspace",
+        "workspace": "PayoffLab-workspace",
         "newLeads": "New Leads",
         "qualifying": "Qualifying",
         "qualified": "Qualified",
@@ -1036,7 +1036,7 @@
       "passwordPlaceholder": "Enter your password",
       "rememberMe": "Remember Me",
       "forgotPassword": "Forgot Password?",
-      "submit": "Sign in to Jumpix",
+      "submit": "Sign in to PayoffLab",
       "noAccount": "Don't have an account yet?",
       "signUp": "Sign Up",
       "securityVerification": "Security Verification"
@@ -1067,7 +1067,7 @@
     },
     "divider": "Or",
     "hero": {
-      "title": "Welcome to the World of Jumpix",
+      "title": "Welcome to the World of PayoffLab",
       "subtitle": "Manage your sales processes from a single platform, increase your productivity with AI.",
       "mockup": {
         "triggerTitle": "New Lead Added",
@@ -1328,7 +1328,7 @@
   },
   "Tour": {
     "step1": {
-      "title": "Welcome to Jumpix! 🚀",
+      "title": "Welcome to PayoffLab! 🚀",
       "description": "Let us show you around your new AI-powered appointment assistant. This will only take a minute."
     },
     "step2": {
@@ -1369,7 +1369,7 @@
     "customerSuccess": {
       "eyebrow": "Customer Success",
       "title": "Turn post-sale follow-up into a measurable customer expansion workflow",
-      "description": "Jumpix helps customer-success teams centralize account signals, prioritize at-risk or expansion-ready customers, and launch the right follow-up through inbox, WhatsApp, calendar, and CRM-connected workflows.",
+      "description": "PayoffLab helps customer-success teams centralize account signals, prioritize at-risk or expansion-ready customers, and launch the right follow-up through inbox, WhatsApp, calendar, and CRM-connected workflows.",
       "outcomes": {
         "fasterRisk": {
           "title": "Faster risk response",
@@ -1388,7 +1388,7 @@
     "sales": {
       "eyebrow": "Sales Teams",
       "title": "Turn every serious lead into a sales conversation before momentum fades",
-      "description": "Jumpix gives sales teams a practical execution layer: capture inbound demand, score intent with context, launch multichannel follow-up, and move qualified opportunities to meeting stage faster.",
+      "description": "PayoffLab gives sales teams a practical execution layer: capture inbound demand, score intent with context, launch multichannel follow-up, and move qualified opportunities to meeting stage faster.",
       "outcomes": {
         "fasterReply": {
           "title": "Reply faster on high-intent leads",
@@ -1403,7 +1403,7 @@
     "marketing": {
       "eyebrow": "Marketing Teams",
       "title": "Help marketing teams turn campaign demand into qualified pipeline",
-      "description": "Jumpix should show marketing leaders that campaign performance does not stop at the lead form. It continues through routing, qualification, and sales handoff quality.",
+      "description": "PayoffLab should show marketing leaders that campaign performance does not stop at the lead form. It continues through routing, qualification, and sales handoff quality.",
       "outcomes": {
         "cleanIntake": {
           "title": "Cleaner lead intake",

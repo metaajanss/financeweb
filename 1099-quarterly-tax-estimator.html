@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1099 Quarterly Tax Estimator — Self-Employed Tax Calculator</title>
+<meta name="description" content="Free 1099 quarterly tax estimator for freelancers and self-employed. Calculate federal income tax, self-employment tax, and when you need to make quarterly payments. No signup.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://YOURDOMAIN.com/1099-quarterly-tax-estimator/">
+
+<!-- GOOGLE ADSENSE loader goes here -->
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is a 1099 quarterly tax payment?","acceptedAnswer":{"@type":"Answer","text":"If you're self-employed and expect to owe $1,000 or more in taxes for the year, the IRS requires you to pay taxes in four quarterly installments during the year, rather than waiting until April 15. Quarterly payments are due April 15, June 15, September 15, and January 15."}},
+{"@type":"Question","name":"How much should I set aside for taxes as a freelancer?","acceptedAnswer":{"@type":"Answer","text":"A common rule is to set aside 25–30% of your net self-employment income. This covers federal income tax, self-employment tax (Social Security and Medicare), and a state income tax estimate. This calculator helps you narrow it down."}},
+{"@type":"Question","name":"What if I don't make quarterly payments?","acceptedAnswer":{"@type":"Answer","text":"You'll owe a penalty and interest when you file your tax return. The penalty is smaller if your payments get close enough to your actual tax, so it's important to estimate accurately using your year-to-date income."}}]}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --ink:#1c1a16;--paper:#f6f2e9;--paper-2:#fffdf7;--line:#d9d1bf;--muted:#6f6856;
+    --est:#9a6a2f;--est-soft:#f0e3cf;      /* estimated payment = bronze */
+    --warn:#a9842a;--warn-soft:#fde5bf;    /* warning/balance = gold */
+    --shadow:0 1px 0 rgba(28,26,22,.04),0 18px 40px -22px rgba(28,26,22,.35);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Hanken Grotesk',-apple-system,sans-serif;background:var(--paper);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(circle at 12% -5%,rgba(169,132,42,.07),transparent 40%),radial-gradient(circle at 92% 0%,rgba(11,107,83,.06),transparent 38%);}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 22px}
+  header{padding:34px 0 6px}.topbar{display:flex;align-items:center}
+  .brand{display:flex;align-items:center;gap:11px;font-family:'Fraunces',serif;font-weight:600;font-size:19px;letter-spacing:-.01em}
+  .brand .dot{width:13px;height:13px;border-radius:3px;background:var(--warn)}
+  nav{margin-left:auto;display:flex;gap:18px;font-size:13.5px;font-weight:600}
+  nav a{color:var(--muted);text-decoration:none}nav a:hover{color:var(--ink)}
+  .hero{padding:30px 0 18px;max-width:760px}
+  .eyebrow{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:14px}
+  h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(31px,5vw,50px);line-height:1.04;letter-spacing:-.02em}
+  h1 em{font-style:italic;color:var(--warn)}
+  .lede{margin-top:16px;font-size:17px;color:var(--muted);max-width:620px}
+  .ad-slot{margin:22px 0;min-height:92px;border:1px dashed var(--line);border-radius:12px;display:flex;align-items:center;justify-content:center;background:repeating-linear-gradient(45deg,transparent,transparent 9px,rgba(217,209,191,.18) 9px,rgba(217,209,191,.18) 18px);color:var(--muted);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+  .grid{display:grid;grid-template-columns:1.05fr 1.25fr;gap:26px;margin-top:14px;align-items:start}
+  @media(max-width:860px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--paper-2);border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:var(--shadow)}
+  .card h2{font-family:'Fraunces',serif;font-weight:600;font-size:20px;letter-spacing:-.01em;margin-bottom:4px}
+  .card .sub{font-size:13.5px;color:var(--muted);margin-bottom:18px}
+  .group{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:8px 0 12px}
+  label.field{display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--muted);font-weight:600;margin-bottom:14px}
+  .three{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}@media(max-width:480px){.three{grid-template-columns:1fr}}
+  input[type=number]{font-family:'Hanken Grotesk',sans-serif;font-size:15px;color:var(--ink);border:1px solid var(--line);background:#fff;border-radius:9px;padding:11px;width:100%;font-weight:500;transition:border-color .15s,box-shadow .15s}
+  input:focus{outline:none;border-color:var(--warn);box-shadow:0 0 0 3px var(--warn-soft)}
+  .calc-btn{margin-top:8px;width:100%;background:var(--ink);color:var(--paper-2);font-family:'Fraunces',serif;font-weight:600;font-size:17px;border:none;border-radius:11px;padding:15px;cursor:pointer;letter-spacing:-.01em;transition:transform .12s}
+  .calc-btn:hover{background:#000;transform:translateY(-1px)}
+  .verdict{border-radius:14px;padding:20px 22px;margin-bottom:18px;border:1px solid var(--line);background:linear-gradient(180deg,#fff,var(--paper));position:relative;overflow:hidden}
+  .verdict:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--warn)}
+  .verdict h3{font-family:'Fraunces',serif;font-size:15px;letter-spacing:.02em;color:var(--muted);font-weight:600;margin-bottom:8px;text-transform:uppercase}
+  .verdict .big{font-family:'Fraunces',serif;font-size:clamp(24px,3.8vw,31px);font-weight:600;letter-spacing:-.02em;line-height:1.1}
+  .verdict .big b{color:var(--warn)}
+  .verdict p{font-size:14px;color:var(--muted);margin-top:8px}
+  .qtable{width:100%;border-collapse:collapse;margin-top:16px}
+  .qtable th,.qtable td{text-align:right;padding:10px;border-bottom:1px solid var(--line);font-size:14px}
+  .qtable th{background:var(--est-soft);font-family:'Fraunces',serif;font-weight:600;color:var(--ink)}
+  .qtable td:first-child,.qtable th:first-child{text-align:left;padding-left:14px}
+  .qtable .label{color:var(--muted);font-weight:600}
+  .qtable .amount{font-weight:700;font-variant-numeric:tabular-nums}
+  .qtable .date{color:var(--muted);font-size:13px}
+  .breakdown{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:16px}
+  @media(max-width:480px){.breakdown{grid-template-columns:1fr}}
+  .item{border:1px solid var(--line);border-radius:11px;padding:16px;background:#fff}
+  .item .label{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700}
+  .item .val{font-family:'Fraunces',serif;font-size:22px;font-weight:600;margin-top:8px;font-variant-numeric:tabular-nums}
+  .placeholder{color:var(--muted);font-size:14px;text-align:center;padding:40px 10px}
+  .content{max-width:760px;margin:46px auto 0;padding-top:30px;border-top:1px solid var(--line)}
+  .content h2{font-family:'Fraunces',serif;font-weight:600;font-size:27px;letter-spacing:-.01em;margin:34px 0 12px}
+  .content h3{font-family:'Fraunces',serif;font-weight:600;font-size:19px;margin:24px 0 8px}
+  .content p{margin-bottom:14px;color:#3a362d}.content ul{margin:0 0 16px 20px;color:#3a362d}.content li{margin-bottom:7px}
+  .faq details{border-bottom:1px solid var(--line);padding:15px 0}
+  .faq summary{font-family:'Fraunces',serif;font-weight:600;font-size:17px;cursor:pointer;list-style:none}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary:before{content:"+";color:var(--warn);font-weight:700;margin-right:10px}
+  .faq details[open] summary:before{content:"–"}
+  .faq p{margin-top:10px;color:var(--muted)}
+  footer{margin:50px 0 30px;padding-top:22px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);text-align:center}
+  .disclaimer{font-size:12px;color:var(--muted);margin-top:14px;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><div class="topbar">
+    <div class="brand"><span class="dot"></span> PayoffLab</div>
+    <nav><a href="../debt-snowball-vs-avalanche-calculator/">Debt</a><a href="../rent-vs-buy-calculator/">Housing</a><a href="../take-home-pay-calculator/">Income</a></nav>
+  </div></header>
+
+  <section class="hero">
+    <div class="eyebrow">Self-Employed Tax Planner</div>
+    <h1>1099 Quarterly <em>Tax</em> Estimator</h1>
+    <p class="lede">Enter your year-to-date self-employment income and we'll calculate your federal income tax, self-employment tax (Social Security + Medicare), estimated quarterly payment, and your total tax due for the year.</p>
+  </section>
+
+  <div class="ad-slot" data-ad="top">Ad&nbsp;·&nbsp;Leaderboard&nbsp;728×90</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Your income</h2>
+      <div class="sub">Enter your net self-employment income (revenue minus deductible business expenses).</div>
+      <label class="field">Net self-employment income YTD ($)<input type="number" id="income" value="65000" step="500"></label>
+      <div class="group">quarterly breakdown</div>
+      <div class="three">
+        <label class="field">Q1 ($)<input type="number" id="q1" value="15000" step="500"></label>
+        <label class="field">Q2 ($)<input type="number" id="q2" value="16000" step="500"></label>
+        <label class="field">Q3 ($)<input type="number" id="q3" value="17000" step="500"></label>
+      </div>
+      <div class="group">tax estimates</div>
+      <div class="three">
+        <label class="field">Federal tax rate (%)<input type="number" id="fedRate" value="24" step="1"></label>
+        <label class="field">State tax rate (%)<input type="number" id="stateRate" value="5.5" step="0.5"></label>
+        <label class="field">Tax deductions ($)<input type="number" id="deduct" value="0" step="100"></label>
+      </div>
+      <p style="font-size:12.5px;color:var(--muted);margin-bottom:16px">Self-employment tax (15.3%) is calculated automatically. See below for more context on each rate.</p>
+      <button class="calc-btn" id="calcBtn">Calculate quarterly payments →</button>
+    </div>
+    <div id="results"><div class="card"><div class="placeholder">Your quarterly payment schedule and tax breakdown will appear here.</div></div></div>
+  </div>
+
+  <div class="ad-slot" data-ad="mid">Ad&nbsp;·&nbsp;In-content&nbsp;Responsive</div>
+
+  <article class="content">
+    <h2>Understanding 1099 quarterly taxes</h2>
+    <p>As a self-employed person, you're responsible for paying income tax <strong>throughout the year</strong>, not just at filing time. If you'll owe $1,000 or more, the IRS expects four equal quarterly payments. Miss them and you'll owe penalties and interest when you file.</p>
+    <h3>What goes into each quarterly payment</h3>
+    <p>Your payment covers three things: (1) federal income tax, (2) state income tax, and (3) self-employment tax. The first two depend on your tax bracket and state. The third—self-employment tax—is fixed at 15.3% of your net income and covers your Social Security and Medicare contributions (since you don't have an employer doing it for you).</p>
+    <h3>Estimated vs. actual tax</h3>
+    <p>These quarterly payments are <strong>estimates</strong>. At tax time, you'll true up with your actual return. If you overpaid, you get a refund; if you underpaid, you owe the difference. So it's okay if your actual income differs from what you guessed — the calculator shows you the right starting point.</p>
+    <h2>How to estimate your federal rate</h2>
+    <ul>
+      <li><strong>Single, $65,000 net income:</strong> roughly 24% combined federal + FICA. Adjust up if you're higher income or married filing separately, down if you're lower.</li>
+      <li><strong>Use the IRS Form 1040 instructions</strong> or a tax professional for precision, but 20–30% is a safe ballpark for most self-employed earners.</li>
+    </ul>
+    <h2>State income tax</h2>
+    <ul>
+      <li>No state income tax: CA, FL, NV, SD, TN, TX, WA, WY — use 0%.</li>
+      <li>Low (2–5%): NV, OK, WA, CO, IN, KY, LA, MS, MO, NM.</li>
+      <li>High (6–13%): CA, NY, OR, IA, VT, NJ.</li>
+    </ul>
+    <h2>Frequently asked questions</h2>
+    <div class="faq">
+      <details><summary>What if my income is uneven?</summary><p>Enter your Q1, Q2, Q3 income separately and the calculator will show each quarter's payment. If Q4 is unknown, the tool uses year-to-date to estimate a quarterly amount you can apply to all remaining quarters.</p></details>
+      <details><summary>Can I pay less if I'm low-income?</summary><p>If you expect to owe under $1,000 total, you don't technically have to make quarterly payments — but it's still a good idea to set the money aside. File your return and pay what you owe in April.</p></details>
+      <details><summary>Is this data private?</summary><p>Yes. Everything runs in your browser. Nothing is saved or sent anywhere.</p></details>
+    </div>
+    <p class="disclaimer">For educational and estimation purposes only; not tax advice. Results depend heavily on your actual tax filing status, deductions, and state. Consult a qualified tax professional or use official IRS resources before making payments.</p>
+  </article>
+
+  <div class="ad-slot" data-ad="bottom">Ad&nbsp;·&nbsp;Responsive</div>
+  <footer>© <span id="yr"></span> PayoffLab · Free 1099 tax calculator · Runs entirely in your browser</footer>
+</div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+const usd=n=>'$'+Math.round(n).toLocaleString('en-US');
+const num=id=>parseFloat(document.getElementById(id).value)||0;
+
+function render(){
+  const income=num('income'), q1=num('q1'), q2=num('q2'), q3=num('q3');
+  const fedRate=num('fedRate')/100, stateRate=num('stateRate')/100, deduct=num('deduct');
+  const res=document.getElementById('results');
+  if(income<=0){res.innerHTML=`<div class="card"><div class="placeholder">Enter your net self-employment income to begin.</div></div>`;return;}
+
+  const seIncome=Math.max(0,income-deduct);
+  const seTax=seIncome*0.153;  // 15.3% self-employment tax
+  const federalIncome=Math.max(0,seIncome*fedRate);
+  const stateIncome=Math.max(0,seIncome*stateRate);
+  const quarterlyPayment=Math.round((seTax+federalIncome+stateIncome)/4);
+  const totalTax=seTax+federalIncome+stateIncome;
+
+  // per quarter breakdown
+  const quarters=[
+    {name:'Q1 (Apr 15)',income:q1},
+    {name:'Q2 (Jun 15)',income:q2},
+    {name:'Q3 (Sep 15)',income:q3},
+    {name:'Q4 (Jan 15 next yr)',income:income-q1-q2-q3}
+  ];
+  let qtableHTML=`<table class="qtable"><tr><th>Quarter</th><th>Estimated Payment</th></tr>`;
+  quarters.forEach(q=>{
+    const seTaxQ=q.income*0.153;
+    const fedQ=q.income*fedRate;
+    const stateQ=q.income*stateRate;
+    const payQ=Math.round(seTaxQ+fedQ+stateQ);
+    qtableHTML+=`<tr><td class="label">${q.name}</td><td class="amount">${usd(payQ)}</td></tr>`;
+  });
+  qtableHTML+=`</table>`;
+
+  res.innerHTML=`
+    <div class="verdict">
+      <h3>Your estimated payment</h3>
+      <div class="big">${usd(quarterlyPayment)}<br><span style="font-size:0.65em;color:var(--muted);font-weight:400">each quarter</span></div>
+      <p>Based on ${usd(seIncome)} net income and your estimated tax rates above. Total annual tax: ${usd(totalTax)}.</p>
+    </div>
+    <div class="breakdown">
+      <div class="item"><div class="label">Self-employment tax</div><div class="val">${usd(seTax)}</div></div>
+      <div class="item"><div class="label">Fed + State Income Tax</div><div class="val">${usd(federalIncome+stateIncome)}</div></div>
+    </div>
+    ${qtableHTML}
+    <div style="margin-top:20px;padding:14px;border-left:4px solid var(--warn);background:var(--warn-soft);border-radius:4px">
+      <p style="font-size:13.5px;color:var(--ink);margin:0">
+        <strong>Payments are due:</strong> April 15, June 15, September 15, and January 15 (next year). File by <a href="https://www.irs.gov/payments-and-refunds" style="color:var(--warn)">EFTPS</a>, your bank, or with your state tax agency.
+      </p>
+    </div>`;
+}
+document.getElementById('calcBtn').onclick=render;
+render();
+</script>
+</body>
+</html>

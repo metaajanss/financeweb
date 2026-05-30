@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto Profit Calculator — Cost Basis, Gains & Tax Estimate</title>
+<meta name="description" content="Free crypto profit calculator. Enter your buy price, sell price, and quantity to calculate capital gain or loss, cost basis, and estimated tax. Supports multiple lots. No signup.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://YOURDOMAIN.com/crypto-profit-calculator/">
+
+<!-- GOOGLE ADSENSE loader -->
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How is crypto profit taxed?","acceptedAnswer":{"@type":"Answer","text":"In the US, crypto is taxed as property. If you held for more than one year, gains are taxed at long-term capital gains rates (0%, 15%, or 20%). If held one year or less, gains are taxed as ordinary income at your regular bracket rate."}},
+{"@type":"Question","name":"What is cost basis for crypto?","acceptedAnswer":{"@type":"Answer","text":"Cost basis is the original price you paid for the crypto, including any fees. It determines your capital gain or loss: sale proceeds minus cost basis equals profit or loss."}},
+{"@type":"Question","name":"Can I offset crypto gains with losses?","acceptedAnswer":{"@type":"Answer","text":"Yes. Capital losses can offset capital gains dollar for dollar. If your losses exceed your gains, you can deduct up to $3,000 against ordinary income per year and carry the rest forward."}}]}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --ink:#1c1a16;--paper:#f6f2e9;--paper-2:#fffdf7;--line:#d9d1bf;--muted:#6f6856;
+    --gain:#0b6b53;--gain-soft:#d9ece5;
+    --loss:#a63a1d;--loss-soft:#fae0d8;
+    --gold:#a9842a;
+    --shadow:0 1px 0 rgba(28,26,22,.04),0 18px 40px -22px rgba(28,26,22,.35);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Hanken Grotesk',-apple-system,sans-serif;background:var(--paper);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(circle at 12% -5%,rgba(169,132,42,.07),transparent 40%),radial-gradient(circle at 92% 0%,rgba(11,107,83,.06),transparent 38%);}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 22px}
+  header{padding:34px 0 6px}.topbar{display:flex;align-items:center}
+  .brand{display:flex;align-items:center;gap:11px;font-family:'Fraunces',serif;font-weight:600;font-size:19px;letter-spacing:-.01em}
+  .brand .dot{width:13px;height:13px;border-radius:3px;background:linear-gradient(135deg,var(--gold),var(--gain))}
+  nav{margin-left:auto;display:flex;gap:18px;font-size:13.5px;font-weight:600}
+  nav a{color:var(--muted);text-decoration:none}nav a:hover{color:var(--ink)}
+  .hero{padding:30px 0 18px;max-width:760px}
+  .eyebrow{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:14px}
+  h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(31px,5vw,50px);line-height:1.04;letter-spacing:-.02em}
+  h1 em{font-style:italic;color:var(--gold)}
+  .lede{margin-top:16px;font-size:17px;color:var(--muted);max-width:620px}
+  .ad-slot{margin:22px 0;min-height:92px;border:1px dashed var(--line);border-radius:12px;display:flex;align-items:center;justify-content:center;background:repeating-linear-gradient(45deg,transparent,transparent 9px,rgba(217,209,191,.18) 9px,rgba(217,209,191,.18) 18px);color:var(--muted);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+  .grid{display:grid;grid-template-columns:1.05fr 1.25fr;gap:26px;margin-top:14px;align-items:start}
+  @media(max-width:860px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--paper-2);border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:var(--shadow)}
+  .card h2{font-family:'Fraunces',serif;font-weight:600;font-size:20px;letter-spacing:-.01em;margin-bottom:4px}
+  .card .sub{font-size:13.5px;color:var(--muted);margin-bottom:18px}
+  label.field{display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--muted);font-weight:600;margin-bottom:14px}
+  .three{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+  input[type=number],select,input[type=text]{font-family:'Hanken Grotesk',sans-serif;font-size:15px;color:var(--ink);border:1px solid var(--line);background:#fff;border-radius:9px;padding:11px;width:100%;font-weight:500;transition:border-color .15s,box-shadow .15s}
+  input:focus,select:focus{outline:none;border-color:var(--gain);box-shadow:0 0 0 3px var(--gain-soft)}
+  .lot{display:grid;grid-template-columns:0.7fr 1fr 1fr 1fr 32px;gap:8px;align-items:end;margin-bottom:10px}
+  .lot.head span{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700}
+  .rm{border:none;background:none;color:var(--muted);font-size:22px;cursor:pointer;padding:8px 0;line-height:1;transition:color .12s}
+  .rm:hover{color:var(--loss)}
+  .add{width:100%;border:1px dashed var(--line);background:none;color:var(--ink);font-family:inherit;font-weight:600;font-size:14px;border-radius:9px;padding:11px;cursor:pointer;transition:all .15s;margin-top:4px}
+  .add:hover{border-color:var(--gain);color:var(--gain)}
+  .calc-btn{margin-top:16px;width:100%;background:var(--ink);color:var(--paper-2);font-family:'Fraunces',serif;font-weight:600;font-size:17px;border:none;border-radius:11px;padding:15px;cursor:pointer;letter-spacing:-.01em;transition:transform .12s,background .15s}
+  .calc-btn:hover{background:#000;transform:translateY(-1px)}
+  .verdict{border-radius:14px;padding:22px;margin-bottom:16px;border:1px solid var(--line);background:linear-gradient(180deg,#fff,var(--paper));position:relative;overflow:hidden}
+  .verdict:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px}
+  .verdict.gain:before{background:var(--gain)}
+  .verdict.loss:before{background:var(--loss)}
+  .verdict h3{font-family:'Fraunces',serif;font-size:15px;letter-spacing:.02em;color:var(--muted);font-weight:600;margin-bottom:10px;text-transform:uppercase}
+  .big{font-family:'Fraunces',serif;font-size:clamp(26px,4.2vw,34px);font-weight:600;letter-spacing:-.02em;line-height:1.1}
+  .big.g{color:var(--gain)}.big.l{color:var(--loss)}
+  .verdict p{font-size:14px;color:var(--muted);margin-top:8px}
+  .lots-result{margin-top:16px}
+  .lot-table{width:100%;border-collapse:collapse;font-size:13.5px}
+  .lot-table th{background:var(--gain-soft);padding:9px 12px;text-align:right;font-weight:700;font-family:'Fraunces',serif}
+  .lot-table th:first-child{text-align:left}
+  .lot-table td{padding:8px 12px;border-bottom:1px solid var(--line);text-align:right;font-variant-numeric:tabular-nums}
+  .lot-table td:first-child{text-align:left;font-weight:600}
+  .lot-table .gain-cell{color:var(--gain);font-weight:700}
+  .lot-table .loss-cell{color:var(--loss);font-weight:700}
+  .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}
+  @media(max-width:480px){.summary-grid{grid-template-columns:1fr 1fr}}
+  .sbox{background:#fff;border:1px solid var(--line);border-radius:11px;padding:15px}
+  .sbox .lbl{font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:700;margin-bottom:7px}
+  .sbox .val{font-family:'Fraunces',serif;font-size:clamp(17px,2.8vw,22px);font-weight:600;font-variant-numeric:tabular-nums}
+  .placeholder{color:var(--muted);font-size:14px;text-align:center;padding:40px 10px}
+  .content{max-width:760px;margin:46px auto 0;padding-top:30px;border-top:1px solid var(--line)}
+  .content h2{font-family:'Fraunces',serif;font-weight:600;font-size:27px;letter-spacing:-.01em;margin:34px 0 12px}
+  .content h3{font-family:'Fraunces',serif;font-weight:600;font-size:19px;margin:24px 0 8px}
+  .content p{margin-bottom:14px;color:#3a362d}.content ul{margin:0 0 16px 20px;color:#3a362d}.content li{margin-bottom:7px}
+  .faq details{border-bottom:1px solid var(--line);padding:15px 0}
+  .faq summary{font-family:'Fraunces',serif;font-weight:600;font-size:17px;cursor:pointer;list-style:none}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary:before{content:"+";color:var(--gain);font-weight:700;margin-right:10px}
+  .faq details[open] summary:before{content:"–"}
+  .faq p{margin-top:10px;color:var(--muted)}
+  footer{margin:50px 0 30px;padding-top:22px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);text-align:center}
+  .disclaimer{font-size:12px;color:var(--muted);margin-top:14px;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><div class="topbar">
+    <div class="brand"><span class="dot"></span> PayoffLab</div>
+    <nav>
+      <a href="../take-home-pay-calculator/">Take-Home Pay</a>
+      <a href="../1099-quarterly-tax-estimator/">Self-Employed Tax</a>
+      <a href="../debt-snowball-vs-avalanche-calculator/">Debt Payoff</a>
+    </nav>
+  </div></header>
+
+  <section class="hero">
+    <div class="eyebrow">Crypto Tax Planner</div>
+    <h1>Crypto <em>Profit</em> Calculator</h1>
+    <p class="lede">Enter your buy and sell prices to calculate capital gain or loss, cost basis, ROI, and an estimated tax — for a single trade or multiple lots. Runs entirely in your browser.</p>
+  </section>
+
+  <div class="ad-slot">Ad · Leaderboard 728×90</div>
+
+  <div class="grid">
+    <!-- INPUT -->
+    <div class="card">
+      <h2>Your trade(s)</h2>
+      <div class="sub">Add one lot per purchase. Enter buy price, sell price, and quantity.</div>
+
+      <div class="lot head">
+        <span>Coin</span><span>Buy price</span><span>Sell price</span><span>Qty</span><span></span>
+      </div>
+      <div id="lots"></div>
+      <button class="add" id="addLot">+ Add another lot</button>
+
+      <div style="margin-top:20px;padding-top:18px;border-top:1px solid var(--line)">
+        <div class="two">
+          <label class="field">Hold period
+            <select id="holdType">
+              <option value="long">Long-term (&gt;1 year)</option>
+              <option value="short">Short-term (≤1 year)</option>
+            </select>
+          </label>
+          <label class="field">Tax bracket
+            <select id="bracket">
+              <option value="0.10">10%</option>
+              <option value="0.12">12%</option>
+              <option value="0.22" selected>22%</option>
+              <option value="0.24">24%</option>
+              <option value="0.32">32%</option>
+              <option value="0.35">35%</option>
+              <option value="0.37">37%</option>
+            </select>
+          </label>
+        </div>
+        <p style="font-size:12.5px;color:var(--muted)">Long-term gains are taxed at 0%, 15%, or 20% regardless of income bracket. Short-term gains are taxed at your ordinary income rate above.</p>
+      </div>
+
+      <button class="calc-btn" id="calcBtn">Calculate profit & tax →</button>
+    </div>
+
+    <!-- RESULTS -->
+    <div id="results">
+      <div class="card"><div class="placeholder">Your profit, cost basis, and tax estimate will appear here.</div></div>
+    </div>
+  </div>
+
+  <div class="ad-slot">Ad · In-content Responsive</div>
+
+  <article class="content">
+    <h2>How crypto capital gains tax works</h2>
+    <p>The IRS treats cryptocurrency as property, not currency. Every time you sell, trade, or spend crypto, you trigger a <strong>taxable event</strong>. Your gain or loss is the difference between what you received and your original cost basis.</p>
+
+    <h3>Short-term vs long-term rates</h3>
+    <p>If you hold for <strong>12 months or less</strong>, the gain is short-term and taxed at your regular income rate (10–37%). Hold for <strong>more than 12 months</strong> and it's long-term, taxed at a preferential rate of 0%, 15%, or 20% depending on total income. The difference can be substantial — this is why timing a sale matters.</p>
+
+    <h3>2026 long-term capital gains rates</h3>
+    <ul>
+      <li><strong>0%</strong> — single filers under $48,350; married under $96,700.</li>
+      <li><strong>15%</strong> — single $48,350–$533,400; married $96,700–$600,050.</li>
+      <li><strong>20%</strong> — above those thresholds.</li>
+    </ul>
+
+    <h3>How to reduce your crypto tax bill</h3>
+    <ul>
+      <li><strong>Hold more than a year</strong> before selling to qualify for long-term rates.</li>
+      <li><strong>Harvest losses</strong> — sell coins that are down to offset gains from winning trades.</li>
+      <li><strong>Specific identification</strong> — when selling part of a lot, you can identify which coins you're selling (e.g., the highest-cost lot) to minimize gain.</li>
+    </ul>
+
+    <h2>Frequently asked questions</h2>
+    <div class="faq">
+      <details><summary>Do I owe taxes if I just hold and don't sell?</summary><p>No. Holding crypto is not a taxable event. You only owe tax when you sell, trade, or otherwise dispose of it.</p></details>
+      <details><summary>What if I moved crypto between my own wallets?</summary><p>Transferring between your own wallets is not a taxable event. You only trigger taxes when you sell or exchange for another asset.</p></details>
+      <details><summary>Is this data saved?</summary><p>No. Everything runs locally in your browser. Nothing is stored or sent anywhere.</p></details>
+    </div>
+    <p class="disclaimer">For educational and estimation purposes only; not tax advice. Crypto tax rules are complex and change frequently. Consult a qualified tax professional or crypto tax software for your actual filing.</p>
+  </article>
+
+  <div class="ad-slot">Ad · Responsive</div>
+  <footer>© <span id="yr"></span> PayoffLab · Free crypto profit calculator · Runs entirely in your browser</footer>
+</div>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+const usd = n => (n < 0 ? '-$' : '$') + Math.abs(n).toLocaleString('en-US', {minimumFractionDigits:2,maximumFractionDigits:2});
+const pct = n => (n >= 0 ? '+' : '') + n.toFixed(2) + '%';
+
+// Seed lots
+const SEEDS = [
+  {coin:'BTC', buy:38000, sell:67000, qty:0.5},
+  {coin:'ETH', buy:2100, sell:3400, qty:3},
+];
+
+const lotsEl = document.getElementById('lots');
+function addLot(d={coin:'',buy:'',sell:'',qty:''}) {
+  const div = document.createElement('div');
+  div.className = 'lot';
+  div.innerHTML = `
+    <input type="text" class="l-coin" placeholder="BTC" value="${d.coin||''}">
+    <input type="number" class="l-buy" placeholder="Buy $" min="0" step="0.01" value="${d.buy||''}">
+    <input type="number" class="l-sell" placeholder="Sell $" min="0" step="0.01" value="${d.sell||''}">
+    <input type="number" class="l-qty" placeholder="0" min="0" step="0.0001" value="${d.qty||''}">
+    <button class="rm">×</button>`;
+  div.querySelector('.rm').onclick = () => div.remove();
+  lotsEl.appendChild(div);
+}
+SEEDS.forEach(addLot);
+document.getElementById('addLot').onclick = () => addLot();
+
+// Long-term capital gains rate based on bracket
+function ltcgRate(bracket) {
+  const b = parseFloat(bracket);
+  if (b <= 0.12) return 0;
+  if (b <= 0.35) return 0.15;
+  return 0.20;
+}
+
+function render() {
+  const holdType = document.getElementById('holdType').value;
+  const bracket  = document.getElementById('bracket').value;
+  const res      = document.getElementById('results');
+
+  const taxRate = holdType === 'long' ? ltcgRate(bracket) : parseFloat(bracket);
+
+  const lots = [];
+  document.querySelectorAll('.lot:not(.head)').forEach((row, i) => {
+    const coin = row.querySelector('.l-coin').value.trim().toUpperCase() || ('Lot ' + (i+1));
+    const buy  = parseFloat(row.querySelector('.l-buy').value)  || 0;
+    const sell = parseFloat(row.querySelector('.l-sell').value) || 0;
+    const qty  = parseFloat(row.querySelector('.l-qty').value)  || 0;
+    if (qty > 0 && buy > 0) lots.push({coin, buy, sell, qty});
+  });
+
+  if (lots.length === 0) {
+    res.innerHTML = `<div class="card"><div class="placeholder">Add at least one lot with a buy price and quantity.</div></div>`;
+    return;
+  }
+
+  let totalCost = 0, totalProceeds = 0, totalGain = 0;
+  const rows = lots.map(l => {
+    const cost     = l.buy * l.qty;
+    const proceeds = l.sell * l.qty;
+    const gain     = proceeds - cost;
+    const roi      = (gain / cost) * 100;
+    totalCost      += cost;
+    totalProceeds  += proceeds;
+    totalGain      += gain;
+    return {coin:l.coin, cost, proceeds, gain, roi};
+  });
+
+  const taxOwed = totalGain > 0 ? totalGain * taxRate : 0;
+  const netAfterTax = totalProceeds - totalCost - taxOwed;
+  const isGain = totalGain >= 0;
+  const totalRoi = (totalGain / totalCost) * 100;
+
+  const tableRows = rows.map(r => `
+    <tr>
+      <td>${r.coin}</td>
+      <td>${usd(r.cost)}</td>
+      <td>${usd(r.proceeds)}</td>
+      <td class="${r.gain >= 0 ? 'gain-cell' : 'loss-cell'}">${usd(r.gain)}</td>
+      <td class="${r.roi >= 0 ? 'gain-cell' : 'loss-cell'}">${pct(r.roi)}</td>
+    </tr>`).join('');
+
+  res.innerHTML = `
+    <div class="verdict ${isGain ? 'gain' : 'loss'}">
+      <h3>${isGain ? 'Capital gain' : 'Capital loss'}</h3>
+      <div class="big ${isGain ? 'g' : 'l'}">${usd(totalGain)}</div>
+      <p>Estimated ${holdType}-term tax at ${(taxRate*100).toFixed(0)}%: <strong>${usd(taxOwed)}</strong> · Net after tax: <strong>${usd(netAfterTax)}</strong></p>
+    </div>
+
+    <div class="summary-grid">
+      <div class="sbox"><div class="lbl">Total cost basis</div><div class="val">${usd(totalCost)}</div></div>
+      <div class="sbox"><div class="lbl">Total proceeds</div><div class="val">${usd(totalProceeds)}</div></div>
+      <div class="sbox"><div class="lbl">Total ROI</div><div class="val" style="color:${isGain?'var(--gain)':'var(--loss)'}">${pct(totalRoi)}</div></div>
+    </div>
+
+    ${rows.length > 1 ? `
+    <div style="margin-top:18px;overflow-x:auto">
+      <table class="lot-table">
+        <tr><th>Coin</th><th>Cost basis</th><th>Proceeds</th><th>Gain / Loss</th><th>ROI</th></tr>
+        ${tableRows}
+      </table>
+    </div>` : ''}`;
+}
+
+document.getElementById('calcBtn').onclick = render;
+render();
+</script>
+</body>
+</html>

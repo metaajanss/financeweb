@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Refinance Break-Even Calculator — Is Refinancing Worth It?</title>
+<meta name="description" content="Free refinance break-even calculator. See your new monthly payment, monthly savings, exactly how many months until you break even on closing costs, and lifetime interest. No signup.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://YOURDOMAIN.com/refinance-break-even-calculator/">
+
+<!-- GOOGLE ADSENSE loader goes here in <head> (see debt tool for template) -->
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is the break-even point on a refinance?","acceptedAnswer":{"@type":"Answer","text":"It's the number of months it takes for your monthly savings to add up to the closing costs you paid to refinance. After that point, the refinance is saving you money."}},
+{"@type":"Question","name":"Is it worth refinancing for 1 percent?","acceptedAnswer":{"@type":"Answer","text":"Often yes, especially on larger balances, but it depends on the closing costs and how long you'll stay in the home. If you'll move before the break-even point, refinancing can cost you money even with a lower rate."}},
+{"@type":"Question","name":"Does refinancing reset my loan term?","acceptedAnswer":{"@type":"Answer","text":"Usually yes. A new 30-year refinance restarts the clock, which can lower your monthly payment but increase total interest over the life of the loan even at a lower rate. This calculator shows both effects."}}]}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --ink:#1c1a16;--paper:#f6f2e9;--paper-2:#fffdf7;--line:#d9d1bf;--muted:#6f6856;
+    --cur:#9a6a2f;--cur-soft:#f0e3cf;       /* current loan = bronze */
+    --new:#0b6b53;--new-soft:#d9ece5;       /* new loan = emerald */
+    --gold:#a9842a;
+    --shadow:0 1px 0 rgba(28,26,22,.04),0 18px 40px -22px rgba(28,26,22,.35);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Hanken Grotesk',-apple-system,sans-serif;background:var(--paper);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(circle at 12% -5%,rgba(169,132,42,.07),transparent 40%),radial-gradient(circle at 92% 0%,rgba(11,107,83,.06),transparent 38%);}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 22px}
+  header{padding:34px 0 6px}
+  .topbar{display:flex;align-items:center}
+  .brand{display:flex;align-items:center;gap:11px;font-family:'Fraunces',serif;font-weight:600;font-size:19px;letter-spacing:-.01em}
+  .brand .dot{width:13px;height:13px;border-radius:3px;background:linear-gradient(135deg,var(--cur),var(--new))}
+  nav{margin-left:auto;display:flex;gap:18px;font-size:13.5px;font-weight:600}
+  nav a{color:var(--muted);text-decoration:none}nav a:hover{color:var(--ink)}
+  .hero{padding:30px 0 18px;max-width:760px}
+  .eyebrow{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:14px}
+  h1{font-family:'Fraunces',serif;font-weight:600;font-size:clamp(31px,5vw,50px);line-height:1.04;letter-spacing:-.02em}
+  h1 em{font-style:italic;color:var(--new)}
+  .lede{margin-top:16px;font-size:17px;color:var(--muted);max-width:620px}
+  .ad-slot{margin:22px 0;min-height:92px;border:1px dashed var(--line);border-radius:12px;display:flex;align-items:center;justify-content:center;background:repeating-linear-gradient(45deg,transparent,transparent 9px,rgba(217,209,191,.18) 9px,rgba(217,209,191,.18) 18px);color:var(--muted);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+  .grid{display:grid;grid-template-columns:1.05fr 1.25fr;gap:26px;margin-top:14px;align-items:start}
+  @media(max-width:860px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--paper-2);border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:var(--shadow)}
+  .card h2{font-family:'Fraunces',serif;font-weight:600;font-size:20px;letter-spacing:-.01em;margin-bottom:4px}
+  .card .sub{font-size:13.5px;color:var(--muted);margin-bottom:18px}
+  .group{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:6px 0 12px}
+  .group.n{color:var(--new)}.group.c{color:var(--cur)}
+  label.field{display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--muted);font-weight:600;margin-bottom:14px}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+  input[type=number]{font-family:'Hanken Grotesk',sans-serif;font-size:15px;color:var(--ink);border:1px solid var(--line);background:#fff;border-radius:9px;padding:11px;width:100%;font-weight:500;transition:border-color .15s,box-shadow .15s}
+  input:focus{outline:none;border-color:var(--new);box-shadow:0 0 0 3px var(--new-soft)}
+  .calc-btn{margin-top:8px;width:100%;background:var(--ink);color:var(--paper-2);font-family:'Fraunces',serif;font-weight:600;font-size:17px;border:none;border-radius:11px;padding:15px;cursor:pointer;letter-spacing:-.01em;transition:transform .12s,background .15s}
+  .calc-btn:hover{background:#000;transform:translateY(-1px)}
+  .verdict{border-radius:14px;padding:20px 22px;margin-bottom:18px;border:1px solid var(--line);background:linear-gradient(180deg,#fff,var(--paper));position:relative;overflow:hidden}
+  .verdict:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--new)}
+  .verdict.warn:before{background:var(--cur)}
+  .verdict h3{font-family:'Fraunces',serif;font-size:15px;letter-spacing:.02em;color:var(--muted);font-weight:600;margin-bottom:8px;text-transform:uppercase}
+  .verdict .big{font-family:'Fraunces',serif;font-size:clamp(23px,3.6vw,31px);font-weight:600;letter-spacing:-.02em;line-height:1.12}
+  .verdict .big b{color:var(--new)}.verdict.warn .big b{color:var(--cur)}
+  .verdict p{font-size:14px;color:var(--muted);margin-top:8px}
+  .compare{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
+  @media(max-width:480px){.compare{grid-template-columns:1fr}}
+  .strat{border:1px solid var(--line);border-radius:13px;padding:18px;background:#fff}
+  .strat.c{border-top:3px solid var(--cur)}.strat.n{border-top:3px solid var(--new)}
+  .strat .name{font-family:'Fraunces',serif;font-weight:600;font-size:17px;margin-bottom:2px}
+  .strat.c .name{color:var(--cur)}.strat.n .name{color:var(--new)}
+  .strat .tag{font-size:11.5px;color:var(--muted);margin-bottom:14px}
+  .metric{display:flex;justify-content:space-between;align-items:baseline;padding:7px 0;border-bottom:1px dashed var(--line);font-size:13.5px}
+  .metric:last-child{border-bottom:none}.metric .k{color:var(--muted)}
+  .metric .val{font-weight:700;font-size:16px;font-variant-numeric:tabular-nums}
+  .placeholder{color:var(--muted);font-size:14px;text-align:center;padding:40px 10px}
+  .content{max-width:760px;margin:46px auto 0;padding-top:30px;border-top:1px solid var(--line)}
+  .content h2{font-family:'Fraunces',serif;font-weight:600;font-size:27px;letter-spacing:-.01em;margin:34px 0 12px}
+  .content h3{font-family:'Fraunces',serif;font-weight:600;font-size:19px;margin:24px 0 8px}
+  .content p{margin-bottom:14px;color:#3a362d}.content ul{margin:0 0 16px 20px;color:#3a362d}.content li{margin-bottom:7px}
+  .faq details{border-bottom:1px solid var(--line);padding:15px 0}
+  .faq summary{font-family:'Fraunces',serif;font-weight:600;font-size:17px;cursor:pointer;list-style:none}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary:before{content:"+";color:var(--new);font-weight:700;margin-right:10px}
+  .faq details[open] summary:before{content:"–"}
+  .faq p{margin-top:10px;color:var(--muted)}
+  footer{margin:50px 0 30px;padding-top:22px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);text-align:center}
+  .disclaimer{font-size:12px;color:var(--muted);margin-top:14px;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><div class="topbar">
+    <div class="brand"><span class="dot"></span> PayoffLab</div>
+    <nav><a href="../debt-snowball-vs-avalanche-calculator/">Debt Payoff</a><a href="../mortgage-payoff-calculator/">Mortgage</a><a href="../rent-vs-buy-calculator/">Rent vs Buy</a></nav>
+  </div></header>
+
+  <section class="hero">
+    <div class="eyebrow">Refinance Planner</div>
+    <h1>Refinance <em>Break-Even</em> Calculator</h1>
+    <p class="lede">Find out if refinancing is actually worth it. See your new monthly payment, how much you save each month, and exactly how many months it takes to earn back your closing costs.</p>
+  </section>
+
+  <div class="ad-slot" data-ad="top">Ad&nbsp;·&nbsp;Leaderboard&nbsp;728×90</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Your numbers</h2>
+      <div class="sub">Enter your current loan and the new loan you're considering.</div>
+      <div class="group c">Current loan</div>
+      <label class="field">Remaining balance ($)<input type="number" id="bal" value="280000" step="1000"></label>
+      <div class="two">
+        <label class="field">Current rate (%)<input type="number" id="curRate" value="7.1" step="0.05"></label>
+        <label class="field">Years left<input type="number" id="curYears" value="27" step="1"></label>
+      </div>
+      <div class="group n">New loan</div>
+      <div class="two">
+        <label class="field">New rate (%)<input type="number" id="newRate" value="5.75" step="0.05"></label>
+        <label class="field">New term (years)<input type="number" id="newYears" value="30" step="1"></label>
+      </div>
+      <label class="field">Closing costs ($)<input type="number" id="costs" value="6500" step="100"></label>
+      <button class="calc-btn" id="calcBtn">Check break-even →</button>
+    </div>
+    <div id="results"><div class="card"><div class="placeholder">Your break-even point and comparison will appear here.</div></div></div>
+  </div>
+
+  <div class="ad-slot" data-ad="mid">Ad&nbsp;·&nbsp;In-content&nbsp;Responsive</div>
+
+  <article class="content">
+    <h2>What "break-even" really means</h2>
+    <p>Refinancing isn't free — you pay <strong>closing costs</strong> (often 2–5% of the loan) to get the new rate. The break-even point is how long it takes for your lower monthly payment to add up to those costs. Before break-even, you're behind. After it, the refinance is pure savings — as long as you still own the home.</p>
+    <h3>The hidden trap: resetting the term</h3>
+    <p>If you refinance a loan you've been paying for 5 years into a fresh 30-year loan, your monthly payment drops, but you've added 5 years of payments back. A lower rate can still mean <em>more total interest</em> over the life of the loan. That's why the calculator shows both your monthly savings <strong>and</strong> the lifetime interest for each option — so you see the full picture.</p>
+    <h2>When refinancing makes sense</h2>
+    <ul>
+      <li>You'll stay in the home well past the break-even point.</li>
+      <li>The rate drop is meaningful (often 0.75%+ on a large balance).</li>
+      <li>You're not dramatically extending your timeline, or you're fine with it for the lower payment.</li>
+    </ul>
+    <h2>Frequently asked questions</h2>
+    <div class="faq">
+      <details><summary>Is my data saved?</summary><p>No. The calculation runs entirely in your browser. Nothing is stored or transmitted.</p></details>
+      <details><summary>What's included in closing costs?</summary><p>Typically lender fees, appraisal, title, and recording fees. Ask your lender for a full estimate and enter the total.</p></details>
+      <details><summary>Can I shorten my term when I refinance?</summary><p>Yes — refinancing into a shorter term (e.g. 30 → 15 years) usually means a higher monthly payment but far less total interest. Enter the shorter term to compare.</p></details>
+    </div>
+    <p class="disclaimer">For educational and estimation purposes only; not financial advice. Estimates assume fixed rates and consistent payments and exclude taxes, insurance, and PMI. Consult a qualified professional.</p>
+  </article>
+
+  <div class="ad-slot" data-ad="bottom">Ad&nbsp;·&nbsp;Responsive</div>
+  <footer>© <span id="yr"></span> PayoffLab · Free refinance break-even calculator · Runs entirely in your browser</footer>
+</div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+const usd=n=>'$'+Math.round(n).toLocaleString('en-US');
+function dur(m){const y=Math.floor(m/12),mo=Math.round(m%12);return (y?y+'y ':'')+(mo?mo+'mo':(y?'':'0mo'));}
+function pmt(P,r,n){if(r===0)return P/n;return P*r/(1-Math.pow(1+r,-n));}
+
+function render(){
+  const bal=parseFloat(document.getElementById('bal').value)||0;
+  const curRate=parseFloat(document.getElementById('curRate').value)||0;
+  const curYears=parseFloat(document.getElementById('curYears').value)||0;
+  const newRate=parseFloat(document.getElementById('newRate').value)||0;
+  const newYears=parseFloat(document.getElementById('newYears').value)||0;
+  const costs=parseFloat(document.getElementById('costs').value)||0;
+  const res=document.getElementById('results');
+  if(bal<=0||curYears<=0||newYears<=0){res.innerHTML=`<div class="card"><div class="placeholder">Fill in your loan details to begin.</div></div>`;return;}
+
+  const curPay=pmt(bal,curRate/100/12,curYears*12);
+  const newPay=pmt(bal,newRate/100/12,newYears*12);
+  const curInterest=curPay*curYears*12-bal;
+  const newInterest=newPay*newYears*12-bal;
+  const monthlySave=curPay-newPay;
+  const lifetimeIntDiff=curInterest-newInterest; // positive = refi saves interest too
+
+  let verdict;
+  if(monthlySave<=0){
+    verdict=`<div class="big">The new loan <b>doesn't lower</b> your monthly payment.</div><p>Your payment would change by ${usd(monthlySave)}/mo. Refinancing only makes sense here if you're shortening the term to save interest.</p>`;
+    res.dataset.warn='1';
+  } else {
+    const be=costs/monthlySave;
+    verdict=`<div class="big">You break even in <b>${dur(be)}</b>.</div>
+      <p>You'd save <b>${usd(monthlySave)}/mo</b>. After ${Math.ceil(be)} months your savings exceed the ${usd(costs)} in closing costs.
+      ${lifetimeIntDiff<0?` Note: the longer term means about ${usd(-lifetimeIntDiff)} <b>more</b> total interest — good for cash flow, not for total cost.`:` Over the full loan you'd also pay about ${usd(lifetimeIntDiff)} less interest.`}</p>`;
+  }
+
+  const warnClass = monthlySave<=0?' warn':'';
+  res.innerHTML=`
+    <div class="verdict${warnClass}"><h3>The verdict</h3>${verdict}</div>
+    <div class="compare">
+      <div class="strat c"><div class="name">Current loan</div><div class="tag">${curRate}% · ${curYears}y left</div>
+        <div class="metric"><span class="k">Monthly payment</span><span class="val">${usd(curPay)}</span></div>
+        <div class="metric"><span class="k">Interest left to pay</span><span class="val">${usd(curInterest)}</span></div>
+      </div>
+      <div class="strat n"><div class="name">After refinance</div><div class="tag">${newRate}% · ${newYears}y</div>
+        <div class="metric"><span class="k">Monthly payment</span><span class="val">${usd(newPay)}</span></div>
+        <div class="metric"><span class="k">Total interest</span><span class="val">${usd(newInterest)}</span></div>
+      </div>
+    </div>`;
+}
+document.getElementById('calcBtn').onclick=render;
+render();
+</script>
+</body>
+</html>

@@ -1,31 +1,31 @@
 {
   "TestTranslations": "Dinamik Çeviri Testi Başarılı!",
   "SEO": {
-    "defaultTitle": "Jumpix | Yapay Zeka Destekli Pazarlama Otomasyonu",
+    "defaultTitle": "PayoffLab | Debt Payoff Calculator",
     "defaultDescription": "Yeni nesil pazarlama otomasyonu ve yapay zeka destekli erişim platformu. Daha iyi adaylar bulun, niyeti puanlayın ve satış akışınızı otomatikleştirin.",
-    "titleTemplate": "%s | Jumpix",
+    "titleTemplate": "%s | PayoffLab",
     "pages": {
       "about": {
         "title": "Hakkımızda",
-        "description": "Jumpix'in misyonu, hikayesi ve değerleri hakkında bilgi edinin - pazarlama otomasyonunun geleceği."
+        "description": "PayoffLab'in misyonu, hikayesi ve değerleri hakkında bilgi edinin - pazarlama otomasyonunun geleceği."
       },
       "pricing": {
         "title": "Fiyatlandırma Paketleri",
-        "description": "Modern satış ekipleri için uygun fiyatlı planlar. Temel özelliklerle başlayın ve Jumpix ile ölçeklenin."
+        "description": "Modern satış ekipleri için uygun fiyatlı planlar. Temel özelliklerle başlayın ve PayoffLab ile ölçeklenin."
       },
       "contact": {
         "title": "Bize Ulaşın",
         "description": "Sorularınız mı var? Ekibimiz, satış akışınızı yapay zeka ile optimize etmenize yardımcı olmak için burada."
       },
-      "aiJumpix": {
-        "title": "AI Jumpix Asistanı",
+      "aiPayoffLab": {
+        "title": "AI PayoffLab Asistanı",
         "description": "Panel verilerinizle konuşun ve Gemini 1.5 Pro kullanarak anlık içgörüler alın."
       }
     }
   },
   "Blog": {
     "title": "Bilgi Akışı",
-    "subtitle": "Jumpix Dünyası",
+    "subtitle": "PayoffLab Dünyası",
     "description": "Yapay zeka otomasyonu, randevu planlama ve B2B SaaS büyümesinin geleceğine dair incelemeler.",
     "featured": "Öne Çıkan İçerik",
     "readingTime": "{minutes} Dakika Okuma",
@@ -37,10 +37,10 @@
     "backLink": "İçeriklere Dön",
     "shareTitle": "İçeriği Paylaş",
     "didYouFindValuable": "Bu içeriği değerli buldunuz mu?",
-    "valuableDescription": "Bu incelemeyi ağınızla paylaşın veya Jumpix ile kendi otomasyon yolculuğunuza başlayın.",
-    "tryFree": "Jumpix'i Ücretsiz Deneyin",
+    "valuableDescription": "Bu incelemeyi ağınızla paylaşın veya PayoffLab ile kendi otomasyon yolculuğunuza başlayın.",
+    "tryFree": "PayoffLab'i Ücretsiz Deneyin",
     "copyLink": "Makale Bağlantısını Kopyala",
-    "authorDefault": "Jumpix Editör Ofisi",
+    "authorDefault": "PayoffLab Editör Ofisi",
     "authorTag": "Uzman Yazar"
   },
   "Navigation": {
@@ -72,20 +72,20 @@
     "setupWizard": "Kurulum Sihirbazı",
     "myTickets": "Destek Taleplerim",
     "helpCenter": "Yardım Merkezi",
-    "aiJumpix": "AI Jumpix",
+    "aiPayoffLab": "AI PayoffLab",
     "operations": "Operasyonlar",
     "support": "Destek",
     "mapsScraper": "Maps Scraper"
   },
-  "JumpixAssistant": {
-    "title": "AI Jumpix",
+  "PayoffLabAssistant": {
+    "title": "AI PayoffLab",
     "subtitle": "Akıllı Dashboard Asistanı",
     "newChat": "Yeni Sohbet",
     "history": "Geçmiş",
     "placeholder": "Bir şeyler sor...",
     "welcomeTitle": "Nasıl yardımcı olabilirim?",
     "welcomeDesc": "Lead verilerin, randevuların veya platform kullanımı hakkında her şeyi sorabilirsin. Gemini 1.5 Pro tüm dashboard verilerine sahip!",
-    "analyzing": "AI Jumpix analiz ediyor...",
+    "analyzing": "AI PayoffLab analiz ediyor...",
     "poweredBy": "Google Gemini 1.5 Pro tarafından desteklenmektedir",
     "suggestions": {
       "leads": "En son gelen 5 lead'i listele",
@@ -95,12 +95,12 @@
     }
   },
   "HomePage": {
-    "seoTitle": "Jumpix - Nihai Yapay Zeka Destekli Pazarlama Otomasyonu",
-    "seoDescription": "Jumpix ile satış akışınızı kolaylaştırın. Özellikler arasında aday puanlama, zenginleştirme ve otomatik erişim yer alır.",
-    "title": "Jumpix'ye Hoş Geldiniz",
+    "seoTitle": "PayoffLab - Nihai Yapay Zeka Destekli Pazarlama Otomasyonu",
+    "seoDescription": "PayoffLab ile satış akışınızı kolaylaştırın. Özellikler arasında aday puanlama, zenginleştirme ve otomatik erişim yer alır.",
+    "title": "PayoffLab'ye Hoş Geldiniz",
     "description": "Ürünlerinizi yönetmek için en iyi yer.",
     "features": {
-      "heading": "Neden Jumpix?",
+      "heading": "Neden PayoffLab?",
       "subheading": "Manuel çaba harcamadan rezervasyon iş akışınızı ölçeklendirmek için eksiksiz bir araç paketi.",
       "items": {
         "instantResponse": {
@@ -135,7 +135,7 @@
     "automationWebhooks": "Webhooks & Otomasyon",
     "automationWebhooksSub": "Veri akışınızı özel webhooks ile genişletin",
     "platformFeatures": "Platform Özellikleri",
-    "platformFeaturesSub": "Jumpix panelindeki ek özellikleri yönetin.",
+    "platformFeaturesSub": "PayoffLab panelindeki ek özellikleri yönetin.",
     "twilio": {
       "phoneLabel": "WhatsApp Telefon Numarası",
       "phonePlaceholder": "+905XXXXXXXXX",
@@ -154,7 +154,7 @@
       "verifiedDesc": "{number} kullanıma hazır.",
       "webhookStatus": "Gelen Mesaj Webhook Durumu",
       "webhookActive": "Aktif",
-      "webhookInfo": "Gelen mesajlar otomatik olarak işlenir. Jumpix'in yönetilen servislerini kullanıyorsanız ek bir kuruluma gerek yoktur.",
+      "webhookInfo": "Gelen mesajlar otomatik olarak işlenir. PayoffLab'in yönetilen servislerini kullanıyorsanız ek bir kuruluma gerek yoktur.",
       "checklistTitle": "Başlamadan Önce Kontrol Edin",
       "checklistItem1": "Numara şu an WhatsApp'ta kayıtlı olmamalı — kayıtlıysa önce WhatsApp → Ayarlar → Hesap → Hesabı Sil yapın",
       "checklistItem2": "SMS veya sesli arama alabilmesi gerekiyor (OTP doğrulaması için)",
@@ -185,15 +185,15 @@
       "title": "Gizlilik Politikası",
       "lastUpdated": "Son Güncelleme: 10 Mart 2026",
       "section1Title": "1. GİRİŞ",
-      "section1Content": "Jumpix (\"biz\", \"bize\" veya \"bizim\"), jumpix.app adresinde bulunan pazarlama otomasyon platformunu işletmektedir. Bu Gizlilik Politikası, kullanıcılarımızdan ve onların son müşterilerinden topladığımız bilgileri nasıl topladığımızı, kullandığımızı ve paylaştığımızı açıklar.",
+      "section1Content": "PayoffLab (\"biz\", \"bize\" veya \"bizim\"), PayoffLab.app adresinde bulunan pazarlama otomasyon platformunu işletmektedir. Bu Gizlilik Politikası, kullanıcılarımızdan ve onların son müşterilerinden topladığımız bilgileri nasıl topladığımızı, kullandığımızı ve paylaştığımızı açıklar.",
       "section2Title": "2. TOPLADIĞIMIZ BİLGİLER",
-      "section2Content": "Aşağıdaki bilgi türlerini topluyoruz:\n- Kişisel Hesap Bilgileri: Jumpix'e kaydolduğunuzda adınızı, e-posta adresinizi (Zoho aracılığıyla) ve kimlik doğrulama ayrıntılarını (Supabase aracılığıyla işlenir) toplarız.\n- Ödeme Bilgileri: Tüm ödemeler çevrimiçi bayimiz Paddle.com (Merchant of Record) tarafından işlenir. Tam kredi kartı veya banka bilgilerinizi sunucularımızda saklamayız.\n- Pazarlama Verileri: E-posta listeleri, kişi adları ve kampanya içeriği gibi otomasyon için yüklediğiniz bilgileri saklarız.\n- Kullanım Verileri: Hizmetimizi iyileştirmek için IP adreslerini, tarayıcı türlerini ve kullanım kalıplarını toplayabiliriz.",
+      "section2Content": "Aşağıdaki bilgi türlerini topluyoruz:\n- Kişisel Hesap Bilgileri: PayoffLab'e kaydolduğunuzda adınızı, e-posta adresinizi (Zoho aracılığıyla) ve kimlik doğrulama ayrıntılarını (Supabase aracılığıyla işlenir) toplarız.\n- Ödeme Bilgileri: Tüm ödemeler çevrimiçi bayimiz Paddle.com (Merchant of Record) tarafından işlenir. Tam kredi kartı veya banka bilgilerinizi sunucularımızda saklamayız.\n- Pazarlama Verileri: E-posta listeleri, kişi adları ve kampanya içeriği gibi otomasyon için yüklediğiniz bilgileri saklarız.\n- Kullanım Verileri: Hizmetimizi iyileştirmek için IP adreslerini, tarayıcı türlerini ve kullanım kalıplarını toplayabiliriz.",
       "section3Title": "3. BİLGİLERİNİZİ NASIL KULLANIYORUZ",
-      "section3Content": "Bilgilerinizi şu amaçlarla kullanırız:\n- Jumpix'in pazarlama otomasyon özelliklerini sağlamak, işletmek ve sürdürmek.\n- İşlemlerinizi Paddle aracılığıyla işlemek.\n- Sistem bildirimleri (Resend aracılığıyla) ve müşteri destek e-postaları (Zoho aracılığıyla) göndermek.\n- Dolandırıcılığı önlemek ve Anti-Spam politikalarına uyumu sağlamak.",
+      "section3Content": "Bilgilerinizi şu amaçlarla kullanırız:\n- PayoffLab'in pazarlama otomasyon özelliklerini sağlamak, işletmek ve sürdürmek.\n- İşlemlerinizi Paddle aracılığıyla işlemek.\n- Sistem bildirimleri (Resend aracılığıyla) ve müşteri destek e-postaları (Zoho aracılığıyla) göndermek.\n- Dolandırıcılığı önlemek ve Anti-Spam politikalarına uyumu sağlamak.",
       "section4Title": "4. ÜÇÜNCÜ TARAF HİZMETLERİ",
       "section4Content": "Hizmetlerimizi yerine getirmek için verileri yalnızca güvenilir üçüncü taraf sağlayıcılarla paylaşıyoruz: Paddle.com (Ödeme işleme), Supabase (Veritabanı ve kullanıcı doğrulama), Resend (E-posta gönderimi) ve Zoho (Kurumsal e-posta iletişimi).",
       "section5Title": "5. VERİ MÜLKİYETİ VE GDPR / KVKK",
-      "section5Content": "Jumpix'e yüklediğiniz tüm müşteri verileri (örneğin e-posta listeleriniz) için Veri Sorumlusu sizsiniz. Biz Veri İşleyen olarak hareket ederiz. Verilerini Jumpix aracılığıyla işlemek için müşterilerinizden gerekli tüm rızaları aldığınızı beyan edersiniz. AB (GDPR) veya Türkiye'deki (KVKK) kullanıcılar, kişisel verilerine erişme, bunları düzeltme veya silme hakkına sahiptir.",
+      "section5Content": "PayoffLab'e yüklediğiniz tüm müşteri verileri (örneğin e-posta listeleriniz) için Veri Sorumlusu sizsiniz. Biz Veri İşleyen olarak hareket ederiz. Verilerini PayoffLab aracılığıyla işlemek için müşterilerinizden gerekli tüm rızaları aldığınızı beyan edersiniz. AB (GDPR) veya Türkiye'deki (KVKK) kullanıcılar, kişisel verilerine erişme, bunları düzeltme veya silme hakkına sahiptir.",
       "section6Title": "6. VERİ GÜVENLİĞİ",
       "section6Content": "Verilerinizi korumak için SSL şifreleme ve Supabase tarafından sağlanan güvenli veritabanı protokolleri dahil olmak üzere endüstri standardı güvenlik önlemleri kullanıyoruz. Ancak, internet üzerinden hiçbir iletim yöntemi %100 güvenli değildir.",
       "section7Title": "7. ÇEREZLER",
@@ -201,49 +201,49 @@
       "section8Title": "8. BU POLİTİKADAKİ DEĞİŞİKLİKLER",
       "section8Content": "Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Yeni Gizlilik Politikasını bu sayfada yayınlayarak ve \"Son Güncelleme\" tarihini güncelleyerek sizi herhangi bir değişiklikten haberdar edeceğiz.",
       "section9Title": "9. BİZE ULAŞIN",
-      "section9Content": "Bu Gizlilik Politikası ile ilgili sorularınız için lütfen hello@jumpix.app adresinden veya jumpix.app üzerinden bizimle iletişime geçin."
+      "section9Content": "Bu Gizlilik Politikası ile ilgili sorularınız için lütfen hello@PayoffLab.app adresinden veya PayoffLab.app üzerinden bizimle iletişime geçin."
     },
     "refundPolicy": {
       "title": "İade Politikası",
       "lastUpdated": "Son Güncelleme: 10 Mart 2026",
       "section1Title": "1. GİRİŞ",
-      "section1Content": "Jumpix'i (jumpix.app) seçtiğiniz için teşekkür ederiz. Amacımız, pazarlama otomasyon araçlarımızın iş ihtiyaçlarınızı karşılamasını sağlamaktır. Ödemelerimiz çevrimiçi bayimiz Paddle.com (Merchant of Record) tarafından yapıldığı için iadeler bu şartlara ve Paddle'ın genel koşullarına tabidir.",
+      "section1Content": "PayoffLab'i (PayoffLab.app) seçtiğiniz için teşekkür ederiz. Amacımız, pazarlama otomasyon araçlarımızın iş ihtiyaçlarınızı karşılamasını sağlamaktır. Ödemelerimiz çevrimiçi bayimiz Paddle.com (Merchant of Record) tarafından yapıldığı için iadeler bu şartlara ve Paddle'ın genel koşullarına tabidir.",
       "section2Title": "2. ABONELİK İPTALLERİ",
-      "section2Content": "Jumpix aboneliğinizi istediğiniz zaman hesap paneliniz üzerinden iptal edebilirsiniz. İptal üzerine hesabınız mevcut fatura döneminin sonuna kadar aktif kalacaktır ve sonraki dönem için ücretlendirilmezsiniz.",
+      "section2Content": "PayoffLab aboneliğinizi istediğiniz zaman hesap paneliniz üzerinden iptal edebilirsiniz. İptal üzerine hesabınız mevcut fatura döneminin sonuna kadar aktif kalacaktır ve sonraki dönem için ücretlendirilmezsiniz.",
       "section3Title": "3. İADE UYGUNLUĞU",
       "section3Content": "Aylık Abonelikler: Fatura dönemi başladıktan sonra aylık abonelikler için genellikle iade sunmuyoruz. Ancak, Hizmeti kullanmanızı engelleyen teknik sorunlar yaşarsanız, lütfen işlemden sonraki 14 gün içinde bizimle iletişime geçin.\nYıllık Abonelikler: Kullanılan dönem için standart aylık ücret düşülerek, satın alımdan sonraki 30 gün içinde talep edilmesi durumunda yıllık planlar için iadeler vaka bazında değerlendirilebilir.",
       "section4Title": "4. İSTİSNALAR (İADE YAPILMAYAN DURUMLAR)",
-      "section4Content": "Aşağıdaki durumlarda iade yapılmayacaktır:\n- Hizmet Şartlarımızın ihlali (örneğin SPAM gönderimi, yasa dışı içerik) nedeniyle askıya alınan veya feshedilen hesaplar.\n- Fatura dönemi boyunca otomasyon özelliklerini önemli ölçüde kullanan (örneğin yüksek hacimli e-posta gönderen) kullanıcılar.\n- Jumpix ile entegre olan üçüncü taraf hizmetlerinden kaynaklanan sorunlar.",
+      "section4Content": "Aşağıdaki durumlarda iade yapılmayacaktır:\n- Hizmet Şartlarımızın ihlali (örneğin SPAM gönderimi, yasa dışı içerik) nedeniyle askıya alınan veya feshedilen hesaplar.\n- Fatura dönemi boyunca otomasyon özelliklerini önemli ölçüde kullanan (örneğin yüksek hacimli e-posta gönderen) kullanıcılar.\n- PayoffLab ile entegre olan üçüncü taraf hizmetlerinden kaynaklanan sorunlar.",
       "section5Title": "5. İADE TALEBİ NASIL YAPILIR",
-      "section5Content": "İade talebinde bulunmak için lütfen işlem ayrıntılarınız ve talebinizin nedeni ile birlikte hello@jumpix.app adresine e-posta gönderin. Alternatif olarak, yetkili bayimiz olduğu için doğrudan Paddle Destek ile iletişime geçebilirsiniz.",
+      "section5Content": "İade talebinde bulunmak için lütfen işlem ayrıntılarınız ve talebinizin nedeni ile birlikte hello@PayoffLab.app adresine e-posta gönderin. Alternatif olarak, yetkili bayimiz olduğu için doğrudan Paddle Destek ile iletişime geçebilirsiniz.",
       "section6Title": "6. İADELERİN İŞLENMESİ",
       "section6Content": "Onaylanan iadeler orijinal ödeme yöntemi kullanılarak Paddle üzerinden işlenecektir. Bankanıza bağlı olarak, iadenin ekstrenizde görünmesi 5-10 iş günü sürebilir.",
       "section7Title": "7. BİZE ULAŞIN",
-      "section7Content": "İade Politikamız ile ilgili herhangi bir sorunuz için lütfen hello@jumpix.app adresinden veya jumpix.app üzerinden bizimle iletişime geçin."
+      "section7Content": "İade Politikamız ile ilgili herhangi bir sorunuz için lütfen hello@PayoffLab.app adresinden veya PayoffLab.app üzerinden bizimle iletişime geçin."
     },
     "termsOfService": {
       "title": "Hizmet Şartları",
       "lastUpdated": "Son Güncelleme: 10 Mart 2026",
       "section1Title": "1. ŞARTLARIN KABULÜ",
-      "section1Content": "jumpix.app üzerinden işletilen bir pazarlama otomasyon platformu olan Jumpix'e (\"Hizmet\") erişerek veya Hizmeti kullanarak, bu Hizmet Şartlarına (\"Şartlar\") bağlı kalmayı kabul etmiş sayılırsınız. Bu şartları kabul etmiyorsanız, lütfen Hizmeti kullanmayın.",
+      "section1Content": "PayoffLab.app üzerinden işletilen bir pazarlama otomasyon platformu olan PayoffLab'e (\"Hizmet\") erişerek veya Hizmeti kullanarak, bu Hizmet Şartlarına (\"Şartlar\") bağlı kalmayı kabul etmiş sayılırsınız. Bu şartları kabul etmiyorsanız, lütfen Hizmeti kullanmayın.",
       "section2Title": "2. HİZMET TANIMI",
-      "section2Content": "Jumpix; e-posta kampanyaları, potansiyel müşteri yönetimi ve otomasyon iş akışları dahil ancak bunlarla sınırlı olmamak üzere pazarlama otomasyon araçları sunar. Hizmetin herhangi bir özelliğini istediğimiz zaman değiştirme veya durdurma hakkımızı saklı tutarız.",
+      "section2Content": "PayoffLab; e-posta kampanyaları, potansiyel müşteri yönetimi ve otomasyon iş akışları dahil ancak bunlarla sınırlı olmamak üzere pazarlama otomasyon araçları sunar. Hizmetin herhangi bir özelliğini istediğimiz zaman değiştirme veya durdurma hakkımızı saklı tutarız.",
       "section3Title": "3. KAYITLI SATICI OLARAK PADDLE",
-      "section3Content": "Sipariş sürecimiz çevrimiçi bayimiz Paddle.com tarafından yürütülmektedir. Paddle.com, tüm siparişlerimiz için Kayıtlı Satıcıdır (Merchant of Record). Paddle, ödemelerle ilgili tüm müşteri hizmetleri sorularını ve iadeleri yönetir. Jumpix'e abone olarak Paddle’ın Şartlar ve Koşullarını da kabul etmiş sayılırsınız.",
+      "section3Content": "Sipariş sürecimiz çevrimiçi bayimiz Paddle.com tarafından yürütülmektedir. Paddle.com, tüm siparişlerimiz için Kayıtlı Satıcıdır (Merchant of Record). Paddle, ödemelerle ilgili tüm müşteri hizmetleri sorularını ve iadeleri yönetir. PayoffLab'e abone olarak Paddle’ın Şartlar ve Koşullarını da kabul etmiş sayılırsınız.",
       "section4Title": "4. KULLANICI HESAPLARI VE GÜVENLİK",
-      "section4Content": "Jumpix'i kullanmak için bir hesap oluşturmalısınız. Kimlik bilgilerinizin gizliliğini korumaktan ve hesabınız altında gerçekleşen tüm faaliyetlerden siz sorumlusunuz. Herhangi bir yetkisiz kullanımı derhal bize bildirmelisiniz.",
+      "section4Content": "PayoffLab'i kullanmak için bir hesap oluşturmalısınız. Kimlik bilgilerinizin gizliliğini korumaktan ve hesabınız altında gerçekleşen tüm faaliyetlerden siz sorumlusunuz. Herhangi bir yetkisiz kullanımı derhal bize bildirmelisiniz.",
       "section5Title": "5. KABUL EDİLEBİLİR KULLANIM VE ANTİ-SPAM POLİTİKASI",
-      "section5Content": "Jumpix, Hizmetin istenmeyen e-postalar (SPAM) göndermek için kullanılmasını kesinlikle yasaklar. Pazarlama iletişimlerini yalnızca açık rıza (Opt-in) vermiş alıcılara gönderebilirsiniz. CAN-SPAM Yasası, GDPR ve KVKK dahil ancak bunlarla sınırlı olmamak üzere tüm ilgili yasalara uymalısınız. Yüksek geri dönüş oranına veya spam şikayetine sahip hesapları askıya alma hakkımızı saklı tutarız.",
+      "section5Content": "PayoffLab, Hizmetin istenmeyen e-postalar (SPAM) göndermek için kullanılmasını kesinlikle yasaklar. Pazarlama iletişimlerini yalnızca açık rıza (Opt-in) vermiş alıcılara gönderebilirsiniz. CAN-SPAM Yasası, GDPR ve KVKK dahil ancak bunlarla sınırlı olmamak üzere tüm ilgili yasalara uymalısınız. Yüksek geri dönüş oranına veya spam şikayetine sahip hesapları askıya alma hakkımızı saklı tutarız.",
       "section6Title": "6. ÖDEMELER VE ABONELİKLER",
       "section6Content": "Abonelikler, yinelenen bir döngüde (aylık veya yıllık) peşin olarak faturalandırılır. Aboneliğinizi istediğiniz zaman paneliniz üzerinden iptal edebilirsiniz. Erişim, mevcut fatura döneminin sonuna kadar devam edecektir. İade talepleri, İade Politikamız doğrultusunda ve Paddle desteği aracılığıyla işleme alınır.",
       "section7Title": "7. VERİ MÜLKİYETİ VE GİZLİLİK",
-      "section7Content": "Jumpix'e yüklediğiniz veriler (örneğin e-posta listeleri) üzerindeki tüm haklarınız size aittir. Kişisel verilerinizin ve müşterilerinizin verilerinin kullanımı Gizlilik Politikamıza tabidir.",
+      "section7Content": "PayoffLab'e yüklediğiniz veriler (örneğin e-posta listeleri) üzerindeki tüm haklarınız size aittir. Kişisel verilerinizin ve müşterilerinizin verilerinin kullanımı Gizlilik Politikamıza tabidir.",
       "section8Title": "8. SORUMLULUĞUN SINIRLANDIRILMASI",
-      "section8Content": "Jumpix \"olduğu gibi\" sunulmaktadır. Yasaların izin verdiği azami ölçüde Jumpix, Hizmetin kullanımından veya kullanılamamasından kaynaklanan dolaylı, arızi veya sonuçsal zararlardan sorumlu tutulamaz.",
+      "section8Content": "PayoffLab \"olduğu gibi\" sunulmaktadır. Yasaların izin verdiği azami ölçüde PayoffLab, Hizmetin kullanımından veya kullanılamamasından kaynaklanan dolaylı, arızi veya sonuçsal zararlardan sorumlu tutulamaz.",
       "section9Title": "9. FESİH",
       "section9Content": "Bu Şartları ihlal etmeniz durumunda, önceden bildirimde bulunmaksızın Hizmete erişiminizi derhal sonlandırma veya askıya alma hakkımızı saklı tutarız.",
       "section10Title": "10. BİZE ULAŞIN",
-      "section10Content": "Bu Şartlar hakkında herhangi bir sorunuz varsa, lütfen hello@jumpix.app adresinden veya jumpix.app üzerinden bizimle iletişime geçin."
+      "section10Content": "Bu Şartlar hakkında herhangi bir sorunuz varsa, lütfen hello@PayoffLab.app adresinden veya PayoffLab.app üzerinden bizimle iletişime geçin."
     }
   },
   "CookieConsent": {
@@ -257,7 +257,7 @@
       "badgeText": "Daha hızlı pipeline akışı için üretildi",
       "badgeLink": "Gelir ekipleri için",
       "title": "Lead Bulun, Skorlayın ve Erişin. Tek Bir AI Platformu.",
-      "description": "Jumpix, modern satış ekiplerine potansiyel müşteri keşfi, talep kalifikasyonu ve signaldan sequence'e geçişi tek ve sade bir sistemde sunar.",
+      "description": "PayoffLab, modern satış ekiplerine potansiyel müşteri keşfi, talep kalifikasyonu ve signaldan sequence'e geçişi tek ve sade bir sistemde sunar.",
       "messageLabel": "Operatör görünümü",
       "messageText": "Londra'daki B2B SaaS şirketlerinde VP Marketing kişilerini bul, verileri zenginleştir ve yüksek niyetli leadleri yeni bir sequence'e aktar.",
       "primaryCta": "Ücretsiz Denemeyi Başlat",
@@ -291,13 +291,13 @@
         "ribbonLabel": "Aktif iş akışı",
         "readyTitle": "Sekans hazır",
         "readyText": "Doğrulanmış potansiyel müşteriler tek tıkla aktarılabilir.",
-        "dashboardAlt": "Jumpix çalışma alanı önizlemesi"
+        "dashboardAlt": "PayoffLab çalışma alanı önizlemesi"
       }
     },
     "IntegrationsShowcase": {
       "badge": "BAĞLI EKOSİSTEM",
       "title": "Mevcut Araçlarınızla Tam Uyumlu Çalışın",
-      "description": "Jumpix, ekibinizin halihazırda kullandığı HubSpot, Salesforce, Slack ve diğer tüm platformlarla saniyeler içinde bağlanır. Veri akışınızı kesintiye uğratmadan otomatize edin.",
+      "description": "PayoffLab, ekibinizin halihazırda kullandığı HubSpot, Salesforce, Slack ve diğer tüm platformlarla saniyeler içinde bağlanır. Veri akışınızı kesintiye uğratmadan otomatize edin.",
       "cta": "Tüm Entegrasyonları Keşfedin"
     },
     "Features": {
@@ -359,7 +359,7 @@
           "name": "Ücretsiz",
           "price": "0",
           "period": "/ay",
-          "description": "Jumpix dünyasını keşfetmek için ideal başlangıç.",
+          "description": "PayoffLab dünyasını keşfetmek için ideal başlangıç.",
           "features": [
             "Tüm Entegrasyonlar Dahil",
             "AI Niyet Skorlaması",
@@ -589,12 +589,12 @@
       "supportHref": "/contact",
       "questions": [
         {
-          "q": "Jumpix tam olarak nedir ve CRM'den farkı ne?",
-          "a": "CRM bir kayıt sistemidir; Jumpix ise bir icra (execution) katmanıdır. Farklı kanallardan (Google Ads, WhatsApp, Formlar) gelen leadleri tek merkezde toplar, AI ile puanlar ve Gmail/WhatsApp üzerinden otomatik takip akışlarını yönetir. CRM'inizdeki veriyi kirletmeden operasyonu Jumpix üzerinde yürütüp, nitelikli leadleri CRM'e aktarırsınız."
+          "q": "PayoffLab tam olarak nedir ve CRM'den farkı ne?",
+          "a": "CRM bir kayıt sistemidir; PayoffLab ise bir icra (execution) katmanıdır. Farklı kanallardan (Google Ads, WhatsApp, Formlar) gelen leadleri tek merkezde toplar, AI ile puanlar ve Gmail/WhatsApp üzerinden otomatik takip akışlarını yönetir. CRM'inizdeki veriyi kirletmeden operasyonu PayoffLab üzerinde yürütüp, nitelikli leadleri CRM'e aktarırsınız."
         },
         {
           "q": "Lead discovery veya global veritabanı özelliği var mı?",
-          "a": "Jumpix şu an ağırlıklı olarak inbound lead operasyonlarına odaklanmaktadır. Google Ads, Meta ve Web formlarınızdan gelen leadleri yakalayıp işleme konusunda benzersizdir. B2B veritabanı özelliğimiz ise yol haritamızda olup, yakında kullanıma sunulacaktır."
+          "a": "PayoffLab şu an ağırlıklı olarak inbound lead operasyonlarına odaklanmaktadır. Google Ads, Meta ve Web formlarınızdan gelen leadleri yakalayıp işleme konusunda benzersizdir. B2B veritabanı özelliğimiz ise yol haritamızda olup, yakında kullanıma sunulacaktır."
         },
         {
           "q": "AI nasıl çalışıyor? Ekibime gerçekten zaman kazandırır mı?",
@@ -602,7 +602,7 @@
         },
         {
           "q": "WhatsApp ve Gmail entegrasyonu güvenli mi?",
-          "a": "Evet. Jumpix, WhatsApp Business API ve Google OAuth protokollerini kullanır. Verileriniz uçtan uca şifrelenir ve yalnızca yetkilendirdiğiniz akışlar için kullanılır. Veri güvenliği platformun temel önceliğidir."
+          "a": "Evet. PayoffLab, WhatsApp Business API ve Google OAuth protokollerini kullanır. Verileriniz uçtan uca şifrelenir ve yalnızca yetkilendirdiğiniz akışlar için kullanılır. Veri güvenliği platformun temel önceliğidir."
         },
         {
           "q": "Hangi CRM'lerle ve araçlarla çalışıyorsunuz?",
@@ -610,7 +610,7 @@
         },
         {
           "q": "Gerçekten \"tek bir akış\" ile her şeyi yönetebilir miyim?",
-          "a": "Kesinlikle. \"Capture -> Score -> Sequence -> Meeting -> Sync\" döngüsünü Jumpix içinde tek bir Revenue Workflow olarak kurgularsınız. Lead yakalandığı andan pipeline'da göründüğü ana kadar olan tüm \"boşlukları\" kapatırız."
+          "a": "Kesinlikle. \"Capture -> Score -> Sequence -> Meeting -> Sync\" döngüsünü PayoffLab içinde tek bir Revenue Workflow olarak kurgularsınız. Lead yakalandığı andan pipeline'da göründüğü ana kadar olan tüm \"boşlukları\" kapatırız."
         }
       ]
     },
@@ -619,7 +619,7 @@
       "title_start": "Satış Süreçlerinizi",
       "title_end": "Bugün Dönüştürün.",
       "description1": "Verilerinizle konuşun, işlerinizi otomatize edin ve ekibinizin potansiyelini serbest bırakın.",
-      "description2": "Jumpix ile her etkileşim bir fırsata dönüşür.",
+      "description2": "PayoffLab ile her etkileşim bir fırsata dönüşür.",
       "getStarted": "Ücretsiz Başlayın",
       "requestDemo": "Demo İste",
       "trustBadge": "Şirket & Global Güven"
@@ -866,7 +866,7 @@
           }
         }
       },
-      "rights": "© {year} Jumpix Inc. Tüm hakları saklıdır.",
+      "rights": "© {year} PayoffLab Inc. Tüm hakları saklıdır.",
       "status": "Sistem Durumu",
       "support": "Destek"
     },
@@ -984,7 +984,7 @@
     },
     "Mockups": {
       "hero": {
-        "workspace": "jumpix-calisma-alani",
+        "workspace": "PayoffLab-calisma-alani",
         "newLeads": "Yeni Leadler",
         "qualifying": "Kalifikasyon",
         "qualified": "Nitelikli",
@@ -1047,7 +1047,7 @@
       "passwordPlaceholder": "Şifrenizi girin",
       "rememberMe": "Beni Hatırla",
       "forgotPassword": "Şifremi Unuttum",
-      "submit": "Jumpix'e Giriş Yap",
+      "submit": "PayoffLab'e Giriş Yap",
       "noAccount": "Henüz hesabınız yok mu?",
       "signUp": "Kaydol",
       "securityVerification": "Güvenlik Doğrulaması"
@@ -1078,7 +1078,7 @@
     },
     "divider": "Veya",
     "hero": {
-      "title": "Jumpix Dünyasına Hoş Geldiniz",
+      "title": "PayoffLab Dünyasına Hoş Geldiniz",
       "subtitle": "Satış süreçlerinizi tek bir platformdan yönetin, AI ile verimliliğinizi artırın.",
       "mockup": {
         "triggerTitle": "Yeni Lead Eklendi",
@@ -1317,7 +1317,7 @@
   },
   "Tour": {
     "step1": {
-      "title": "Jumpix'e Hoş Geldiniz! 🚀",
+      "title": "PayoffLab'e Hoş Geldiniz! 🚀",
       "description": "Yapay zeka asistanınızı kısaca tanıtalım. Bu sadece bir dakikanızı alacak."
     },
     "step2": {
@@ -1358,7 +1358,7 @@
     "customerSuccess": {
       "eyebrow": "Müşteri Başarısı",
       "title": "Satış sonrası takibi ölçülebilir bir müşteri büyütme workflow'una dönüştürün",
-      "description": "Jumpix; müşteri başarısı ekiplerinin hesap sinyallerini merkezileştirmesine, riskli veya büyümeye hazır müşterileri önceliklendirmesine ve doğru takibi inbox, WhatsApp, takvim ve CRM bağlantılı workflow'larla başlatmasına yardım eder.",
+      "description": "PayoffLab; müşteri başarısı ekiplerinin hesap sinyallerini merkezileştirmesine, riskli veya büyümeye hazır müşterileri önceliklendirmesine ve doğru takibi inbox, WhatsApp, takvim ve CRM bağlantılı workflow'larla başlatmasına yardım eder.",
       "outcomes": {
         "fasterRisk": {
           "title": "Riske daha hızlı yanıt",
@@ -1377,7 +1377,7 @@
     "sales": {
       "eyebrow": "Satış Ekipleri",
       "title": "Momentum düşmeden her ciddi lead'i bir satış görüşmesine dönüştürün",
-      "description": "Jumpix satış ekiplerine pratik bir icra katmanı sunar: inbound talebi toplayin, niyeti bağlamla skorlayın, çok kanallı takibi başlatın ve nitelikli fırsatları toplantı aşamasına daha hızlı taşıyın.",
+      "description": "PayoffLab satış ekiplerine pratik bir icra katmanı sunar: inbound talebi toplayin, niyeti bağlamla skorlayın, çok kanallı takibi başlatın ve nitelikli fırsatları toplantı aşamasına daha hızlı taşıyın.",
       "outcomes": {
         "fasterReply": {
           "title": "Yüksek niyetli lead'lere daha hızlı dönün",
@@ -1392,7 +1392,7 @@
     "marketing": {
       "eyebrow": "Pazarlama Ekipleri",
       "title": "Pazarlama ekiplerinin kampanya talebini kalifiye pipeline'a dönüştürmesine yardım edin",
-      "description": "Jumpix, pazarlama liderlerine kampanya performansının lead formda bitmediğini göstermelidir. Bu performans yönlendirme, kalifikasyon ve satış handoff kalitesinde devam eder.",
+      "description": "PayoffLab, pazarlama liderlerine kampanya performansının lead formda bitmediğini göstermelidir. Bu performans yönlendirme, kalifikasyon ve satış handoff kalitesinde devam eder.",
       "outcomes": {
         "cleanIntake": {
           "title": "Daha temiz lead intake",
@@ -2344,7 +2344,7 @@
     "embed": {
       "instruction": "Bu kodu web sitenizin </body> etiketinden hemen önce kopyalayıp yapıştırın.",
       "noId": "Yerleştirme kodunu oluşturmak için önce widget'ı kaydedin.",
-      "code": "<!-- Jumpix Widget -->\n<script src=\"{url}\" data-id=\"{id}\" defer></script>"
+      "code": "<!-- PayoffLab Widget -->\n<script src=\"{url}\" data-id=\"{id}\" defer></script>"
     },
     "preview": {
       "simulator": "Tarayıcı Simülatörü"

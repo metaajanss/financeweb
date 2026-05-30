@@ -39,7 +39,7 @@ export async function generateMetadata({
       title: t('defaultTitle'),
       description: t('defaultDescription'),
       url: `${baseUrl}/${locale}`,
-      siteName: 'Jumpix',
+      siteName: 'PayoffLab',
       locale: locale === 'tr' ? 'tr_TR' : 'en_US',
       type: 'website',
     },
@@ -127,7 +127,7 @@ export default async function RootLayout({
              __html: JSON.stringify({
                "@context": "https://schema.org",
                "@type": "Organization",
-               "name": "Jumpix",
+               "name": "PayoffLab",
                "url": process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
                "logo": `${process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"}/jmplogo.png`,
                "sameAs": [
@@ -163,7 +163,7 @@ export default async function RootLayout({
           `}
         </Script>
 
-        {/* Jumpix Support Chatbot - uses local file in dev, production URL in prod */}
+        {/* PayoffLab Support Chatbot - uses local file in dev, production URL in prod */}
         <Script 
           src={process.env.NODE_ENV === 'development' ? '/scripts/chatbot.js' : 'https://jumpix.app/scripts/chatbot.js?v=1.0.1'}
           data-id="8c7a52d6-a708-4dfe-bcf7-94f04762ea25" 

@@ -36,12 +36,12 @@ export default function AdsAdminPage() {
                 body: JSON.stringify({ adsCode, topAdCode, midAdCode, bottomAdCode, adsTxt })
             });
             if (res.ok) {
-                toast.success('Reklam ayarları başarıyla kaydedildi.');
+                toast.success('Ad settings saved successfully.');
             } else {
-                toast.error('Kaydedilemedi.');
+                toast.error('Could not save.');
             }
         } catch (error) {
-            toast.error('Ayarlar kaydedilirken bir hata oluştu.');
+            toast.error('An error occurred while saving.');
         } finally {
             setIsSaving(false);
         }
@@ -57,10 +57,10 @@ export default function AdsAdminPage() {
                         <span className="text-[10px] font-black uppercase tracking-[0.2em]">Platform Monetization</span>
                     </div>
                     <h1 className="text-4xl font-black text-foreground tracking-tight leading-none">
-                        Reklam <span className="text-primary">Yönetimi</span>
+                        Ad <span className="text-primary">Management</span>
                     </h1>
                     <p className="text-slate-400 text-sm max-w-xl">
-                        Google Adsense kodlarınızı, reklam alanlarını (Üst, Orta, Alt) ve ads.txt içeriğini buradan yönetin.
+                        Manage your Google Adsense codes, ad slots (Top, Mid, Bottom) and ads.txt content here.
                     </p>
                 </div>
 
@@ -70,7 +70,7 @@ export default function AdsAdminPage() {
                     className="flex items-center gap-3 px-8 py-4 bg-primary text-white text-[11px] font-black uppercase tracking-[0.2em] rounded-3xl hover:bg-primary/90 transition-all shadow-[0_15px_35px_rgba(var(--primary-rgb),0.35)] disabled:opacity-50"
                 >
                     {isSaving ? <Loader2 size={18} className="animate-spin" /> : <Save size={18} />}
-                    {isSaving ? 'Kaydediliyor...' : 'Değişiklikleri Kaydet'}
+                    {isSaving ? 'Saving...' : 'Save Changes'}
                 </button>
             </div>
 
@@ -82,16 +82,16 @@ export default function AdsAdminPage() {
                             <Code size={24} />
                         </div>
                         <div>
-                            <h2 className="text-xl font-black tracking-tight">Genel Adsense Kodu (Auto Ads)</h2>
+                            <h2 className="text-xl font-black tracking-tight">General Adsense Code (Auto Ads)</h2>
                             <p className="text-sm text-slate-500">
-                                Sitenizin &lt;head&gt; etiketleri arasına eklenecek genel reklam kodunu buraya yapıştırın.
+                                Paste your general ad code to be added between &lt;head&gt; tags here.
                             </p>
                         </div>
                     </div>
                     <textarea
                         value={adsCode}
                         onChange={(e) => setAdsCode(e.target.value)}
-                        placeholder="Örn: <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXX' crossorigin='anonymous'></script>"
+                        placeholder="Ex: <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXX' crossorigin='anonymous'></script>"
                         className="w-full h-32 p-4 bg-zinc-50 dark:bg-zinc-900/50 border-2 border-zinc-100 dark:border-white/5 rounded-2xl text-sm font-mono outline-none focus:border-primary/50 transition-all resize-none"
                     />
                 </div>
@@ -103,15 +103,15 @@ export default function AdsAdminPage() {
                             <LayoutTemplate size={24} />
                         </div>
                         <div>
-                            <h2 className="text-xl font-black tracking-tight">Özel Reklam Alanları (Manuel &lt;ins&gt; Kodları)</h2>
+                            <h2 className="text-xl font-black tracking-tight">Specific Ad Slots (Manual &lt;ins&gt; Codes)</h2>
                             <p className="text-sm text-slate-500">
-                                Ana sayfada bulunan 3 farklı reklam bölgesine özel kod ekleyebilirsiniz.
+                                You can add specific codes to 3 different ad zones on the home page.
                             </p>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <div>
-                            <h3 className="font-bold mb-2 text-sm">Üst Reklam (Top)</h3>
+                            <h3 className="font-bold mb-2 text-sm">Top Ad</h3>
                             <textarea
                                 value={topAdCode}
                                 onChange={(e) => setTopAdCode(e.target.value)}
@@ -120,7 +120,7 @@ export default function AdsAdminPage() {
                             />
                         </div>
                         <div>
-                            <h3 className="font-bold mb-2 text-sm">Orta Reklam (Mid)</h3>
+                            <h3 className="font-bold mb-2 text-sm">Mid Ad</h3>
                             <textarea
                                 value={midAdCode}
                                 onChange={(e) => setMidAdCode(e.target.value)}
@@ -129,7 +129,7 @@ export default function AdsAdminPage() {
                             />
                         </div>
                         <div>
-                            <h3 className="font-bold mb-2 text-sm">Alt Reklam (Bottom)</h3>
+                            <h3 className="font-bold mb-2 text-sm">Bottom Ad</h3>
                             <textarea
                                 value={bottomAdCode}
                                 onChange={(e) => setBottomAdCode(e.target.value)}
@@ -147,16 +147,16 @@ export default function AdsAdminPage() {
                             <FileText size={24} />
                         </div>
                         <div>
-                            <h2 className="text-xl font-black tracking-tight">ads.txt İçeriği</h2>
+                            <h2 className="text-xl font-black tracking-tight">ads.txt Content</h2>
                             <p className="text-sm text-slate-500">
-                                Reklam verenlerin sitenizi doğrulaması için gerekli ads.txt dosyasının içeriğini buraya girin.
+                                Enter the content of your ads.txt file required for advertisers to verify your site.
                             </p>
                         </div>
                     </div>
                     <textarea
                         value={adsTxt}
                         onChange={(e) => setAdsTxt(e.target.value)}
-                        placeholder="Örn: google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0"
+                        placeholder="Ex: google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0"
                         className="w-full h-48 p-4 bg-zinc-50 dark:bg-zinc-900/50 border-2 border-zinc-100 dark:border-white/5 rounded-2xl text-sm font-mono outline-none focus:border-emerald-500/50 transition-all resize-none"
                     />
                 </div>
