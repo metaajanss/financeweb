@@ -1,7 +1,8 @@
 import { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { setRequestLocale, getTranslations } from 'next-intl/server';
+import { setRequestLocale, getTranslations, getMessages } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import Script from 'next/script';
 
@@ -89,6 +90,7 @@ export default async function RootLayout({
 
   // Enable static rendering
   setRequestLocale(locale);
+  const messages = await getMessages();
 
   return (
     <html lang={locale}>
@@ -140,13 +142,15 @@ export default async function RootLayout({
       </head>
       <body className={`${inter.variable} font-sans antialiased bg-white text-black`}>
         <NextTopLoader showSpinner={false} color="#ef4444" height={3} />
-        <AuthProvider locale={locale}>
-          <FramerLazyProvider>
-            <ToastProvider>
-              {children}
-            </ToastProvider>
-          </FramerLazyProvider>
-        </AuthProvider>
+        <NextIntlClientProvider messages={messages}>
+          <AuthProvider locale={locale}>
+            <FramerLazyProvider>
+              <ToastProvider>
+                {children}
+              </ToastProvider>
+            </FramerLazyProvider>
+          </AuthProvider>
+        </NextIntlClientProvider>
 
 
         {/* Third-Party Scripts (Moved out of head for performance & build health) */}
