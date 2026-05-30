@@ -11,7 +11,7 @@ values ('chatbot', 'chatbot', true)
 on conflict (id) do update set public = true;
 
 -- 2. Enable RLS on storage.objects
-alter table storage.objects enable row level security;
+-- alter table storage.objects enable row level security;
 
 -- 3. PROFILES BUCKET POLICIES
 

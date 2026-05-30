@@ -97,7 +97,7 @@ export async function updateAccountSettings(settings: Partial<AccountSettings>) 
 
     const { error } = await supabase
         .from('accounts')
-        .update(updatePayload)
+        .update(updatePayload as any)
         .eq('id', context.accountId)
 
     if (error) {

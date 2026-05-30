@@ -179,9 +179,12 @@ export async function updateSequence(id: string, data: Partial<Sequence>) {
 
     const supabase = await createClient()
 
+    // Omit virtual properties that don't map to database columns
+    const { metrics, performanceScore, ...updateData } = data
+
     const { error } = await supabase
         .from('sequences')
-        .update(data)
+        .update(updateData)
         .eq('id', id)
         .eq('account_id', context.accountId)
 

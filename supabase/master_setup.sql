@@ -1,4 +1,4 @@
-﻿-- Enable Row Level Security
+-- Enable Row Level Security
 ALTER TABLE IF EXISTS public.profiles ENABLE ROW LEVEL SECURITY;
 ALTER TABLE IF EXISTS public.accounts ENABLE ROW LEVEL SECURITY;
 ALTER TABLE IF EXISTS public.leads ENABLE ROW LEVEL SECURITY;
@@ -216,7 +216,7 @@ ALTER TABLE public.sequence_enrollments ENABLE ROW LEVEL SECURITY;
 
 
 
-USING (account_id IN (SELECT account_id FROM public.profiles WHERE id = auth.uid()));
+
 
 
 -- FILE: 20240218_add_profile_created_at.sql
@@ -1608,20 +1608,21 @@ ALTER TABLE public.conversations ADD COLUMN IF NOT EXISTS metadata JSONB DEFAULT
 
 -- FILE: 20260330_add_web_chatbot_channel.sql
 
+
 -- Update the check constraint on conversations table for channel to include web_chatbot
 ALTER TABLE public.conversations DROP CONSTRAINT IF EXISTS conversations_channel_check;
 ALTER TABLE public.conversations ADD CONSTRAINT conversations_channel_check 
 CHECK (channel IN ('whatsapp', 'email', 'widget', 'instagram', 'tiktok', 'web_chatbot'));
 
 -- Also update the leads source check if it exists (Optional step if it fails just ignore)
-DO 
+DO $$ 
 BEGIN
     ALTER TABLE public.leads DROP CONSTRAINT IF EXISTS leads_source_check;
     ALTER TABLE public.leads ADD CONSTRAINT leads_source_check 
     CHECK (source IN ('whatsapp', 'email', 'widget', 'manual', 'import', 'api', 'web_chatbot'));
 EXCEPTION
     WHEN undefined_object THEN null;
-END ;
+END $$;
 
 
 -- FILE: 20260404_add_sequence_reporting.sql

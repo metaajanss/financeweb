@@ -75,9 +75,12 @@ export async function updateProfile(data: Partial<Profile>) {
     const { data: { user } } = await supabase.auth.getUser()
     if (!user) return { error: 'Unauthorized' }
 
+    // Omit virtual properties that don't map to database columns
+    const { status, ...updateData } = data
+
     const { error } = await supabase
         .from('profiles')
-        .update(data)
+        .update(updateData)
         .eq('id', user.id)
 
     if (error) {
@@ -143,9 +146,12 @@ export async function updateAccount(data: Partial<Account>) {
 
     const supabase = await createClient()
 
+    // Omit virtual properties that don't map to database columns
+    const { metadata, ...updateData } = data
+
     const { error } = await supabase
         .from('accounts')
-        .update(data)
+        .update(updateData)
         .eq('id', context.accountId)
 
     if (error) {

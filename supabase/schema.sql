@@ -215,5 +215,4 @@ ALTER TABLE public.sequence_enrollments ENABLE ROW LEVEL SECURITY;
 -- RLS for Sequence Enrollments are in `supabase_rls_policies.sql`
 
 
-
-USING (account_id IN (SELECT account_id FROM public.profiles WHERE id = auth.uid()));
+

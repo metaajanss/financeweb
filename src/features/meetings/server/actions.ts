@@ -268,9 +268,12 @@ export async function updateMeeting(id: string, data: Partial<Meeting>) {
     const profile = await getProfile()
     if (!profile?.account_id) return { error: 'No account found' }
 
+    // Omit virtual properties that don't map to database columns
+    const { lead, ...updateData } = data
+
     const { error } = await supabase
         .from('meetings')
-        .update(data)
+        .update(updateData)
         .eq('id', id)
         .eq('account_id', profile.account_id)
 
