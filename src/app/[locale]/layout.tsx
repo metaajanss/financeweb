@@ -167,12 +167,7 @@ export default async function RootLayout({
           `}
         </Script>
 
-        {/* PayoffLab Support Chatbot - uses local file in dev, production URL in prod */}
-        <Script 
-          src={process.env.NODE_ENV === 'development' ? '/scripts/chatbot.js' : 'https://jumpix.app/scripts/chatbot.js?v=1.0.1'}
-          data-id="8c7a52d6-a708-4dfe-bcf7-94f04762ea25" 
-          strategy="lazyOnload"
-        />
+
 
 
       </body>
