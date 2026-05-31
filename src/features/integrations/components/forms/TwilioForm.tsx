@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useTranslations } from 'next-intl';
 import { CheckCircle, AlertTriangle } from 'lucide-react';
@@ -116,7 +116,7 @@ export function TwilioForm({ step, setStep, from, setFrom, otp, setOtp, profileN
                         </div>
                         <div className="flex items-center gap-2 group">
                             <code className="text-[11px] font-mono bg-background/50 p-2.5 rounded-lg border border-border flex-1 border-dashed group-hover:border-primary/50 transition-colors">
-                                https://jumpix.app/api/webhooks/whatsapp
+                                https://payofflab.app/api/webhooks/whatsapp
                             </code>
                         </div>
                         <p className="text-[10px] text-muted-foreground leading-tight">

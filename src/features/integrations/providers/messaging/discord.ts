@@ -1,4 +1,4 @@
-import { createClient } from '@/core/db/server';
+﻿import { createClient } from '@/core/db/server';
 import { fetchWithRetry } from '@/core/http/fetch';
 
 export interface DiscordConfig {
@@ -118,6 +118,6 @@ function formatDiscordEmbed(type: string, data: Record<string, unknown>) {
                 ]
             };
         default:
-            return { title: "Notification from Jumpix", color: 0x6366f1 };
+            return { title: "Notification from Payoff Lab", color: 0x6366f1 };
     }
 }

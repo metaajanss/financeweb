@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { Link } from '@/i18n/navigation';
 import { format } from 'date-fns';
@@ -76,7 +76,7 @@ export function BlogCard({ post, locale }: BlogCardProps) {
                         <div className="w-6 h-6 rounded-full bg-secondary border border-border flex items-center justify-center overflow-hidden">
                             <User size={12} className="text-slate-500" />
                         </div>
-                        <span className="text-[10px] font-bold text-slate-500">{post.profiles?.full_name || 'Jumpix Team'}</span>
+                        <span className="text-[10px] font-bold text-slate-500">{post.profiles?.full_name || 'Payoff Lab Team'}</span>
                     </div>
 
                     <Link href={`/blog/${post.slug}`} className="flex items-center gap-1 text-[10px] font-black uppercase tracking-[0.2em] text-primary group/more">

@@ -1,4 +1,4 @@
-import { Settings, Zap, Shield, Link as LinkIcon, Box } from "lucide-react";
+﻿import { Settings, Zap, Shield, Link as LinkIcon, Box } from "lucide-react";
 
 export type MarketingPage = {
   slug: string;
@@ -17,7 +17,7 @@ export type MarketingPage = {
 export function getBrandCopy(locale: string) {
   return {
     tagline: "Instant Responses. Qualified Leads. Booked Meetings.",
-    rights: "© 2026 Jumpix. All rights reserved.",
+    rights: "© 2026 Payoff Lab. All rights reserved.",
     statusLabel: "Status",
     supportLabel: "Contact Support",
     termsLabel: "Terms of Service"
@@ -50,7 +50,7 @@ export function getHeaderActions(locale: string) {
     integrationsLabel: "Integrations",
     learnMore: "Learn More",
     mobileDescription: "Capture demand, qualify it faster, automate the right next step.",
-    integrationsDesc: "Connect Jumpix with your favorite tools.",
+    integrationsDesc: "Connect Payoff Lab with your favorite tools.",
     pricingDesc: "Simple, transparent pricing for teams of all sizes.",
     loginHref: "/login",
     loginLabel: "Log in",

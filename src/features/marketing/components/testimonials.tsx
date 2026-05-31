@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React from "react";
 import { m } from "framer-motion";
@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const testimonialsListTr = [
     {
-        text: "Jumpix operasyonlarımızı yönetme şeklimizi tamamen değiştirdi. Sadece otomasyon özellikleri bile bize haftada 20 saat kazandırdı.",
+        text: "Payoff Lab operasyonlarımızı yönetme şeklimizi tamamen değiştirdi. Sadece otomasyon özellikleri bile bize haftada 20 saat kazandırdı.",
         name: "Sarah Jenkins",
         role: "CTO, TechFlow Inc.",
         image: "https://i.pravatar.cc/150?u=sarah"
@@ -41,7 +41,7 @@ const testimonialsListTr = [
 
 const testimonialsListEn = [
     {
-        text: "Jumpix completely changed the way we manage our operations. The automation features alone saved us 20 hours a week.",
+        text: "Payoff Lab completely changed the way we manage our operations. The automation features alone saved us 20 hours a week.",
         name: "Sarah Jenkins",
         role: "CTO, TechFlow Inc.",
         image: "https://i.pravatar.cc/150?u=sarah"

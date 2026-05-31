@@ -1,4 +1,4 @@
-import type {
+﻿import type {
     SocialPlatform,
     SocialMediaCampaign,
     ChannelSettings,
@@ -424,6 +424,6 @@ async function getKnowledgeBase(): Promise<string> {
     // ai_config.knowledge_base'i super-admin hesabından al
     // Bu tablo yok, globals'dan alıyoruz - ai_config sistemini referans al
     return process.env.NEXT_PUBLIC_APP_URL
-        ? `Jumpix - AI destekli B2B lead yönetimi ve satış otomasyon platformu. ${process.env.NEXT_PUBLIC_APP_URL}`
-        : 'Jumpix - AI destekli B2B lead yönetimi ve satış otomasyon platformu.'
+        ? `Payoff Lab - AI destekli B2B lead yönetimi ve satış otomasyon platformu. ${process.env.NEXT_PUBLIC_APP_URL}`
+        : 'Payoff Lab - AI destekli B2B lead yönetimi ve satış otomasyon platformu.'
 }

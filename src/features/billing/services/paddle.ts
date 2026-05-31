@@ -1,4 +1,4 @@
-'use server';
+﻿'use server';
 
 import { Environment, LogLevel, Paddle } from '@paddle/paddle-node-sdk';
 import { createClient } from '@/core/db/server';
@@ -329,7 +329,7 @@ export async function getTransactionForCheckout(plan: SubscriptionPlan) {
     // Create a transaction scoped to the user account & price item
     // We'll pass the transaction id to Paddle.js
     // Passing the account id as customData ensures we receive it via webhook.
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://jumpix.app';
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://payofflab.app';
     const isLocalhost = baseUrl.includes('localhost');
     const isProduction = process.env.NEXT_PUBLIC_PADDLE_ENVIRONMENT === 'production';
 
@@ -394,7 +394,7 @@ function handlePaddleError(e: unknown, customerId: string | null, isLocalhost: b
 
     // Specialized error handling for 'Domain approval'
     if (errorMessage.includes('domain that has been approved')) {
-        errorMessage = 'Paddle Hatası: Alan adı onaylanmamış. \n\nÇözüm: Paddle Dashboard > Checkout > Settings > Approved Domains kısmına "jumpix.app" adresini eklediğinizden emin olun.';
+        errorMessage = 'Paddle Hatası: Alan adı onaylanmamış. \n\nÇözüm: Paddle Dashboard > Checkout > Settings > Approved Domains kısmına "payofflab.app" adresini eklediğinizden emin olun.';
     }
 
     // Specialized error handling for blocked vendor/domain (common in production localhost)

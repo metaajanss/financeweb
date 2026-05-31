@@ -1,4 +1,4 @@
-import { fetchWithRetry } from '@/core/http/fetch';
+﻿import { fetchWithRetry } from '@/core/http/fetch';
 
 // Recall.ai is region-scoped: api keys created in eu-central-1 will not work
 // against the global endpoint. Allow operators to override the base URL while
@@ -198,14 +198,14 @@ async function handleRecallResponse<T>(response: Response): Promise<T> {
 export async function createBot(options: CreateBotOptions): Promise<Bot> {
     const payload: Record<string, unknown> = {
         meeting_url: options.meeting_url,
-        bot_name: options.bot_name || 'Jumpix AI Assistant',
+        bot_name: options.bot_name || 'Payoff Lab AI Assistant',
         transcription_mode: options.transcription_mode || 'default',
         real_time_audio: options.real_time_audio ?? false,
         auto_join: options.auto_join ?? true,
         recording_format: options.recording_format || 'mp4',
         metadata: {
-            jumpix_meeting_id: options.meeting_id,
-            jumpix_account_id: options.account_id,
+            payofflab_meeting_id: options.meeting_id,
+            payofflab_account_id: options.account_id,
             ...((options as any).metadata || {}),
         },
     };

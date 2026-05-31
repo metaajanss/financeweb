@@ -1,4 +1,4 @@
-'use server';
+﻿'use server';
 
 import { createClient } from '@/core/db/server';
 import { createLead } from '@/features/leads/server/actions';
@@ -28,16 +28,16 @@ const LANGUAGE_MAP: Record<string, string> = {
 };
 
 const WELCOME_MESSAGES: Record<string, string> = {
-    tr: "Merhaba! Ben **Jumpix AI** asistanınız. Size lead verileriniz, randevularınız veya platform kullanımı hakkında nasıl yardımcı olabilirim?",
-    en: "Hello! I am your **Jumpix AI** assistant. How can I help you with your lead data, appointments, or platform usage?",
-    zh: "您好！我是您的 **Jumpix AI** 助手。我能如何帮助您处理潜客数据、预约或平台使用问题？",
-    fr: "Bonjour ! Je suis votre assistant **Jumpix AI**. Comment puis-je vous aider avec vos données de prospects, vos rendez-vous ou l'utilisation de la plateforme ?",
-    de: "Hallo! Ich bin Ihr **Jumpix AI** Assistent. Wie kann ich Ihnen mit Ihren Lead-Daten, Terminen oder der Plattformnutzung helfen?",
-    es: "¡Hola! Soy tu asistente de **Jumpix AI**. ¿Cómo puedo ayudarte con tus datos de leads, citas o el uso de la plataforma?",
-    ar: "مرحبًا! أنا مساعد **Jumpix AI** الخاص بك. كيف يمكنني مساعدتك في بيانات العملاء المحتملين أو المواعيد أو استخدام النظام الأساسي؟",
-    ru: "Привет! Я ваш помощник **Jumpix AI**. Чем я могу помочь вам с данными о лидах, встречами или использованием платформы?",
-    hi: "नमस्ते! मैं आपका **Jumpix AI** सहायक हूँ। मैं लीड डेटा, अपॉइंटमेंट या प्लेटफ़ॉर्म उपयोग में आपकी कैसे मदद कर सकता हूँ?",
-    id: "Halo! Saya asisten **Jumpix AI** Anda. Bagaimana saya bisa membantu Anda dengan data prospek, janji temu, atau penggunaan platform Anda?"
+    tr: "Merhaba! Ben **Payoff Lab AI** asistanınız. Size lead verileriniz, randevularınız veya platform kullanımı hakkında nasıl yardımcı olabilirim?",
+    en: "Hello! I am your **Payoff Lab AI** assistant. How can I help you with your lead data, appointments, or platform usage?",
+    zh: "您好！我是您的 **Payoff Lab AI** 助手。我能如何帮助您处理潜客数据、预约或平台使用问题？",
+    fr: "Bonjour ! Je suis votre assistant **Payoff Lab AI**. Comment puis-je vous aider avec vos données de prospects, vos rendez-vous ou l'utilisation de la plateforme ?",
+    de: "Hallo! Ich bin Ihr **Payoff Lab AI** Assistent. Wie kann ich Ihnen mit Ihren Lead-Daten, Terminen oder der Plattformnutzung helfen?",
+    es: "¡Hola! Soy tu asistente de **Payoff Lab AI**. ¿Cómo puedo ayudarte con tus datos de leads, citas o el uso de la plataforma?",
+    ar: "مرحبًا! أنا مساعد **Payoff Lab AI** الخاص بك. كيف يمكنني مساعدتك في بيانات العملاء المحتملين أو المواعيد أو استخدام النظام الأساسي؟",
+    ru: "Привет! Я ваш помощник **Payoff Lab AI**. Чем я могу помочь вам с данными о лидах, встречами или использованием платформы?",
+    hi: "नमस्ते! मैं आपका **Payoff Lab AI** सहायक हूँ। मैं लीड डेटा, अपॉइंटमेंट या प्लेटफ़ॉर्म उपयोग में आपकी कैसे मदद कर सकता हूँ?",
+    id: "Halo! Saya asisten **Payoff Lab AI** Anda. Bagaimana saya bisa membantu Anda dengan data prospek, janji temu, atau penggunaan platform Anda?"
 };
 
 // ─── Unified Intent & Date Extraction ────────────────────────────────────────
@@ -139,8 +139,8 @@ async function sendMeetingConfirmationEmail(
             const emailSubject = isTurkish ? `📅 Toplantı Onayı: ${meetingTitle}` : `📅 Meeting Confirmation: ${meetingTitle}`;
             
             const emailBody = isTurkish 
-                ? `Merhaba,\n\nToplantınız başarıyla oluşturuldu!\n\n📅 Toplantı Adı: ${meetingTitle}\n🗓 Tarih: ${formattedDate}\n🕐 Saat: ${formattedTime}\n🔗 Google Meet Linki: ${hangoutLink}\n\nToplantıya katılmak için yukarıdaki bağlantıya tıklayabilirsiniz.\n\nBu toplantı Jumpix AI tarafından otomatik olarak oluşturulmuştur.\n\nİyi görüşmeler!\n— Jumpix AI`
-                : `Hello,\n\nYour meeting has been successfully created!\n\n📅 Meeting Title: ${meetingTitle}\n🗓 Date: ${formattedDate}\n🕐 Time: ${formattedTime}\n🔗 Google Meet Link: ${hangoutLink}\n\nYou can click the link above to join the meeting.\n\nThis meeting was automatically scheduled by Jumpix AI.\n\nBest regards,\n— Jumpix AI`;
+                ? `Merhaba,\n\nToplantınız başarıyla oluşturuldu!\n\n📅 Toplantı Adı: ${meetingTitle}\n🗓 Tarih: ${formattedDate}\n🕐 Saat: ${formattedTime}\n🔗 Google Meet Linki: ${hangoutLink}\n\nToplantıya katılmak için yukarıdaki bağlantıya tıklayabilirsiniz.\n\nBu toplantı Payoff Lab AI tarafından otomatik olarak oluşturulmuştur.\n\nİyi görüşmeler!\n— Payoff Lab AI`
+                : `Hello,\n\nYour meeting has been successfully created!\n\n📅 Meeting Title: ${meetingTitle}\n🗓 Date: ${formattedDate}\n🕐 Time: ${formattedTime}\n🔗 Google Meet Link: ${hangoutLink}\n\nYou can click the link above to join the meeting.\n\nThis meeting was automatically scheduled by Payoff Lab AI.\n\nBest regards,\n— Payoff Lab AI`;
 
             await sendGmailMessage(
                 (gmailIntegration as any).id,
@@ -149,7 +149,7 @@ async function sendMeetingConfirmationEmail(
                 emailBody
             );
         } catch (err) {
-            console.error('[AI Jumpix] Failed to send email via Gmail:', err);
+            console.error('[Payoff Lab AI] Failed to send email via Gmail:', err);
         }
     }
 }
@@ -183,7 +183,7 @@ export async function sendMessage(sessionId: string, message: string) {
 
     // 1. Save user message
     const { data: _userMsg, error: userMsgErr } = await supabase
-        .from('ai_jumpix_messages')
+        .from('ai_payofflab_messages')
         .insert({
             session_id: sessionId,
             role: 'user',
@@ -202,7 +202,7 @@ export async function sendMessage(sessionId: string, message: string) {
 
     // 3. Get chat history for this session (limited to last 20 for context)
     const { data: history } = await supabase
-        .from('ai_jumpix_messages')
+        .from('ai_payofflab_messages')
         .select('role, content')
         .eq('session_id', sessionId)
         .order('created_at', { ascending: true })
@@ -247,7 +247,7 @@ export async function sendMessage(sessionId: string, message: string) {
             const now = new Date();
             // If the date is more than 24 hours in the past, or the year is clearly wrong
             if (checkDate < new Date(now.getTime() - 24 * 60 * 60 * 1000) || checkDate.getFullYear() < 2024) {
-                console.warn(`[AI Jumpix] Sanity Check FAILED: Detected date ${detectedStartTime} is in the past or invalid.`);
+                console.warn(`[Payoff Lab AI] Sanity Check FAILED: Detected date ${detectedStartTime} is in the past or invalid.`);
                 detectedStartTime = null;
                 detectedIntent = false; // Reset to avoid booking bad date
             }
@@ -270,8 +270,8 @@ export async function sendMessage(sessionId: string, message: string) {
 
                 const isOnline = message.toLowerCase().includes('online') || message.toLowerCase().includes('google meet');
                 const meetingTitle = isTurkish 
-                    ? (isOnline ? `AI Jumpix Online Toplantısı` : `AI Jumpix Toplantısı`) 
-                    : (isOnline ? `AI Jumpix Online Meeting` : `AI Jumpix Meeting`);
+                    ? (isOnline ? `Payoff Lab AI Online Toplantısı` : `Payoff Lab AI Toplantısı`) 
+                    : (isOnline ? `Payoff Lab AI Online Meeting` : `Payoff Lab AI Meeting`);
 
                 // Try to associate with a lead if email is mentioned or in context
                 let associatedLeadId: string | null = null;
@@ -303,7 +303,7 @@ export async function sendMessage(sessionId: string, message: string) {
                         if (createSuccess && createdId) {
                             associatedLeadId = createdId;
                         } else {
-                            console.error('[AI Jumpix] createLead action failed:', createErr);
+                            console.error('[Payoff Lab AI] createLead action failed:', createErr);
                             // Fallback to direct insertion if the action fails (unlikely given we have session)
                             const { data: newLead } = await adminClient.from('leads').insert({
                                 account_id: accountId,
@@ -365,21 +365,21 @@ export async function sendMessage(sessionId: string, message: string) {
                                 startTime,
                                 durationMinutes: 60,
                                 attendeeEmail: targetAttendeeEmail,
-                                description: `Generated by Jumpix AI Assistant. Request: "${message}"`
+                                description: `Generated by Payoff Lab AI Assistant. Request: "${message}"`
                             }
                         );
 
                         if (result.success) {
-                            // 1. Save to meetings table (Jumpix internal calendar)
+                            // 1. Save to meetings table (Payoff Lab internal calendar)
                             try {
                                 const meetStart = new Date(startTime);
                                 const meetEnd = new Date(meetStart.getTime() + 60 * 60000); // 60 min default
-                                // 1. Save to meetings table (Jumpix internal calendar) — USE ADMIN CLIENT
+                                // 1. Save to meetings table (Payoff Lab internal calendar) — USE ADMIN CLIENT
                                 const { data: meetData, error: dbInsertErr } = await adminClient.from('meetings').insert({
                                     account_id: accountId,
                                     agent_id: user.id,
                                     title: meetingTitle,
-                                    description: `Generated by Jumpix AI Assistant. Request: "${message}"`,
+                                    description: `Generated by Payoff Lab AI Assistant. Request: "${message}"`,
                                     scheduled_at: startTime,
                                     start_time: meetStart.toISOString(),
                                     end_time: meetEnd.toISOString(),
@@ -392,7 +392,7 @@ export async function sendMessage(sessionId: string, message: string) {
                                 } as any).select('id').single();
 
                                 if (dbInsertErr) {
-                                    console.error('[AI Jumpix] DB Insert Failure:', dbInsertErr);
+                                    console.error('[Payoff Lab AI] DB Insert Failure:', dbInsertErr);
                                     throw new Error(`DB Error: ${dbInsertErr.message}`);
                                 }
 
@@ -419,7 +419,7 @@ export async function sendMessage(sessionId: string, message: string) {
                                             }).eq('id', meetData.id)
                                         }
                                     } catch (avatarErr) {
-                                        console.error('[AI Jumpix] Avatar bot error (non-blocking):', avatarErr)
+                                        console.error('[Payoff Lab AI] Avatar bot error (non-blocking):', avatarErr)
                                     }
                                 }
 
@@ -433,21 +433,21 @@ export async function sendMessage(sessionId: string, message: string) {
                                     });
 
                                     await sendSlackNotification(accountId, 'meetings', {
-                                        lead_name: associatedLeadId ? 'Associated Lead' : 'Jumpix User',
+                                        lead_name: associatedLeadId ? 'Associated Lead' : 'Payoff Lab User',
                                         start_time: new Date(startTime).toLocaleString(),
                                         title: `[AI Assistant] ${meetingTitle}`
                                     });
 
                                     await sendDiscordNotification(accountId, 'meetings', {
-                                        lead_name: associatedLeadId ? 'Associated Lead' : 'Jumpix User',
+                                        lead_name: associatedLeadId ? 'Associated Lead' : 'Payoff Lab User',
                                         start_time: new Date(startTime).toLocaleString(),
                                         title: `[AI Assistant] ${meetingTitle}`
                                     });
                                 } catch (notifErr) {
-                                    console.error('[AI Jumpix] Notification error:', notifErr);
+                                    console.error('[Payoff Lab AI] Notification error:', notifErr);
                                 }
                             } catch (dbErr) {
-                                console.error('[AI Jumpix] Could not save meeting to DB:', dbErr);
+                                console.error('[Payoff Lab AI] Could not save meeting to DB:', dbErr);
                             }
 
                             // 2. Activity / Event log
@@ -455,7 +455,7 @@ export async function sendMessage(sessionId: string, message: string) {
                                 await supabase.from('event_logs').insert({
                                     account_id: accountId,
                                     event_type: 'meeting.booked',
-                                    entity_type: 'ai_jumpix_session',
+                                    entity_type: 'ai_payofflab_session',
                                     entity_id: sessionId,
                                     data: {
                                         title: meetingTitle,
@@ -504,7 +504,7 @@ export async function sendMessage(sessionId: string, message: string) {
                             : `\n\n⚠️ You have another event scheduled at **${formattedTime}**. Could you suggest a different time?`;
                     }
                 } else {
-                    // Google Calendar not connected — still save to Jumpix internal meetings table
+                    // Google Calendar not connected — still save to Payoff Lab internal meetings table
                     try {
                         const meetStart = new Date(startTime);
                         const meetEnd = new Date(meetStart.getTime() + 60 * 60000);
@@ -512,7 +512,7 @@ export async function sendMessage(sessionId: string, message: string) {
                             account_id: accountId,
                             agent_id: user.id,
                             title: meetingTitle,
-                            description: `Generated by Jumpix AI Assistant (No Google Calendar). Request: "${message}"`,
+                            description: `Generated by Payoff Lab AI Assistant (No Google Calendar). Request: "${message}"`,
                             scheduled_at: startTime,
                             start_time: meetStart.toISOString(),
                             end_time: meetEnd.toISOString(),
@@ -523,22 +523,22 @@ export async function sendMessage(sessionId: string, message: string) {
                         } as any).select('id').single();
 
                         if (dbInsertErr) {
-                            console.error('[AI Jumpix] DB Insert Failure (No Calendar):', dbInsertErr);
+                            console.error('[Payoff Lab AI] DB Insert Failure (No Calendar):', dbInsertErr);
                             meetingResultForAI = { created: false };
                         } else {
                             meetingResultForAI = { created: true, noCalendar: true, startTime };
                             meetingInfo = isTurkish
-                                ? `\n\n💡 **Toplantı Jumpix takvimine kaydedildi!** Ancak Google Calendar bağlı olmadığı için Google üzerinde oluşturulamadı. Ayarlar → Entegrasyonlar sayfasından Google Takvim'i bağlayabilirsiniz.`
-                                : `\n\n💡 **Meeting saved to Jumpix calendar!** However, it couldn't be created on Google as the integration is not connected. You can connect Google Calendar in Settings → Integrations.`;
+                                ? `\n\n💡 **Toplantı Payoff Lab takvimine kaydedildi!** Ancak Google Calendar bağlı olmadığı için Google üzerinde oluşturulamadı. Ayarlar → Entegrasyonlar sayfasından Google Takvim'i bağlayabilirsiniz.`
+                                : `\n\n💡 **Meeting saved to Payoff Lab calendar!** However, it couldn't be created on Google as the integration is not connected. You can connect Google Calendar in Settings → Integrations.`;
                         }
                     } catch (dbErr) {
-                        console.error('[AI Jumpix] Could not save meeting (no calendar catch):', dbErr);
+                        console.error('[Payoff Lab AI] Could not save meeting (no calendar catch):', dbErr);
                         meetingResultForAI = { created: false };
                     }
                 }
             }
         } catch (bookingErr: any) {
-        console.error('[AI Jumpix] CRITICAL Booking failure:', bookingErr);
+        console.error('[Payoff Lab AI] CRITICAL Booking failure:', bookingErr);
         meetingResultForAI = { created: false, busy: false };
         meetingInfo = isTurkish 
             ? `\n\n❌ **Sistem Hatası:** Randevu oluşturulurken bir hata oluştu: ${bookingErr.message || 'Bilinmeyen hata'}`
@@ -553,7 +553,7 @@ export async function sendMessage(sessionId: string, message: string) {
     if (meetingResultForAI?.created) {
         const linkDetail = meetingResultForAI.hangoutLink 
             ? ` (Meet Link: ${meetingResultForAI.hangoutLink})` 
-            : (meetingResultForAI.noCalendar ? ' (Jumpix Calendar ONLY - No Google Connection)' : ' (Google Calendar updated)');
+            : (meetingResultForAI.noCalendar ? ' (Payoff Lab Calendar ONLY - No Google Connection)' : ' (Google Calendar updated)');
             
         aiSystemInfo = isTurkish 
             ? `\n\nSİSTEM BİLGİSİ: Toplantı BAŞARIYLA oluşturuldu (${meetingResultForAI.startTime}).${linkDetail}. Kullanıcıya onayı ver.`
@@ -568,8 +568,8 @@ export async function sendMessage(sessionId: string, message: string) {
             : `\n\nSYSTEM INFO: CRITICAL ERROR! Meeting could not be created. Inform the user about a technical/database issue. Error Detail: ${meetingInfo}`;
     } else if (meetingResultForAI?.noCalendar) {
         aiSystemInfo = isTurkish
-            ? `\n\nSİSTEM BİLGİSİ: Google Calendar bağlı değil ancak toplantı yine de Jumpix iç takvimine kaydedildi. Kullanıcıya ayarlar sayfasından Google Takvim'i bağlayabileceklerini hatırlatabilirsin.`
-            : `\n\nSYSTEM INFO: Google Calendar is not connected, but the meeting was still saved to the internal Jumpix calendar. You can remind the user they can connect Google Calendar in Settings.`;
+            ? `\n\nSİSTEM BİLGİSİ: Google Calendar bağlı değil ancak toplantı yine de Payoff Lab iç takvimine kaydedildi. Kullanıcıya ayarlar sayfasından Google Takvim'i bağlayabileceklerini hatırlatabilirsin.`
+            : `\n\nSYSTEM INFO: Google Calendar is not connected, but the meeting was still saved to the internal Payoff Lab calendar. You can remind the user they can connect Google Calendar in Settings.`;
     } else {
         // Force the AI to be honest if no booking was confirmed by the backend
         aiSystemInfo = isTurkish
@@ -584,7 +584,7 @@ export async function sendMessage(sessionId: string, message: string) {
         }));
 
         const result = await generateCoreResponse({
-            systemPrompt: `You are Jumpix AI, an intelligent platform assistant. Your language is ${userLanguageStr}, but always reply in the exact language the user used.
+            systemPrompt: `You are Payoff Lab AI, an intelligent platform assistant. Your language is ${userLanguageStr}, but always reply in the exact language the user used.
             
 OFFICIAL CAPABILITY: You HAVE the authority to schedule meetings, online calls, and appointments. The system detects your intent and handles the Google Calendar/Meet creation automatically. 
 If the system says a meeting was created (see AI SYSTEM INFO below), share the details. 
@@ -617,7 +617,7 @@ ${aiSystemInfo}`,
 
         // 6. Save AI message
         const { data: aiMsg } = await supabase
-            .from('ai_jumpix_messages')
+            .from('ai_payofflab_messages')
             .insert({
                 session_id: sessionId,
                 role: 'assistant',
@@ -626,7 +626,7 @@ ${aiSystemInfo}`,
             .select()
             .single();
 
-        revalidatePath('/admin/ai-jumpix');
+        revalidatePath('/admin/ai-payofflab');
         return { data: aiMsg };
     } catch (error: any) {
         console.error('AI Service (Core) error:', error);
@@ -658,7 +658,7 @@ export async function createNewSession(title?: string) {
     const userLocale = account?.language || 'tr';
 
     const { data: session, error } = await supabase
-        .from('ai_jumpix_sessions')
+        .from('ai_payofflab_sessions')
         .insert({
             user_id: user.id,
             account_id: profile.account_id,
@@ -675,13 +675,13 @@ export async function createNewSession(title?: string) {
     // Insert initial assistant welcome message
     const welcomeMessage = WELCOME_MESSAGES[userLocale as keyof typeof WELCOME_MESSAGES] || WELCOME_MESSAGES['en'];
 
-    await supabase.from('ai_jumpix_messages').insert({
+    await supabase.from('ai_payofflab_messages').insert({
         session_id: session.id,
         role: 'assistant',
         content: welcomeMessage
     });
 
-    revalidatePath('/admin/ai-jumpix');
+    revalidatePath('/admin/ai-payofflab');
     return { data: session };
 }
 
@@ -692,10 +692,10 @@ export async function getSessions() {
     if (!user) return [];
 
     // Trigger background sync to keep data fresh (without revalidation to avoid render errors)
-    syncGoogleCalendarEvents(false).catch(err => console.error('[AI Jumpix] Background sync failed:', err));
+    syncGoogleCalendarEvents(false).catch(err => console.error('[Payoff Lab AI] Background sync failed:', err));
 
     const { data: sessions } = await supabase
-        .from('ai_jumpix_sessions')
+        .from('ai_payofflab_sessions')
         .select('id, user_id, account_id, title, created_at')
         .eq('user_id', user.id)
         .order('created_at', { ascending: false });
@@ -706,7 +706,7 @@ export async function getSessions() {
 export async function getMessages(sessionId: string) {
     const supabase = await createClient();
     const { data: messages } = await supabase
-        .from('ai_jumpix_messages')
+        .from('ai_payofflab_messages')
         .select('id, session_id, role, content, created_at')
         .eq('session_id', sessionId)
         .order('created_at', { ascending: true });

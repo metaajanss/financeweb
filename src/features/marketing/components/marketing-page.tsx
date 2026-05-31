@@ -1,4 +1,4 @@
-import { ArrowRight, CheckCircle2 } from "lucide-react";
+﻿import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 
 import { cn } from "@/shared/utils";
@@ -241,8 +241,8 @@ export function MarketingPageTemplate({
           <div className="relative mx-auto max-w-3xl">
             <h2 className="text-4xl font-black tracking-tight sm:text-6xl sm:leading-[1.1]">
               {isTurkish
-                ? "Jumpix ile tanışın"
-                : "Meet Jumpix"}
+                ? "Payoff Lab ile tanışın"
+                : "Meet Payoff Lab"}
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-zinc-400 dark:text-zinc-600">
               {isTurkish

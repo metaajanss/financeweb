@@ -1,4 +1,4 @@
-import { createAdminClient } from '@/core/db/admin'
+﻿import { createAdminClient } from '@/core/db/admin'
 import { checkCalendarAvailability, createCalendarEvent } from '@/features/integrations/providers/google/calendar'
 import { sendViaChannel } from '@/core/channels'
 import { logOperationalError, logOperationalEvent } from '@/core/observability/events'
@@ -333,7 +333,7 @@ export async function processMessage(conversationId: string, incomingMessage: st
                                 startTime,
                                 durationMinutes: 60,
                                 attendeeEmail: guestEmail,
-                                description: `Automated meeting booked via Jumpix AI for ${context.leadName}`
+                                description: `Automated meeting booked via Payoff Lab AI for ${context.leadName}`
                             })
 
                             if (result.success) {
@@ -463,8 +463,8 @@ export async function processMessage(conversationId: string, incomingMessage: st
                                         const subject = isTurkish ? `Toplanti Onayi: Meeting with ${context.leadName}` : `Meeting Confirmation: Meeting with ${context.leadName}`;
                                         const meetLine = result.hangoutLink ? (isTurkish ? `\nGoogle Meet: ${result.hangoutLink}` : `\nGoogle Meet: ${result.hangoutLink}`) : ''
                                         const body = isTurkish
-                                            ? `Merhaba ${context.leadName},\n\nToplantiniz basariyla olusturuldu!\n\nTarih: ${formattedDate}\nSaat: ${formattedTime}${meetLine}\n\nGorusmek uzere!\n-- Jumpix AI`
-                                            : `Hello ${context.leadName},\n\nYour meeting has been successfully created!\n\nDate: ${formattedDate}\nTime: ${formattedTime}${meetLine}\n\nSee you then!\n-- Jumpix AI`;
+                                            ? `Merhaba ${context.leadName},\n\nToplantiniz basariyla olusturuldu!\n\nTarih: ${formattedDate}\nSaat: ${formattedTime}${meetLine}\n\nGorusmek uzere!\n-- Payoff Lab AI`
+                                            : `Hello ${context.leadName},\n\nYour meeting has been successfully created!\n\nDate: ${formattedDate}\nTime: ${formattedTime}${meetLine}\n\nSee you then!\n-- Payoff Lab AI`;
                                         
                                         await sendViaChannel(
                                             convBasic.lead_id,

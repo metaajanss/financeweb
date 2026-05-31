@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from 'framer-motion';
 import { MessageSquare, Plus, PanelLeftClose, Search } from 'lucide-react';
@@ -24,7 +24,7 @@ export default function HistorySidebar({
     historyOpen, 
     setHistoryOpen
 }: HistorySidebarProps) {
-    const t = useTranslations('JumpixAssistant');
+    const t = useTranslations('PayoffLabAssistant');
     const [searchQuery, setSearchQuery] = useState('');
 
     const filteredSessions = sessions.filter(s => 

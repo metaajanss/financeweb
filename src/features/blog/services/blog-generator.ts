@@ -1,4 +1,4 @@
-import { createAdminClient } from '@/core/db/admin';
+﻿import { createAdminClient } from '@/core/db/admin';
 import { fetchWithRetry } from '@/core/http/fetch';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
@@ -43,7 +43,7 @@ function buildGenerationPrompt(keywords: string[], tone: string, lengthWords: nu
         ? `\n- Approach the topic from this specific angle: ${angleHint}`
         : '';
 
-    return `You are an expert content writer for Jumpix, a premium B2B SaaS platform for lead management and outreach automation.
+    return `You are an expert content writer for Payoff Lab, a premium B2B SaaS platform for lead management and outreach automation.
 
 Write a complete, high-quality blog post in English based on ${keywordContext}.
 

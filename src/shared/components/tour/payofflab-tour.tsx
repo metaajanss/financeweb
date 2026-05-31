@@ -5,7 +5,7 @@ import { driver } from 'driver.js';
 import 'driver.js/dist/driver.css';
 import { useTranslations } from 'next-intl';
 
-export function JumpixTour() {
+export function PayoffLabTour() {
     const t = useTranslations('Tour');
     const hasInitialized = useRef(false);
 
@@ -13,7 +13,7 @@ export function JumpixTour() {
         // Prevent double initialization in strict mode
         if (hasInitialized.current) return;
         
-        const hasSeenTour = localStorage.getItem('hasSeenJumpixTour_v3');
+        const hasSeenTour = localStorage.getItem('hasSeenPayoffLabTour_v3');
 
         if (!hasSeenTour) {
             hasInitialized.current = true;
@@ -83,7 +83,7 @@ export function JumpixTour() {
                         }
                     ],
                     onDestroyed: () => {
-                        localStorage.setItem('hasSeenJumpixTour_v3', 'true');
+                        localStorage.setItem('hasSeenPayoffLabTour_v3', 'true');
                     }
                 });
 

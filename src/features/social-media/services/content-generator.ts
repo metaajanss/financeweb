@@ -1,4 +1,4 @@
-import type {
+﻿import type {
     SocialPlatform,
     ContentType,
     CampaignTone,
@@ -19,12 +19,12 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY
 // ─── Pazarlama hedefi açıklamaları (prompt'a eklenir) ───────────────────────
 
 const MARKETING_GOAL_CONTEXT: Record<MarketingGoal, string> = {
-    brand_awareness:    'Jumpix markasını tanıt. Ürün adını doğal şekilde kullan. Hedef kitleyle bağ kur.',
+    brand_awareness:    'Payoff Lab markasını tanıt. Ürün adını doğal şekilde kullan. Hedef kitleyle bağ kur.',
     lead_generation:    'İzleyiciyi free trial veya demo almaya yönlendir. Net CTA kullan.',
     thought_leadership: 'Sektörde otorite yansıt. Deneyim ve içgörü paylaş. Promosyon ikinci planda.',
     community_building: 'Tartışma başlat, etkileşim iste, topluluğu büyüt. Ürüne bağlamak zorunda değil.',
     product_education:  'Bir özelliği veya kullanım senaryosunu anlat. Faydayı somutlaştır.',
-    problem_awareness:  'Hedef kitlenin yaşadığı acıyı öne çıkar. Çözüm olarak Jumpix doğal gelsin.',
+    problem_awareness:  'Hedef kitlenin yaşadığı acıyı öne çıkar. Çözüm olarak Payoff Lab doğal gelsin.',
 }
 
 // ─── İçerik tipi prompt stratejileri ────────────────────────────────────────
@@ -66,12 +66,12 @@ Topluluğun deneyiminden gerçekten öğrenmek istiyormuş gibi yaz.
         twitter: `Somut bir başarı, metrik veya kullanıcı deneyimi paylaş.
 Formatlar:
 - "X kullanıcımız Y sonucu elde etti"
-- "[Sektör] ekiplerinin Jumpix ile [metrik] artırdığını görüyoruz"
+- "[Sektör] ekiplerinin Payoff Lab ile [metrik] artırdığını görüyoruz"
 - Gerçekçi, abartısız bir use case
 Rakam varsa kullan, yoksa genel ama inandırıcı bir ifade seç.`,
         reddit: `"We helped a company achieve X" formatında kısa bir case study yaz.
 Teknik süreç veya karar detaylarını içer — Reddit toplulukları bunu takdir eder.
-Jumpix'i çözümün bir parçası olarak konumlandır, tek çözüm değil.`,
+Payoff Lab'i çözümün bir parçası olarak konumlandır, tek çözüm değil.`,
     },
     promotional: {
         twitter: `Direkt bir özellik veya teklif tanıtımı yap.
@@ -197,7 +197,7 @@ function buildSystemPrompt(params: GeneratePostParams & {
   "estimated_engagement": "high|medium|low"
 }`
 
-    return `Sen Jumpix'in sosyal medya pazarlama agentısın.
+    return `Sen Payoff Lab'in sosyal medya pazarlama agentısın.
 
 === ŞİRKET / ÜRÜN BAĞLAMI ===
 ${knowledgeBase}

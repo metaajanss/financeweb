@@ -1,4 +1,4 @@
-'use server'
+﻿'use server'
 
 import { createClient, getUser, getProfile } from '@/core/db/server'
 import { revalidatePath } from 'next/cache'
@@ -734,7 +734,7 @@ export async function syncGoogleCalendarEvents(shouldRevalidate = true) {
         const isVideoMeeting = !!meetLink || event.summary?.toLowerCase().includes('meet')
         const isCancelled = event.status === 'cancelled'
 
-        // Check if this Google Calendar event is already in Jumpix
+        // Check if this Google Calendar event is already in Payoff Lab
         const { data: existing } = await supabase
             .from('meetings')
             .select('id, meeting_link')

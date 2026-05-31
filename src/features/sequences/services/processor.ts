@@ -1,4 +1,4 @@
-import { createAdminClient } from '@/core/db/admin';
+﻿import { createAdminClient } from '@/core/db/admin';
 import { SupabaseClient } from '@supabase/supabase-js';
 
 // Module-level cache for compiled template regexes to avoid re-compiling per message.
@@ -94,7 +94,7 @@ function generateTrackingPixel(
     const tokenData = { enrollmentId, sequenceId, stepIndex, accountId };
     const token = Buffer.from(JSON.stringify(tokenData)).toString('base64url');
     // Fallback to NEXT_PUBLIC_SITE_URL if APP_URL is missing
-    const appUrl = process.env.NEXT_PUBLIC_APP_URL || process.env.NEXT_PUBLIC_SITE_URL || 'https://jumpix.app';
+    const appUrl = process.env.NEXT_PUBLIC_APP_URL || process.env.NEXT_PUBLIC_SITE_URL || 'https://payofflab.app';
     const pixelUrl = `${appUrl}/api/track/open?t=${token}`;
     
     return `<img src="${pixelUrl}" width="1" height="1" alt="" style="display:none;visibility:hidden;" />`;

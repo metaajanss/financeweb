@@ -1,5 +1,5 @@
-/**
- * Proactive Nurture/Follow-up System for Jumpix
+﻿/**
+ * Proactive Nurture/Follow-up System for Payoff Lab
  */
 
 import { createAdminClient } from '@/core/db/admin';
@@ -54,8 +54,8 @@ export async function generateNurtureMessage(
 ): Promise<{ message: string; subject?: string }> {
     const openRouter = new OpenRouterClient(
         process.env.OPENROUTER_API_KEY || '',
-        process.env.NEXT_PUBLIC_APP_URL || 'https://jumpix.app',
-        'Jumpix AI'
+        process.env.NEXT_PUBLIC_APP_URL || 'https://payofflab.app',
+        'Payoff Lab AI'
     );
 
     const aiConfig = (lead.account.ai_config || {}) as any;

@@ -34,7 +34,20 @@ export async function getDashboardMetrics(): Promise<DashboardMetrics> {
         
         if (error) throw error;
 
-        return data as unknown as DashboardMetrics;
+        // RPC returns an array with one row; map snake_case fields to camelCase
+        const row = Array.isArray(data) ? data[0] : data;
+
+        return {
+            tenantCount: row?.total_tenants ?? 0,
+            userCount: row?.total_leads ?? 0,
+            usersToday: row?.new_tenants_today ?? 0,
+            usersMonth: row?.new_tenants_this_month ?? 0,
+            revenueToday: 0,
+            revenueMonth: 0,
+            totalRevenue: row?.mrr_estimate ?? 0,
+            errorCount: 0,
+            status: 'OK'
+        };
     } catch (error) {
         console.error('Error fetching dashboard metrics via RPC:', error);
         return {
@@ -50,6 +63,7 @@ export async function getDashboardMetrics(): Promise<DashboardMetrics> {
         };
     }
 }
+
 
 
 export interface Tenant {
@@ -431,8 +445,13 @@ export async function getGlobalAnalyticsData() {
             planDistribution,
             revenueHistory
         };
-    } catch (error) {
-        console.error('Error fetching global analytics:', error);
+    } catch (error: any) {
+        console.error('Error fetching global analytics details:', {
+            message: error?.message || error,
+            details: error?.details,
+            hint: error?.hint,
+            code: error?.code
+        });
         throw error;
     }
 }

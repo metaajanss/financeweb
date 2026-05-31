@@ -5,7 +5,7 @@ import { SidebarProvider, SidebarInset, SidebarTrigger } from '@/shared/componen
 import { AppSidebar } from '@/shared/components/layout/app-sidebar';
 import type { SubscriptionPlan } from '@/config/plans';
 
-import { JumpixTour } from '@/shared/components/tour/jumpix-tour';
+import { PayoffLabTour } from '@/shared/components/tour/payofflab-tour';
 import { ErrorBoundary } from '@/shared/components/error-boundary/error-boundary';
 import { usePathname } from '@/i18n/navigation';
 import { initializeErrorHandlers } from '@/core/errors/logger';
@@ -13,7 +13,7 @@ import { initializeErrorHandlers } from '@/core/errors/logger';
 import { GlobalSearch } from '@/shared/components/layout/global-search';
 import { NotificationPopover } from '@/features/notifications/components/notification-popover';
 import { BrandLogo } from '@/shared/components/ui/brand-logo';
-import { JumpixFloatingWidget } from '@/features/ai-jumpix/components/floating-widget';
+import { PayoffLabFloatingWidget } from '@/features/ai-payofflab/components/floating-widget';
 import type { User } from '@supabase/supabase-js';
 import type { AccountRow } from '@/core/tenancy/account-context';
 
@@ -48,15 +48,15 @@ export function DashboardLayoutClient({
         localStorage.setItem('theme', 'light');
     }, [pathname]);
 
-    const isAiJumpixPage = pathname.includes('/admin/ai-jumpix');
+    const isAiPayoffLabPage = pathname.includes('/admin/ai-payofflab');
 
     const isFullWidthPage = pathname.includes('/admin/pipeline') || 
                           pathname.includes('/admin/b2b-database') || 
                           pathname.includes('/admin/leads') || 
-                          isAiJumpixPage ||
+                          isAiPayoffLabPage ||
                           pathname.includes('/test-sequences');
 
-    const noPadding = pathname.includes('/test-sequences') || pathname.includes('/admin/pipeline') || isAiJumpixPage;
+    const noPadding = pathname.includes('/test-sequences') || pathname.includes('/admin/pipeline') || isAiPayoffLabPage;
 
     return (
         <ErrorBoundary>
@@ -64,8 +64,8 @@ export function DashboardLayoutClient({
                 <SidebarProvider className="flex-1 min-h-0">
                     <AppSidebar user={user} account={account} plan={plan} ticketUnreadCount={ticketUnreadCount} />
                     <SidebarInset className="flex-1 flex flex-col min-h-0 overflow-hidden bg-background">
-                        {/* Topbar — hidden in fullscreen AI Jumpix */}
-                        {!isAiJumpixPage && (
+                        {/* Topbar — hidden in fullscreen Payoff Lab AI */}
+                        {!isAiPayoffLabPage && (
                         <header className="flex h-16 shrink-0 items-center justify-between gap-2 border-b px-4 bg-background/50 backdrop-blur-md z-40">
                             <div className="flex items-center gap-4 flex-1">
                                 <SidebarTrigger className="-ml-1" />
@@ -92,8 +92,8 @@ export function DashboardLayoutClient({
                     </SidebarInset>
                 </SidebarProvider>
 
-                <JumpixFloatingWidget />
-                <JumpixTour />
+                <PayoffLabFloatingWidget />
+                <PayoffLabTour />
             </div>
         </ErrorBoundary>
     );

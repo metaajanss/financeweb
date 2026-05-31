@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import * as React from "react"
 import {
@@ -110,7 +110,7 @@ export function AppSidebar({
           <SidebarMenuItem>
             <div className="flex flex-col items-center gap-1 p-2 w-full">
               <Link href="/admin" className="flex flex-col items-center gap-1.5 leading-none group-data-[collapsible=icon]:hidden transition-opacity">
-                <Image src="/jmplogo.png" alt="Jumpix" width={110} height={32} className="w-auto object-contain dark:invert" priority unoptimized />
+                <Image src="/jmplogo.png" alt="Payoff Lab" width={110} height={32} className="w-auto object-contain dark:invert" priority unoptimized />
                 <span className="text-[8px] font-black uppercase tracking-[0.4em] text-black dark:text-zinc-100 ml-0.5 leading-none">AI EXCELLENCE</span>
               </Link>
             </div>

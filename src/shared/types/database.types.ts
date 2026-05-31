@@ -1,4 +1,4 @@
-export type Json =
+﻿export type Json =
   | string
   | number
   | boolean
@@ -169,7 +169,7 @@ export type Database = {
           }
         ]
       }
-      ai_jumpix_messages: {
+      ai_payofflab_messages: {
         Row: {
           content: string
           created_at: string
@@ -193,15 +193,15 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "ai_jumpix_messages_session_id_fkey"
+            foreignKeyName: "ai_payofflab_messages_session_id_fkey"
             columns: ["session_id"]
             isOneToOne: false
-            referencedRelation: "ai_jumpix_sessions"
+            referencedRelation: "ai_payofflab_sessions"
             referencedColumns: ["id"]
           },
         ]
       }
-      ai_jumpix_sessions: {
+      ai_payofflab_sessions: {
         Row: {
           account_id: string | null
           created_at: string
@@ -225,7 +225,7 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "ai_jumpix_sessions_account_id_fkey"
+            foreignKeyName: "ai_payofflab_sessions_account_id_fkey"
             columns: ["account_id"]
             isOneToOne: false
             referencedRelation: "accounts"

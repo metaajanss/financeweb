@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { ExternalLink } from 'lucide-react';
 
@@ -54,7 +54,7 @@ export function WebhookInfo({ provider, accountId }: WebhookInfoProps) {
             {provider === 'whatsapp' && (
                 <div className="mt-3 p-3 bg-primary/5 rounded-lg border border-primary/10">
                     <p className="text-[10px] font-bold text-primary uppercase mb-1">Webhook Verify Token</p>
-                    <code className="text-xs bg-background p-1 rounded border border-border">jumpix_verify_token_2024</code>
+                    <code className="text-xs bg-background p-1 rounded border border-border">payofflab_verify_token_2024</code>
                     <p className="text-[9px] text-muted mt-2 leading-tight">Copy this to Meta Developer Portal Webhook settings.</p>
                 </div>
             )}

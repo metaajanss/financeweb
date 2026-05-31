@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { Loader2, Zap } from 'lucide-react';
 import { Button } from '@/shared/components/ui/button';
@@ -105,11 +105,11 @@ export function GoogleSheetsForm({ integrationId, spreadsheets, setSpreadsheets,
             <div className="space-y-3 pt-4 border-t border-border">
                 <label className="flex items-center gap-3 p-3 rounded-xl border border-border bg-background/50 cursor-pointer hover:bg-surface-hover transition-colors">
                     <input type="checkbox" checked={autoExport} onChange={(e) => setAutoExport(e.target.checked)} className="w-4 h-4 rounded border-border text-primary focus:ring-primary" />
-                    <div><p className="text-sm font-bold">Auto Export (Jumpix → Sheet)</p><p className="text-[10px] text-muted">Automatically add new leads as rows.</p></div>
+                    <div><p className="text-sm font-bold">Auto Export (Payoff Lab → Sheet)</p><p className="text-[10px] text-muted">Automatically add new leads as rows.</p></div>
                 </label>
                 <label className="flex items-center gap-3 p-3 rounded-xl border border-border bg-background/50 cursor-pointer hover:bg-surface-hover transition-colors">
                     <input type="checkbox" checked={autoImport} onChange={(e) => setAutoImport(e.target.checked)} className="w-4 h-4 rounded border-border text-primary focus:ring-primary" />
-                    <div><p className="text-sm font-bold">Auto Import (Sheet → Jumpix)</p><p className="text-[10px] text-muted">Sync data from Sheet back to Jumpix.</p></div>
+                    <div><p className="text-sm font-bold">Auto Import (Sheet → Payoff Lab)</p><p className="text-[10px] text-muted">Sync data from Sheet back to Payoff Lab.</p></div>
                 </label>
             </div>
 

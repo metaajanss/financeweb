@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { m } from "framer-motion";
 import {
@@ -23,7 +23,7 @@ import { useTranslations } from "next-intl";
 
 export function HeroMockup({ path: _path }: { path: string }) {
   const t = useTranslations("Landing.Mockups.hero");
-  // A generic, highly dynamic Kanban/Pipeline board that looks like Jumpix's main app
+  // A generic, highly dynamic Kanban/Pipeline board that looks like Payoff Lab's main app
   return (
     <div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-2xl bg-[#0a0a0a] text-zinc-300 shadow-2xl">
       {/* Background Gradients */}

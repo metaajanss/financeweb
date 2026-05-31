@@ -1,4 +1,4 @@
-import { createAdminClient } from '@/core/db/admin';
+﻿import { createAdminClient } from '@/core/db/admin';
 import { OAuth2Client } from 'google-auth-library';
 import { Tables } from '@/shared/types/database.types';
 import { webmasters_v3 } from 'googleapis';
@@ -42,8 +42,8 @@ export async function connectGSC(code: string): Promise<{ success?: boolean; err
         
         console.log('[GSC] Sites found:', sitesData.siteEntry?.length ?? 0);
         
-        // Find the most relevant site (try to match jumpix.app or first one)
-        const siteEntry = sitesData.siteEntry?.find(s => s.siteUrl?.includes('jumpix.app')) || sitesData.siteEntry?.[0];
+        // Find the most relevant site (try to match payofflab.app or first one)
+        const siteEntry = sitesData.siteEntry?.find(s => s.siteUrl?.includes('payofflab.app')) || sitesData.siteEntry?.[0];
         const siteUrl = siteEntry?.siteUrl ?? '';
 
         console.log('[GSC] Selected siteUrl:', siteUrl);
@@ -166,7 +166,7 @@ function detectIntent(query: string): Intent {
         return 'commercial';
     if (/satın al|indir|ücretsiz|demo|buy|download|free|sign up|trial|kayıt/i.test(q))
         return 'transactional';
-    if (/jumpix|login|giriş|hesap|dashboard/i.test(q))
+    if (/payofflab|login|giriş|hesap|dashboard/i.test(q))
         return 'navigational';
     return 'informational';
 }

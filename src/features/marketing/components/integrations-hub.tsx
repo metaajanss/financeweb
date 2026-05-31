@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import {
   Link2,
@@ -45,8 +45,8 @@ const connectors: ConnectorDefinition[] = [
     icon: BrandIcons.GoogleAds,
     signal: { en: "Paid demand intake", tr: "Ucretli talep girisi" },
     summary: {
-      en: "Bring lead form demand into Jumpix the second a campaign converts.",
-      tr: "Kampanya donustugu anda lead form talebini Jumpix icine alin.",
+      en: "Bring lead form demand into Payoff Lab the second a campaign converts.",
+      tr: "Kampanya donustugu anda lead form talebini Payoff Lab icine alin.",
     },
     detail: {
       en: "Best for teams that need ad-to-follow-up speed without manual exports.",
@@ -241,8 +241,8 @@ const connectors: ConnectorDefinition[] = [
     icon: BrandIcons.Close,
     signal: { en: "Close High Velocity", tr: "Close Yuksek Hiz" },
     summary: {
-      en: "Power your Close CRM with real-time lead signals from Jumpix.",
-      tr: "Close CRM'inizi Jumpix'ten gelen anlik lead sinyalleriyle besleyin.",
+      en: "Power your Close CRM with real-time lead signals from Payoff Lab.",
+      tr: "Close CRM'inizi Payoff Lab'ten gelen anlik lead sinyalleriyle besleyin.",
     },
     detail: {
       en: "Optimized for high-volume, inside sales calling and messaging.",

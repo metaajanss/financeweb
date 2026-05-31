@@ -1,4 +1,4 @@
-import { createAdminClient } from '@/core/db/admin'
+﻿import { createAdminClient } from '@/core/db/admin'
 import { fetchWithRetry } from '@/core/http/fetch'
 
 
@@ -28,12 +28,12 @@ export async function translatePost(postId: string, targetLocale: string): Promi
         // 2. Build Translation Prompt
         const isRTL = ['ar', 'fa', 'he'].includes(targetLocale);
         const prompt = `
-            You are a professional multi-language blog translator for Jumpix, a premium B2B SaaS platform.
+            You are a professional multi-language blog translator for Payoff Lab, a premium B2B SaaS platform.
             Your task is to translate the following blog post content from English into ${targetLocale}.
 
             CRITICAL RULES:
             - MAINTAIN the exact Markdown formatting, HTML tags, and code blocks.
-            - DO NOT translate proper names, "Jumpix", URLs, or image alt tags unless contextually necessary.
+            - DO NOT translate proper names, "Payoff Lab", URLs, or image alt tags unless contextually necessary.
             - ENSURE the tone is professional, premium, and modern.
             - ${isRTL ? 'Note: This is a Right-To-Left (RTL) language. Preserve the reading direction logic.' : ''}
 
@@ -214,7 +214,7 @@ export async function translateEmail(subject: string, body: string, targetLocale
             CRITICAL RULES:
             - Maintain all HTML tags, formatting, and dynamic variables (like {{first_name}} or {{company_name}}).
             - Keep the tone professional, persuasive, and appropriate for B2B sales.
-            - DO NOT translate "Jumpix" or other clear brand names unless necessary.
+            - DO NOT translate "Payoff Lab" or other clear brand names unless necessary.
 
             RETURN ONLY A JSON OBJECT:
             {

@@ -1,4 +1,4 @@
-'use server'
+﻿'use server'
 
 import { createClient } from '@/core/db/server'
 import { createAdminClient } from '@/core/db/admin'
@@ -364,7 +364,7 @@ export async function connectCalendar(code: string) {
 
 /**
  * List events from Google Calendar within a date range.
- * Used for syncing Google Calendar events into the Jumpix meetings table.
+ * Used for syncing Google Calendar events into the Payoff Lab meetings table.
  */
 export async function listCalendarEvents(
     integrationId: string,

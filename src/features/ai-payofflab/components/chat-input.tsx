@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { Send, Loader2 } from 'lucide-react';
 import { cn } from '@/shared/utils';
@@ -46,7 +46,7 @@ export default function ChatInput({ input, setInput, onSend, loading, placeholde
                 
                 {/* Subtle Hint */}
                 <p className="text-[10px] text-center text-muted-foreground/40 mt-2 font-medium tracking-wide uppercase">
-                    Jumpix AI can schedule meetings and analyze leads automatically
+                    Payoff Lab AI can schedule meetings and analyze leads automatically
                 </p>
             </form>
         </div>

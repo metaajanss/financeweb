@@ -1,4 +1,4 @@
-type DemoContent = {
+﻿type DemoContent = {
     metaTitle: string;
     metaDescription: string;
     header: {
@@ -89,8 +89,8 @@ type DemoContent = {
 };
 
 const enContent: DemoContent = {
-    metaTitle: "Jumpix Demo Landing",
-    metaDescription: "A product-first demo landing for Jumpix focused on sales teams, lead workflows, and premium positioning.",
+    metaTitle: "Payoff Lab Demo Landing",
+    metaDescription: "A product-first demo landing for Payoff Lab focused on sales teams, lead workflows, and premium positioning.",
     header: {
         nav: [
             { label: "Platform", href: "#platform" },
@@ -102,9 +102,9 @@ const enContent: DemoContent = {
         primaryCta: "Book Demo",
     },
     hero: {
-        eyebrow: "Demo concept for a sharper Jumpix homepage",
+        eyebrow: "Demo concept for a sharper Payoff Lab homepage",
         title: "Run your revenue workflow from one calm command center.",
-        description: "This concept repositions Jumpix around the work sales teams actually do every day: find leads, score opportunities, launch outreach, and keep pipeline visibility without bouncing across five tools.",
+        description: "This concept repositions Payoff Lab around the work sales teams actually do every day: find leads, score opportunities, launch outreach, and keep pipeline visibility without bouncing across five tools.",
         primaryCta: "Book Demo",
         secondaryCta: "See Pricing",
         support: ["Lead discovery", "AI scoring", "Sequences", "Shared visibility"],
@@ -156,7 +156,7 @@ const enContent: DemoContent = {
     platform: {
         eyebrow: "Platform suite",
         title: "Four product surfaces. One buying story.",
-        description: "Instead of showing disconnected feature blocks, this concept presents Jumpix as a compact suite that helps teams run outbound and inbound follow-up with more clarity.",
+        description: "Instead of showing disconnected feature blocks, this concept presents Payoff Lab as a compact suite that helps teams run outbound and inbound follow-up with more clarity.",
         modules: [
             {
                 title: "Lead discovery",
@@ -274,8 +274,8 @@ const enContent: DemoContent = {
 };
 
 const trContent: DemoContent = {
-    metaTitle: "Jumpix Demo Landing",
-    metaDescription: "Satis ekiplerine odaklanan, daha premium ve daha net bir Jumpix landing konsepti.",
+    metaTitle: "Payoff Lab Demo Landing",
+    metaDescription: "Satis ekiplerine odaklanan, daha premium ve daha net bir Payoff Lab landing konsepti.",
     header: {
         nav: [
             { label: "Platform", href: "#platform" },
@@ -287,9 +287,9 @@ const trContent: DemoContent = {
         primaryCta: "Demo Al",
     },
     hero: {
-        eyebrow: "Daha keskin bir Jumpix ana sayfasi icin demo konsepti",
+        eyebrow: "Daha keskin bir Payoff Lab ana sayfasi icin demo konsepti",
         title: "Gelir operasyonunu tek ve sakin bir komuta ekranindan yonet.",
-        description: "Bu konsept Jumpix'i satis ekiplerinin her gun yaptigi islerin etrafinda yeniden konumluyor: lead bul, firsati puanla, outreach baslat ve pipeline gorunurlugunu bes farkli araca dagitmadan koru.",
+        description: "Bu konsept Payoff Lab'i satis ekiplerinin her gun yaptigi islerin etrafinda yeniden konumluyor: lead bul, firsati puanla, outreach baslat ve pipeline gorunurlugunu bes farkli araca dagitmadan koru.",
         primaryCta: "Demo Al",
         secondaryCta: "Fiyatlari Gor",
         support: ["Lead discovery", "AI scoring", "Sequences", "Shared visibility"],
@@ -341,7 +341,7 @@ const trContent: DemoContent = {
     platform: {
         eyebrow: "Platform yapisi",
         title: "Dort urun yuzeyi. Tek satin alma hikayesi.",
-        description: "Kopuk feature bloklari gostermek yerine bu konsept Jumpix'i outbound ve inbound takiplerini daha net yurutmeye yarayan kompakt bir suite olarak sunar.",
+        description: "Kopuk feature bloklari gostermek yerine bu konsept Payoff Lab'i outbound ve inbound takiplerini daha net yurutmeye yarayan kompakt bir suite olarak sunar.",
         modules: [
             {
                 title: "Lead discovery",

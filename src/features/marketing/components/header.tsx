@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import * as React from "react";
 import { Menu, ChevronDown } from "lucide-react";
@@ -187,7 +187,7 @@ export function Header() {
             <SheetContent side="right" className="w-full max-w-sm border-l border-black/5 p-0 backdrop-blur-2xl dark:border-white/10 dark:bg-black/90">
               <div className="flex h-full flex-col p-6">
                 <SheetHeader className="pb-8 text-left">
-                  <SheetTitle className="text-2xl font-bold tracking-tight">Jumpix</SheetTitle>
+                  <SheetTitle className="text-2xl font-bold tracking-tight">Payoff Lab</SheetTitle>
                   <SheetDescription className="text-[15px] leading-relaxed">
                     {mobileDescription}
                   </SheetDescription>

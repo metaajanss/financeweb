@@ -1,4 +1,4 @@
-import { createClient } from '@/core/db/server';
+﻿import { createClient } from '@/core/db/server';
 import { createAdminClient } from '@/core/db/admin';
 import { fetchWithRetry } from '@/core/http/fetch';
 import { SupabaseClient } from '@supabase/supabase-js';
@@ -334,6 +334,6 @@ function formatSlackMessage(type: string, data: SlackNotificationData) {
             };
         }
         default:
-            return { text: "🔔 Notification from Jumpix" };
+            return { text: "🔔 Notification from Payoff Lab" };
     }
 }

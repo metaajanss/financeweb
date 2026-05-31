@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    /* Jumpix Premium Purple Theme */
+    /* Payoff Lab Premium Purple Theme */
     --background: 255 255 255;
     --foreground: 10 10 10;
 
@@ -116,7 +116,7 @@
     @apply bg-clip-text text-transparent bg-gradient-to-r from-zinc-900 to-zinc-500 dark:from-white dark:to-zinc-400;
   }
 
-  /* JUMPIX DESIGN RULE: Primary buttons must use this gradient */
+  /* PAYOFF LAB DESIGN RULE: Primary buttons must use this gradient */
   .btn-primary-gradient {
     @apply bg-gradient-to-r from-[#8E44AD] to-[#4F46E5] text-white shadow-md hover:brightness-110 active:scale-[0.98] transition-all;
   }

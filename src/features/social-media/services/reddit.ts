@@ -1,4 +1,4 @@
-import type {
+﻿import type {
     PlatformAdapter,
     PlatformCredentials,
     PublishResult,
@@ -43,7 +43,7 @@ export class RedditAdapter implements PlatformAdapter {
                 Authorization: `Basic ${Buffer.from(
                     `${process.env.REDDIT_CLIENT_ID}:${process.env.REDDIT_CLIENT_SECRET}`
                 ).toString('base64')}`,
-                'User-Agent': 'Jumpix/1.0',
+                'User-Agent': 'Payoff Lab/1.0',
             },
             body,
         })
@@ -67,7 +67,7 @@ export class RedditAdapter implements PlatformAdapter {
         const res = await fetch(`${REDDIT_API_BASE}/api/v1/me`, {
             headers: {
                 Authorization: `Bearer ${creds.access_token}`,
-                'User-Agent':  'Jumpix/1.0',
+                'User-Agent':  'Payoff Lab/1.0',
             },
         })
         if (!res.ok) throw new Error('Reddit getUserInfo failed')
@@ -99,7 +99,7 @@ export class RedditAdapter implements PlatformAdapter {
                 Authorization: `Basic ${Buffer.from(
                     `${process.env.REDDIT_CLIENT_ID}:${process.env.REDDIT_CLIENT_SECRET}`
                 ).toString('base64')}`,
-                'User-Agent': 'Jumpix/1.0',
+                'User-Agent': 'Payoff Lab/1.0',
             },
             body,
         })
@@ -145,7 +145,7 @@ export class RedditAdapter implements PlatformAdapter {
                 headers: {
                     Authorization:  `Bearer ${activeCreds.access_token}`,
                     'Content-Type': 'application/x-www-form-urlencoded',
-                    'User-Agent':   'Jumpix/1.0',
+                    'User-Agent':   'Payoff Lab/1.0',
                 },
                 body: params,
             })

@@ -347,6 +347,18 @@ export default function BlogAdminPage() {
             {/* ── AGENT TAB ──────────────────────────────────────────────────── */}
             {activeTab === 'agent' && (
                 <div className="space-y-8">
+                    {/* Cron Info Banner */}
+                    <div className="p-5 rounded-2xl border border-blue-500/20 bg-blue-500/5 dark:bg-blue-500/10 text-blue-900 dark:text-blue-200 text-xs md:text-sm flex items-start gap-4 shadow-sm animate-in fade-in duration-300">
+                        <AlertCircle className="text-blue-500 shrink-0 mt-0.5" size={20} />
+                        <div className="space-y-1">
+                            <p className="font-black uppercase tracking-wider text-[10px] text-blue-600 dark:text-blue-400">Vercel Free Cron Zamanlaması</p>
+                            <p className="leading-relaxed text-slate-600 dark:text-slate-300">
+                                Sistem Vercel Free Cron ile çalıştığı için otomatik üretimler <strong>günde 1 kez (gece yarısı UTC / TSİ 03:00)</strong> tetiklenir. 
+                                "Her Gün" seçilen aktif konular bu saatte otomatik üretilir. "Haftalık" seçilen konular ise haftada bir kez aynı saatte çalışır.
+                            </p>
+                        </div>
+                    </div>
+
                     {loadingAgent ? (
                         <div className="flex flex-col items-center gap-4 py-24">
                             <Loader2 className="animate-spin text-primary" size={40} />
@@ -632,6 +644,11 @@ export default function BlogAdminPage() {
                                         <option value="daily">Her Gün</option>
                                         <option value="weekly">Haftalık</option>
                                     </select>
+                                    {topicForm.schedule_type !== 'manual' && (
+                                        <p className="text-[10px] text-blue-500 font-bold leading-normal mt-1">
+                                            * Otomatik üretimler her gece yarısı UTC (TSİ 03:00) tetiklenir.
+                                        </p>
+                                    )}
                                 </div>
                                 <div className="space-y-2">
                                     <label className="text-[11px] font-black uppercase tracking-[0.2em] text-primary">Yayın Modu</label>

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { Mail } from "lucide-react";
 import Image from "next/image";
@@ -27,17 +27,17 @@ export function Footer() {
             </p>
 
             <a
-              href="mailto:hello@jumpix.app"
+              href="mailto:hello@payofflab.app"
               className="inline-flex items-center gap-2 text-sm font-medium text-foreground/80 transition-colors hover:text-foreground"
             >
               <Mail className="h-4 w-4" />
-              hello@jumpix.app
+              hello@payofflab.app
             </a>
 
             <div className="mt-8 flex flex-wrap items-center gap-6">
-              <a href="https://www.producthunt.com/products/jumpix-app?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-jumpix-app" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.producthunt.com/products/payofflab-app?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-payofflab-app" target="_blank" rel="noopener noreferrer">
                 <Image 
-                  alt="Jumpix App - Instant Responses. Qualified Leads. Booked Meetings. | Product Hunt" 
+                  alt="Payoff Lab App - Instant Responses. Qualified Leads. Booked Meetings. | Product Hunt" 
                   width={250} 
                   height={54} 
                   src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1119987&theme=dark&t=1776982168600" 
@@ -56,10 +56,10 @@ export function Footer() {
                 />
               </a>
 
-              <a href="https://startupfa.me/s/jumpix?utm_source=www.jumpix.app" target="_blank" rel="noopener noreferrer">
+              <a href="https://startupfa.me/s/payofflab?utm_source=www.payofflab.app" target="_blank" rel="noopener noreferrer">
                 <Image 
                   src="/badges/featured-badge-small.webp" 
-                  alt="Jumpix App - Featured on Startup Fame" 
+                  alt="Payoff Lab App - Featured on Startup Fame" 
                   width={224} 
                   height={36} 
                   className="h-[26px] w-auto transition-transform hover:scale-[1.02]"

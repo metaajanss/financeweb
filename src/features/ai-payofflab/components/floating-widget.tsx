@@ -1,14 +1,14 @@
-'use client';
+﻿'use client';
 
 import { useState, useEffect, useCallback } from 'react';
 import { Bot, X, Maximize2, Sparkles } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { getSessions } from '@/features/ai-jumpix';
+import { getSessions } from '@/features/ai-payofflab';
 import { usePathname, Link } from '@/i18n/navigation';
-import AIJumpixClient from './client';
+import AIPayoffLabClient from './client';
 import type { Session } from './types';
 
-export function JumpixFloatingWidget() {
+export function PayoffLabFloatingWidget() {
     const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
     const [sessions, setSessions] = useState<Session[]>([]);
@@ -16,7 +16,7 @@ export function JumpixFloatingWidget() {
     const [hydrated, setHydrated] = useState(false);
 
     useEffect(() => {
-        const saved = localStorage.getItem('jumpix-widget-open');
+        const saved = localStorage.getItem('payofflab-widget-open');
         setIsOpen(saved === null ? true : saved === 'true');
         setHydrated(true);
     }, []);
@@ -24,7 +24,7 @@ export function JumpixFloatingWidget() {
     const toggle = useCallback(() => {
         setIsOpen(prev => {
             const next = !prev;
-            localStorage.setItem('jumpix-widget-open', String(next));
+            localStorage.setItem('payofflab-widget-open', String(next));
             return next;
         });
     }, []);
@@ -38,8 +38,8 @@ export function JumpixFloatingWidget() {
         }
     }, [isOpen, hasFetched]);
 
-    // Standalone ai-jumpix sayfasında veya hydration öncesinde gösterme
-    if (!hydrated || pathname.includes('/admin/ai-jumpix')) return null;
+    // Standalone ai-payofflab sayfasında veya hydration öncesinde gösterme
+    if (!hydrated || pathname.includes('/admin/ai-payofflab')) return null;
 
     return (
         <motion.div
@@ -52,7 +52,7 @@ export function JumpixFloatingWidget() {
             <button
                 onClick={toggle}
                 className="absolute top-1/2 left-0 -translate-x-full -translate-y-1/2 z-[60] flex flex-col items-center gap-4 py-6 px-2.5 rounded-l-2xl btn-primary-gradient text-white shadow-2xl shadow-purple-500/40 border border-r-0 border-white/10 transition-all hover:pr-4 group overflow-hidden"
-                aria-label={isOpen ? 'Jumpix AI kapat' : 'Jumpix AI aç'}
+                aria-label={isOpen ? 'Payoff Lab AI kapat' : 'Payoff Lab AI aç'}
             >
                 <div className="flex flex-col items-center gap-6">
                     <AnimatePresence mode="wait" initial={false}>
@@ -81,7 +81,7 @@ export function JumpixFloatingWidget() {
                     </AnimatePresence>
                     
                     <span className="font-bold text-xs tracking-[0.1em] uppercase whitespace-nowrap [writing-mode:vertical-lr] rotate-180">
-                        {isOpen ? 'Kapat' : 'Jumpix AI'}
+                        {isOpen ? 'Kapat' : 'Payoff Lab AI'}
                     </span>
                 </div>
             </button>
@@ -93,14 +93,14 @@ export function JumpixFloatingWidget() {
                         <Sparkles className="w-4 h-4 text-primary animate-pulse" />
                     </div>
                     <div className="flex items-center gap-2">
-                        <p className="font-bold text-sm leading-none">Jumpix AI</p>
+                        <p className="font-bold text-sm leading-none">Payoff Lab AI</p>
                         <span className="text-[9px] px-1.5 py-0.5 rounded-full btn-primary-gradient text-white font-bold uppercase tracking-wider">
                             Pro 1.5
                         </span>
                     </div>
                 </div>
                 <div className="flex items-center gap-1">
-                    <Link href="/admin/ai-jumpix">
+                    <Link href="/admin/ai-payofflab">
                         <button
                             className="p-2 rounded-lg hover:bg-muted text-muted-foreground transition-colors"
                             title="Tam ekranda aç"
@@ -119,7 +119,7 @@ export function JumpixFloatingWidget() {
             </div>
 
             <div className="flex-1 min-h-0 overflow-hidden relative">
-                <AIJumpixClient initialSessions={sessions} widgetMode />
+                <AIPayoffLabClient initialSessions={sessions} widgetMode />
             </div>
         </motion.div>
     );

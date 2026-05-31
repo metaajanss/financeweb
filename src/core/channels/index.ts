@@ -1,4 +1,4 @@
-import { createAdminClient } from '@/core/db/admin'
+﻿import { createAdminClient } from '@/core/db/admin'
 import { SupabaseClient } from '@supabase/supabase-js'
 import { Database } from '@/shared/types'
 import { sendGmailMessage, getPrimaryEmailIntegration } from '@/features/integrations/providers/messaging/gmail'
@@ -24,7 +24,7 @@ export class EmailChannelAdapter implements ChannelAdapter {
 
     async send(to: string, message: string, metadata?: { subject?: string; threadId?: string; htmlBody?: string }) {
         try {
-            const subject = metadata?.subject || 'Message from Jumpix'
+            const subject = metadata?.subject || 'Message from Payoff Lab'
             const result = await sendGmailMessage(
                 this.integrationId,
                 to,
@@ -49,7 +49,7 @@ export class SmtpChannelAdapter implements ChannelAdapter {
 
     async send(to: string, message: string, metadata?: { subject?: string; threadId?: string; htmlBody?: string }) {
         try {
-            const subject = metadata?.subject || 'Message from Jumpix'
+            const subject = metadata?.subject || 'Message from Payoff Lab'
             const result = await sendSmtpMessage(
                 this.integrationId,
                 to,

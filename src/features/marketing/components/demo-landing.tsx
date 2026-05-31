@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/shared/components/ui/accordion";
@@ -73,7 +73,7 @@ export function DemoLanding({ locale }: DemoLandingProps) {
                             J
                         </div>
                         <div>
-                            <div className="text-sm font-black uppercase tracking-[0.26em] text-zinc-500">Jumpix</div>
+                            <div className="text-sm font-black uppercase tracking-[0.26em] text-zinc-500">Payoff Lab</div>
                             <div className="text-sm font-medium text-zinc-700">Demo landing concept</div>
                         </div>
                     </Link>
@@ -111,7 +111,7 @@ export function DemoLanding({ locale }: DemoLandingProps) {
                         </SheetTrigger>
                         <SheetContent side="right" className="w-[90vw] max-w-sm border-l border-black/10 bg-[#f6f3ee]">
                             <SheetHeader>
-                                <SheetTitle>Jumpix Demo</SheetTitle>
+                                <SheetTitle>Payoff Lab Demo</SheetTitle>
                                 <SheetDescription>Use the sections below to review the concept quickly.</SheetDescription>
                             </SheetHeader>
                             <div className="mt-8 flex flex-col gap-3">
@@ -189,7 +189,7 @@ export function DemoLanding({ locale }: DemoLandingProps) {
                                     <div className="flex items-center justify-between border-b border-black/6 pb-4">
                                         <div>
                                             <p className="text-xs font-bold uppercase tracking-[0.24em] text-zinc-500">Revenue workspace</p>
-                                            <p className="mt-2 text-lg font-black text-zinc-950">Jumpix operator view</p>
+                                            <p className="mt-2 text-lg font-black text-zinc-950">Payoff Lab operator view</p>
                                         </div>
                                         <div className="flex gap-2">
                                             <div className="h-3 w-3 rounded-full bg-zinc-300" />

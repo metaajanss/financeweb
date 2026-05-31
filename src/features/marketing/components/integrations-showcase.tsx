@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React from "react";
 import { m } from "framer-motion";
@@ -83,7 +83,7 @@ export function IntegrationsShowcase() {
                         ))}
                     </div>
 
-                    {/* Central Logo - Jumpix Core */}
+                    {/* Central Logo - Payoff Lab Core */}
                     <m.div
                         initial={{ scale: 0, opacity: 0, rotate: -45 }}
                         whileInView={{ scale: 1, opacity: 1, rotate: 0 }}

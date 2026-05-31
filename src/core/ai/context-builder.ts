@@ -1,4 +1,4 @@
-import { createClient } from '@/core/db/server';
+﻿import { createClient } from '@/core/db/server';
 import { HELP_ARTICLES } from '@/config/help-articles';
 
 export interface AIExecutionContext {
@@ -32,7 +32,7 @@ export async function buildAccountContext(accountId: string): Promise<string> {
     ]);
 
     const context = `
-YOU ARE "AI JUMPIX", AN INTELLIGENT DATA ANALYST AND PLATFORM EXPERT FOR THE JUMPIX B2B SAAS.
+YOU ARE "AI PAYOFF LAB", AN INTELLIGENT DATA ANALYST AND PLATFORM EXPERT FOR THE PAYOFF LAB B2B SAAS.
 USER IS ASKING QUESTIONS ABOUT THEIR ACCOUNT DATA AND HOW TO USE THE PLATFORM.
 
 --- BUSINESS INFO ---

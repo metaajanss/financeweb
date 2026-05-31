@@ -1,5 +1,5 @@
-/**
- * AI Jumpix Feature - Type Definitions
+﻿/**
+ * Payoff Lab AI Feature - Type Definitions
  */
 
 export interface Message {

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { SidebarTrigger } from '@/shared/components/ui/sidebar';
 import { useState, useRef, useEffect, useCallback } from 'react';
@@ -8,7 +8,7 @@ import {
     PanelLeftClose,
     PanelLeftOpen
 } from 'lucide-react';
-import { sendMessage, createNewSession, getMessages } from '@/features/ai-jumpix';
+import { sendMessage, createNewSession, getMessages } from '@/features/ai-payofflab';
 import { useTranslations } from 'next-intl';
 
 // New Components
@@ -17,8 +17,8 @@ import MessageList from './message-list';
 import ChatInput from './chat-input';
 import { Message, Session } from './types';
 
-export default function AIJumpixClient({ initialSessions, widgetMode = false }: { initialSessions: Session[]; widgetMode?: boolean }) {
-    const t = useTranslations('JumpixAssistant');
+export default function AIPayoffLabClient({ initialSessions, widgetMode = false }: { initialSessions: Session[]; widgetMode?: boolean }) {
+    const t = useTranslations('PayoffLabAssistant');
     
     // State
     const [sessions, setSessions] = useState<Session[]>(initialSessions);

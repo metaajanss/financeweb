@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useTranslations } from 'next-intl';
 import { useRef, useEffect, memo } from 'react';
@@ -17,7 +17,7 @@ interface MessageListProps {
 }
 
 function MessageList({ messages, loading, isFetchingMessages, onSuggestionClick }: MessageListProps) {
-    const t = useTranslations('JumpixAssistant');
+    const t = useTranslations('PayoffLabAssistant');
     const messagesEndRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
