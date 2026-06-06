@@ -10,7 +10,8 @@ async function assertAdmin() {
     if (!user) throw new Error('Unauthorized');
     const { data: profile } = await supabase
         .from('profiles').select('role').eq('id', user.id).maybeSingle();
-    if (profile?.role !== 'admin' && user.email !== 'admin@admin.com')
+    const adminEmail = process.env.ADMIN_EMAIL || 'admin@admin.com';
+    if (profile?.role !== 'admin' && user.email !== adminEmail)
         throw new Error('Forbidden');
 }
 

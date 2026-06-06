@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { FileText } from "lucide-react"
+import { FileText, Settings } from "lucide-react"
 
 import { NavMain } from "@/shared/components/layout/nav-main"
 import { NavUser } from "@/shared/components/layout/nav-user"
@@ -27,6 +27,7 @@ export function SuperAdminSidebar({
 
   const navMain = [
     { title: "Content / Blog", url: "/super-admin/blog", icon: FileText },
+    { title: "Reklam Yönetimi", url: "/super-admin/ads", icon: Settings },
   ]
 
   return (

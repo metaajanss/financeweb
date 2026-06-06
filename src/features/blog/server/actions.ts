@@ -114,7 +114,8 @@ export async function createPost(data: PostData) {
         .eq('id', user.id)
         .maybeSingle();
 
-    const isAdmin = profile?.role === 'admin' || user.email === 'admin@admin.com';
+    const adminEmail = process.env.ADMIN_EMAIL || 'admin@admin.com';
+    const isAdmin = profile?.role === 'admin' || user.email === adminEmail;
     if (!isAdmin) {
         throw new Error('Forbidden');
     }
@@ -147,7 +148,8 @@ export async function updatePost(id: string, data: PostData) {
         .eq('id', user.id)
         .maybeSingle();
 
-    const isAdmin = profile?.role === 'admin' || user.email === 'admin@admin.com';
+    const adminEmail = process.env.ADMIN_EMAIL || 'admin@admin.com';
+    const isAdmin = profile?.role === 'admin' || user.email === adminEmail;
     if (!isAdmin) {
         throw new Error('Forbidden');
     }
@@ -182,7 +184,8 @@ export async function deletePost(id: string) {
         .eq('id', user.id)
         .maybeSingle();
 
-    const isAdmin = profile?.role === 'admin' || user.email === 'admin@admin.com';
+    const adminEmail = process.env.ADMIN_EMAIL || 'admin@admin.com';
+    const isAdmin = profile?.role === 'admin' || user.email === adminEmail;
     if (!isAdmin) {
         throw new Error('Forbidden');
     }
