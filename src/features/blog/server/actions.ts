@@ -108,14 +108,18 @@ export async function createPost(data: PostData) {
         throw new Error('Unauthorized');
     }
 
-    const { data: profile } = await supabase
-        .from('profiles')
-        .select('role')
-        .eq('id', user.id)
-        .maybeSingle();
-
     const adminEmail = process.env.ADMIN_EMAIL || 'admin@admin.com';
-    const isAdmin = profile?.role === 'admin' || user.email === adminEmail;
+    let isAdmin = user.email === adminEmail;
+    
+    if (!isAdmin) {
+        const { data: profile } = await (await import('@/core/db/admin')).createAdminClient()
+            .from('profiles')
+            .select('role')
+            .eq('id', user.id)
+            .maybeSingle();
+        isAdmin = profile?.role === 'admin';
+    }
+
     if (!isAdmin) {
         throw new Error('Forbidden');
     }
@@ -142,14 +146,18 @@ export async function updatePost(id: string, data: PostData) {
         throw new Error('Unauthorized');
     }
 
-    const { data: profile } = await supabase
-        .from('profiles')
-        .select('role')
-        .eq('id', user.id)
-        .maybeSingle();
-
     const adminEmail = process.env.ADMIN_EMAIL || 'admin@admin.com';
-    const isAdmin = profile?.role === 'admin' || user.email === adminEmail;
+    let isAdmin = user.email === adminEmail;
+    
+    if (!isAdmin) {
+        const { data: profile } = await (await import('@/core/db/admin')).createAdminClient()
+            .from('profiles')
+            .select('role')
+            .eq('id', user.id)
+            .maybeSingle();
+        isAdmin = profile?.role === 'admin';
+    }
+
     if (!isAdmin) {
         throw new Error('Forbidden');
     }
@@ -178,14 +186,18 @@ export async function deletePost(id: string) {
         throw new Error('Unauthorized');
     }
 
-    const { data: profile } = await supabase
-        .from('profiles')
-        .select('role')
-        .eq('id', user.id)
-        .maybeSingle();
-
     const adminEmail = process.env.ADMIN_EMAIL || 'admin@admin.com';
-    const isAdmin = profile?.role === 'admin' || user.email === adminEmail;
+    let isAdmin = user.email === adminEmail;
+    
+    if (!isAdmin) {
+        const { data: profile } = await (await import('@/core/db/admin')).createAdminClient()
+            .from('profiles')
+            .select('role')
+            .eq('id', user.id)
+            .maybeSingle();
+        isAdmin = profile?.role === 'admin';
+    }
+
     if (!isAdmin) {
         throw new Error('Forbidden');
     }

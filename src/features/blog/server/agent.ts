@@ -5,20 +5,40 @@ import { createAdminClient } from '@/core/db/admin';
 import { revalidatePath } from 'next/cache';
 
 async function assertAdmin() {
+    // 1. Kullanıcının oturumunu doğrula
     const supabase = await createClient();
-    const { data: { user } } = await supabase.auth.getUser();
-    if (!user) throw new Error('Unauthorized');
-
-    const { data: profile } = await supabase
-        .from('profiles')
-        .select('role')
-        .eq('id', user.id)
-        .maybeSingle();
+    const { data: { user }, error: authError } = await supabase.auth.getUser();
+    
+    if (authError) {
+        console.error('[assertAdmin] getUser error:', authError.message);
+    }
+    
+    if (!user) throw new Error('Unauthorized: No active session');
 
     const adminEmail = process.env.ADMIN_EMAIL || 'admin@admin.com';
-    if (profile?.role !== 'admin' && user.email !== adminEmail) {
-        throw new Error('Forbidden');
+    
+    // 2. Email bazlı kontrol (hızlı yol)
+    if (user.email === adminEmail) return;
+
+    // 3. Profil rol kontrolü — admin client ile (RLS'yi bypass eder)
+    try {
+        const adminSupabase = createAdminClient();
+        const { data: profile, error: profileError } = await adminSupabase
+            .from('profiles')
+            .select('role')
+            .eq('id', user.id)
+            .maybeSingle();
+
+        if (profileError) {
+            console.error('[assertAdmin] Profile lookup error:', profileError.message);
+        }
+
+        if (profile?.role === 'admin') return;
+    } catch (e: any) {
+        console.error('[assertAdmin] Unexpected error during profile check:', e?.message);
     }
+
+    throw new Error(`Forbidden: User ${user.email} is not an admin`);
 }
 
 export interface TopicInput {
